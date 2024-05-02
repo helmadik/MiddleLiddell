@@ -1,0 +1,1680 @@
+<tei.2>
+
+ <teiHeader status="new" type="text">
+  <fileDesc>
+  <titleStmt>
+ 	<title>An Intermediate Greek-English Lexicon</title>
+ 	<title type="sub">Machine readable text</title>
+ 	<author>Henry George Liddell</author>
+ 	<author>Robert Scott</author>
+  <sponsor>Perseus Project, Tufts University</sponsor>
+ 		<principal>Gregory Crane</principal>
+ 		<respStmt>
+ 		<resp>Prepared under the supervision of</resp>
+ 		<name>Lisa Cerrato</name>
+ 		<name>William Merrill</name>
+ 		<name>Elli Mylonas</name>
+ 		<name>David Smith</name>
+ 		</respStmt>
+  <funder n="org:AnnCPB">The Annenberg CPB/Project</funder>
+  </titleStmt>
+ 	<publicationStmt>
+ 		<publisher>Trustees of Tufts University</publisher>
+ 		<pubPlace>Medford, MA</pubPlace>
+ 		<authority>Perseus Project</authority>
+ 		</publicationStmt>
+  <sourceDesc default="NO">
+ 	<biblStruct default="NO">
+ 	 <monogr>
+ 	 <author>Liddell and Scott</author>
+ 	 <title>An Intermediate Greek-English Lexicon</title>
+ 	 <imprint>
+ 	  <pubPlace>Oxford</pubPlace>
+ 	  <publisher>Clarendon Press</publisher>
+ 	  <date>1889</date>
+ 	 </imprint>
+ 	 </monogr>
+ 	 <idno type="ISBN">0199102066</idno>
+ 	</biblStruct>
+  </sourceDesc>
+  </fileDesc>
+ 
+  <encodingDesc>
+  <refsDecl doctype="TEI.2">
+ 	<state n="chunk" unit="entry" />
+  </refsDecl>
+  <refsDecl doctype="TEI.2">
+ 	<state unit="alphabetic letter" />
+ 	<state n="chunk" unit="entry" />
+  </refsDecl>
+  </encodingDesc>
+  
+  <profileDesc>
+  <langUsage default="NO">
+ 	<language id="en">English
+ 	</language><language id="greek">Greek
+ 	</language><language id="la">Latin
+ 	</language><language id="fr">French
+  </language></langUsage>
+  </profileDesc>
+  
+  <revisionDesc>
+  <change><date>28 Jan 1998</date>
+ 	<respStmt><name>DAS</name><resp>ed.</resp></respStmt>
+ 	<item>
+ $Log: ml.xml,v $
+ Revision 1.4 2004/12/14 19:42:20 packel
+ added entry/sense ids; fixed bad empty tags
+ 
+ Revision 1.3 2004/12/03 20:11:37 packel
+ corrected some duplicate keys caused by fixing the compound verbs
+ 
+ Revision 1.2 2004/12/02 23:29:11 packel
+ added key attributes to compound verb entries
+ 
+ Revision 1.1 2004/11/22 17:07:40 packel
+ converted to P4/XML
+ 	
+ Revision 1.20 2004/10/18 18:17:47 packel
+ added div0s; changed orth ʼa)da/mas,ʼ to a)da/mas
+ 
+ Revision 1.19 2004/10/07 14:18:11 packel
+ removed *s in entry keys
+ 
+ Revision 1.18 2004/10/05 21:34:13 packel
+ Aligned dictionary entries with the LSJ.
+ 
+ Revision 1.17 2004/09/08 15:49:42 packel
+ Changed doctype to TEI P4
+ 
+ Revision 1.16 2004/09/01 15:44:25 packel
+ Fixed thirty-odd words that had multiple entries but no number afterward to
+ differentiate the entries (e.g., si=gma, si=gma is now si=gma1, si=gma2).
+ 
+ Revision 1.15 2004/06/15 19:31:34 lcerrato
+ changed nothwithstanding to notwithstanding
+ 
+ Revision 1.14 2003/02/04 21:21:51 lcerrato
+ fixed typo kuma entry swoln to swollen
+ 
+ Revision 1.13 2001/12/05 15:15:58 gcrane
+ shifted the lemma for "pa/nth" to be "pa/nth|"
+ 
+ Revision 1.12 2001/04/20 21:58:57 dasmith
+ Added funder.
+ 
+ Revision 1.11 2001/04/05 18:26:02 lcerrato
+ added trans tags to noeo^ entry where missing
+ 
+ Revision 1.10 2000/10/06 23:20:04 dasmith
+ Tagged inflectional info as Greek.
+ 
+ Revision 1.9 2000/10/06 21:44:13 dasmith
+ Added author and ISBN to head.
+ Use new DTD subset.
+ Explicitly tag lemmata and cross references as Greek.
+ 
+ Revision 1.8 2000/03/04 20:25:11 dasmith
+ Standardized language IDs.
+ Added key attribute to entry.
+ 
+ Revision 1.7 1998/08/24 19:15:31 jrydberg
+ finished trans tags and added new prep. defs.
+ 
+ Revision 1.6 1998/08/20 17:12:45 jrydberg
+ Included greek words within trans tags where appropriate
+ 
+ Revision 1.5 1998/08/19 20:50:08 jrydberg
+ Replaced all "(trans) or (/trans)" with " or "
+ 
+ Revision 1.4 1998/08/19 18:23:58 jrydberg
+ Corrected trans tagging for short defs. through a)mfote/rwqen.
+ 
+ Revision 1.3 1998/08/17 20:24:43 jrydberg
+ *** empty log message ***
+ 
+ Revision 1.2 1998/08/17 19:38:25 jrydberg
+ Updated entry for *)agamemno/neos
+ 
+ Revision 1.1 1998/08/14 15:38:33 textgod
+ Added to repository.
+ 
+ </item>
+ </change>
+ </revisionDesc>
+ </teiHeader>
+<text>
+<div0 type="alphabetic letter" n="*w" org="uniform" sample="complete"><div0 type="alphabetic letter" n="*w" org="uniform" sample="complete">
+ <head lang="greek">Ω</head>
+ 
+<div1 id="crossw)ba/zw" orig_id="n36342" key="w)ba/zw">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)ba/zw">ὠβάζω</head>
+ <etym opt="n">from <ref type="cross" target="crossw)ba/" lang="greek">ὠβά</ref></etym>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ὠβάζω,</note>
+ <sense level="0" n="0" id="n36342.0" opt="n"><trans opt="n"><i>to divide the people into</i></trans> <foreign lang="greek">ὠβαί</foreign>, <usg opt="n">Plut.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)ba/" orig_id="n36343" key="w)ba/">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)ba/">ὠβά</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ὠβά, ἡ,</note>
+ <sense level="0" n="0" id="n36343.0" opt="n">in Laconia, <trans opt="n"><i>a subdivision of the Spartan</i></trans> <foreign lang="greek">φυλαί</foreign> (clans), <usg opt="n">Plut.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)gmo/s" orig_id="n36344" key="w)gmo/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)gmo/s">ὠγμός</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ὠγμός, οῦ, ὁ,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossw)/zw" lang="greek">ὤζω</ref></xr></etym>
+ <sense level="0" n="0" id="n36344.0" opt="n"><trans opt="n"><i>a crying oh!</i></trans> <usg opt="n">Aesch.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="cross*)wgugi/a" orig_id="n36345" key="*)wgugi/a">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="*)wgugi/a">Ὠγυγία</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">Ὠγῠγία, ἡ,</note>
+ <sense level="0" n="0" id="n36345.0" opt="n"><trans opt="n"><i>Ogygia</i></trans>, a mythical island in the Mediterranean, the abode of Calypso, <usg opt="n">Od.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="cross*)wgu/gios" orig_id="n36346" key="*)wgu/gios">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="*)wgu/gios">Ὠγύγιος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">Ὠγύγιος (ῠ), η, ον</note>
+ <sense level="0" n="0" id="n36346.0" opt="n"><trans opt="n"><i>Ogygian, of</i> or <i>from Ogyges</i></trans>, an Attic king of mythical times; hence generally <trans opt="n"><i>primeval, primal</i></trans>, <usg opt="n">Hes.</usg>, <usg opt="n">Pind.</usg>; <foreign lang="greek">τὰς ὠγ. Θήβας, τὰς ὠγ. Ἀθήνας</foreign> <usg opt="n">Aesch.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)|dei=on" orig_id="n36347" key="w)|dei=on">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)|dei=on">ᾨδεῖον</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">, ου, τό,</note>
+ <sense level="0" n="0" id="n36347.0" opt="n"><trans opt="n"><i>the Odeum</i></trans>, a public building, erected by Pericles for musical performances, also used as a lawcourt, <usg opt="n">Ar.</usg>, <usg opt="n">Plut.</usg></sense>
+ <etym opt="n">from <ref type="cross" target="crossw)|dh/" lang="greek">ᾠδή</ref></etym>
+ </div1>
+
+ 
+ 
+<div1 id="crossw(=de" orig_id="n36348" key="w(=de">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w(=de">ὧδε</head>
+ <sense level="0" n="0" id="n36348.0" opt="n">demonstr. adv. of <foreign lang="greek">ὅδε·</foreign> </sense>
+ <sense level="2" n="I" id="n36348.1" opt="n">of Manner, <trans opt="n"><i>in this wise, so, thus</i></trans>, and (more strongly) <trans opt="n"><i>so very, so exceedingly</i></trans>, <usg opt="n">Hom.</usg>, etc.:— <foreign lang="greek">ὧδε</foreign> is answered by <foreign lang="greek">ὡς</foreign>, <trans opt="n"><i>so . . , as . .</i></trans> , <usg opt="n">Hom.</usg>; followed by a relat., <foreign lang="greek">τίς ὧδε τλησικάρδιος, ὅτῳ . . ;</foreign> <usg opt="n">Aesch.</usg>; <foreign lang="greek">ὧδέ πως</foreign> somehow <trans opt="n"><i>so</i></trans>, <usg opt="n">Xen.</usg>, etc.</sense>
+ <sense level="3" n="2" id="n36348.2" opt="n">of Condition, <foreign lang="greek">πρόμολʼ ὧδε</foreign> come forth <trans opt="n"><i>just as thou art, at once</i></trans>, <usg opt="n">Hom.</usg></sense>
+ <sense level="3" n="3" id="n36348.3" opt="n">of something following, <trans opt="n"><i>thus, as follows</i></trans>, <usg opt="n">Hom.</usg>; <foreign lang="greek">ὧδʼ ἠμείψατο</foreign> <usg opt="n">Soph.</usg></sense>
+ <sense level="3" n="4" id="n36348.4" opt="n">c. gen., <foreign lang="greek">ὧδε γένους</foreign> <trans opt="n"><i>thus off</i></trans> for family, <usg opt="n">Eur.</usg></sense>
+ <sense level="2" n="II" id="n36348.5" opt="n">of Place, <trans opt="n"><i>hither, here</i></trans>, <usg opt="n">Soph.</usg>, <usg opt="n">Theocr.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)|dh/" orig_id="n36349" key="w)|dh/">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)|dh/">ᾠδή</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ᾠδή, ἡ,</note>
+ <etym opt="n">contr. for <foreign lang="greek">ἀοιδή</foreign> as <foreign lang="greek">ᾄδω</foreign> for <foreign lang="greek">ἀείδω</foreign></etym>
+ <sense level="2" n="I" id="n36349.0" opt="n"><trans opt="n"><i>a song, lay, ode</i></trans>, <usg opt="n">Hhymn.</usg>, <usg opt="n">Soph.</usg>, <usg opt="n">Eur.</usg>; pl. <trans opt="n"><i>lyric poetry</i></trans>, <usg opt="n">Plat.</usg></sense>
+ <sense level="2" n="II" id="n36349.1" opt="n"><trans opt="n"><i>song, singing</i></trans>, <usg opt="n">Plut.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)|diko/s" orig_id="n36350" key="w)|diko/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)|diko/s">ᾠδικός</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ᾠδικός, ή, όν</note>
+ <sense level="0" n="0" id="n36350.0" opt="n"><trans opt="n"><i>fond of singing, vocal, musical</i></trans>, <usg opt="n">Luc.</usg> adv. <ref type="cross" target="cross-kw=s" lang="greek">-κῶς</ref>, <usg opt="n">Ar.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)di/nw" orig_id="n36351" key="w)di/nw">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)di/nw">ὠδίνω</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ὠδί_νω,</note>
+ <etym n="note" opt="n">mostly in pres.</etym>
+ <sense level="2" n="I" id="n36351.0" opt="n"><trans opt="n"><i>to have the pains</i> or <i>throes of childbirth, to be in travail</i> or <i>labour</i></trans>, <usg opt="n">Il.</usg>, <usg opt="n">Plat.</usg>, etc.</sense>
+ <sense level="3" n="2" id="n36351.1" opt="n">c. acc. <trans opt="n"><i>to be in travail of</i></trans> a child, <trans opt="n"><i>to bring forth</i></trans>, <usg opt="n">Eur.</usg></sense>
+ <sense level="2" n="II" id="n36351.2" opt="n">metaph. of any great pain, <trans opt="n"><i>to be in travail</i> or <i>anguish</i></trans>, <usg opt="n">Od.</usg>, <usg opt="n">Eur.</usg>: <trans opt="n"><i>to work hard, to travail</i></trans>, of bees, <usg opt="n">Anth.</usg>:—of the mind, <foreign lang="greek">ὥστε μʼ ὠδίνειν τί φῄς</foreign> so that I <trans opt="n"><i>am in an agony</i></trans> as to what you mean, <usg opt="n">Soph.</usg></sense>
+ <sense level="3" n="2" id="n36351.3" opt="n">c. acc. <trans opt="n"><i>to be in travail with</i></trans> a thing, c. acc., <usg opt="n">Soph.</usg>, <usg opt="n">Anth.</usg></sense>
+ <etym opt="n">from <ref type="cross" target="crossw)di/s" lang="greek">ὠδίς</ref></etym>
+ </div1>
+
+ 
+ 
+<div1 id="crossw(di/" orig_id="n36352" key="w(di/">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w(di/">ὡδί</head>
+ <sense level="0" n="0" id="n36352.0" opt="n">Attic stronger form of <foreign lang="greek">ὧδε</foreign>, <usg opt="n">Ar.</usg>, <usg opt="n">Plat.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)di/s" orig_id="n36353" key="w)di/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)di/s">ὠδίς</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ὠδίς, ῖνος, ἡ,</note>
+ 
+ <etym n="note" opt="n">mostly in pl.</etym>
+ <sense level="2" n="I" id="n36353.0" opt="n"><trans opt="n"><i>the pangs</i> or <i>throes of labour, travail-pains</i></trans>, <usg opt="n">Il.</usg>; <foreign lang="greek">ἐν μόναις ὠδῖσιν</foreign> at a single <trans opt="n"><i>birth</i></trans>, <usg opt="n">Pind.</usg>; <foreign lang="greek">ἐν ὠδίνων ἀνάγκαις</foreign> <usg opt="n">Eur.</usg>; in sg. <trans opt="n"><i>travail-pain, anguish</i></trans>, <usg opt="n">Pind.</usg>, <usg opt="n">Soph.</usg></sense>
+ <sense level="3" n="2" id="n36353.1" opt="n">in sg., also, <trans opt="n"><i>the fruit of travail</i> or <i>labour, a birth, child</i></trans>, <usg opt="n">Aesch.</usg>, <usg opt="n">Eur.</usg>; <foreign lang="greek">ἄπτερον ὠδῖνα τέκνων</foreign>, of young birds, <usg opt="n">Eur.</usg></sense>
+ <sense level="2" n="II" id="n36353.2" opt="n">metaph. <trans opt="n"><i>any travail, anguish</i></trans>, <usg opt="n">Aesch.</usg>; also in pl., of love, <trans opt="n"><i>pangs</i></trans>, <usg opt="n">Soph.</usg>, <usg opt="n">Plat.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)|dopoio/s" orig_id="n36354" key="w)|dopoio/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)|dopoio/s">ᾠδοποιός</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ᾠδο-ποιός, όν</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crosspoie/w" lang="greek">ποιέω</ref></xr></etym>
+ <sense level="0" n="0" id="n36354.0" opt="n"><trans opt="n"><i>making songs</i> or <i>odes</i></trans>, <usg opt="n">Theocr.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)|do/s" orig_id="n36355" key="w)|do/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)|do/s">ᾠδός</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ᾠδός, οῦ, ὁ,</note>
+ <sense level="0" n="0" id="n36355.0" opt="n"><trans opt="n"><i>a singer</i></trans>, <usg opt="n">Eur.</usg>, <usg opt="n">Plat.</usg></sense>
+ <etym opt="n">contr. for <foreign lang="greek">ἀοιδός</foreign></etym>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)/eon" orig_id="n36356" key="w)/eon">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)/eon">ὤεον</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ὤεον, ου, τό,</note>
+ <etym opt="n">poetic for <foreign lang="greek">ᾠόν</foreign></etym>
+ <sense level="0" n="0" id="n36356.0" opt="n"><trans opt="n"><i>an egg</i></trans>, <usg opt="n">Simon.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)/zw" orig_id="n36357" key="w)/zw">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)/zw">ὤζω</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ὤζω,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossw)=" lang="greek">ὦ</ref></xr></etym>
+ <sense level="0" n="0" id="n36357.0" opt="n"><trans opt="n"><i>to cry oh!</i></trans> <usg opt="n">Aesch.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)h/" orig_id="n36358" key="w)h/">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)h/">ὠή</head>
+ <sense level="0" n="0" id="n36358.0" opt="n">a cry or call, <trans opt="n"><i>ho there!</i></trans> lat. <trans opt="n"><i>heus</i></trans>, <usg opt="n">Aesch.</usg>, etc.</sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)qe/w" orig_id="n36359" key="w)qe/w">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)qe/w">ὠθέω</head>
+ <sense level="2" n="I" id="n36359.0" opt="n"><trans opt="n"><i>to thrust, push, shove, force onwards</i> or <i>away</i></trans>, <foreign lang="greek">λᾶαν ἄνω ὤθεσκε</foreign> <trans opt="n"><i>he kept pushing</i></trans> it upwards, <usg opt="n">Od.</usg>; <foreign lang="greek">ἀπʼ ὀφθαλμῶν νέφος ὦσεν Ἀθήνη</foreign> <usg opt="n">Il.</usg>; <foreign lang="greek">ἐκ μηροῦ δόρυ ὦσε</foreign> <trans opt="n"><i>he forced</i></trans> the spear from the thigh, <usg opt="n">Il.</usg>; <foreign lang="greek">ὦσαί τινα ἀφʼ ἵππων</foreign> <usg opt="n">Il.</usg>; <foreign lang="greek">ὦσαι ἑαυτὸν ἐς τὸ πῦρ</foreign> <trans opt="n"><i>to rush</i></trans> into the fire, <usg opt="n">Hdt.</usg>; so, <foreign lang="greek">ὠθ. τινὰ ἐπὶ κεφαλήν</foreign> <trans opt="n"><i>to throw</i></trans> him headlong down, <usg opt="n">Plat.</usg>; <foreign lang="greek">κατὰ πετρῶν</foreign> <usg opt="n">Eur.</usg>; <foreign lang="greek">ὦσαι τὴν θύραν</foreign> <trans opt="n"><i>to force</i></trans> the door, <usg opt="n">Ar.</usg></sense>
+ <sense level="3" n="2" id="n36359.1" opt="n"><trans opt="n"><i>to push</i> or <i>force back</i></trans> in battle, <usg opt="n">Il.</usg></sense>
+ <sense level="3" n="3" id="n36359.2" opt="n"><trans opt="n"><i>to thrust out, banish</i></trans>, <usg opt="n">Trag.</usg>; <foreign lang="greek">ὦσαί τινα φυγάδα</foreign> <usg opt="n">Plat.</usg>; <foreign lang="greek">ὠθ. τινα ἄθαπτον</foreign> <usg opt="n">Soph.</usg></sense>
+ <sense level="3" n="4" id="n36359.3" opt="n">metaph., <foreign lang="greek">ὠθ. τὰ πρήγματα</foreign> <trans opt="n"><i>to push</i></trans> matters <trans opt="n"><i>on, hurry</i></trans> them, <usg opt="n">Hdt.</usg></sense>
+ <sense level="3" n="5" id="n36359.4" opt="n">absol., <foreign lang="greek">ὦσα παρέξ</foreign> <trans opt="n"><i>pushed off</i></trans> from land, <usg opt="n">Od.</usg>; <foreign lang="greek">ὤθει βιαίως</foreign> <usg opt="n">Eur.</usg></sense>
+ <sense level="2" n="II" id="n36359.5" opt="n">Mid., mostly in aor1, <trans opt="n"><i>to thrust</i> or <i>push from oneself, push</i> or <i>force back, repulse</i></trans>, esp. in battle, <foreign lang="greek">τείχεος ἂψ ὤσασθαι</foreign> <usg opt="n">Il.</usg>; <foreign lang="greek">ὤσασθαι προτὶ Ἴλιον, προτὶ ἄστυ</foreign> <usg opt="n">Il.</usg>; <foreign lang="greek">ὤσασθαι τὴν ἵππον</foreign> <usg opt="n">Hdt.</usg>; <foreign lang="greek">ὠσαμένων τὸ κέρας</foreign> <usg opt="n">Thuc.</usg></sense>
+ <sense level="2" n="III" id="n36359.6" opt="n">Pass. <trans opt="n"><i>to be thrust on, to fall violently</i></trans>, <foreign lang="greek">ἐπὶ κεφαλήν</foreign> <usg opt="n">Hdt.</usg>; <foreign lang="greek">πρὸς βίαν</foreign> <usg opt="n">Eur.</usg></sense>
+ <sense level="3" n="2" id="n36359.7" opt="n"><trans opt="n"><i>to force oneʼs way</i></trans>, <usg opt="n">Xen.</usg>, <usg opt="n">Plat.</usg>: <trans opt="n"><i>to crowd on, throng</i></trans>, like <foreign lang="greek">ὠστίζομαι</foreign>, <usg opt="n">Xen.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)qi/zomai" orig_id="n36360" key="w)qi/zomai">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)qi/zomai">ὠθίζω</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ὠθίζομαι,</note>
+ <sense level="0" n="0" id="n36360.0" opt="n">Mid., like <foreign lang="greek">ὠστίζομαι</foreign>, <trans opt="n"><i>to push against one another, justle, struggle</i></trans>, <usg opt="n">Luc.</usg>:—metaph. <trans opt="n"><i>to wrangle</i></trans>, <usg opt="n">Hdt.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)qismo/s" orig_id="n36361" key="w)qismo/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)qismo/s">ὠθισμός</head>
+ <etym opt="n">from <ref type="cross" target="crossw)qi/zomai" lang="greek">ὠθίζομαι</ref></etym>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ὠθισμός, οῦ, ὁ,</note>
+ <sense level="2" n="I" id="n36361.0" opt="n"><trans opt="n"><i>a thrusting, pushing</i></trans>, <foreign lang="greek">ὠθ. ἀσπίδων</foreign>, of shield against shield, <usg opt="n">Thuc.</usg></sense>
+ <sense level="2" n="II" id="n36361.1" opt="n">(from Pass.) <trans opt="n"><i>a justling, struggling</i></trans>, of combatants in a melee, <usg opt="n">Hdt.</usg>, <usg opt="n">Xen.</usg>:— metaph., <foreign lang="greek">ὠθισμὸς λόγων</foreign> <trans opt="n"><i>a hot dispute</i></trans>, <usg opt="n">Hdt.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)=ka" orig_id="n36362" key="w)=ka">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)=ka">ὦκα</head>
+ <etym opt="n">poet. adv. of <foreign lang="greek">ὠκύς</foreign></etym>
+ <sense level="3" n="1" id="n36362.0" opt="n"><trans opt="n"><i>quickly, swiftly, fast</i></trans>, <usg opt="n">Hom.</usg>; strengthd., <foreign lang="greek">μάλʼ ὦκα, ὦκα μάλʼ</foreign> <usg opt="n">Hom.</usg></sense>
+ <sense level="3" n="2" id="n36362.1" opt="n">of Time, <foreign lang="greek">ὦκα ἔπειτα</foreign> <trans opt="n"><i>immediately</i></trans> thereafter, <usg opt="n">Hom.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="cross*)wkeani/nh" orig_id="n36363" key="*)wkeani/nh">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="*)wkeani/nh">Ὠκεανίνη</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">Ὠκεᾰνί_νη, ἡ,</note>
+ <sense level="0" n="0" id="n36363.0" opt="n"><trans opt="n"><i>daughter of Ocean</i></trans>, <usg opt="n">Hes.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)keani/s" orig_id="n36364" key="w)keani/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)keani/s">Ὠκεανίς</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">Ὠκεᾰνίς, ίδος,</note>
+ <sense level="0" n="0" id="n36364.0" opt="n">fem. adj. <trans opt="n"><i>of</i> or <i>from ocean</i></trans>, <foreign lang="greek">αὖραι</foreign> <usg opt="n">Pind.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="cross*)wkeani=tis" orig_id="n36365" key="*)wkeani=tis">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="*)wkeani=tis">Ὠκεανῖτις</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">Ὠκεᾰνῖτις, ιδος,</note>
+ <sense level="3" n="1" id="n36365.0" opt="n">= <ref type="cross" target="crossw)kea^ni/s" lang="greek">ὠκεᾰνίς</ref>, <usg opt="n">Anth.</usg></sense>
+ <sense level="3" n="2" id="n36365.1" opt="n"><foreign lang="greek">ἡ ὠκ</foreign>, (sub. <foreign lang="greek">γῆ) </foreign> <trans opt="n"><i>the shore of ocean</i></trans>, <usg opt="n">Strab.</usg></sense>
+ 
+ </div1>
+
+ 
+ 
+<div1 id="cross*)wkeano/nde" orig_id="n36366" key="*)wkeano/nde">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="*)wkeano/nde">Ὠκεανόνδε</head>
+ <sense level="0" n="0" id="n36366.0" opt="n"><trans opt="n"><i>to Ocean</i></trans>, <usg opt="n">Hhymn.</usg></sense>
+ <etym opt="n">from <ref type="cross" target="cross*)wkea^no/s" lang="greek">Ὠκεᾰνός</ref></etym>
+ </div1>
+
+ 
+ 
+<div1 id="cross*)wkeano/s" orig_id="n36367" key="*)wkeano/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="*)wkeano/s">Ὠκεανός</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">Ὠκεᾰνός, οῦ, ὁ,</note>
+ <sense level="2" n="I" id="n36367.0" opt="n"><trans opt="n"><i>Oceanus</i></trans>, son of Uranus and Gaia, <usg opt="n">Hes.</usg>: wedded to Tethys, sire of Thetis, <usg opt="n">Il.</usg>—Homerʼs Oceanus is <trans opt="n"><i>a great River</i></trans> <foreign lang="greek"> (Ὠκεανὸς ποταμός) </foreign>, which compasses the earthʼs disc, returning into itself <foreign lang="greek"> (ἀψόρροος) .</foreign></sense>
+ <sense level="2" n="II" id="n36367.1" opt="n">in later times, <trans opt="n"><i>Ocean</i></trans> remained as the name of <trans opt="n"><i>the great Outward Sea</i></trans>, opp. to the Inward or Mediterranean <foreign lang="greek"> (θάλασσα, πόντος) </foreign>, <usg opt="n">Hdt.</usg>, <usg opt="n">Pind.</usg>, etc.</sense>
+ 
+ </div1>
+
+ 
+ 
+<div1 id="crossw)ke/ws" orig_id="n36368" key="w)ke/ws">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)ke/ws">ὠκέως</head>
+ <etym opt="n">adverb of <foreign lang="greek">ὠκύς</foreign>, <usg opt="n">Pind.</usg></etym>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)kh/eis" orig_id="n36369" key="w)kh/eis">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)kh/eis">ὠκήεις</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ὠκήεις, εσσα, εν</note>
+ <etym opt="n">poetic form of <foreign lang="greek">ὠκύς</foreign>, <usg opt="n">Anth.</usg></etym>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)/kista" orig_id="n36370" key="w)/kista">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)/kista">ὤκιστα</head>
+ <etym opt="n">Sup. adv. of <foreign lang="greek">ὠκύς</foreign></etym>
+ <sense level="0" n="0" id="n36370.0" opt="n"><trans opt="n"><i>mostly swiftly</i></trans>, <usg opt="n">Od.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)ku/alos" orig_id="n36371" key="w)ku/alos">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)ku/alos">ὠκύαλος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ὠκύ-ᾰλος, ον,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossa(/ls" lang="greek">ἅλς</ref></xr></etym>
+ <sense level="0" n="0" id="n36371.0" opt="n"><trans opt="n"><i>sea-swift, speeding oʼer the sea</i></trans>, of a ship, <usg opt="n">Hom.</usg>, <usg opt="n">Soph.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)kubo/los" orig_id="n36372" key="w)kubo/los">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)kubo/los">ὠκυβόλος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ὠκῠ-βόλος, ον,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossba/llw" lang="greek">βάλλω</ref></xr></etym>
+ <sense level="0" n="0" id="n36372.0" opt="n"><trans opt="n"><i>quick-shooting, quick-striking</i></trans>, of the bow, <usg opt="n">Soph.</usg>; of arrows, <usg opt="n">Anth.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)kudh/ktwr" orig_id="n36373" key="w)kudh/ktwr">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)kudh/ktwr">ὠκυδήκτωρ</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ὠκῠ-δήκτωρ, ορος, ὁ,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossda/knw" lang="greek">δάκνω</ref></xr></etym>
+ <sense level="0" n="0" id="n36373.0" opt="n"><trans opt="n"><i>sharp-biting</i></trans>, <usg opt="n">Anth.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)kudi/daktos" orig_id="n36374" key="w)kudi/daktos">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)kudi/daktos">ὠκυδίδακτος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ὠκῠ-δίδακτος, ον,</note>
+ <sense level="0" n="0" id="n36374.0" opt="n"><trans opt="n"><i>quickly taught</i></trans>, <usg opt="n">Anth.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)kudi/nhtos" orig_id="n36375" key="w)kudi/nhtos">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)kudi/nhtos">ὠκυδίνητος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ὠκῠ-δίνητος, Doric <foreign lang="greek">ὠκῠ-δίνᾱτος, ον</foreign>,</note>
+ <sense level="0" n="0" id="n36375.0" opt="n"><trans opt="n"><i>quick-whirling</i></trans>, <usg opt="n">Pind.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)ku/dromos" orig_id="n36376" key="w)ku/dromos">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)ku/dromos">ὠκύδρομος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ὠκύ-δρομος, ον,</note>
+ <sense level="0" n="0" id="n36376.0" opt="n"><trans opt="n"><i>swift-running</i></trans>, <usg opt="n">Eur.</usg>, <usg opt="n">Anth.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)kueph/s" orig_id="n36377" key="w)kueph/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)kueph/s">ὠκυεπής</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ὠκυ-επής, ές</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crosse)/pos" lang="greek">ἔπος</ref></xr></etym>
+ <sense level="0" n="0" id="n36377.0" opt="n"><trans opt="n"><i>quick-speaking</i></trans>, <usg opt="n">Anth.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)ku/qoos" orig_id="n36378" key="w)ku/qoos">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)ku/qoos">ὠκύθοος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ὠκύ-θοος, η, ον</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossqe/w" lang="greek">θέω</ref></xr></etym>
+ <sense level="0" n="0" id="n36378.0" opt="n"><trans opt="n"><i>swift-running</i></trans>, <usg opt="n">Eur.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)kuma/xos" orig_id="n36379" key="w)kuma/xos">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)kuma/xos">ὠκυμάχος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ὠκῠ-μάχος, ον,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossma/xomai" lang="greek">μάχομαι</ref></xr></etym>
+ <sense level="0" n="0" id="n36379.0" opt="n"><trans opt="n"><i>quick to fight</i></trans>, <usg opt="n">Anth.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)ku/moros" orig_id="n36380" key="w)ku/moros">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)ku/moros">ὠκύμορος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ὠκύ-μορος, ον,</note>
+ <sense level="2" n="I" id="n36380.0" opt="n"><trans opt="n"><i>quickly-dying, dying early</i></trans>, of Achilles, <usg opt="n">Il.</usg>; <foreign lang="greek">ὠκυμορώτατος ἄλλων</foreign> <usg opt="n">Il.</usg></sense>
+ <sense level="2" n="II" id="n36380.1" opt="n">act. <trans opt="n"><i>bringing a quick</i> or <i>early death</i></trans>, <usg opt="n">Hom.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)kupe/ths" orig_id="n36381" key="w)kupe/ths">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)kupe/ths">ὠκυπέτης</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ὠκῠ-πέτης, ου, ὁ,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crosspe/tomai" lang="greek">πέτομαι</ref></xr></etym>
+ <sense level="0" n="0" id="n36381.0" opt="n"><trans opt="n"><i>swift-flying, swift-running</i></trans>, <usg opt="n">Il.</usg>, <usg opt="n">Hes.</usg>; metaph., <foreign lang="greek">ὠκ. μόρος</foreign> <usg opt="n">Soph.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)ku/poinos" orig_id="n36382" key="w)ku/poinos">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)ku/poinos">ὠκύποινος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ὠκύ-ποινος, ον,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crosspoinh/" lang="greek">ποινή</ref></xr></etym>
+ <sense level="0" n="0" id="n36382.0" opt="n"><trans opt="n"><i>quickly-avenged</i></trans>, <usg opt="n">Aesch.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)ku/pompos" orig_id="n36383" key="w)ku/pompos">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)ku/pompos">ὠκύπομπος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ὠκύ-πομπος, ον,</note>
+ <sense level="0" n="0" id="n36383.0" opt="n"><trans opt="n"><i>quick-sending, conveying rapidly</i></trans>, <usg opt="n">Eur.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)ku/poros" orig_id="n36384" key="w)ku/poros">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)ku/poros">ὠκύπορος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ὠκύ-πορος, ον,</note>
+ <sense level="0" n="0" id="n36384.0" opt="n"><trans opt="n"><i>quick-going</i></trans>, of ships, <usg opt="n">Il.</usg>: of streams, <trans opt="n"><i>swift-flowing</i></trans>, <usg opt="n">Aesch.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)ku/pos" orig_id="n36385" key="w)ku/pos">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)ku/pos">ὠκύπος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ὠκύ-πος, ον,</note>
+ <etym opt="n">rare poet. collat. form of <foreign lang="greek">ὠκύπους</foreign>, <usg opt="n">Anth.</usg></etym>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)ku/pous" orig_id="n36386" key="w)ku/pous">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)ku/pous">ὠκύπους</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ὠκύ-πους,</note>
+ 
+ <sense level="0" n="0" id="n36386.0" opt="n"><trans opt="n"><i>swift-footed</i></trans>, of horses, <usg opt="n">Hom.</usg>; <foreign lang="greek">ἱππικῶν ὠκύπους ἀγών</foreign> <usg opt="n">Soph.</usg>; <foreign lang="greek">κύνες</foreign> <usg opt="n">Eur.</usg>, etc.</sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)ku/pteros" orig_id="n36387" key="w)ku/pteros">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)ku/pteros">ὠκύπτερος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ὠκύ-πτερος, ον,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossptero/n" lang="greek">πτερόν</ref></xr></etym>
+ <sense level="2" n="I" id="n36387.0" opt="n"><trans opt="n"><i>swift-winged</i></trans>, <usg opt="n">Il.</usg></sense>
+ <sense level="2" n="II" id="n36387.1" opt="n"><foreign lang="greek">ὠκύπτερα, ων, τά</foreign>, <trans opt="n"><i>the long quill-feathers in a wing</i></trans>, <usg opt="n">Ar.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)kuro/hs" orig_id="n36388" key="w)kuro/hs">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)kuro/hs">ὠκυρόης</head>
+ <etym opt="n">= <ref type="cross" target="crossw)ku/rous" lang="greek">ὠκύρους</ref>, <usg opt="n">Eur.</usg>, <usg opt="n">Anth.</usg></etym>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)ku/rous" orig_id="n36389" key="w)ku/rous">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)ku/rous">ὠκύροος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ὠκύ-ρους, ουν,</note>
+ <sense level="0" n="0" id="n36389.0" opt="n">poet. adj. <trans opt="n"><i>swift-flowing</i></trans>, <usg opt="n">Il.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)ku/skopos" orig_id="n36390" key="w)ku/skopos">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)ku/skopos">ὠκύσκοπος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ὠκύ-σκοπος, ον,</note>
+ <sense level="0" n="0" id="n36390.0" opt="n"><trans opt="n"><i>quick-aiming</i></trans>, <foreign lang="greek">Ἀπόλλων</foreign> <usg opt="n">Anth.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)ku/s" orig_id="n36391" key="w)ku/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)ku/s">ὠκύς</head>
+ <etym opt="n">akin to <foreign lang="greek">ὀξύς</foreign></etym>
+ <sense level="2" n="I" id="n36391.0" opt="n"><trans opt="n"><i>quick, swift, fleet</i></trans>, <usg opt="n">Od.</usg>; <foreign lang="greek">πόδας ὠκύς</foreign>, of Achilles, <usg opt="n">Il.</usg>; <foreign lang="greek">πόδας ὠκέα</foreign>, of Iris, <usg opt="n">Il.</usg>, etc.</sense>
+ <sense level="3" n="2" id="n36391.1" opt="n">= <ref type="cross" target="crosso)cu/s" lang="greek">ὀξύς</ref>, <trans opt="n"><i>sharp</i></trans>, <usg opt="n">Anth.</usg></sense>
+ <sense level="2" n="II" id="n36391.2" opt="n">adv. <ref type="cross" target="cross-e/ws" lang="greek">-έως</ref>, <usg opt="n">Pind.</usg>; but in form <foreign lang="greek">ὦκα</foreign>, formed like <foreign lang="greek">τάχα</foreign>, often in <usg opt="n">Hom.</usg></sense>
+ <sense level="2" n="III" id="n36391.3" opt="n">degrees of Comparison, regul. <foreign lang="greek">ὠκύτερος, ὠκύτατος</foreign> <usg opt="n">Od.</usg>: irreg. Sup., <foreign lang="greek">ὤκιστος</foreign> <usg opt="n">Il.</usg>, <usg opt="n">Aesch.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)ku/ths" orig_id="n36392" key="w)ku/ths">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)ku/ths">ὠκύτης</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ὠκύτης, ητος, ἡ,</note>
+ <sense level="0" n="0" id="n36392.0" opt="n"><trans opt="n"><i>quickness, swiftness, fleetness, speed</i></trans>, <usg opt="n">Pind.</usg>, <usg opt="n">Eur.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)ku/tokos" orig_id="n36393" key="w)ku/tokos">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)ku/tokos">ὠκύτοκος</head>
+ <sense level="0" n="0" id="n36393.0" opt="n"><trans opt="n"><i>quickly</i></trans> born:— as Subst., <foreign lang="greek">ὠκύτοκον, ου</foreign>, <trans opt="n"><i>quick birth, easy delivery</i></trans>, <usg opt="n">Hdt.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)kuto/kos" orig_id="n36394" key="w)kuto/kos">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)kuto/kos">ὠκυτόκος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ὠκῠ-τόκος, ον,</note>
+ <sense level="0" n="0" id="n36394.0" opt="n"><trans opt="n"><i>causing quick and easy birth</i></trans>: metaph. of a river, <trans opt="n"><i>with quickening, fertilising power</i></trans>, <usg opt="n">Soph.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)=lac" orig_id="n36395" key="w)=lac">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)=lac">ὦλαξ</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ὦλαξ, ακος,</note>
+ <etym opt="n">Doric for <foreign lang="greek">αὖλαξ.</foreign></etym>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)le/kranon" orig_id="n36396" key="w)le/kranon">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)le/kranon">ὠλέκρανον</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ὠλέ-κρᾱνον, ου, τό,</note>
+ <sense level="0" n="0" id="n36396.0" opt="n"><trans opt="n"><i>the point of the elbow</i></trans>, <usg opt="n">Arist.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)le/nh" orig_id="n36397" key="w)le/nh">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)le/nh">ὠλένη</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">.ὠλένη, ἡ,</note>
+ <sense level="0" n="0" id="n36397.0" opt="n">Lat. <foreign lang="la">ulna, the elbow</foreign>, or rather <trans opt="n"><i>the arm from the elbow downwards</i></trans>, <usg opt="n">Hhymn.</usg>, <usg opt="n">Trag.</usg>, etc.; <foreign lang="greek">περὶ ὠλένας δέρᾳ βάλλειν</foreign> <usg opt="n">Eur.</usg>; <foreign lang="greek">ὠλ. ἄκραι</foreign> the hands, <usg opt="n">Eur.</usg>; <foreign lang="greek">ψήφους διηρίθμησε ὠλένῃ</foreign> <trans opt="n"><i>with the hand</i></trans>, <usg opt="n">Eur.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="cross*)/wlenos" orig_id="n36398" key="*)/wlenos">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="*)/wlenos">Ὤλενος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">Ὤλενος, ἡ,</note>
+ <sense level="0" n="0" id="n36398.0" opt="n"><trans opt="n"><i>Olenos</i></trans>, a city of Achaia, <usg opt="n">Il.</usg>; prob. named from its lying <trans opt="n"><i>in the bend</i></trans> <foreign lang="greek"> (ὠλένη) </foreign> <trans opt="n"><i>of a hill.</i></trans></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)lesi/bwlos" orig_id="n36399" key="w)lesi/bwlos">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)lesi/bwlos">ὠλεσίβωλος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ὠλεσί-βωλος, ον,</note>
+ <sense level="0" n="0" id="n36399.0" opt="n"><trans opt="n"><i>clod-crushing</i></trans>, <usg opt="n">Anth.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)lesi/karpos" orig_id="n36400" key="w)lesi/karpos">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)lesi/karpos">ὠλεσίκαρπος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ὠλεσί-καρπος, ον,</note>
+ <sense level="0" n="0" id="n36400.0" opt="n"><trans opt="n"><i>losing its fruit</i></trans>, <foreign lang="greek">ἰτέαι ὠλ.</foreign>, because these trees <trans opt="n"><i>shed their fruits</i></trans> before ripening, <usg opt="n">Od.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)lesi/oikos" orig_id="n36401" key="w)lesi/oikos">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)lesi/oikos">ὠλεσίοικος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ὠλεσί-οικος, ον,</note>
+ <sense level="0" n="0" id="n36401.0" opt="n"><trans opt="n"><i>destroying the house</i></trans>, <usg opt="n">Aesch.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)/lc" orig_id="n36402" key="w)/lc">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)/lc">ὦλξ</head>
+ <etym opt="n">syncop. for <foreign lang="greek">ὦλαξ, αὖλαξ</foreign></etym>
+ <sense level="0" n="0" id="n36402.0" opt="n"><trans opt="n"><i>a furrow</i></trans>, only in acc. <foreign lang="greek">ὦλκα, ὦλκας</foreign>, <usg opt="n">Hom.</usg>, <usg opt="n">Mosch.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)maxqh/s" orig_id="n36403" key="w)maxqh/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)maxqh/s">ὠμαχθής</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ὠμ-αχθής, ές</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossa)/xqos" lang="greek">ἄχθος</ref></xr></etym>
+ <sense level="0" n="0" id="n36403.0" opt="n"><trans opt="n"><i>heavy to the shoulders</i></trans>, <usg opt="n">Anth.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)mhsth/s" orig_id="n36404" key="w)mhsth/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)mhsth/s">ὠμηστής</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ὠμ-ηστής, οῦ, ὁ,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossw)mo/s " lang="greek">ὠμός</ref>, <ref type="cross" target="crosse)sqi/w" lang="greek">ἐσθίω</ref></xr></etym>
+ <sense level="0" n="0" id="n36404.0" opt="n"><trans opt="n"><i>eating raw flesh</i></trans>, <usg opt="n">Il.</usg>, <usg opt="n">Aesch.</usg>, <usg opt="n">Soph.</usg>, etc.; with a fem., <foreign lang="greek">Ἔχιδνα ὠμηστής</foreign> <usg opt="n">Hes.</usg>:—as a mark of <trans opt="n"><i>savageness, brutality</i></trans>, <foreign lang="greek">ὠμ. καὶ ἄπιστος ἀνήρ</foreign> <usg opt="n">Il.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)/mion" orig_id="n36405" key="w)/mion">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)/mion">ὤμιον</head>
+ <etym opt="n">Dim. of <foreign lang="greek">ὦμος</foreign>, <usg opt="n">Anth.</usg></etym>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)mobo/eios" orig_id="n36406" key="w)mobo/eios">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)mobo/eios">ὠμοβόειος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ὠμο-βόειος, Ionic <foreign lang="greek">-βόεος</foreign>, or <foreign lang="greek">ὠμοβόϊνος, η, ον</foreign></note>
+ <sense level="0" n="0" id="n36406.0" opt="n"><trans opt="n"><i>of raw, untanned ox-hide</i></trans>, <usg opt="n">Hdt.</usg>, <usg opt="n">Xen.</usg>:— <foreign lang="greek">ἡ ὠμοβοέη</foreign> (sc. <foreign lang="greek">δορά) </foreign> <trans opt="n"><i>a raw ox-hide</i></trans>, <usg opt="n">Hdt.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)mobrw/s" orig_id="n36407" key="w)mobrw/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)mobrw/s">ὠμοβρώς</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ὠμο-βρώς, ῶτος, ὁ, ἡ,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossbibrw/skw" lang="greek">βιβρώσκω</ref></xr></etym>
+ <sense level="0" n="0" id="n36407.0" opt="n"><trans opt="n"><i>eating raw flesh</i></trans>, <usg opt="n">Eur.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)moge/rwn" orig_id="n36408" key="w)moge/rwn">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)moge/rwn">ὠμογέρων</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ὠμο-γέρων, οντος,</note>
+ <sense level="0" n="0" id="n36408.0" opt="n"><trans opt="n"><i>a fresh, active old man</i></trans>, <usg opt="n">Il.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)modakh/s" orig_id="n36409" key="w)modakh/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)modakh/s">ὠμοδακής</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ὠμο-δᾰκής, ές</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossda/knw" lang="greek">δάκνω</ref></xr></etym>
+ <sense level="0" n="0" id="n36409.0" opt="n"><trans opt="n"><i>fiercely gnawing</i></trans>, <usg opt="n">Aesch.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)mo/dropos" orig_id="n36410" key="w)mo/dropos">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)mo/dropos">ὠμόδροπος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ὠμό-δροπος, ον,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossdre/pw" lang="greek">δρέπω</ref></xr></etym>
+ <sense level="0" n="0" id="n36410.0" opt="n"><trans opt="n"><i>plucked unripe</i></trans>, <foreign lang="greek">νόμιμα ὠμ.</foreign>, properly, the right <trans opt="n"><i>of plucking the fresh fruit</i></trans>, <usg opt="n">Aesch.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)moqete/w" orig_id="n36411" key="w)moqete/w">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)moqete/w">ὠμοθετέω</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ὠμο-θετέω,</note>
+ <etym opt="n">tiqhmi</etym>
+ <sense level="0" n="0" id="n36411.0" opt="n">in sacrificing, <trans opt="n"><i>to place the raw slices</i></trans> duly on the altar (v. <ref type="cross" target="crossmhri/a" lang="greek">μηρία</ref>), <usg opt="n">Hom.</usg>:—so in Mid., <foreign lang="greek">ὠμοθετεῖτο</foreign> <usg opt="n">Od.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)/moi" orig_id="n36412" key="w)/moi">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)/moi">ὤμοι</head>
+ <sense level="0" n="0" id="n36412.0" opt="n"><foreign lang="greek">ὦ μοι</foreign>, Lat. <foreign lang="la">hei mihi, woeʼs me</foreign>, <usg opt="n">Soph.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)mokrath/s" orig_id="n36413" key="w)mokrath/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)mokrath/s">ὠμοκρατής</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ὠμο-κρᾰτής, ές</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossw)mo/s" lang="greek">ὠμός</ref></xr></etym>
+ <sense level="0" n="0" id="n36413.0" opt="n"><trans opt="n"><i>of rude untamed might</i></trans>, or <foreign lang="greek"> (ὦμος) </foreign> <trans opt="n"><i>strong-shouldered</i></trans>, <usg opt="n">Soph.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)mopla/th" orig_id="n36414" key="w)mopla/th">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)mopla/th">ὠμοπλάτη</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ὠμο-πλάτη (ᾰ), ἡ,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossw)=mos" lang="greek">ὦμος</ref></xr></etym>
+ <sense level="0" n="0" id="n36414.0" opt="n"><trans opt="n"><i>the shoulder-blade</i></trans>, <usg opt="n">Theocr.</usg>; mostly in pl. <foreign lang="greek">ὠμοπλάται</foreign>, Lat. <foreign lang="la">scapulae</foreign>, <usg opt="n">Xen.</usg>, etc.</sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)mo/sitos" orig_id="n36415" key="w)mo/sitos">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)mo/sitos">ὠμόσιτος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ὠμό-σῑτος, ον,</note>
+ <sense level="0" n="0" id="n36415.0" opt="n">of the Sphinx, <trans opt="n"><i>eating men raw</i></trans>, <usg opt="n">Aesch.</usg>; <foreign lang="greek">χηλαῖσιν ὠμοσίτοις</foreign>, also of the Sphinx, <usg opt="n">Eur.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)mospa/raktos" orig_id="n36416" key="w)mospa/raktos">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)mospa/raktos">ὠμοσπάρακτος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ὠμο-σπάρακτος (σπᾰ), ον,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossspara/ssw" lang="greek">σπαράσσω</ref></xr></etym>
+ <sense level="0" n="0" id="n36416.0" opt="n"><trans opt="n"><i>torn in pieces raw</i></trans>, <usg opt="n">Ar.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)mo/s" orig_id="n36417" key="w)mo/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)mo/s">ὠμός</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">.ὠμός, ή, όν</note>
+ <sense level="2" n="I" id="n36417.0" opt="n"><trans opt="n"><i>raw, undressed</i></trans>, Lat. <foreign lang="la">crudus</foreign>, of flesh, <usg opt="n">Hom.</usg>; <foreign lang="greek">ὠμὸν καταφαγεῖν τινά</foreign> to eat one <trans opt="n"><i>raw</i></trans>, proverb. of savage cruelty, <usg opt="n">Xen.</usg>; so, <foreign lang="greek">ὠμὸν βεβρώθοις Πρίαμον</foreign> <usg opt="n">Il.</usg></sense>
+ <sense level="3" n="2" id="n36417.1" opt="n">of fruit, <trans opt="n"><i>unripe</i></trans>, <usg opt="n">Ar.</usg>, <usg opt="n">Xen.</usg></sense>
+ <sense level="2" n="II" id="n36417.2" opt="n">metaph. <trans opt="n"><i>savage, fierce, cruel</i></trans>, <usg opt="n">Trag.</usg>, <usg opt="n">Thuc.</usg>, etc.:—neut. pl. <foreign lang="greek">ὠμά</foreign>, as adv., <trans opt="n"><i>savagely</i></trans>, <usg opt="n">Il.</usg>; adv. <ref type="cross" target="crossw)mw=s" lang="greek">ὠμῶς</ref>, <usg opt="n">Thuc.</usg>, etc.; Sup., <foreign lang="greek">ὠμότατα διακεῖσθαι πρός τινα</foreign> <usg opt="n">Isocr.</usg></sense>
+ <sense level="3" n="2" id="n36417.3" opt="n"><trans opt="n"><i>rude, rough</i></trans>, <usg opt="n">Soph.</usg>; <foreign lang="greek">ὠμότερος συκοφάντης</foreign> <trans opt="n"><i>a more coarse, more unmitigated</i></trans> sycophant, <usg opt="n">Dem.</usg>:—adv. <trans opt="n"><i>rudely, coarsely</i></trans>, <usg opt="n">Dem.</usg></sense>
+ <sense level="3" n="3" id="n36417.4" opt="n">(from 1. 2) <foreign lang="greek">ὠμὸν γῆρας</foreign> <trans opt="n"><i>an unripe, untimely, premature</i></trans> old age, <usg opt="n">Od.</usg>, <usg opt="n">Hes.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)=mos" orig_id="n36418" key="w)=mos">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)=mos">ὦμος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">.ὦμος, ὁ,</note>
+ <sense level="3" n="1" id="n36418.0" opt="n">Lat. <foreign lang="la">humerus, the shoulder with the upper arm</foreign> <foreign lang="greek"> (ὠλένη</foreign>, <trans opt="n"><i>ulna</i></trans>, being <trans opt="n"><i>the lower)</i></trans>, <foreign lang="greek">ἐπʼ ὤμου φέρειν</foreign> <usg opt="n">Od.</usg>; <foreign lang="greek">ὤμοισι φορέειν</foreign> <usg opt="n">Il.</usg>; <foreign lang="greek">ἔχειν ἀνὰ ὤμῳ</foreign> <usg opt="n">Od.</usg>; <foreign lang="greek">ὤμοισι τοῖς ἐμοῖσι</foreign> "by the strength of mine arms, " <usg opt="n">Hdt.</usg>; <foreign lang="greek">ἀποστρέφειν τὸν ὦ.</foreign> to dislocate <trans opt="n"><i>it</i></trans>, <usg opt="n">Ar.</usg></sense>
+ <sense level="3" n="2" id="n36418.1" opt="n">also of animals, as of a horse, Lat. <foreign lang="la">armus</foreign>, <usg opt="n">Il.</usg>, <usg opt="n">Xen.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)mo/ths" orig_id="n36419" key="w)mo/ths">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)mo/ths">ὠμότης</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ὠμότης, ητος, ἡ,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossw)mo/s" lang="greek">ὠμός</ref></xr></etym>
+ <sense level="0" n="0" id="n36419.0" opt="n"><trans opt="n"><i>rawness</i></trans>: metaph. <trans opt="n"><i>savageness, fierceness, cruelty</i></trans>, <usg opt="n">Eur.</usg>, <usg opt="n">Xen.</usg>, etc.</sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)moto/kos" orig_id="n36420" key="w)moto/kos">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)moto/kos">ὠμοτόκος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ὠμο-τόκος, ον,</note>
+ <sense level="0" n="0" id="n36420.0" opt="n"><trans opt="n"><i>bringing forth untimely offspring:—</i></trans> metaph. of a vine, <usg opt="n">Anth.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)mofa/gos" orig_id="n36421" key="w)mofa/gos">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)mofa/gos">ὠμοφάγος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ὠμο-φάγος (ᾰ), ον,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossw)mo/s " lang="greek">ὠμός</ref>, <ref type="cross" target="crossfagei=n" lang="greek">φαγεῖν</ref></xr></etym>
+ <sense level="0" n="0" id="n36421.0" opt="n"><trans opt="n"><i>eating raw flesh, carnivorous</i></trans>, <usg opt="n">Il.</usg>, <usg opt="n">Thuc.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)mo/frwn" orig_id="n36422" key="w)mo/frwn">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)mo/frwn">ὠμόφρων</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ὠμό-φρων, ονος, ὁ, ἡ,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossfrh/n" lang="greek">φρήν</ref></xr></etym>
+ <sense level="0" n="0" id="n36422.0" opt="n"><trans opt="n"><i>savage-minded, savage</i></trans>, <usg opt="n">Trag.</usg> adv. <ref type="cross" target="crossw)mofro/nws" lang="greek">ὠμοφρόνως</ref>, <usg opt="n">Aesch.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)ne/omai" orig_id="n36423" key="w)ne/omai">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)ne/omai">ὠνέομαι</head>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossw)=nos" lang="greek">ὦνος</ref></xr></etym>
+ <etym n="note" opt="n">aor1 is very dubious (for the Attic aorist is <foreign lang="greek">ἐπριάμην</foreign>) </etym>
+ <sense level="2" n="I" id="n36423.0" opt="n">Mid.:— <trans opt="n"><i>to buy, purchase</i></trans>, opp. to <foreign lang="greek">πωλέω, πιπράσκω</foreign>, as Lat. <foreign lang="la">emere</foreign> to <trans opt="n"><i>vendere</i></trans>; but in pres. and imperf. <trans opt="n"><i>to offer to buy, deal for, bargain</i> or <i>bid</i></trans> for a thing, <usg opt="n">Hes.</usg>; <foreign lang="greek">ὠνέεσθαι τῶν φορτίων</foreign> <trans opt="n"><i>wished to buy</i></trans> some of their wares, <trans opt="n"><i>began to bargain</i></trans> for them, <usg opt="n">Hdt.</usg>; <foreign lang="greek">Κροῖσός σφι ὠνεομένοισι ἔδωκε</foreign> gave it them <trans opt="n"><i>when they offered to buy</i></trans>, <usg opt="n">Hdt.</usg>; <foreign lang="greek">ὠν. τι παρά τινος</foreign> <trans opt="n"><i>from</i></trans> another, <usg opt="n">Hdt.</usg>; <foreign lang="greek">ὠν. ἐκ Κορίνθου</foreign> <trans opt="n"><i>to buy goods</i></trans> from Corinth, <usg opt="n">Xen.</usg>:—c. gen. pretii, <trans opt="n"><i>to buy for</i></trans> so much, <usg opt="n">Hdt.</usg>, Attic:—absol. in partic., <foreign lang="greek">ὠνούμενος</foreign> <trans opt="n"><i>by purchase</i></trans>, <usg opt="n">Xen.</usg>; <foreign lang="greek">ὁ ὠνούμενος</foreign> <trans opt="n"><i>the purchaser</i></trans>, <usg opt="n">Xen.</usg>; <foreign lang="greek">ὁ ἐωνημένος</foreign> <trans opt="n"><i>the owner by purchase</i></trans> of a slave, <usg opt="n">Ar.</usg></sense>
+ <sense level="3" n="2" id="n36423.1" opt="n"><trans opt="n"><i>to farm public taxes</i> or <i>tolls</i></trans>, or rather <trans opt="n"><i>to bid for</i></trans> them, <foreign lang="greek">ὠν. μέταλλα</foreign> <usg opt="n">Dem.</usg>, etc.</sense>
+ <sense level="3" n="3" id="n36423.2" opt="n"><trans opt="n"><i>to buy off, avert by giving hush-money</i></trans>, <usg opt="n">Dem.</usg>; <foreign lang="greek">ὠν. τινα</foreign> <trans opt="n"><i>to buy</i></trans> a person, of one who bribes, <usg opt="n">Dem.</usg></sense>
+ <sense level="2" n="II" id="n36423.3" opt="n">sometimes used as Pass. <trans opt="n"><i>to be bought</i></trans>, as <foreign lang="greek">ὠνούμενά τε καὶ πιπρασκόμενα</foreign> <usg opt="n">Plat.</usg>; perf. part. <foreign lang="greek">ἐωνημένος</foreign> <usg opt="n">Plat.</usg>, <usg opt="n">Dem.</usg>; 3 sg. plup. <foreign lang="greek">ἐώνητο</foreign> <usg opt="n">Ar.</usg>; in aor1 <foreign lang="greek">ἐωνήθην</foreign> <usg opt="n">Xen.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)nh/" orig_id="n36424" key="w)nh/">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)nh/">ὠνή</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ὠνή, ἡ,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossw)=nos" lang="greek">ὦνος</ref></xr></etym>
+ <sense level="2" n="I" id="n36424.0" opt="n"><trans opt="n"><i>a buying, purchasing</i></trans>, Lat. <foreign lang="la">emptio</foreign>, <foreign lang="greek">ὠνὴ καὶ πρᾶσις</foreign> <trans opt="n"><i>buying</i></trans> and selling, <usg opt="n">Hdt.</usg>, <usg opt="n">Plat.</usg></sense>
+ <sense level="3" n="2" id="n36424.1" opt="n"><trans opt="n"><i>a purchase, a bargain</i></trans>, <usg opt="n">Eur.</usg></sense>
+ <sense level="2" n="II" id="n36424.2" opt="n"><trans opt="n"><i>a contract for the farming of taxes</i></trans>, <usg opt="n">Andoc.</usg>, <usg opt="n">Plut.</usg></sense>
+ <sense level="2" n="III" id="n36424.3" opt="n"><trans opt="n"><i>the purchase-money, price</i></trans>, <usg opt="n">Lys.</usg>, <usg opt="n">Plut.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)nhte/os" orig_id="n36425" key="w)nhte/os">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)nhte/os">ὠνητέος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ὠνητέος, η, ον,</note>
+ <etym opt="n">verb. adj. of <foreign lang="greek">ὠνέομαι</foreign></etym>
+ <sense level="3" n="1" id="n36425.0" opt="n"><trans opt="n"><i>to be bought</i></trans>, <usg opt="n">Plat.</usg></sense>
+ <sense level="3" n="2" id="n36425.1" opt="n"><foreign lang="greek">ὠνητέον</foreign>, <trans opt="n"><i>one must buy</i></trans>, <usg opt="n">Luc.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)nhth/s" orig_id="n36426" key="w)nhth/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)nhth/s">ὠνητής</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ὠνητής, οῦ, ὁ,</note>
+ <sense level="0" n="0" id="n36426.0" opt="n"><trans opt="n"><i>a buyer, purchaser</i></trans>, <usg opt="n">Xen.</usg>, <usg opt="n">Aeschin.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)nhto/s" orig_id="n36427" key="w)nhto/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)nhto/s">ὠνητός</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ὠνητός, ή, όν</note>
+ <sense level="2" n="I" id="n36427.0" opt="n"><trans opt="n"><i>bought</i></trans>, of slaves, <usg opt="n">Od.</usg>, <usg opt="n">Soph.</usg>, etc.; <foreign lang="greek">ὠνητὴ δύναμις</foreign> a <trans opt="n"><i>mercenary</i></trans> force, opp. to <foreign lang="greek">οἰκεία</foreign>, <usg opt="n">Thuc.</usg></sense>
+ <sense level="2" n="II" id="n36427.1" opt="n"><trans opt="n"><i>to be bought, that may be bought</i></trans>, Lat. <foreign lang="la">venalis</foreign>, <foreign lang="greek">ἐλπίς</foreign> <usg opt="n">Eur.</usg>; c. gen. pretii, <foreign lang="greek">δόξα χρημάτων οὐκ ὠνητή</foreign> <trans opt="n"><i>not to be bought for</i></trans> money, <usg opt="n">Isocr.</usg>; but, <foreign lang="greek">χρήμασιν</foreign> <trans opt="n"><i>with</i></trans> money, <usg opt="n">Thuc.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)/nios" orig_id="n36428" key="w)/nios">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)/nios">ὤνιος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ὤνιος, α, ον</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossw)=nos" lang="greek">ὦνος</ref></xr></etym>
+ <sense level="3" n="1" id="n36428.0" opt="n"><trans opt="n"><i>to be bought, for sale</i></trans>, Lat. <foreign lang="la">venalis</foreign>, <foreign lang="greek">πῶς ὁ σῖτος ὤνιος;</foreign> howʼs corn <trans opt="n"><i>selling?</i></trans> <usg opt="n">Ar.</usg>; <foreign lang="greek">ἐς ὤνιον ἐλθεῖν</foreign> to come to <trans opt="n"><i>market</i></trans>, <usg opt="n">Theogn.</usg>; <foreign lang="greek">ὤνιον εἶναι</foreign> to be <trans opt="n"><i>on sale</i></trans>, <usg opt="n">Plat.</usg>:— <foreign lang="greek">τὰ ὤνια</foreign> <trans opt="n"><i>goods for sale, market-wares</i></trans>, <usg opt="n">Xen.</usg>, etc.:—c. gen. pretii, <foreign lang="greek">αἵματος ἡ ἀρετὴ ὠνία</foreign> <usg opt="n">Aeschin.</usg></sense>
+ <sense level="3" n="2" id="n36428.1" opt="n"><trans opt="n"><i>venal</i></trans>, of a magistrate, <usg opt="n">Arist.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)/noma" orig_id="n36429" key="w)/noma">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)/noma">ὤνομα</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ὤνομα, ατος, τό,</note>
+ <etym opt="n">Aeolic for <foreign lang="greek">ὄνομα.</foreign></etym>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)nomasme/nws" orig_id="n36430" key="w)nomasme/nws">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)nomasme/nws">ὠνομασμένως</head>
+ <etym opt="n">adverb from part. perf. pass. of <foreign lang="greek">ὀνομάζω</foreign></etym>
+ <sense level="0" n="0" id="n36430.0" opt="n"><trans opt="n"><i>by giving names</i></trans>, <usg opt="n">Arist.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)=nos" orig_id="n36431" key="w)=nos">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)=nos">ὦνος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">.ὦνος, ὁ,</note>
+ <sense level="2" n="I" id="n36431.0" opt="n">Lat. <foreign lang="la">venum, purchase-money, a price, sum paid</foreign> for a thing, <usg opt="n">Hom.</usg>; c. gen. rei, <foreign lang="greek">Λυκάονος ὦνον ἔδωκεν</foreign> <trans opt="n"><i>for</i></trans> Lycaon, <usg opt="n">Il.</usg></sense>
+ <sense level="2" n="II" id="n36431.1" opt="n"><trans opt="n"><i>purchase</i></trans>, <usg opt="n">Od.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)|o/n" orig_id="n36432" key="w)|o/n">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)|o/n">ᾠόν</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">.ᾠόν, οῦ,</note>
+ <sense level="3" n="1" id="n36432.0" opt="n">Lat. <foreign lang="la">ovum, an egg</foreign>, Attic</sense>
+ <sense level="3" n="2" id="n36432.1" opt="n">of the <trans opt="n"><i>eggs or</i></trans> <trans opt="n"><i>spawn</i></trans> of fish, <usg opt="n">Hdt.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)o/p" orig_id="n36433" key="w)o/p">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)o/p">ὠόπ</head>
+ <sense level="0" n="0" id="n36433.0" opt="n"><foreign lang="greek">ὤοπ</foreign> also <foreign lang="greek">ὠὸπ ὄπ</foreign>, a cry of the <foreign lang="greek">κελευστής</foreign> to make the rowers stop pulling, <trans opt="n"><i>avast!</i></trans> <usg opt="n">Ar.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)=1" orig_id="n36434" key="w)=1">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)=">ὦ</head>
+ <sense level="3" n="1" id="n36434.0" opt="n">and <foreign lang="greek">ὤ</foreign>, Exclamation, expressing surprise, but also joy and pain, like our <trans opt="n"><i>O! oh!</i></trans> with nom., <foreign lang="greek">ὢ τάλας ἐγώ</foreign> <usg opt="n">Soph.</usg>, etc.; with gen., <foreign lang="greek">ὢ χρυσῶ</foreign> <usg opt="n">Theocr.</usg></sense>
+ <sense level="3" n="2" id="n36434.1" opt="n">with vocat. it is a mere address, <foreign lang="greek">ὦ θεοί, ὦ Ζεῦ</foreign>, etc.; with imperat., <foreign lang="greek">ὦ χαῖρε</foreign> <usg opt="n">Aesch.</usg>—In the first sense it is usually written <foreign lang="greek">ὤ</foreign>, in the second <foreign lang="greek">ὦ.</foreign></sense>
+ </div1>
+
+ 
+ 
+<div1 id="cross*w" orig_id="n36435" key="*w">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="*w">ω</head>
+ <sense level="3" n="1" id="n36435.0" opt="n"><foreign lang="greek">Ω, ω, ὦ μέγα</foreign>, twenty-fourth letter of the Gr. alphabet: —as a numeral <foreign lang="greek">ωʹ</foreign> 800, but <foreign lang="greek">͵ω</foreign> = 800, 000. The name of <foreign lang="greek">ὦ μέγα</foreign>, <trans opt="n"><i>great</i> or <i>long</i></trans> <foreign lang="greek">ο</foreign>, was given at a later period to distinguish it from <ref type="cross" target="crosso)\ mikro/n" lang="greek">ὂ μικρόν</ref> <trans opt="n"><i>little</i> or <i>short</i></trans> <foreign lang="greek">ο·</foreign> but the form <foreign lang="greek">Ω</foreign> was not adopted at Athens till the Archonship of Euclides (B. C. 403); v. sub E, H. Changes of <foreign lang="greek">ω</foreign>, esp. in the dialects:</sense>
+ <sense level="3" n="1" id="n36435.1" opt="n">Ionic sometimes for <foreign lang="greek">α</foreign>, as <foreign lang="greek">ὤνθρωπος ὤριστος</foreign> for <foreign lang="greek">ἄνθρωπος ἄριστος.</foreign> </sense>
+ <sense level="3" n="2" id="n36435.2" opt="n">Ionic also for <foreign lang="greek">αυ</foreign>, as <foreign lang="greek">θῶμα τρῶμα</foreign> for <foreign lang="greek">θαῦμα τραῦμα</foreign>:—this is also Doric, <foreign lang="greek">ὦλαξ</foreign> for <foreign lang="greek">αὖλαξ.</foreign> </sense>
+ <sense level="3" n="3" id="n36435.3" opt="n">Aeolic and Doric <foreign lang="greek">ω</foreign> for <foreign lang="greek">ου</foreign>, as <foreign lang="greek">ὠρανός Μῶσα κῶρος λιπῶσα</foreign> for <foreign lang="greek">οὐρανός Μοῦσα κοῦρος λιποῦσα;</foreign> so, <foreign lang="greek">ου</foreign> and <foreign lang="greek">ους</foreign> in gen. sg. and acc. pl. of 2nd decl. pass into <foreign lang="greek">ω</foreign> and <foreign lang="greek">ως.</foreign> </sense>
+ <sense level="3" n="4" id="n36435.4" opt="n">Doric, <foreign lang="greek">ω</foreign> becomes <foreign lang="greek">ᾱ</foreign>, as <foreign lang="greek">πρῶτος πρώτιστος θεωρός</foreign> become <foreign lang="greek">πρᾶτος πράτιστος θεᾱρός;</foreign> so gen. pl. of 1st dec. <foreign lang="greek">-ῶν</foreign> becomes <foreign lang="greek">-ᾶν.</foreign></sense>
+ <sense level="3" n="5" id="n36435.5" opt="n">Aeol. sometimes also <foreign lang="greek">υ</foreign>, as <foreign lang="greek">χελύνη</foreign> for <foreign lang="greek">χελώνη.</foreign></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw(=per" orig_id="n36436" key="w(=per">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w(=per">ὧπερ</head>
+ <etym opt="n">Doric for <foreign lang="greek">οὗπερ</foreign></etym>
+ <sense level="0" n="0" id="n36436.0" opt="n"><trans opt="n"><i>where</i></trans>, <usg opt="n">Theocr.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw(rai=os" orig_id="n36437" key="w(rai=os">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w(rai=os">ὡραῖος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ὡραῖος, α, ον</note>
+ <sense level="2" n="I" id="n36437.0" opt="n"><trans opt="n"><i>produced at the right season</i></trans> <foreign lang="greek"> (ὥρα) </foreign>, <trans opt="n"><i>seasonable, timely</i></trans>: esp. of fruits, like Lat. <foreign lang="la">hornus</foreign> (from <trans opt="n"><i>hora)</i></trans>, <foreign lang="greek">βίος</foreign> or <foreign lang="greek">βίοτος ὡρ.</foreign> store of <trans opt="n"><i>fruits gathered in due season</i></trans>, <usg opt="n">Hes.</usg>; <foreign lang="greek">ὡρ. καρποί</foreign> the fruits <trans opt="n"><i>of the season</i></trans>, <usg opt="n">Hdt.</usg>; so <foreign lang="greek">ὡραῖα, ων, τά</foreign>, <usg opt="n">Thuc.</usg>, <usg opt="n">Xen.</usg>:—also of animals, <foreign lang="greek">ὡρ. ἄρνες</foreign> <trans opt="n"><i>yearling</i></trans> lambs, <usg opt="n">Anth.</usg></sense>
+ <sense level="3" n="2" id="n36437.1" opt="n"><foreign lang="greek">ἡ ὡραία</foreign>, like <foreign lang="greek">ὥρα</foreign> 1. 2, <trans opt="n"><i>the summer season</i></trans>, esp. the months during which the troops kept the field, <usg opt="n">Dem.</usg>; —but also, <foreign lang="greek">τὴν μὲν ὡραίην οὐχ ὕει</foreign> it does not rain <trans opt="n"><i>in the season</i></trans> (sc. of rain), <usg opt="n">Hdt.</usg></sense>
+ <sense level="2" n="II" id="n36437.2" opt="n"><trans opt="n"><i>happening</i> or <i>done in season, in due season, seasonable</i></trans>, <foreign lang="greek">ἄροτος, ἔργον</foreign> <usg opt="n">Hes.</usg>; <foreign lang="greek">ὡραῖόν ἐστι</foreign> the weather is <trans opt="n"><i>fair</i></trans>, <usg opt="n">Plut.</usg></sense>
+ <sense level="3" n="2" id="n36437.3" opt="n">metaph. <trans opt="n"><i>seasonable, due, proper</i></trans>, <foreign lang="greek">ὡραῖα ἱερά</foreign> <usg opt="n">Plat.</usg></sense>
+ <sense level="2" n="III" id="n36437.4" opt="n">of persons, <trans opt="n"><i>seasonable</i> or <i>ripe</i></trans> for a thing, c. gen., <foreign lang="greek">γάμων</foreign> or <foreign lang="greek">γάμου ὡραίη</foreign> <usg opt="n">Hdt.</usg>; <foreign lang="greek">ἐς ἥβην ὡρ. γάμων</foreign> <usg opt="n">Eur.</usg>: —of old persons, <trans opt="n"><i>ripe for death</i></trans>, <foreign lang="greek">πατήρ γε μὴν ὡραῖος</foreign> <usg opt="n">Eur.</usg>; <foreign lang="greek">ὡραίῳ ἕσταμεν βίῳ</foreign> <usg opt="n">Eur.</usg></sense>
+ <sense level="3" n="2" id="n36437.5" opt="n"><trans opt="n"><i>in the bloom of youth, blooming</i></trans>, <usg opt="n">Hes.</usg>, <usg opt="n">Xen.</usg>:—generally, <trans opt="n"><i>beautiful</i></trans>, <usg opt="n">NTest.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw(raio/ths" orig_id="n36438" key="w(raio/ths">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w(raio/ths">ὡραιότης</head>
+ <etym opt="n">from <ref type="cross" target="crossw(rai=os" lang="greek">ὡραῖος</ref></etym>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ὡραιότης, ητος, ἡ,</note>
+ <sense level="2" n="I" id="n36438.0" opt="n"><trans opt="n"><i>ripeness of fruits</i></trans>, <usg opt="n">Arist.</usg></sense>
+ <sense level="2" n="II" id="n36438.1" opt="n"><trans opt="n"><i>the bloom of youth</i></trans>, <usg opt="n">Xen.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw(rakia/w" orig_id="n36439" key="w(rakia/w">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w(rakia/w">ὡρακιάω</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ὡρᾱκιάω,</note>
+ <sense level="0" n="0" id="n36439.0" opt="n"><trans opt="n"><i>to faint, swoon away</i></trans>, <usg opt="n">Ar.</usg></sense>
+ <etym opt="n">deriv. uncertain</etym>
+ </div1>
+
+ 
+ 
+<div1 id="crossw(/ra2" orig_id="n36440" key="w(/ra2">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w(/ra">ὥρα</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">.ὥρα, Ionic <foreign lang="greek">ὥρη, ἡ</foreign>,</note>
+ <sense level="0" n="0" id="n36440.0" opt="n">Lat. <foreign lang="la">hora: any time</foreign> or <trans opt="n"><i>period</i></trans>, whether of the year, month, or day <foreign lang="greek"> (νυκτός τε ὥραν καὶ μηνὸς καὶ ἐνιαυτοῦ</foreign> <usg opt="n">Xen.</usg>): hence</sense>
+ <sense level="2" n="I" id="n36440.1" opt="n"><trans opt="n"><i>a part of the year, a season;</i></trans> in pl. <trans opt="n"><i>the seasons</i></trans>, <usg opt="n">Od.</usg>, <usg opt="n">Hes.</usg>, etc.; <foreign lang="greek">περιτελλομέναις ὥραις</foreign> <usg opt="n">Soph.</usg>; <foreign lang="greek">τῆς ὥρας τοῦ ἐνιαυτοῦ</foreign> <usg opt="n">Thuc.</usg>:—at first three seasons were distinguished — <trans opt="n"><i>spring</i></trans>, <foreign lang="greek">ἔαρος ὥρη, ὥρη εἰαρινή</foreign> <usg opt="n">Hom.</usg>;— <trans opt="n"><i>summer</i></trans>, <foreign lang="greek">θέρεος ὥρη</foreign> <usg opt="n">Hes.</usg>; <foreign lang="greek">ὥρα θερινή</foreign> <usg opt="n">Xen.</usg>;— <trans opt="n"><i>winter</i></trans>, <foreign lang="greek">χείματος ὥρη</foreign> <usg opt="n">Hes.</usg>; <foreign lang="greek">ὥρῃ χειμερίῃ</foreign> <usg opt="n">Od.</usg>;—a fourth, <foreign lang="greek">ὀπώρα</foreign>, first in Alcman.</sense>
+ <sense level="3" n="2" id="n36440.2" opt="n">absol. <trans opt="n"><i>the prime of the year, springtime</i></trans>, <foreign lang="greek">ὅσα φύλλα γίγνεται ὥρῃ</foreign> <usg opt="n">Hom.</usg>:—in historians, <trans opt="n"><i>the part of the year available for war, the summer-season</i></trans>, or (as we say) <trans opt="n"><i>the season</i></trans>, <usg opt="n">Thuc.</usg>, etc.</sense>
+ <sense level="3" n="3" id="n36440.3" opt="n"><trans opt="n"><i>the year</i></trans> generally, <usg opt="n">Hdt.</usg>; <foreign lang="greek">ἐν τῇ πέρυσιν ὥρᾳ</foreign> last <trans opt="n"><i>year</i></trans>, <usg opt="n">Dem.</usg>, etc.</sense>
+ <sense level="3" n="4" id="n36440.4" opt="n">in pl. <trans opt="n"><i>the quarters of the heavens</i></trans>, the summer being taken as south, winter as north, <usg opt="n">Hdt.</usg></sense>
+ <sense level="2" n="II" id="n36440.5" opt="n"><trans opt="n"><i>a part of the day</i></trans>, <foreign lang="greek">αἱ ὧραι τῆς ἡμέρας</foreign> <trans opt="n"><i>the times</i></trans> of day, i. e. morning, noon, evening, night, <usg opt="n">Xen.</usg>; also, <foreign lang="greek">νυκτὸς ἐν ὥρῃ</foreign> in night <trans opt="n"><i>time</i></trans>, <usg opt="n">Hhymn.</usg>; <foreign lang="greek">ὀψὲ τῆς ὥρας</foreign> late <trans opt="n"><i>in the day</i></trans>, <usg opt="n">Dem.</usg></sense>
+ <sense level="3" n="2" id="n36440.6" opt="n">day and night were prob. first divided into <trans opt="n"><i>twenty-four hours</i></trans> by Hipparchus (about 150 B. C.): but the division of the natural day (from sunrise to sunset) into <trans opt="n"><i>twelve parts</i></trans> is mentioned by <usg opt="n">Hdt.</usg> (2. 109).</sense>
+ <sense level="2" n="III" id="n36440.7" opt="n"><trans opt="n"><i>the time</i> or <i>season</i></trans> for a thing, <foreign lang="greek">ὅταν ὥ. ἥκῃ</foreign> <usg opt="n">Xen.</usg>, etc.</sense>
+ <sense level="3" n="2" id="n36440.8" opt="n">c. gen. rei, <foreign lang="greek">ὥρη κοίτοιο, ὕπνου</foreign> <trans opt="n"><i>the time for</i></trans> sleep, bed- <trans opt="n"><i>time</i></trans>, <usg opt="n">Od.</usg>; <foreign lang="greek">ὥρη δόρποιο</foreign> <usg opt="n">Od.</usg>; <foreign lang="greek">καρπῶν ὧραι</foreign> <usg opt="n">Ar.</usg></sense>
+ <sense level="3" n="3" id="n36440.9" opt="n"><foreign lang="greek">ὥρα ἐστίν</foreign>, c. inf., <trans opt="n"><i>ʼtis time</i></trans> to do a thing, <foreign lang="greek">ἀλλὰ καὶ ὥρη εὕδειν</foreign> <usg opt="n">Od.</usg>; <foreign lang="greek">δοκεῖ οὐχ ὥρα εἶναι καθεύδειν</foreign> <usg opt="n">Xen.</usg>, etc.</sense>
+ <sense level="3" n="4" id="n36440.10" opt="n">in adverb. usages, <foreign lang="greek">τὴν ὥρην</foreign> <trans opt="n"><i>at the right time</i></trans>, <usg opt="n">Hdt.</usg>, <usg opt="n">Xen.</usg>; but, <foreign lang="greek">τὴν ὥ.</foreign> <trans opt="n"><i>at</i></trans> that <trans opt="n"><i>hour</i></trans>, <usg opt="n">Hes.</usg>:— <foreign lang="greek">ἐν ὥρῃ</foreign> <trans opt="n"><i>in due time, in good time</i></trans>, <usg opt="n">Od.</usg>, <usg opt="n">Ar.</usg>:—also, <foreign lang="greek">αἰεὶ ἐς ὥρας</foreign> <trans opt="n"><i>in</i></trans> successive <trans opt="n"><i>seasons</i></trans>, <usg opt="n">Od.</usg>;— <foreign lang="greek">καθʼ ὥραν</foreign> <usg opt="n">Theocr.</usg>;— <foreign lang="greek">πρὸ τῆς ὥρας</foreign> <usg opt="n">Xen.</usg></sense>
+ <sense level="2" n="IV" id="n36440.11" opt="n">metaph. <trans opt="n"><i>the prime of life, youth, early manhood</i></trans>, <foreign lang="greek">ὥραν ἔχειν</foreign> <usg opt="n">Aesch.</usg>; <foreign lang="greek">πάντες οἱ ἐν ὥρᾳ</foreign> <usg opt="n">Plat.</usg>, etc.; <foreign lang="greek">φεῦ φεῦ τῆς ὥρας. τοῦ κάλλους.</foreign> ah! what <trans opt="n"><i>youth!</i></trans> what beauty! <usg opt="n">Ar.</usg>, etc.</sense>
+ <sense level="2" n="V" id="n36440.12" opt="n">= <ref type="cross" target="crossta\ w(rai=a" lang="greek">τὰ ὡραῖα</ref>, <trans opt="n"><i>the fruits of the year</i></trans>, <usg opt="n">Xen.</usg></sense>
+ <sense level="1" n="B" id="n36440.13" opt="n">in mythol. sense, <foreign lang="greek">αἱ Ὧραι</foreign>, <trans opt="n"><i>the Hours</i></trans>, keepers of heavenʼs gate, <usg opt="n">Il.</usg>; and ministers of the gods, <usg opt="n">Il.</usg>; three in number, daughters of Zeus and Themis, <usg opt="n">Hes.</usg>; often therefore joined with the <foreign lang="greek">Χάριτες</foreign>, <usg opt="n">Hhymn.</usg>, <usg opt="n">Hes.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)/ra" orig_id="n36441" key="w)/ra">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)/ra">ὤρα</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">.ὤρα, Ionic <foreign lang="greek">ὤρη, ἡ</foreign>,</note>
+ <etym opt="n">akin to <foreign lang="greek">οὖροs2</foreign></etym>
+ <sense level="0" n="0" id="n36441.0" opt="n"><trans opt="n"><i>care, concern, heed, regard for</i></trans> a person or thing, c. gen., <usg opt="n">Hes.</usg>, <usg opt="n">Soph.</usg>; <foreign lang="greek">μηδεμίαν ὤρην ἔχειν γυναικῶν</foreign> <usg opt="n">Hdt.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw(/rasi" orig_id="n36442" key="w(/rasi">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w(/rasi">ὥρασι</head>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossw(/ra" lang="greek">ὥρα</ref></xr></etym>
+ <sense level="0" n="0" id="n36442.0" opt="n"><trans opt="n"><i>in season, in good time</i></trans>, <usg opt="n">Ar.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)rei/trofos" orig_id="n36443" key="w)rei/trofos">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)rei/trofos">ὠρείτροφος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ὠρεί-τροφος, ον,</note>
+ <etym opt="n">poetic for <foreign lang="greek">ὀρείτροφος</foreign></etym>
+ <sense level="0" n="0" id="n36443.0" opt="n">of Bacchus, <usg opt="n">Anth.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)resi/doupos" orig_id="n36444" key="w)resi/doupos">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)resi/doupos">ὠρεσίδουπος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ὠρεσί-δουπος, ον,</note>
+ <etym opt="n">poetic for <foreign lang="greek">ὀρεσίδουπος</foreign></etym>
+ <sense level="0" n="0" id="n36444.0" opt="n"><trans opt="n"><i>making a din on the mountains</i></trans>, <usg opt="n">Anth.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw(residw/ths" orig_id="n36445" key="w(residw/ths">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w(residw/ths">ὡρεσιδώτης</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ὡρεσῐ-δώτης, ου, ὁ,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossw(/rea = w(rai=a" lang="greek">ὥρεα  ὡραῖα</ref></xr></etym>
+ <sense level="0" n="0" id="n36445.0" opt="n"><trans opt="n"><i>one who gives ripe fruits in their season</i></trans>, <usg opt="n">Anth.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)reu/w" orig_id="n36446" key="w)reu/w">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)reu/w">ὠρεύω</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ὠρεύω,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossw)/ra" lang="greek">ὤρα</ref></xr></etym>
+ <sense level="0" n="0" id="n36446.0" opt="n"><trans opt="n"><i>to attend to, mind</i></trans>, c. acc., <usg opt="n">Hes.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw(rhfo/ros" orig_id="n36447" key="w(rhfo/ros">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w(rhfo/ros">ὡρηφόρος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ὡρη-φόρος, ον,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossfe/rw" lang="greek">φέρω</ref></xr></etym>
+ <sense level="0" n="0" id="n36447.0" opt="n"><trans opt="n"><i>leading on the seasons</i></trans>, or <trans opt="n"><i>bringing on the fruits in season</i></trans>, <usg opt="n">Hhymn.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw(riko/s" orig_id="n36448" key="w(riko/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w(riko/s">ὡρικός</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ὡρῐκός, ή, όν</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossw(/ra" lang="greek">ὥρα</ref></xr></etym>
+ <sense level="0" n="0" id="n36448.0" opt="n"><trans opt="n"><i>in oneʼs prime, youthful, blooming</i></trans>, <usg opt="n">Ar.</usg>: adv., <foreign lang="greek">ὡρικῶς πυνθάνει</foreign> you ask <trans opt="n"><i>so maidenly, so prettily</i></trans>, <usg opt="n">Ar.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw(/rimos" orig_id="n36449" key="w(/rimos">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w(/rimos">ὥριμος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ὥρῐμος, ον,</note>
+ <etym opt="n">poetic for <foreign lang="greek">ὡραῖος</foreign></etym>
+ <sense level="0" n="0" id="n36449.0" opt="n"><trans opt="n"><i>ripe</i></trans>, <usg opt="n">Anth.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw(/rios" orig_id="n36450" key="w(/rios">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w(/rios">ὥριος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ὥριος, α, ον</note>
+ <etym opt="n">poet. for <foreign lang="greek">ὡραῖος</foreign></etym>
+ <sense level="2" n="I" id="n36450.0" opt="n"><trans opt="n"><i>produced in season</i></trans>, <foreign lang="greek">ὥρια</foreign> <trans opt="n"><i>the fruits of the season</i></trans>, <usg opt="n">Od.</usg>, <usg opt="n">Theocr.</usg></sense>
+ <sense level="2" n="II" id="n36450.1" opt="n">generally, <trans opt="n"><i>in due season, seasonable</i></trans>, <usg opt="n">Hes.</usg>, <usg opt="n">Anth.</usg></sense>
+ <sense level="2" n="III" id="n36450.2" opt="n"><foreign lang="greek">ὥρια, ων, τά</foreign>, <trans opt="n"><i>the season</i></trans>, <foreign lang="greek">νόσον ὥρια τίκτει</foreign> <usg opt="n">Bion.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="cross*)wri/wn" orig_id="n36451" key="*)wri/wn">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="*)wri/wn">Ὠρίων</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">Ὠρίων, ωνος, ὁ,</note>
+ <sense level="2" n="I" id="n36451.0" opt="n"><trans opt="n"><i>Orion</i></trans>, one of the giants, a mighty hunter, loved by Aurora, slain by Artemis, <usg opt="n">Od.</usg></sense>
+ <sense level="2" n="II" id="n36451.1" opt="n"><trans opt="n"><i>a bright constellation</i></trans> named after him, which rose just after the summer solstice, and was usually followed by storms, <usg opt="n">Hom.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw(roqete/w" orig_id="n36452" key="w(roqete/w">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w(roqete/w">ὡροθετέω</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ὡροθετέω,</note>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified"> fut. <foreign lang="greek">-ήσω</foreign></note>
+ <sense level="2" n="I" id="n36452.0" opt="n"><trans opt="n"><i>to take note</i></trans> of a thing <trans opt="n"><i>in casting a nativity</i></trans>, <usg opt="n">Anth.</usg></sense>
+ <sense level="2" n="II" id="n36452.1" opt="n"><trans opt="n"><i>to be in the ascendant at the natal hour</i></trans>, of oneʼs ruling planet, <usg opt="n">Anth.</usg></sense>
+ <etym opt="n">from <ref type="cross" target="crossw(roqe/ths" lang="greek">ὡροθέτης</ref></etym>
+ </div1>
+
+ 
+ 
+<div1 id="crossw(roqe/ths" orig_id="n36453" key="w(roqe/ths">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w(roqe/ths">ὡροθέτης</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ὡρο-θέτης, ου, ὁ,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossti/qhmi" lang="greek">τίθημι</ref></xr></etym>
+ <sense level="0" n="0" id="n36453.0" opt="n"><trans opt="n"><i>one who takes note of times.</i></trans></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw(ro/mantis" orig_id="n36454" key="w(ro/mantis">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w(ro/mantis">ὡρόμαντις</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ὡρό-μαντις, εως,</note>
+ <sense level="0" n="0" id="n36454.0" opt="n"><trans opt="n"><i>the hour-prophet</i></trans>, of the cock, <usg opt="n">Babr.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw(ronome/w" orig_id="n36455" key="w(ronome/w">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w(ronome/w">ὡρονομέω</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ὡρονομέω,</note>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified"> fut. <foreign lang="greek">-ήσω</foreign></note>
+ <sense level="0" n="0" id="n36455.0" opt="n"><trans opt="n"><i>to rule the hour</i></trans> of birth, of planets, <usg opt="n">Anth.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw(=ros1" orig_id="n36456" key="w(=ros1">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w(=ros">ὧρος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ὧρος, ὁ,</note>
+ <sense level="0" n="0" id="n36456.0" opt="n"><trans opt="n"><i>a year</i></trans>:—in pl. <trans opt="n"><i>annals</i></trans>, <usg opt="n">Luc.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)=ros1" orig_id="n36457" key="w)=ros1">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)=ros">ὦρος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ὦρος, ος, εος, τό,</note>
+ <etym opt="n">Doric for <foreign lang="greek">ὅρος</foreign></etym>
+ <sense level="0" n="0" id="n36457.0" opt="n"><trans opt="n"><i>a mountain</i></trans>, <usg opt="n">Theocr.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)rugh/" orig_id="n36458" key="w)rugh/">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)rugh/">ὠρυγή</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ὠρῠγή, ἡ,</note>
+ <etym opt="n">= <ref type="cross" target="crossw)ruqmo/s" lang="greek">ὠρυθμός</ref>, <usg opt="n">Plut.</usg></etym>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)ruqmo/s" orig_id="n36459" key="w)ruqmo/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)ruqmo/s">ὠρυθμός</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ὠρυθμός, οῦ, ὁ,</note>
+ <sense level="0" n="0" id="n36459.0" opt="n"><trans opt="n"><i>a howling, roaring</i></trans>, <usg opt="n">Theocr.</usg>, <usg opt="n">Anth.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)ru/omai" orig_id="n36460" key="w)ru/omai">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)ru/omai">ὠρύομαι</head>
+ <sense level="2" n="I" id="n36460.0" opt="n">Med. <trans opt="n"><i>to howl</i></trans>, properly of wolves and dogs, <usg opt="n">Theocr.</usg>, etc.:—of men, <foreign lang="greek">ὄρθιον ὤρυσαι</foreign> <usg opt="n">Pind.</usg>; of savages, either in mourning or joy, <usg opt="n">Hdt.</usg></sense>
+ <sense level="2" n="II" id="n36460.1" opt="n">trans. <trans opt="n"><i>to howl over</i></trans>, <foreign lang="greek">τῆνον μὲν θῶες, τῆνον λύκοι ὤρυσαντο</foreign> <usg opt="n">Theocr.</usg>; so, <foreign lang="greek">ὠρ. ἐπί τινι</foreign> <usg opt="n">Luc.</usg>; <foreign lang="greek">περί τινα</foreign> <usg opt="n">Bion.</usg></sense>
+ <etym opt="n">Formed from the sound.</etym>
+ </div1>
+
+ 
+ 
+<div1 id="crossw(sa/n" orig_id="n36461" key="w(sa/n">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w(sa/n">ὡσάν</head>
+ <etym n="note" opt="n">or <foreign lang="greek">ὡς ἄν</foreign></etym>
+ <sense level="3" n="1" id="n36461.0" opt="n">Epic <foreign lang="greek">ὥς κε</foreign> or <foreign lang="greek">ὥς κεν</foreign>, being <foreign lang="greek">ὡς</foreign> with a conditional force added.</sense>
+ <sense level="3" n="2" id="n36461.1" opt="n"><trans opt="n"><i>as if, as it were</i></trans>, <usg opt="n">Dem.</usg>, <usg opt="n">NTest.</usg></sense>
+ 
+ </div1>
+
+ 
+ 
+<div1 id="crossw(sau/tws" orig_id="n36462" key="w(sau/tws">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w(sau/tws">ὡσαύτως</head>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossw(/s " lang="greek">ὥς</ref>, <ref type="cross" target="crossau)/tws" lang="greek">αὔτως</ref></xr></etym>
+ <sense level="0" n="0" id="n36462.0" opt="n"><trans opt="n"><i>in like manner, just so</i></trans>, <foreign lang="greek">ὣς δʼ αὔτως</foreign>, for <foreign lang="greek">ὡσαύτως δὲ . .</foreign> , <usg opt="n">Hom.</usg>, etc.; <foreign lang="greek">ὡσαύτως καὶ . .</foreign> <trans opt="n"><i>in like manner</i></trans> as . . , <usg opt="n">Hdt.</usg>; so c. dat., <foreign lang="greek">ὣς δʼ αὔτως τῇσι κυσὶ θάπτονται</foreign> <usg opt="n">Hdt.</usg>; <foreign lang="greek">ὡσ. ἔχειν</foreign> <usg opt="n">Plat.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw(sei/" orig_id="n36463" key="w(sei/">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w(sei/">ὡσεί</head>
+ <sense level="2" n="I" id="n36463.0" opt="n"><trans opt="n"><i>just as if, as though</i></trans>, <foreign lang="greek">ἐφίλησʼ ὡς εἴ τε πατὴρ ὃν παῖδα φιλήσῃ</foreign> <usg opt="n">Il.</usg></sense>
+ <sense level="2" n="II" id="n36463.1" opt="n">like <foreign lang="greek">ὡς</foreign> E, with Numerals, <trans opt="n"><i>about</i></trans>, <usg opt="n">Hdt.</usg>, <usg opt="n">Xen.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw(s" orig_id="n36464" key="w(s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w(s">ὡς</head>
+ <sense level="1" n="0" id="n36464.0" opt="n"><trans opt="n"><i>thus, as, so that, since</i></trans></sense>
+ <sense level="0" n="0" id="n36464.1" opt="n">A.	ADVERB of Manner, either <foreign lang="greek">ὥς</foreign> (with accent) Demonstr. <trans opt="n"><i>so, thus</i></trans>, Lat. <foreign lang="la">sic</foreign>;— or <foreign lang="greek">ὡς</foreign> (without accent) Relat. <trans opt="n"><i>as</i></trans>, Lat. <foreign lang="la">ut.</foreign> B.	<foreign lang="greek">ὡς</foreign>, as CONJUNCTION. C, D.	various usages.</sense>
+ <sense level="1" n="A" id="n36464.2" opt="n">of Manner:</sense>
+ <sense level="2" n="I" id="n36464.3" opt="n"><foreign lang="greek">ὥς</foreign>, Demonstr. = <ref type="cross" target="crossou(/tws" lang="greek">οὕτως</ref>, <trans opt="n"><i>so, thus</i></trans>, Lat. <foreign lang="la">sic</foreign>, <usg opt="n">Hom.</usg>, <usg opt="n">Hdt.</usg>; rare in Attic:— <foreign lang="greek">καὶ ὥς</foreign>, <trans opt="n"><i>even so, nevertheless</i></trans>, <foreign lang="greek">οὐδʼ ὥς, μηδʼ ὥς</foreign>, <trans opt="n"><i>not even so, in no wise</i></trans>, <usg opt="n">Hom.</usg>, <usg opt="n">Soph.</usg></sense>
+ <sense level="3" n="2" id="n36464.4" opt="n">in Comparisons, <foreign lang="greek">ὥς . . , ὡς . .</foreign> , <trans opt="n"><i>so . . as . .</i></trans> , Lat. <foreign lang="la">sic . . ut . .</foreign> , <usg opt="n">Il.</usg>, <usg opt="n">Plat.</usg></sense>
+ <sense level="3" n="3" id="n36464.5" opt="n"><trans opt="n"><i>thus, for instance</i></trans>, <usg opt="n">Od.</usg></sense>
+ <sense level="2" n="II" id="n36464.6" opt="n"><foreign lang="greek">ὡς</foreign>, Relat., <trans opt="n"><i>as</i></trans>, Lat. <foreign lang="la">ut</foreign>, first in <usg opt="n">Hom.</usg>; <foreign lang="greek">οὕτως ὡς</foreign>, Lat. <foreign lang="la">sic ut;</foreign> but the antec. is often omitted: similes are commonly introduced by <foreign lang="greek">ὡς ὅτε, ὡς δʼ ὅτε</foreign>, where <foreign lang="greek">ὅτε</foreign> often seems superfluous, <foreign lang="greek">ἤριπε δʼ, ὡς ὅτε πύργος ἤριπε</foreign> <usg opt="n">Il.</usg>:—this <foreign lang="greek">ὡς</foreign> takes the accent at the end of a clause or when it follows the word dependent on it; <foreign lang="greek">θεὸς δʼ ὣς τίετο δήμῳ</foreign> <usg opt="n">Il.</usg>; <foreign lang="greek">οἱ δὲ φέβοντο, βόες ὥς</foreign> <usg opt="n">Od.</usg></sense>
+ <sense level="3" n="2" id="n36464.7" opt="n"><trans opt="n"><i>according as</i></trans>, where the relat. Pron. <foreign lang="greek">ὅσος</foreign> might stand, as <foreign lang="greek">ἑλὼν κρέας ὥς</foreign> (i. e. <foreign lang="greek">ὅσον)  οἱ χεῖρες ἐχάνδανον</foreign> <usg opt="n">Od.</usg>; <foreign lang="greek">σοὶ θεοὶ πόροιεν ὡς ἐγὼ θέλω</foreign> <usg opt="n">Soph.</usg></sense>
+ <sense level="3" n="3" id="n36464.8" opt="n">parenthetically, to qualify a general statement, <foreign lang="greek">ὡς ἐμοὶ δοκεῖ, ὡς ἔοικε</foreign>, etc., <trans opt="n"><i>as</i></trans> it seems; often with <foreign lang="greek">γε</foreign> or <foreign lang="greek">γοῦν</foreign> added, <foreign lang="greek">ὡς γοῦν</foreign> <trans opt="n"><i>as</i></trans> at any rate:—these phrases become elliptical, <foreign lang="greek">ὡς ἐμοί</foreign> or <foreign lang="greek">ὥς γʼ ἐμοί</foreign> (sc. <foreign lang="greek">δοκεῖ) ; ὡς  ἀπ’ ὀμμάτων</foreign> (sc. <foreign lang="greek">εἰκάσαι) </foreign> to judge by eyesight, <usg opt="n">Soph.</usg>;—also, <foreign lang="greek">ὡς Λακεδαιμόνιος</foreign> (sc. <foreign lang="greek">ὤν)</foreign> <trans opt="n"><i>considering</i></trans> he was a Lacedaemonian, <usg opt="n">Thuc.</usg>; <foreign lang="greek">ὡς γυνή</foreign> <trans opt="n"><i>as</i></trans> a woman, <trans opt="n"><i>like</i></trans> a very woman, <usg opt="n">Soph.</usg>: —so <foreign lang="greek">ὡς</foreign> is attached to the Object of the Verb, <foreign lang="greek">συμπέμψας αὐτὸν ὡς φύλακα</foreign> (sc. <foreign lang="greek">εἶναι) </foreign> having sent him with them <trans opt="n"><i>as</i></trans> a guard, <usg opt="n">Hdt.</usg>; <foreign lang="greek">ὡς ἐπὶ φρυγανισμόν</foreign> as if for collecting fuel, <usg opt="n">Thuc.</usg></sense>
+ <sense level="2" n="III" id="n36464.9" opt="n">to limit or augment the force of Adverbs: <foreign lang="greek">ὡς ἀληθῶς</foreign> <trans opt="n"><i>as</i></trans> of a truth, i. e. <trans opt="n"><i>in very truth</i></trans>, <usg opt="n">Plat.</usg>; also after Adverbs expressing anything extraordinary, <foreign lang="greek">θαυμαστῶς</foreign> or <foreign lang="greek">θαυμασίως ὡς, ὑπερφυῶς ὡς</foreign>, v. sub vocc.:—also with the Sup., like <foreign lang="greek">ὅ τι</foreign> and <foreign lang="greek">ὅπως, ὡς μάλιστα, </foreign> Lat. <foreign lang="la">quam maxime</foreign>, <foreign lang="greek">ὡς ῥᾷστα, </foreign> <trans opt="n"><i>quam facillime;</i></trans> <foreign lang="greek">ὡς τάχιστα, </foreign> <trans opt="n"><i>quam celerrime</i></trans>, <usg opt="n">Hdt.</usg>, etc.:—in the phrases <foreign lang="greek">ὡς τὸ πολύ, ὡς ἐπὶ τὸ πολύ</foreign> <usg opt="n">Plat.</usg>; <foreign lang="greek">ὡς ἐπὶ τὸ πλῆθος</foreign> <usg opt="n">Plat.</usg></sense>
+ <sense level="3" n="2" id="n36464.10" opt="n">so also with Adjs., <foreign lang="greek">ὅπως ὡς βέλτισται ἔσονται</foreign> <usg opt="n">Plat.</usg>; <foreign lang="greek">ὡς ἐς ἐλάχιστον</foreign> <usg opt="n">Thuc.</usg></sense>
+ <sense level="1" n="B" id="n36464.11" opt="n"><foreign lang="greek">ὡς</foreign>, as CONJUNCTION:</sense>
+ <sense level="2" n="I" id="n36464.12" opt="n">with Substantive Clauses, for <foreign lang="greek">ὅτι</foreign>, Lat. <foreign lang="la">quod, that</foreign>, expressing a fact, <foreign lang="greek">μηκέτʼ ἐκφοβοῦ, ὥς σε ἀτιμάσει</foreign> <usg opt="n">Soph.</usg>, etc.</sense>
+ <sense level="2" n="II" id="n36464.13" opt="n"><foreign lang="greek">ὡς</foreign> with Final Clauses, <trans opt="n"><i>that, in order that</i></trans>, Lat. <foreign lang="la">ut;</foreign> <foreign lang="greek">ὡς</foreign>, and <foreign lang="greek">ὡς ἄν</foreign>, Epic <foreign lang="greek">ὥς κεν</foreign>, being used, like other Final Conjunctions, with the subj. after the principal tenses of the ind., and with the opt. after the past tenses: cf. <foreign lang="greek">ἵνα</foreign> B, <foreign lang="greek">ὅπως</foreign> B.</sense>
+ <sense level="3" n="2" id="n36464.14" opt="n">with past tenses of the ind. to express an event that is past, and therefore impossible, <foreign lang="greek">τί μʼ οὐκ ἔκτεινας, ὡς ἔδειξα μήποτε . . ;</foreign> <trans opt="n"><i>so that I never should . .</i></trans> , <usg opt="n">Soph.</usg></sense>
+ <sense level="3" n="3" id="n36464.15" opt="n"><foreign lang="greek">ὡς</foreign> c. inf., to limit an assertion, <foreign lang="greek">ὡς εἰπεῖν</foreign> <trans opt="n"><i>so</i></trans> to say, Lat. <foreign lang="la">ut ita dicam</foreign>, <usg opt="n">Hdt.</usg>; <foreign lang="greek">ὡς ἔπος εἰπεῖν</foreign>, etc.; <foreign lang="greek">ὡς εἰκάσαι</foreign> to make a guess, i. e. probably, <usg opt="n">Hdt.</usg></sense>
+ <sense level="2" n="III" id="n36464.16" opt="n">just like <foreign lang="greek">ὥστε</foreign> c. inf., <trans opt="n"><i>so that</i></trans>, Lat. <foreign lang="la">adeo ut, ita ut</foreign>, <foreign lang="greek">εὖρος ὡς δύο τριήρεας πλέειν ὁμοῦ</foreign> in breadth <trans opt="n"><i>such that</i></trans> two triremes could sail abreast, <usg opt="n">Hdt.</usg></sense>
+ <sense level="3" n="2" id="n36464.17" opt="n"><foreign lang="greek">ἢ ὡς</foreign> after a comp., <foreign lang="greek">μάσσονʼ ἢ ὡς ἰδέμεν</foreign> <usg opt="n">Pind.</usg>; <foreign lang="greek">μαλακώτεροι, ἢ ὡς κάλλιον</foreign> <usg opt="n">Plat.</usg></sense>
+ <sense level="2" n="IV" id="n36464.18" opt="n">Causal, like <foreign lang="greek">ὅτι</foreign> or <foreign lang="greek">ἐπεί</foreign>, <trans opt="n"><i>as, inasmuch, as, since</i></trans>, Lat. <foreign lang="la">quia, quandoquidem</foreign>, <foreign lang="greek">τί ποτε λέγεις; ὡς οὐ μανθάνω</foreign> <usg opt="n">Soph.</usg></sense>
+ <sense level="2" n="V" id="n36464.19" opt="n">Temporal, for <foreign lang="greek">ὅτε, ἐπεί</foreign>, <trans opt="n"><i>when</i></trans>, Lat. <foreign lang="la">ut</foreign>, <foreign lang="greek">ἐνῶρτο γέλως, ὡς ἴδον</foreign> laughter arose among them, <trans opt="n"><i>when</i></trans> they saw, <usg opt="n">Il.</usg>; with opt., to express a repeated action, <trans opt="n"><i>whenever</i></trans>, <foreign lang="greek">ὡς ἀπίκοιτο</foreign> <usg opt="n">Hdt.</usg></sense>
+ <sense level="3" n="2" id="n36464.20" opt="n"><foreign lang="greek">ὡς</foreign> seems to be used for <foreign lang="greek">ἕως</foreign> or <foreign lang="greek">ἔστε</foreign>, <trans opt="n"><i>so long as, while</i></trans>, <foreign lang="greek">ὡς ἂν αὑτὸς ἥλιος αἴρῃ</foreign> <usg opt="n">Soph.</usg>:—in later Gr. = <ref type="cross" target="crosse(/ws" lang="greek">ἕως</ref>, <trans opt="n"><i>while</i></trans>, <usg opt="n">NTest.</usg></sense>
+ <sense level="2" n="VI" id="n36464.21" opt="n">= <ref type="cross" target="crosso(/pws" lang="greek">ὅπως</ref>, <trans opt="n"><i>how</i></trans>, like Lat. <foreign lang="la">ut</foreign> for <trans opt="n"><i>quomodo</i></trans>, <foreign lang="greek">μερμήριζε, ὡς Ἀχιλῆα τιμήσειε</foreign> <usg opt="n">Il.</usg>;—so, <foreign lang="greek">οὐκ ἔσθʼ ὡς</foreign> <trans opt="n"><i>nowise can it be that</i></trans>, <usg opt="n">Soph.</usg>; <foreign lang="greek">οἶσθʼ ὡς ποίησον</foreign>, by a mixture of constructions for <foreign lang="greek">ὡς χρὴ ποιῆσαι</foreign>, <usg opt="n">Soph.</usg>; v. *<foreign lang="greek">εἴδω</foreign> B. 5.</sense>
+ <sense level="3" n="2" id="n36464.22" opt="n"><foreign lang="greek">ὡς ἂν ποιήσῃς</foreign> <trans opt="n"><i>however</i></trans> thou mayʼst act, <usg opt="n">Soph.</usg></sense>
+ <sense level="2" n="VII" id="n36464.23" opt="n">Local, for <foreign lang="greek">ὅπου</foreign>, <trans opt="n"><i>where</i></trans>, <usg opt="n">Theocr.</usg></sense>
+ <sense level="1" n="C" id="n36464.24" opt="n">some special usages:</sense>
+ <sense level="2" n="I" id="n36464.25" opt="n">with Participles, to give the reason or motive of the action expressed by the Verb, <trans opt="n"><i>if, as</i></trans>, <foreign lang="greek">διαβαίνει, ὡς ἀμήσων τὸν σῖτον</foreign> <usg opt="n">Hdt.</usg></sense>
+ <sense level="3" n="2" id="n36464.26" opt="n">with Participles in the case of the Object, <foreign lang="greek">λέγουσιν ἡμᾶς ὡς ὀλωλότας</foreign> they speak of us <trans opt="n"><i>as</i></trans> dead, <usg opt="n">Aesch.</usg></sense>
+ <sense level="3" n="3" id="n36464.27" opt="n">with Participles put absolutely, <foreign lang="greek">ἐρώτα ὅ τι βούλει, ὡς τἀληθῆ ἐροῦντος</foreign> (i. e. <foreign lang="greek">πιστεύων με ἐρεῖν) </foreign> <usg opt="n">Xen.</usg>, etc.</sense>
+ <sense level="2" n="II" id="n36464.28" opt="n">so also before Prepositions, <foreign lang="greek">ἀνήγοντο ὡς ἐπὶ ναυμαχίαν</foreign> (i. e. <foreign lang="greek">ὡς ναυμαχήσοντες) </foreign> <usg opt="n">Thuc.</usg>; <foreign lang="greek">πλεῖς ὡς πρὸς οἶκον</foreign> <usg opt="n">Soph.</usg>; <foreign lang="greek">ὡς ἐκ κακῶν ἐχάρη</foreign> <usg opt="n">Hdt.</usg></sense>
+ <sense level="2" n="III" id="n36464.29" opt="n">the Preps. <foreign lang="greek">εἰς, ἐπί</foreign>, came to be omitted, and <foreign lang="greek">ὡς</foreign> itself appears to be used as a prep. c. acc., but only c. acc. pers., <foreign lang="greek">τὸν ὅμοιον ἄγει θεὸς ὡς τὸν ὅμοιον</foreign> god brings like <trans opt="n"><i>to</i></trans> like, <usg opt="n">Od.</usg>; <foreign lang="greek">ὡς Ἆγιν ἐπρεσβεύσαντο</foreign> <usg opt="n">Thuc.</usg></sense>
+ <sense level="1" n="D" id="n36464.30" opt="n"><foreign lang="greek">ὡς</foreign>, before independent sentences:</sense>
+ <sense level="2" n="I" id="n36464.31" opt="n"><foreign lang="greek">ὡς</foreign> as an emphatic exclamation, <trans opt="n"><i>how</i></trans>, as Lat. <foreign lang="la">ut</foreign> for <trans opt="n"><i>quam</i></trans>, <foreign lang="greek">ὡς ἄνοον κραδίην ἔχες</foreign> <trans opt="n"><i>how</i></trans> silly a heart hadst thou! <usg opt="n">Il.</usg>; <foreign lang="greek">ὡς ἀγαθόν</foreign> <usg opt="n">Od.</usg>; <foreign lang="greek">ὡς ἀστεῖος ὁ ἄνθρωπος</foreign> <trans opt="n"><i>how</i></trans> charming he is! <usg opt="n">Plat.</usg></sense>
+ <sense level="3" n="2" id="n36464.32" opt="n">when it is joined to a Verb, its force extends to the whole sentence, <foreign lang="greek">ὥς ὑπερδέδοικά σου</foreign> <trans opt="n"><i>how greatly</i></trans> do I fear for thee, <usg opt="n">Soph.</usg></sense>
+ <sense level="3" n="3" id="n36464.33" opt="n">it also denotes a quick succession of events, <foreign lang="greek">ὡς ἴδεν, ὥς μιν Ἔρως φρένας ἀμφεκάλυψεν</foreign> <trans opt="n"><i>how</i></trans> he saw, <trans opt="n"><i>how</i></trans> did Love encompass his heart, i. e. he saw <trans opt="n"><i>and straightway</i></trans> Love . . , <usg opt="n">Il.</usg>; <foreign lang="greek">ὡς ἴδον, ὡς ἐμάνην, ὥς μευ περὶ θυμὸς ἰάφθη</foreign> <usg opt="n">Theocr.</usg>; (so <usg opt="n">Virgil</usg> <trans opt="n"><i>ut vidi, ut perii, ut me malus abstulit error).</i></trans> </sense>
+ <sense level="2" n="II" id="n36464.34" opt="n"><foreign lang="greek">ὡς</foreign> to express a wish, like <foreign lang="greek">εἴθε</foreign>, Lat. <foreign lang="la">utinam, oh that!</foreign> with the opt. <foreign lang="greek">ὡς ἀπόλοιτο καὶ ἄλλος</foreign> <usg opt="n">Od.</usg>; <foreign lang="greek">ὡς μὴ θάνοι</foreign> <trans opt="n"><i>oh that</i></trans> he might not die! <usg opt="n">Od.</usg></sense>
+ <sense level="3" n="2" id="n36464.35" opt="n"><foreign lang="greek">ὡς</foreign> joined with other words of wishing, <foreign lang="greek">ὡς ὤφελες αὐτόθʼ ὀλέσθαι</foreign> <usg opt="n">Il.</usg>; <foreign lang="greek">ὡς δὴ μὴ ὄφελον νικᾶν</foreign> <usg opt="n">Od.</usg> </sense>
+ <sense level="1" n="E" id="n36464.36" opt="n"><foreign lang="greek">ὡς</foreign> with Numerals marks that they are to be taken only as a round number, <trans opt="n"><i>as it were, about, nearly</i></trans>, <foreign lang="greek">σὺν ἀνθρώποις ὡς εἴκοσι</foreign> <usg opt="n">Xen.</usg>; <foreign lang="greek">παῖς ὡς ἑπταετής</foreign> <trans opt="n"><i>some</i></trans> seven years old, <usg opt="n">Plat.</usg> </sense>
+ <sense level="1" n="F" id="n36464.37" opt="n"><foreign lang="greek">ὡς</foreign> in some Elliptical Phrases:</sense>
+ <sense level="3" n="1" id="n36464.38" opt="n"><foreign lang="greek">ὡς τί</foreign> (sc. <foreign lang="greek">γένηται) ;</foreign> <trans opt="n"><i>to what end?</i></trans> <usg opt="n">Eur.</usg></sense>
+ <sense level="3" n="2" id="n36464.39" opt="n"><foreign lang="greek">ὡς ἕκαστος</foreign> each separately, Lat. <foreign lang="la">pro se quisque</foreign>, <usg opt="n">Hdt.</usg>, <usg opt="n">Thuc.</usg> </sense>
+ <sense level="1" n="G" id="n36464.40" opt="n">Etymology: <foreign lang="greek">ὡς</foreign> is an adv. form of the relat. <foreign lang="greek">ὅς</foreign>, as <foreign lang="greek">τώς</foreign> of <foreign lang="greek">ὁ, οὕτως</foreign> of <foreign lang="greek">οὗτος.</foreign></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw(/s" orig_id="n36465" key="w(/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w(/s">ὥς</head>
+ <sense level="2" n="I" id="n36465.0" opt="n">adverb of Manner, <trans opt="n"><i>like as, even as, just as</i></trans>, <foreign lang="greek">ἀλώμενος ὥσπερ Ὀδύσσευς</foreign> <usg opt="n">Od.</usg>, etc.;—<usg opt="n">Hom.</usg> often puts a word between <foreign lang="greek">ὡς</foreign> and <foreign lang="greek">περ</foreign>, e. g. <foreign lang="greek">ὡς σύ περ αὐτή, ὡς τοπάρος περ, ὡς ἔσεταί περ; ὥσπερ εἶχον</foreign> <trans opt="n"><i>just as</i></trans> they were, <trans opt="n"><i>then and there</i></trans>, <usg opt="n">Hdt.</usg>; <foreign lang="greek">εὐθὺς ὥσπερ εἶχεν</foreign> <usg opt="n">Xen.</usg>;—strengthd., <foreign lang="greek">ὥσπερ γε</foreign> <trans opt="n"><i>exactly as</i></trans>, <usg opt="n">Ar.</usg>; <foreign lang="greek">ὁμοίως, ὥσπερ</foreign> <usg opt="n">Thuc.</usg></sense>
+ <sense level="2" n="II" id="n36465.1" opt="n">to limit or modify an assertion, like <foreign lang="greek">ὡσπερεί</foreign>, <trans opt="n"><i>as it were</i></trans>, Lat. <foreign lang="la">tanquam</foreign>, <foreign lang="greek">ὥσπερ ἐγγελῶσα</foreign> <usg opt="n">Soph.</usg></sense>
+ <sense level="2" n="III" id="n36465.2" opt="n">of Time, <trans opt="n"><i>as soon as</i></trans>, <usg opt="n">Ar.</usg></sense>
+ 
+ </div1>
+
+ 
+ 
+<div1 id="crossw(sperou=n" orig_id="n36466" key="w(sperou=n">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w(sperou=n">ὡσπεροὖν</head>
+ <etym n="note" opt="n">or <foreign lang="greek">ὥσπερ οὖν</foreign> </etym>
+ <sense level="2" n="I" id="n36466.0" opt="n"><trans opt="n"><i>even as, just as</i></trans>, <foreign lang="greek">ὥσπερ οὖν ἀπώλετο</foreign> <usg opt="n">Aesch.</usg></sense>
+ <sense level="2" n="II" id="n36466.1" opt="n"><trans opt="n"><i>as indeed, as no doubt</i></trans>, <foreign lang="greek">εἰ δ’ ἔστιν (ὥσπερ οὖν ἔστι) θεός</foreign> <usg opt="n">Plat.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw(/sper" orig_id="n36467" key="w(/sper">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w(/sper">ὥσπερ</head>
+ <sense level="2" n="I" id="n36467.0" opt="n"><trans opt="n"><i>just as if, even as</i></trans>, Lat. <foreign lang="la">quasi, tanquam</foreign>, <foreign lang="greek">ὥσπερ εἰ παρεστάτεις</foreign> <usg opt="n">Aesch.</usg>, <foreign lang="greek">ὥσπερ τις μηδὲν διδοίη</foreign> <usg opt="n">Soph.</usg></sense>
+ <sense level="2" n="II" id="n36467.1" opt="n"><foreign lang="greek">ὥσπερ ἂν εἰ</foreign> or <foreign lang="greek">ὡσπερανεί</foreign> (which properly is elliptical for <foreign lang="greek">ὥσπερ ἂν ἦν, εἰ . .) </foreign>, <usg opt="n">Plat.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw(/ste" orig_id="n36468" key="w(/ste">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w(/ste">ὥστε</head>
+ <sense level="1" n="A" id="n36468.0" opt="n">as adv., bearing the same relation to <foreign lang="greek">ὡς</foreign>, as <foreign lang="greek">ὅστε</foreign> to <foreign lang="greek">ὅς</foreign>, and used by <usg opt="n">Hom.</usg> more frequently than <foreign lang="greek">ὡς</foreign> in similes; rare in Attic Poets, <foreign lang="greek">κατώρυχες δʼ ἔναιον ὥστʼ ἀήσυροι μύρμηκες</foreign> <usg opt="n">Aesch.</usg>, etc.</sense>
+ <sense level="2" n="II" id="n36468.1" opt="n"><trans opt="n"><i>as, as being</i></trans>, like <foreign lang="greek">ἅτε</foreign>, Lat. <foreign lang="la">utpote</foreign>, <foreign lang="greek">ῥεῖα μάλʼ, ὥστε θεός</foreign> very easily, <trans opt="n"><i>as being</i></trans> a goddess, <usg opt="n">Il.</usg>; <foreign lang="greek">ὥστε περὶ ψυχῆς</foreign> <trans opt="n"><i>since it was</i></trans> for life, <usg opt="n">Od.</usg>; <foreign lang="greek">ὥστε ταῦτα νομίζων</foreign> <usg opt="n">Hdt.</usg></sense>
+ <sense level="1" n="B" id="n36468.2" opt="n">as Conjunction, to express <trans opt="n"><i>the result</i> or <i>effect</i></trans> of the action in the principal clause:</sense>
+ <sense level="2" n="I" id="n36468.3" opt="n">with Inf. <trans opt="n"><i>so as to</i></trans> do a thing, <foreign lang="greek">εἰ δέ σοι θυμὸς ἐπέσσυται, ὥστε νέεσθαι</foreign> if thy heart is bent <trans opt="n"><i>upon</i></trans> returning, <usg opt="n">Il.</usg>; <foreign lang="greek">οὐ τηλίκος, ὥστε πιθέσθαι</foreign> not of such age <trans opt="n"><i>as to</i></trans> obey, <usg opt="n">Od.</usg>; freq. in Attic</sense>
+ <sense level="3" n="2" id="n36468.4" opt="n">after Comparatives with <foreign lang="greek">ἤ</foreign>, when the possibility of the consequence is denied, <foreign lang="greek">μέζω κακὰ ἢ ὥστε ἀνακλαίειν</foreign> greater woes than <trans opt="n"><i>that one</i></trans> is wont to weep for, i. e. too great for tears, <usg opt="n">Hdt.</usg>; <foreign lang="greek">μεῖζον ἢ ὥστε φέρειν δύνασθαι κακόν</foreign> <usg opt="n">Xen.</usg>:—the Posit. is sometimes put for the comp., <foreign lang="greek">ψυχρὸν ὥστε λούσασθαι</foreign> (for <foreign lang="greek">ψυχρότερον ἢ ὥστε . .) </foreign> too cold <trans opt="n"><i>to</i></trans> bathe in, <usg opt="n">Xen.</usg></sense>
+ <sense level="3" n="3" id="n36468.5" opt="n"><trans opt="n"><i>on the condition that . .</i></trans> , like <foreign lang="greek">ἐφʼ ᾧτε, παραδοῦναι σφᾶς αὐτοὺς Ἀθηναίοις, ὥστε βουλεῦσαι ὅ τι ἂν ἐκείνοις δοκῇ</foreign> <usg opt="n">Thuc.</usg></sense>
+ <sense level="2" n="II" id="n36468.6" opt="n">with the Ind., to express the result with emphasis, <foreign lang="greek">οὐχ οὕτω φρενοβλαβέες, ὥστε ἐβούλοντο</foreign> not so insane, <trans opt="n"><i>as to</i></trans> wish, <usg opt="n">Hdt.</usg>; <foreign lang="greek">βέβηκεν, ὥστε πᾶν ἔξεστι φωνεῖν</foreign> <usg opt="n">Soph.</usg>, etc.</sense>
+ <sense level="3" n="2" id="n36468.7" opt="n">at the beginning of a sentence, to mark a strong conclusion, <trans opt="n"><i>and so, therefore, consequently</i></trans>, <foreign lang="greek">ὥστʼ ὄλωλα καί σε προσδιαφθερῶ</foreign> <usg opt="n">Soph.</usg>; with the Imperat., <foreign lang="greek">ὥστε μὴ λίαν στένε</foreign> <usg opt="n">Soph.</usg>; <foreign lang="greek">ὥστε θάρρει</foreign> <usg opt="n">Xen.</usg></sense>
+ <sense level="2" n="III" id="n36468.8" opt="n">with part., for inf., by attraction to a participle in the principal clause, <foreign lang="greek">τοσοῦτον διενεγκόντες, ὥσθʼ ἐπιτάττοντες</foreign> differing so much <trans opt="n"><i>as to</i></trans> impose commands, <usg opt="n">Isocr.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)sti/zomai" orig_id="n36469" key="w)sti/zomai">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)sti/zomai">ὠστίζομαι</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ὠστίζομαι,</note>
+ <etym opt="n">Frequentat. of <foreign lang="greek">ὠθέομαι</foreign></etym>
+ <sense level="0" n="0" id="n36469.0" opt="n"><trans opt="n"><i>to push and be pushed about</i></trans>, mostly c. dat. pers., <foreign lang="greek">ὠστιεῖ Κλεονύμῳ</foreign> <trans opt="n"><i>you will justle</i></trans> with Cleonymus, <usg opt="n">Ar.</usg>; <foreign lang="greek">ὠστιοῦνται ἀλλήλοισι περὶ πρώτου ξύλου</foreign> <usg opt="n">Ar.</usg>; absol., <foreign lang="greek">εἰς τὴν προεδρίαν πᾶς ἀνὴρ ὠστίζεται</foreign> <trans opt="n"><i>justles</i></trans> for the first seat, <usg opt="n">Ar.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)takouste/w" orig_id="n36470" key="w)takouste/w">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)takouste/w">ὠτακουστέω</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ὠτᾰκουστέω,</note>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified"> fut. <foreign lang="greek">-ήσω</foreign></note>
+ <sense level="0" n="0" id="n36470.0" opt="n"><trans opt="n"><i>to hearken to, listen, watch covertly</i></trans>, <usg opt="n">Hdt.</usg>, <usg opt="n">Xen.</usg>, etc.</sense>
+ <etym opt="n">from <ref type="cross" target="crossw)ta^kousth/s" lang="greek">ὠτᾰκουστής</ref></etym>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)takousth/s" orig_id="n36471" key="w)takousth/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)takousth/s">ὠτακουστής</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ὠτ-ᾰκουστής, οῦ, ὁ,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossa)kou/w" lang="greek">ἀκούω</ref></xr></etym>
+ <sense level="0" n="0" id="n36471.0" opt="n"><trans opt="n"><i>a listener, spy</i></trans>, <usg opt="n">Arist.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)ta/rion" orig_id="n36472" key="w)ta/rion">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)ta/rion">ὠτάριον</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ὠτάριον (ᾰ), ου, τό,</note>
+ <etym opt="n">Dim. of <foreign lang="greek">οὖς</foreign></etym>
+ <sense level="0" n="0" id="n36472.0" opt="n"><trans opt="n"><i>a little ear</i></trans>, <usg opt="n">Anth.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)teilh/" orig_id="n36473" key="w)teilh/">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)teilh/">ὠτειλή</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ὠτειλή, ἡ,</note>
+ <sense level="2" n="I" id="n36473.0" opt="n"><trans opt="n"><i>a wound</i></trans> just inflicted, <foreign lang="greek">δεῖξεν αἷμα κατάρρεον ἐξ ὠτειλῆς</foreign> <usg opt="n">Il.</usg>; <foreign lang="greek">αἷμʼ ἔτι θερμὸν ἀνήνοθεν ἐξ ὠτ.</foreign> <usg opt="n">Il.</usg></sense>
+ <sense level="2" n="II" id="n36473.1" opt="n"><trans opt="n"><i>the mark of a wound, a scar</i></trans>, <usg opt="n">Xen.</usg>, <usg opt="n">Plut.</usg></sense>
+ <etym opt="n">deriv. uncertain</etym>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)ti/on" orig_id="n36474" key="w)ti/on">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)ti/on">ὠτίον</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ὠτίον, ου, τό,</note>
+ <etym opt="n">Dim. of <foreign lang="greek">οὖς</foreign>, but often = <ref type="cross" target="crossou)=s" lang="greek">οὖς</ref>, <usg opt="n">Anth.</usg>, <usg opt="n">NTest.</usg></etym>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)ti/s" orig_id="n36475" key="w)ti/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)ti/s">ὠτίς</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ὠτίς, ίδος, ἡ,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossou)=s" lang="greek">οὖς</ref></xr></etym>
+ <sense level="0" n="0" id="n36475.0" opt="n"><trans opt="n"><i>a</i></trans> kind of <trans opt="n"><i>bustard with long earfeathers</i></trans>, prob. <trans opt="n"><i>the great bustard</i></trans>, <usg opt="n">Xen.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)tw/eis" orig_id="n36476" key="w)tw/eis">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)tw/eis">ὠτώεις</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ὠτώεις, εσσα, εν</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossou)=s " lang="greek">οὖς</ref>, <ref type="cross" target="crossw)to/s" lang="greek">ὠτός</ref></xr></etym>
+ <sense level="0" n="0" id="n36476.0" opt="n">poet. adj. <trans opt="n"><i>with ears</i> or <i>handles</i></trans>, <usg opt="n">Il.</usg>, <usg opt="n">Hes.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)fe/leia" orig_id="n36477" key="w)fe/leia">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)fe/leia">ὠφέλεια</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ὠφέλεια, and <foreign lang="greek">ὠφελία</foreign>, Ionic <foreign lang="greek">ὠφελίη, ἡ</foreign>,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossw)fele/w" lang="greek">ὠφελέω</ref></xr></etym>
+ <sense level="2" n="I" id="n36477.0" opt="n"><trans opt="n"><i>help, aid, succour, assistance</i></trans>, esp. in war, <usg opt="n">Thuc.</usg>; <foreign lang="greek">τὴν ὠφ. παρέχειν τινι</foreign> <usg opt="n">Thuc.</usg>; <foreign lang="greek">ὠφελίας τυγχάνειν</foreign> <usg opt="n">Thuc.</usg>; <foreign lang="greek">οὐ μετὰ τῶν κειμένων νόμων ὠφελίας</foreign> not <trans opt="n"><i>for such assistance</i></trans> as is consistent with the laws <foreign lang="greek"> (ὠφελίας</foreign> being = ὠφελίας ἕνεκα<!--/ref-->)  <usg opt="n">Thuc.</usg></sense>
+ <sense level="2" n="II" id="n36477.1" opt="n"><trans opt="n"><i>utility, use, profit, advantage, benefit</i></trans>, <usg opt="n">Hdt.</usg>, <usg opt="n">Soph.</usg>; c. gen. objecti, <foreign lang="greek">ἐπʼ ὠφελείᾳ τῶν φίλων</foreign> for <trans opt="n"><i>service</i></trans> to them, for their <trans opt="n"><i>benefit</i></trans>, <usg opt="n">Plat.</usg></sense>
+ <sense level="3" n="2" id="n36477.2" opt="n"><trans opt="n"><i>a source of gain</i> or <i>profit, a benefit, service</i></trans>, <usg opt="n">Plat.</usg>, etc.</sense>
+ <sense level="3" n="3" id="n36477.3" opt="n"><trans opt="n"><i>spoil, booty, game</i></trans>, <usg opt="n">Xen.</usg>, <usg opt="n">Plut.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)fele/w" orig_id="n36478" key="w)fele/w">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)fele/w">ὠφελέω</head>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crosso)/felos" lang="greek">ὄφελος</ref></xr></etym>
+ <sense level="2" n="I" id="n36478.0" opt="n"><trans opt="n"><i>to help, aid, assist, succour, to be of use</i> or <i>service to</i></trans> any one:</sense>
+ <sense level="3" n="1" id="n36478.1" opt="n">absol. <trans opt="n"><i>to be of use</i> or <i>service</i></trans>, <foreign lang="greek">τὰ μηδὲν ὠφελοῦντα</foreign> <usg opt="n">Aesch.</usg>; <foreign lang="greek">οὐδὲν ὠφελεῖ</foreign> <usg opt="n">Thuc.</usg></sense>
+ <sense level="3" n="2" id="n36478.2" opt="n">mostly c. acc. pers., like Lat. <foreign lang="la">juvare, to be of service to, to benefit</foreign>, <usg opt="n">Hdt.</usg>, <usg opt="n">Aesch.</usg>, etc.; <foreign lang="greek">ὠφ. τινα ἔς τι</foreign> <trans opt="n"><i>to be of use</i></trans> to one <trans opt="n"><i>towards</i></trans> a thing, <usg opt="n">Thuc.</usg></sense>
+ <sense level="3" n="3" id="n36478.3" opt="n">more rarely c. dat. pers., like Lat. <foreign lang="la">prodesse</foreign>, <usg opt="n">Trag.</usg>, <usg opt="n">Antipho.</usg></sense>
+ <sense level="3" n="4" id="n36478.4" opt="n">once c. gen., <foreign lang="greek">οὐδεὶς ἔρωτος τοῦδʼ ἐφαίνετʼ ὠφελῶν</foreign> no one appeared to help <trans opt="n"><i>towards</i></trans> this desire, <usg opt="n">Soph.</usg></sense>
+ <sense level="3" n="5" id="n36478.5" opt="n">c. acc. cogn., <foreign lang="greek">ὠφέλειαν ὠφ. τινα</foreign> <trans opt="n"><i>to render</i></trans> him a <trans opt="n"><i>service</i></trans>, <usg opt="n">Plat.</usg>; so with a neut. adj., <foreign lang="greek">οὐδέν τινα ὠφ.</foreign> <trans opt="n"><i>to do</i></trans> one no <trans opt="n"><i>service</i></trans>, <usg opt="n">Hdt.</usg> (v. supr. 1); <foreign lang="greek">πολλά, πλέον, πλεῖστον, ὡς πλεῖστα ὠφ.</foreign> <usg opt="n">Eur.</usg>, etc.</sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)fe/lhma" orig_id="n36479" key="w)fe/lhma">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)fe/lhma">ὠφέλημα</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ὠφέλημα, ατος, τό,</note>
+ <etym opt="n">from <ref type="cross" target="crossw)fele/w" lang="greek">ὠφελέω</ref></etym>
+ <sense level="2" n="I" id="n36479.0" opt="n"><trans opt="n"><i>a useful</i> or <i>serviceable thing, a service, benefit</i></trans>, <usg opt="n">Aesch.</usg>, <usg opt="n">Eur.</usg></sense>
+ <sense level="2" n="II" id="n36479.1" opt="n">generally, <trans opt="n"><i>use, advantage, profit</i></trans>, <usg opt="n">Soph.</usg>, <usg opt="n">Xen.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)felh/simos" orig_id="n36480" key="w)felh/simos">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)felh/simos">ὠφελήσιμος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ὠφελήσιμος, ον,</note>
+ <etym opt="n">from <ref type="cross" target="crossw)fele/w" lang="greek">ὠφελέω</ref></etym>
+ <sense level="0" n="0" id="n36480.0" opt="n"><trans opt="n"><i>useful, serviceable</i></trans>, <usg opt="n">Soph.</usg>, <usg opt="n">Ar.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)fe/lhsis" orig_id="n36481" key="w)fe/lhsis">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)fe/lhsis">ὠφέλησις</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ὠφέλησις, εως,</note>
+ <etym opt="n">from <ref type="cross" target="crossw)fele/w" lang="greek">ὠφελέω</ref></etym>
+ <sense level="0" n="0" id="n36481.0" opt="n"><trans opt="n"><i>a helping, aiding;</i></trans> and so (generally) like <foreign lang="greek">ὠφέλεια</foreign>, <trans opt="n"><i>use, service, advantage</i></trans>, <usg opt="n">Soph.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)felhte/os" orig_id="n36482" key="w)felhte/os">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)felhte/os">ὠφελητέος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ὠφελητέος, α, ον,</note>
+ <etym opt="n">verb. adj. of <foreign lang="greek">ὠφελέω</foreign></etym>
+ <sense level="2" n="I" id="n36482.0" opt="n"><trans opt="n"><i>necessary</i> or <i>proper to be assisted</i></trans>, <usg opt="n">Xen.</usg></sense>
+ <sense level="2" n="II" id="n36482.1" opt="n"><foreign lang="greek">ὠφελητέον</foreign>, <trans opt="n"><i>one must assist</i></trans>, <foreign lang="greek">τὴν πόλιν</foreign> <usg opt="n">Xen.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)fe/limos" orig_id="n36483" key="w)fe/limos">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)fe/limos">ὠφέλιμος</head>
+ <sense level="0" n="0" id="n36483.0" opt="n"><trans opt="n"><i>helping, useful, serviceable, profitable, advantageous, beneficial</i></trans>, of persons and things, <usg opt="n">Thuc.</usg>, <usg opt="n">Plat.</usg>, etc.; <foreign lang="greek">τινι</foreign> to on <usg opt="n">Eur.</usg>, etc.; <foreign lang="greek">ἔς τι</foreign> for a purpose, <usg opt="n">Thuc.</usg>; <foreign lang="greek">πρός τι</foreign> <usg opt="n">Plat.</usg>; <foreign lang="greek">—τὸ ὠφ.</foreign> as Subst., <usg opt="n">Plat.</usg>:—adv. <ref type="cross" target="cross-mws" lang="greek">-μως</ref>, <usg opt="n">Xen.</usg>; Sup. <foreign lang="greek">-ώτατα</foreign>, <usg opt="n">Xen.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)xra/w" orig_id="n36484" key="w)xra/w">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)xra/w">ὠχράω</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ὠχράω,</note>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified"> fut. <foreign lang="greek">-ήσω</foreign></note>
+ <etym opt="n">from <ref type="cross" target="crossw)xro/s" lang="greek">ὠχρός</ref></etym>
+ <sense level="0" n="0" id="n36484.0" opt="n"><trans opt="n"><i>to turn pale</i> or <i>wan</i></trans>, <foreign lang="greek">ὠχρᾶν χρόα</foreign> <trans opt="n"><i>to be wan</i></trans> of countenance, <usg opt="n">Od.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)xria/w" orig_id="n36485" key="w)xria/w">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)xria/w">ὠχριάω</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ὠχριάω,</note>
+ <etym opt="n">from <ref type="cross" target="crossw)xro/s" lang="greek">ὠχρός</ref></etym>
+ <etym opt="n">= <ref type="cross" target="crossw)xra/w" lang="greek">ὠχράω</ref></etym>
+ <sense level="0" n="0" id="n36485.0" opt="n"><trans opt="n"><i>to be pallid</i></trans>, <usg opt="n">Ar.</usg>, <usg opt="n">Arist.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)=xros" orig_id="n36486" key="w)=xros">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)=xros">ὦχρος</head>
+ <etym opt="n">from <ref type="cross" target="crossw)xro/s" lang="greek">ὠχρός</ref></etym>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ὦχρος, ου,</note>
+ <sense level="0" n="0" id="n36486.0" opt="n"><trans opt="n"><i>paleness, wanness</i></trans>, esp. <trans opt="n"><i>the pale hue</i></trans> <trans opt="n"><i>of fear</i></trans>, <foreign lang="greek">ὦχρος δέ μιν εἷλε παρειάς</foreign> <usg opt="n">Il.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)xro/s" orig_id="n36487" key="w)xro/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)xro/s">ὠχρός</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">.ὠχρός, ά, όν</note>
+ <sense level="0" n="0" id="n36487.0" opt="n"><trans opt="n"><i>pale, wan, sallow</i></trans>, of complexion, <usg opt="n">Eur.</usg>, <usg opt="n">Ar.</usg>; of a frog, <usg opt="n">Batr.</usg> :—<foreign lang="greek">τὸ ὠχρόν</foreign> <trans opt="n"><i>the colour yellow</i></trans>, <usg opt="n">Plat.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)xro/ths" orig_id="n36488" key="w)xro/ths">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)xro/ths">ὠχρότης</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ὠχρότης, ητος, ἡ,</note>
+ <etym opt="n">from <ref type="cross" target="crossw)xro/s" lang="greek">ὠχρός</ref></etym>
+ <sense level="0" n="0" id="n36488.0" opt="n"><trans opt="n"><i>paleness</i></trans>, <usg opt="n">Plat.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossw)/y" orig_id="n36489" key="w)/y">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="w)/y">ὤψ</head>
+ <etym opt="n"><foreign lang="greek">ὄψομαι</foreign>, fut. of <foreign lang="greek">ὁράω</foreign></etym>
+ <sense level="0" n="0" id="n36489.0" opt="n"><trans opt="n"><i>the eye, face, countenance</i></trans>, <usg opt="n">Hom.</usg>, <usg opt="n">Hes.</usg>; <foreign lang="greek">εἰς ὦπα ἰδέσθαι τινί</foreign> to look one in <trans opt="n"><i>the face</i></trans>, <usg opt="n">Il.</usg>; and absol., <foreign lang="greek">εἰς ὦπα ἰδέσθαι</foreign> <usg opt="n">Od.</usg>; but, <foreign lang="greek">θεῇς εἰς ὦπα ἔοικεν</foreign> in <trans opt="n"><i>face</i></trans> she is like the goddesses, <usg opt="n">Il.</usg></sense></div1>
+
+ </div0>
+</div0>
+</text>
+</tei.2>

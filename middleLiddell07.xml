@@ -1,0 +1,1548 @@
+<tei.2>
+
+ <teiHeader status="new" type="text">
+  <fileDesc>
+  <titleStmt>
+ 	<title>An Intermediate Greek-English Lexicon</title>
+ 	<title type="sub">Machine readable text</title>
+ 	<author>Henry George Liddell</author>
+ 	<author>Robert Scott</author>
+  <sponsor>Perseus Project, Tufts University</sponsor>
+ 		<principal>Gregory Crane</principal>
+ 		<respStmt>
+ 		<resp>Prepared under the supervision of</resp>
+ 		<name>Lisa Cerrato</name>
+ 		<name>William Merrill</name>
+ 		<name>Elli Mylonas</name>
+ 		<name>David Smith</name>
+ 		</respStmt>
+  <funder n="org:AnnCPB">The Annenberg CPB/Project</funder>
+  </titleStmt>
+ 	<publicationStmt>
+ 		<publisher>Trustees of Tufts University</publisher>
+ 		<pubPlace>Medford, MA</pubPlace>
+ 		<authority>Perseus Project</authority>
+ 		</publicationStmt>
+  <sourceDesc default="NO">
+ 	<biblStruct default="NO">
+ 	 <monogr>
+ 	 <author>Liddell and Scott</author>
+ 	 <title>An Intermediate Greek-English Lexicon</title>
+ 	 <imprint>
+ 	  <pubPlace>Oxford</pubPlace>
+ 	  <publisher>Clarendon Press</publisher>
+ 	  <date>1889</date>
+ 	 </imprint>
+ 	 </monogr>
+ 	 <idno type="ISBN">0199102066</idno>
+ 	</biblStruct>
+  </sourceDesc>
+  </fileDesc>
+ 
+  <encodingDesc>
+  <refsDecl doctype="TEI.2">
+ 	<state n="chunk" unit="entry" />
+  </refsDecl>
+  <refsDecl doctype="TEI.2">
+ 	<state unit="alphabetic letter" />
+ 	<state n="chunk" unit="entry" />
+  </refsDecl>
+  </encodingDesc>
+  
+  <profileDesc>
+  <langUsage default="NO">
+ 	<language id="en">English
+ 	</language><language id="greek">Greek
+ 	</language><language id="la">Latin
+ 	</language><language id="fr">French
+  </language></langUsage>
+  </profileDesc>
+  
+  <revisionDesc>
+  <change><date>28 Jan 1998</date>
+ 	<respStmt><name>DAS</name><resp>ed.</resp></respStmt>
+ 	<item>
+ $Log: ml.xml,v $
+ Revision 1.4 2004/12/14 19:42:20 packel
+ added entry/sense ids; fixed bad empty tags
+ 
+ Revision 1.3 2004/12/03 20:11:37 packel
+ corrected some duplicate keys caused by fixing the compound verbs
+ 
+ Revision 1.2 2004/12/02 23:29:11 packel
+ added key attributes to compound verb entries
+ 
+ Revision 1.1 2004/11/22 17:07:40 packel
+ converted to P4/XML
+ 	
+ Revision 1.20 2004/10/18 18:17:47 packel
+ added div0s; changed orth ʼa)da/mas,ʼ to a)da/mas
+ 
+ Revision 1.19 2004/10/07 14:18:11 packel
+ removed *s in entry keys
+ 
+ Revision 1.18 2004/10/05 21:34:13 packel
+ Aligned dictionary entries with the LSJ.
+ 
+ Revision 1.17 2004/09/08 15:49:42 packel
+ Changed doctype to TEI P4
+ 
+ Revision 1.16 2004/09/01 15:44:25 packel
+ Fixed thirty-odd words that had multiple entries but no number afterward to
+ differentiate the entries (e.g., si=gma, si=gma is now si=gma1, si=gma2).
+ 
+ Revision 1.15 2004/06/15 19:31:34 lcerrato
+ changed nothwithstanding to notwithstanding
+ 
+ Revision 1.14 2003/02/04 21:21:51 lcerrato
+ fixed typo kuma entry swoln to swollen
+ 
+ Revision 1.13 2001/12/05 15:15:58 gcrane
+ shifted the lemma for "pa/nth" to be "pa/nth|"
+ 
+ Revision 1.12 2001/04/20 21:58:57 dasmith
+ Added funder.
+ 
+ Revision 1.11 2001/04/05 18:26:02 lcerrato
+ added trans tags to noeo^ entry where missing
+ 
+ Revision 1.10 2000/10/06 23:20:04 dasmith
+ Tagged inflectional info as Greek.
+ 
+ Revision 1.9 2000/10/06 21:44:13 dasmith
+ Added author and ISBN to head.
+ Use new DTD subset.
+ Explicitly tag lemmata and cross references as Greek.
+ 
+ Revision 1.8 2000/03/04 20:25:11 dasmith
+ Standardized language IDs.
+ Added key attribute to entry.
+ 
+ Revision 1.7 1998/08/24 19:15:31 jrydberg
+ finished trans tags and added new prep. defs.
+ 
+ Revision 1.6 1998/08/20 17:12:45 jrydberg
+ Included greek words within trans tags where appropriate
+ 
+ Revision 1.5 1998/08/19 20:50:08 jrydberg
+ Replaced all "(trans) or (/trans)" with " or "
+ 
+ Revision 1.4 1998/08/19 18:23:58 jrydberg
+ Corrected trans tagging for short defs. through a)mfote/rwqen.
+ 
+ Revision 1.3 1998/08/17 20:24:43 jrydberg
+ *** empty log message ***
+ 
+ Revision 1.2 1998/08/17 19:38:25 jrydberg
+ Updated entry for *)agamemno/neos
+ 
+ Revision 1.1 1998/08/14 15:38:33 textgod
+ Added to repository.
+ 
+ </item>
+ </change>
+ </revisionDesc>
+ </teiHeader>
+<text>
+<div0 type="alphabetic letter" n="*z" org="uniform" sample="complete"><div0 type="alphabetic letter" n="*z" org="uniform" sample="complete">
+ <head lang="greek">Ζ</head>
+ 
+<div1 id="crossza/gklon" orig_id="n14400" key="za/gklon">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="za/gklon">ζάγκλον</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζάγκλον, ου, τό,</note>
+ <sense level="0" n="0" id="n14400.0" opt="n"><trans opt="n"><i>a reaping-hook</i> or <i>sickle</i></trans>, Lat. <foreign lang="la">falx</foreign>, Sicilian word for <foreign lang="greek">δρέπανον</foreign>, <usg opt="n">Thuc.</usg> Hence <foreign lang="greek">Ζάγκλη</foreign>, the ancient name for Messana.</sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszah/s" orig_id="n14401" key="zah/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zah/s">ζαής</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζᾱ-ής, ές</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossa)/hmi" lang="greek">ἄημι</ref></xr></etym>
+ <sense level="0" n="0" id="n14401.0" opt="n"><trans opt="n"><i>strong-blowing, stormy</i></trans>, <usg opt="n">Hom.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossza/qeos" orig_id="n14402" key="za/qeos">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="za/qeos">ζάθεος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζά-θεος (ᾰ), η, ον</note>
+ <sense level="0" n="0" id="n14402.0" opt="n"><trans opt="n"><i>very divine, sacred</i></trans>, <usg opt="n">Il.</usg>, etc.</sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszaqerh/s" orig_id="n14403" key="zaqerh/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zaqerh/s">ζαθερής</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζᾰ-θερής, ές</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossqe/ros" lang="greek">θέρος</ref></xr></etym>
+ <sense level="0" n="0" id="n14403.0" opt="n"><trans opt="n"><i>very hot, scorching</i></trans>, <usg opt="n">Anth.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossza/koros" orig_id="n14404" key="za/koros">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="za/koros">ζάκορος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζά-κορος, ὁ, ἡ,</note>
+ <etym opt="n">For <foreign lang="greek">-κορος</foreign> cf. <foreign lang="greek">νεωκόρος.</foreign></etym>
+ <sense level="0" n="0" id="n14404.0" opt="n"><trans opt="n"><i>a temple-servant</i></trans>, being perh. a form of <foreign lang="greek">διάκονος</foreign>, <usg opt="n">Plut.</usg> </sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossza/kotos" orig_id="n14405" key="za/kotos">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="za/kotos">ζάκοτος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζά-κοτος (ᾰ), ον</note>
+ <sense level="0" n="0" id="n14405.0" opt="n"><trans opt="n"><i>exceeding wroth</i></trans>, <usg opt="n">Il.</usg>, <usg opt="n">Theocr.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossza/lh" orig_id="n14406" key="za/lh">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="za/lh">ζάλη</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζάλη (ᾰ), ἡ,</note>
+ <etym opt="n">perh. from <ref type="cross" target="crossze/w" lang="greek">ζέω</ref></etym>
+ <sense level="0" n="0" id="n14406.0" opt="n"><trans opt="n"><i>the surging</i></trans> of the sea, <trans opt="n"><i>surge, spray</i></trans>, <usg opt="n">Aesch.</usg>, <usg opt="n">Soph.</usg>, etc.; <foreign lang="greek">πύρπνοος ζάλη</foreign>, of the fiery rain from Aetna, <usg opt="n">Aesch.</usg>:—metaph., <foreign lang="greek">ζάλαι</foreign> <trans opt="n"><i>storms, distresses</i></trans>, <usg opt="n">Pind.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszamene/w" orig_id="n14407" key="zamene/w">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zamene/w">ζαμενέω</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζᾰμενέω,</note>
+ <sense level="0" n="0" id="n14407.0" opt="n"><trans opt="n"><i>to put forth all oneʼs might</i></trans>, <usg opt="n">Hes.</usg></sense>
+ <etym opt="n">from <ref type="cross" target="crossza^menh/s" lang="greek">ζᾰμενής</ref></etym>
+ </div1>
+
+ 
+ 
+<div1 id="crosszamenh/s" orig_id="n14408" key="zamenh/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zamenh/s">ζαμενής</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζᾰ-μενής, ές</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossme/nos" lang="greek">μένος</ref></xr></etym>
+ <sense level="0" n="0" id="n14408.0" opt="n">poet. adj. <trans opt="n"><i>very strong, mighty, raging</i></trans>, <usg opt="n">Hhymn.</usg>, <usg opt="n">Pind.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossza" orig_id="n14409" key="za">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="za">ζα</head>
+ <sense level="0" n="0" id="n14409.0" opt="n">insep. Prefix, = <ref type="cross" target="crossda-" lang="greek">δα-</ref>, <ref type="cross" target="crossa)ri-" lang="greek">ἀρι-</ref>, <ref type="cross" target="crosse)ri-" lang="greek">ἐρι-</ref>, <trans opt="n"><i>very</i></trans>, as in <foreign lang="greek">ζά-θεος, ζά-κοτος, ζα-μενής</foreign>, etc.</sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszaplhqh/s" orig_id="n14410" key="zaplhqh/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zaplhqh/s">ζαπληθής</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζᾰ-πληθής, ές</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossplh/qw" lang="greek">πλήθω</ref></xr></etym>
+ <sense level="0" n="0" id="n14410.0" opt="n"><trans opt="n"><i>very full</i></trans>, <foreign lang="greek">ζ. γενειάς</foreign> <trans opt="n"><i>a thick</i></trans> beard, <usg opt="n">Aesch.</usg>; <foreign lang="greek">ζ. Μούσης στόμα</foreign> <trans opt="n"><i>full-sounding</i></trans>, <usg opt="n">Anth.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossza/ploutos" orig_id="n14411" key="za/ploutos">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="za/ploutos">ζάπλουτος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζά-πλουτος, ον</note>
+ <sense level="0" n="0" id="n14411.0" opt="n"><trans opt="n"><i>very rich</i></trans>, <usg opt="n">Hdt.</usg>, <usg opt="n">Eur.</usg> Aeolic for <foreign lang="greek">διαπρέπω.</foreign></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossza/puros" orig_id="n14412" key="za/puros">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="za/puros">ζάπυρος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζά-πῠρος (ᾰ), ον</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crosspu=r" lang="greek">πῦρ</ref></xr></etym>
+ <sense level="0" n="0" id="n14412.0" opt="n"><trans opt="n"><i>very fiery</i></trans>, <usg opt="n">Aesch.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossza/" orig_id="n14413" key="za/">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="za/">ζά</head>
+ <etym opt="n">Aeolic for <foreign lang="greek">διά</foreign></etym>
+ <sense level="0" n="0" id="n14413.0" opt="n"><foreign lang="greek">ζὰ τὰν σὰν ἰδέαν</foreign> <usg opt="n">Theocr.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszatrefh/s" orig_id="n14414" key="zatrefh/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zatrefh/s">ζατρεφής</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζᾰ-τρεφής, ές</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crosstre/fw" lang="greek">τρέφω</ref></xr></etym>
+ <sense level="0" n="0" id="n14414.0" opt="n"><trans opt="n"><i>well-fed, fat, goodly</i></trans>, <usg opt="n">Hom.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszaflegh/s" orig_id="n14415" key="zaflegh/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zaflegh/s">ζαφλεγής</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζᾰ-φλεγής, ές</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossfle/gw" lang="greek">φλέγω</ref></xr></etym>
+ <sense level="0" n="0" id="n14415.0" opt="n"><trans opt="n"><i>full of fire</i></trans>, of men at their prime, <usg opt="n">Il.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossza/xolos" orig_id="n14416" key="za/xolos">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="za/xolos">ζάχολος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζά-χολος (ᾰ), ον</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossxolh/" lang="greek">χολή</ref></xr></etym>
+ <etym opt="n">= <ref type="cross" target="crossza/kotos" lang="greek">ζάκοτος</ref>, <usg opt="n">Anth.</usg></etym>
+ </div1>
+
+ 
+ 
+<div1 id="crosszaxrei=os" orig_id="n14417" key="zaxrei=os">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zaxrei=os">ζαχρεῖος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζα-χρεῖος, ον</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossxrei/a" lang="greek">χρεία</ref></xr></etym>
+ <sense level="0" n="0" id="n14417.0" opt="n"><trans opt="n"><i>wanting much</i></trans>: c. gen., <foreign lang="greek">ζαχρ. ὁδοῦ</foreign> <trans opt="n"><i>one who wants to know</i></trans> the way, <usg opt="n">Theocr.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszaxrhh/s" orig_id="n14418" key="zaxrhh/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zaxrhh/s">ζαχρηής</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζα-χρηής, ές</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossxra/w2" lang="greek">χράω</ref></xr></etym>
+ <etym n="note" opt="n">only in pl.</etym>
+ <sense level="0" n="0" id="n14418.0" opt="n"><trans opt="n"><i>attacking violently, furious, raging</i></trans>, <usg opt="n">Hom.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossza/xrusos" orig_id="n14419" key="za/xrusos">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="za/xrusos">ζάχρυσος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζά-χρῡσος, ον</note>
+ <sense level="0" n="0" id="n14419.0" opt="n"><trans opt="n"><i>rich in gold</i></trans>, <usg opt="n">Eur.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossza/w" orig_id="n14420" key="za/w">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="za/w">ζάω</head>
+ <sense level="2" n="I" id="n14420.0" opt="n"><trans opt="n"><i>to live</i></trans>, <usg opt="n">Hom.</usg>, etc.; <foreign lang="greek">ἐλέγχιστε ζωόντων</foreign> vilest <trans opt="n"><i>of living men</i></trans>, <usg opt="n">Od.</usg>; <foreign lang="greek">ζώειν καὶ ὁρᾶν φάος ἠελίοιο</foreign> <usg opt="n">Il.</usg>; <foreign lang="greek">ῥεῖα ζώοντες</foreign> <trans opt="n"><i>living</i></trans> at ease, of the gods, <usg opt="n">Il.</usg>; <foreign lang="greek">ζῶν κατακαυθῆναι</foreign> to be burnt <trans opt="n"><i>alive</i></trans>, <usg opt="n">Hdt.</usg>:—also, <foreign lang="greek">ζῆν ἀπό τινος</foreign> <trans opt="n"><i>to live off</i> or <i>on</i></trans> a thing, <usg opt="n">Theogn.</usg>, <usg opt="n">Hdt.</usg>, etc.:— <foreign lang="greek">τὸ ζῆν  ζωή</foreign>, <usg opt="n">Aesch.</usg>, etc.: —in a quasi-trans. sense, <foreign lang="greek">ἐκ τῶν ἄλλων ὧν ἔζης (ἃ ἐν τῷ βίῳ ἔπραττες</foreign>) from the other acts of your life, <usg opt="n">Dem.</usg></sense>
+ <sense level="2" n="II" id="n14420.1" opt="n">metaph. <trans opt="n"><i>to be in full life and strength, to be fresh, be strong</i></trans>, <foreign lang="greek">ἄτης θύελλαι ζῶσι</foreign> <usg opt="n">Aesch.</usg>; <foreign lang="greek">ἀεὶ ζῆι ταῦτα νόμιμα</foreign> <usg opt="n">Soph.</usg>; <foreign lang="greek">ζῶσα φλόξ</foreign> <trans opt="n"><i>living</i></trans> fire, <usg opt="n">Eur.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszege/ries" orig_id="n14421" key="zege/ries">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zege/ries">ζεγέριες</head>
+ <etym n="note" opt="n">without mark of gender, a Libyan word</etym>
+ <sense level="0" n="0" id="n14421.0" opt="n">= <ref type="cross" target="crossbounoi/" lang="greek">βουνοί</ref>, a kind of <trans opt="n"><i>mouse</i></trans>, <usg opt="n">Hdt.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszeia/" orig_id="n14422" key="zeia/">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zeia/">ζειά</head>
+ <sense level="0" n="0" id="n14422.0" opt="n">mostly in pl. <foreign lang="greek">ζειαί</foreign>, a kind of <trans opt="n"><i>grain, spelt, a coarse wheat</i></trans>, used as <trans opt="n"><i>fodder for horses</i></trans>, <usg opt="n">Od.</usg>; like <foreign lang="greek">ὀλύραι</foreign> in <usg opt="n">Il.</usg>; and <usg opt="n">Hdt.</usg> expressly asserts their identity.</sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszei/dwros" orig_id="n14423" key="zei/dwros">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zei/dwros">ζείδωρος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζεί-δωρος, ον</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossdw=ron" lang="greek">δῶρον</ref></xr></etym>
+ <sense level="0" n="0" id="n14423.0" opt="n"><trans opt="n"><i>zea-giving</i></trans>, as epith. of the earth, <foreign lang="greek">ζείδωρος ἄρουρα</foreign> <trans opt="n"><i>fruitful</i></trans> corn-land, <usg opt="n">Hom.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszeira/" orig_id="n14424" key="zeira/">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zeira/">ζειρά</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζειρά, ἡ,</note>
+ <sense level="0" n="0" id="n14424.0" opt="n"><trans opt="n"><i>a wide upper garment</i></trans>, girded about the loins and falling over the feet, <usg opt="n">Hdt.</usg>, <usg opt="n">Xen.</usg></sense>
+ <etym opt="n">A foreign word.</etym>
+ </div1>
+
+ 
+ 
+<div1 id="crossze" orig_id="n14425" key="ze">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="ze">ζε</head>
+ <sense level="0" n="0" id="n14425.0" opt="n">inseparable Suffix, denoting <trans opt="n"><i>motion towards</i></trans>:— properly it represents <foreign lang="greek">-σδε</foreign>, as in <foreign lang="greek">Ἀθήναζε, θύραζε</foreign> for <foreign lang="greek">Ἀθήνασδε, θύρασδε</foreign>:—but sometimes found with sg. Nouns, as <foreign lang="greek">Ὀλυμπίαζε, Μουνυχίαζε.</foreign></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszeuga/rion" orig_id="n14426" key="zeuga/rion">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zeuga/rion">ζευγάριον</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζευγάριον (ᾰ), ου, τό,</note>
+ <sense level="0" n="0" id="n14426.0" opt="n">Dim. of <foreign lang="greek">ζεῦγος</foreign>, <trans opt="n"><i>a puny team</i></trans>, <usg opt="n">Ar.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszeughlate/w" orig_id="n14427" key="zeughlate/w">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zeughlate/w">ζευγηλατέω</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζευγηλᾰτέω,</note>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified"> fut. <foreign lang="greek">-ήσω</foreign></note>
+ <sense level="0" n="0" id="n14427.0" opt="n"><trans opt="n"><i>to drive a yoke of oxen</i></trans>, <usg opt="n">Xen.</usg></sense>
+ <etym opt="n">from <ref type="cross" target="crosszeughla/^ths" lang="greek">ζευγηλάτης (ᾰ)</ref></etym>
+ </div1>
+
+ 
+ 
+<div1 id="crosszeughla/ths" orig_id="n14428" key="zeughla/ths">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zeughla/ths">ζευγηλάτης</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζευγ-ηλάτης (ᾰ), ου,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crosse)lau/nw" lang="greek">ἐλαύνω</ref></xr></etym>
+ <sense level="0" n="0" id="n14428.0" opt="n"><trans opt="n"><i>the driver of a yoke of oxen, teamster</i></trans>, <usg opt="n">Xen.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszeugi/ths" orig_id="n14429" key="zeugi/ths">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zeugi/ths">ζευγίτης</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζευγί_της, ου,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crosszeu=gos" lang="greek">ζεῦγος</ref></xr></etym>
+ <sense level="2" n="I" id="n14429.0" opt="n"><trans opt="n"><i>yoked in pairs</i></trans>, of soldiers, <trans opt="n"><i>in the same rank</i></trans>, <usg opt="n">Plut.</usg></sense>
+ <sense level="2" n="II" id="n14429.1" opt="n"><foreign lang="greek">ζευγῖται, οἱ</foreign> the third of <usg opt="n">Solon.</usg>ʼs four classes of Athenian citizens, so called from <trans opt="n"><i>their being able to keep a team of oxen</i></trans>, ap. <usg opt="n">Dem.</usg>: cf. <foreign lang="greek">πεντακοσιομέδιμνοι.</foreign></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszeu=gla" orig_id="n14430" key="zeu=gla">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zeu=gla">ζεῦγλα</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζεῦγλα, ης, ἡ,</note>
+ <etym opt="n">poet. for <foreign lang="greek">ζεύγλη</foreign>, <usg opt="n">Anth.</usg></etym>
+ </div1>
+
+ 
+ 
+<div1 id="crosszeu/glh" orig_id="n14431" key="zeu/glh">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zeu/glh">ζεύγλη</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζεύγλη, ἡ,</note>
+ <sense level="2" n="I" id="n14431.0" opt="n"><trans opt="n"><i>the strap</i> or <i>loop of the yoke</i></trans> <foreign lang="greek"> (ζυγόν) </foreign> through which the beastsʼ heads were put, so that the <foreign lang="greek">ζυγόν</foreign> had two <foreign lang="greek">ζεῦγλαι</foreign>, <usg opt="n">Il.</usg> <usg opt="n">Hdt.</usg>, etc.</sense>
+ <sense level="2" n="II" id="n14431.1" opt="n"><trans opt="n"><i>the cross-bar</i></trans> of the double rudder, <usg opt="n">Eur.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszeu=gma" orig_id="n14432" key="zeu=gma">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zeu=gma">ζεῦγμα</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζεῦγμα, ατος, τό,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crosszeu/gnumi" lang="greek">ζεύγνυμι</ref></xr></etym>
+ <sense level="3" n="1" id="n14432.0" opt="n"><trans opt="n"><i>that which is used for joining, a band, bond</i></trans>, <foreign lang="greek">τὸ ζ. τοῦ λιμένος</foreign> <trans opt="n"><i>the barrier</i></trans> of ships moored <trans opt="n"><i>across</i></trans> the harbour, <usg opt="n">Thuc.</usg>:— <trans opt="n"><i>a bridge of boats</i></trans>, <usg opt="n">Anth.</usg>:— <trans opt="n"><i>a platform formed by lashing several vessels together</i></trans>, <usg opt="n">Plut.</usg></sense>
+ <sense level="3" n="2" id="n14432.1" opt="n">metaph., <foreign lang="greek">ζεύγματʼ ἀνάγκης</foreign> <trans opt="n"><i>the bonds</i></trans> of necessity, <usg opt="n">Eur.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszeu/gnumi" orig_id="n14433" key="zeu/gnumi">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zeu/gnumi">ζεύγνυμι</head>
+ <etym opt="n">from Root !<foreign lang="greek">ζυγ</foreign>, as in <foreign lang="greek">ζυγῆναι</foreign></etym>
+ <sense level="2" n="I" id="n14433.0" opt="n"><trans opt="n"><i>to yoke, put to</i></trans>, <foreign lang="greek">ἵππους</foreign> <usg opt="n">Hom.</usg>, etc.; <foreign lang="greek">ζ. ἵππους ὑφʼ ἅρματα, ὑφʼ ἅρμασιν, ὑπʼ ὄχεσφιν, ὑπʼ ἀμάξηισιν</foreign> <usg opt="n">Il.</usg>;—(so in Mid., <foreign lang="greek">ἵππους ζεύγνυσθαι</foreign> <trans opt="n"><i>to put to oneʼs</i></trans> horses, <usg opt="n">Hom.</usg>);—also of riding horses, <trans opt="n"><i>to harness, saddle and bridle</i></trans>, <foreign lang="greek">ζεῦξαι Πάγασον</foreign> <usg opt="n">Pind.</usg>:—of chariots, <trans opt="n"><i>to put to, get ready</i></trans>, <usg opt="n">Hom.</usg>, <usg opt="n">Eur.</usg></sense>
+ <sense level="3" n="2" id="n14433.1" opt="n"><trans opt="n"><i>to bind, bind fast</i></trans>, <usg opt="n">Xen.</usg>:—Pass., <foreign lang="greek">φάρη ἐζευγμέναι</foreign> <trans opt="n"><i>having</i></trans> them <trans opt="n"><i>fastened</i></trans>, <usg opt="n">Eur.</usg></sense>
+ <sense level="3" n="3" id="n14433.2" opt="n">metaph., <foreign lang="greek">πότμωι ζυγείς</foreign> <trans opt="n"><i>in the yoke of</i></trans> fate, <usg opt="n">Pind.</usg>; <foreign lang="greek">ἀνάγκηι, ὁρκίοις ζυγείς</foreign> <usg opt="n">Soph.</usg>, <usg opt="n">Eur.</usg></sense>
+ <sense level="2" n="II" id="n14433.3" opt="n"><trans opt="n"><i>to join together</i></trans>, <foreign lang="greek">σανίδες ἐζευγμέναι</foreign> <trans opt="n"><i>well-joined</i></trans>, <usg opt="n">Il.</usg></sense>
+ <sense level="3" n="2" id="n14433.4" opt="n"><trans opt="n"><i>to join in wedlock</i></trans>, <usg opt="n">Eur.</usg>:—in Mid., of the husband, <trans opt="n"><i>to wed</i></trans>, <usg opt="n">Eur.</usg>:—Pass. <trans opt="n"><i>to be married</i></trans>, <usg opt="n">Soph.</usg>, <usg opt="n">Eur.</usg></sense>
+ <sense level="3" n="3" id="n14433.5" opt="n"><trans opt="n"><i>to join</i></trans> opposite banks <trans opt="n"><i>by bridges</i></trans>, <foreign lang="greek">τὸν Ἑλλήσποντον ζεῦξαι</foreign> <usg opt="n">Hdt.</usg>, etc.:—also, <foreign lang="greek">γέφυραν ζεῦξαι</foreign> <trans opt="n"><i>to form</i></trans> a bridge, <usg opt="n">Hdt.</usg></sense>
+ <sense level="3" n="4" id="n14433.6" opt="n"><trans opt="n"><i>to undergird</i></trans> ships <trans opt="n"><i>with ropes</i></trans>, <usg opt="n">Thuc.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszeu=gos" orig_id="n14434" key="zeu=gos">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zeu=gos">ζεῦγος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζεῦγος, εος,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crosszeu/gnumi" lang="greek">ζεύγνυμι</ref></xr></etym>
+ <sense level="2" n="I" id="n14434.0" opt="n"><trans opt="n"><i>a yoke of beasts, a pair of mules, oxen</i> or <i>horses</i></trans>, <usg opt="n">Il.</usg>, etc.</sense>
+ <sense level="3" n="2" id="n14434.1" opt="n"><trans opt="n"><i>the carriage drawn by a pair, a chariot, car</i></trans>, <usg opt="n">Hdt.</usg>, etc.</sense>
+ <sense level="2" n="II" id="n14434.2" opt="n"><trans opt="n"><i>a pair</i> or <i>couple</i></trans> of any things, <usg opt="n">Hdt.</usg>, <usg opt="n">Aesch.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszeugotro/fos" orig_id="n14435" key="zeugotro/fos">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zeugotro/fos">ζευγοτρόφος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζευγο-τρόφος, ον</note>
+ <sense level="0" n="0" id="n14435.0" opt="n"><trans opt="n"><i>keeping a yoke of beasts</i></trans>, <usg opt="n">Plut.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszeukth/rios" orig_id="n14436" key="zeukth/rios">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zeukth/rios">ζευκτήριος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζευκτήριος, α, ον</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crosszeu/gnumi" lang="greek">ζεύγνυμι</ref></xr></etym>
+ <sense level="2" n="I" id="n14436.0" opt="n"><trans opt="n"><i>fit for joining</i> or <i>yoking</i></trans>, <foreign lang="greek">γέφυραν γαῖν δυοῖν ζ.</foreign> <usg opt="n">Aesch.</usg></sense>
+ <sense level="2" n="II" id="n14436.1" opt="n">as Subst., <foreign lang="greek">ζευκτήριον, τό,  ζυγόν</foreign>, <trans opt="n"><i>a yoke</i></trans>, <usg opt="n">Aesch.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszeu=cis" orig_id="n14437" key="zeu=cis">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zeu=cis">ζεῦξις</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζεῦξις, εως</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crosszeu/gnumi" lang="greek">ζεύγνυμι</ref></xr></etym>
+ <sense level="2" n="I" id="n14437.0" opt="n"><trans opt="n"><i>a yoking</i> or <i>manner of yoking</i></trans> oxen, <usg opt="n">Hdt.</usg></sense>
+ <sense level="2" n="II" id="n14437.1" opt="n"><trans opt="n"><i>a joining</i></trans>, as by a bridge, <usg opt="n">Hdt.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="cross*zeu/s" orig_id="n14438" key="*zeu/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="*zeu/s">Ζεύς</head>
+ <etym n="note" opt="n">the obl. cases formed from <ref type="lem" targOrder="U">Δίς</ref>, gen. <foreign lang="greek">Διός;</foreign> dat. <foreign lang="greek">Διΐ, Δί [ῑ]</foreign>, acc. <foreign lang="greek">Δία</foreign></etym>
+ <etym n="note" opt="n">in Poets also, <foreign lang="greek">Ζηνός, Ζηνί, Ζῆνα</foreign></etym>
+ <etym n="note" opt="n">in later Doric <foreign lang="greek">Ζάν, Ζανός</foreign>, etc.:—</etym>
+ <sense level="2" n="I" id="n14438.0" opt="n"><trans opt="n"><i>Zeus</i></trans>, Lat. <foreign lang="la">Ju-piter</foreign>, father of gods and men, son of Kronos and Rhea, hence called <foreign lang="greek">Κρονίδης, Κρονίων</foreign>, husband of Hera: —<usg opt="n">Hom.</usg> makes him rule in the lower air <foreign lang="greek"> (ἀήρ) ;</foreign> hence rain and storms come from him, <foreign lang="greek">Ζεὺς ὕει</foreign>, etc.:—in oaths, <foreign lang="greek">οὐ μὰ Ζῆνα</foreign> <usg opt="n">Hom.</usg>, Attic; so <foreign lang="greek">μὰ Δία, νὴ Δία</foreign>, Attic</sense>
+ <sense level="2" n="II" id="n14438.1" opt="n"><foreign lang="greek">Ζεὺς καταχθόνιος</foreign>, <trans opt="n"><i>Pluto</i></trans>, <usg opt="n">Il.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="cross*zefuri/h" orig_id="n14439" key="*zefuri/h">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="*zefuri/h">Ζεφυρίη</head>
+ <etym opt="n">= <ref type="cross" target="cross*ze/furos" lang="greek">Ζέφυρος</ref>,</etym>
+ <sense level="0" n="0" id="n14439.0" opt="n">sc. <foreign lang="greek">πνοή</foreign> <trans opt="n"><i>the west wind</i></trans>, <usg opt="n">Od.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="cross*ze/furos" orig_id="n14440" key="*ze/furos">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="*ze/furos">Ζέφυρος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">Ζέφῠρος, ὁ,</note>
+ <sense level="0" n="0" id="n14440.0" opt="n"><trans opt="n"><i>Zephyrus, the west wind</i></trans>, Lat. <foreign lang="la">Favonius</foreign>, <usg opt="n">Hom.</usg>, etc.; <trans opt="n"><i>westerly wind</i></trans>, often represented as stormy, <usg opt="n">Od.</usg>; but also as clearing, <foreign lang="greek">ὁπότε νέφεα</foreign> Z. <foreign lang="greek">στυφελίξῃ</foreign> <usg opt="n">Il.</usg></sense>
+ <etym opt="n">From <ref type="cross" target="crosszo/fos" lang="greek">ζόφος</ref> <trans opt="n"><i>night, the region of darkness</i></trans>, as <foreign lang="greek">Εὖρος</foreign> from <ref type="cross" target="crosse(/ws" lang="greek">ἕως</ref>, <trans opt="n"><i>the morn.</i></trans></etym>
+ </div1>
+
+ 
+ 
+<div1 id="crossze/w" orig_id="n14441" key="ze/w">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="ze/w">ζέω</head>
+ <sense level="2" n="I" id="n14441.0" opt="n"><trans opt="n"><i>to boil, seethe</i></trans>, of water, <usg opt="n">Hom.</usg>; <foreign lang="greek">λέβης ζεῖ</foreign> the kettle <trans opt="n"><i>boils</i></trans>, <usg opt="n">Il.</usg></sense>
+ <sense level="3" n="2" id="n14441.1" opt="n">metaph. <trans opt="n"><i>to boil</i> or <i>bubble up</i></trans>, of the sea, <usg opt="n">Hdt.</usg>; of passion, like Lat. <foreign lang="la">fervere</foreign>, <usg opt="n">Aesch.</usg>, <usg opt="n">Soph.</usg></sense>
+ <sense level="3" n="3" id="n14441.2" opt="n">c. gen. <trans opt="n"><i>to boil up</i> or <i>over with</i></trans> a thing, <foreign lang="greek">ζεῖν ὕδατος καὶ πηλοῦ</foreign> <usg opt="n">Plat.</usg>; also c. dat., <foreign lang="greek">ζ. φθειρσί</foreign> <usg opt="n">Luc.</usg></sense>
+ <sense level="2" n="II" id="n14441.3" opt="n">Causal, <trans opt="n"><i>to make to boil</i></trans>, <foreign lang="greek">θυμόν</foreign> <usg opt="n">Anth.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszhlai=os" orig_id="n14442" key="zhlai=os">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zhlai=os">ζηλαῖος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζηλαῖος, α, ον</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crosszh=los" lang="greek">ζῆλος</ref></xr></etym>
+ <sense level="0" n="0" id="n14442.0" opt="n"><trans opt="n"><i>jealous</i></trans>, <usg opt="n">Anth.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszhlh/mwn" orig_id="n14443" key="zhlh/mwn">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zhlh/mwn">ζηλήμων</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζηλήμων, ονος,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crosszhle/w" lang="greek">ζηλέω</ref></xr></etym>
+ <sense level="0" n="0" id="n14443.0" opt="n"><trans opt="n"><i>jealous</i></trans>, <usg opt="n">Od.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszhlodoth/r" orig_id="n14444" key="zhlodoth/r">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zhlodoth/r">ζηλοδοτήρ</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζηλο-δοτήρ, ῆρος,</note>
+ <sense level="0" n="0" id="n14444.0" opt="n"><trans opt="n"><i>giver of bliss</i></trans>, <usg opt="n">Anth.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszhlomanh/s" orig_id="n14445" key="zhlomanh/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zhlomanh/s">ζηλομανής</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζηλο-μᾰνής, ές</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossmai/nomai" lang="greek">μαίνομαι</ref></xr></etym>
+ <sense level="0" n="0" id="n14445.0" opt="n"><trans opt="n"><i>mad with jealousy</i></trans>, <usg opt="n">Anth.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszh=los" orig_id="n14446" key="zh=los">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zh=los">ζῆλος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζῆλος, ου,</note>
+ <etym opt="n">prob. from <ref type="cross" target="crossze/w" lang="greek">ζέω</ref></etym>
+ <sense level="2" n="I" id="n14446.0" opt="n"><trans opt="n"><i>eager rivalry, zealous imitation, emulation</i></trans>, a noble passion, opp. to <foreign lang="greek">φθόνος</foreign> (envy), <usg opt="n">Plat.</usg>, etc.:—but also <trans opt="n"><i>jealousy</i></trans>, <usg opt="n">Hes.</usg></sense>
+ <sense level="3" n="2" id="n14446.1" opt="n">c. gen. pers. <trans opt="n"><i>zeal for</i></trans> one, <usg opt="n">Soph.</usg>, <usg opt="n">Plut.</usg></sense>
+ <sense level="3" n="3" id="n14446.2" opt="n">c. gen. rei, <trans opt="n"><i>rivalry for</i></trans> a thing, <usg opt="n">Eur.</usg>; <foreign lang="greek">ζ. πλούτου</foreign> <usg opt="n">Plut.</usg>, etc.</sense>
+ <sense level="2" n="II" id="n14446.3" opt="n">pass. <trans opt="n"><i>the object of emulation</i> or <i>desire, happiness, bliss, honour, glory</i></trans>, <usg opt="n">Soph.</usg>, <usg opt="n">Dem.</usg></sense>
+ <sense level="2" n="III" id="n14446.4" opt="n">of style, <trans opt="n"><i>extravagance</i></trans>, <usg opt="n">Plut.</usg>:—also, <trans opt="n"><i>fierceness</i></trans>, <usg opt="n">NTest.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszhlosu/nh" orig_id="n14447" key="zhlosu/nh">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zhlosu/nh">ζηλοσύνη</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζηλοσύνη, ἡ,</note>
+ <etym opt="n">poet. for <foreign lang="greek">ζῆλος</foreign>, <usg opt="n">Hhymn.</usg></etym>
+ </div1>
+
+ 
+ 
+<div1 id="crosszhlotupe/w" orig_id="n14448" key="zhlotupe/w">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zhlotupe/w">ζηλοτυπέω</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζηλοτῠπέω,</note>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified"> fut. <foreign lang="greek">-ήσω</foreign></note>
+ <sense level="2" n="I" id="n14448.0" opt="n"><trans opt="n"><i>to be jealous of, to emulate, rival</i></trans>, c. acc. pers., <usg opt="n">Plat.</usg></sense>
+ <sense level="2" n="II" id="n14448.1" opt="n">c. acc. rei, <trans opt="n"><i>to regard with jealous anger</i></trans>, <usg opt="n">Aeschin.</usg></sense>
+ <sense level="3" n="2" id="n14448.2" opt="n"><trans opt="n"><i>to pretend to</i></trans>, <foreign lang="greek">ἀρετήν</foreign> <usg opt="n">Aeschin.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszhlotupi/a" orig_id="n14449" key="zhlotupi/a">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zhlotupi/a">ζηλοτυπία</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζηλοτῠπία, ἡ,</note>
+ <sense level="0" n="0" id="n14449.0" opt="n"><trans opt="n"><i>jealousy, rivalry</i></trans>, <usg opt="n">Aeschin.</usg>, <usg opt="n">Plut.</usg></sense>
+ <etym opt="n">from <ref type="cross" target="crosszhlo/tu^pos" lang="greek">ζηλότῠπος</ref></etym>
+ </div1>
+
+ 
+ 
+<div1 id="crosszhlo/tupos" orig_id="n14450" key="zhlo/tupos">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zhlo/tupos">ζηλότυπος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζηλό-τῠπος, ον</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crosstu/ptw" lang="greek">τύπτω</ref></xr></etym>
+ <sense level="0" n="0" id="n14450.0" opt="n"><trans opt="n"><i>jealous</i></trans>, <usg opt="n">Ar.</usg>, <usg opt="n">Anth.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszhlo/w" orig_id="n14451" key="zhlo/w">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zhlo/w">ζηλόω</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζηλόω,</note>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified"> fut. <foreign lang="greek">-ώσω</foreign></note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crosszh=los" lang="greek">ζῆλος</ref></xr></etym>
+ <sense level="2" n="I" id="n14451.0" opt="n">c. acc. pers. <trans opt="n"><i>to rival, vie with, emulate</i></trans>, Lat. <foreign lang="la">aemulari</foreign>, <usg opt="n">Soph.</usg>, <usg opt="n">Thuc.</usg>, etc.: —in bad sense, <trans opt="n"><i>to be jealous of, envy</i></trans>, <usg opt="n">Hes.</usg>, <usg opt="n">Theocr.</usg>:— absol, <trans opt="n"><i>to be jealous</i></trans>, <usg opt="n">NTest.</usg></sense>
+ <sense level="3" n="2" id="n14451.1" opt="n"><trans opt="n"><i>to esteem</i> or <i>pronounce happy, admire, praise</i></trans>, <foreign lang="greek">τινά τινος</foreign> one <trans opt="n"><i>for</i></trans> a thing, <usg opt="n">Soph.</usg>, <usg opt="n">Ar.</usg>: ironical, <foreign lang="greek">ζηλῶ σε</foreign> happy in your ignorance! <usg opt="n">Eur.</usg></sense>
+ <sense level="2" n="II" id="n14451.2" opt="n">c. acc. rei, <trans opt="n"><i>to desire emulously, strive after</i></trans>, <usg opt="n">Dem.</usg>:—Pass., <usg opt="n">Plat.</usg>, etc.</sense>
+ <sense level="3" n="2" id="n14451.3" opt="n">Pass. also of persons, <trans opt="n"><i>to be impelled by zeal</i></trans>, <usg opt="n">NTest.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszh/lwma" orig_id="n14452" key="zh/lwma">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zh/lwma">ζήλωμα</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζήλωμα, ατος, τό,</note>
+ <sense level="2" n="I" id="n14452.0" opt="n"><trans opt="n"><i>that which is emulated</i></trans>: in pl. <trans opt="n"><i>high fortunes</i></trans>, <usg opt="n">Eur.</usg></sense>
+ <sense level="2" n="II" id="n14452.1" opt="n">in pl. also <trans opt="n"><i>emulous efforts, rivalries</i></trans>, <usg opt="n">Aeschin.</usg>, <usg opt="n">Dem.</usg></sense>
+ <etym opt="n">from <ref type="cross" target="crosszhlo/w" lang="greek">ζηλόω</ref></etym>
+ </div1>
+
+ 
+ 
+<div1 id="crosszh/lwsis" orig_id="n14453" key="zh/lwsis">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zh/lwsis">ζήλωσις</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζήλωσις, εως</note>
+ <etym opt="n">from <ref type="cross" target="crosszhlo/w" lang="greek">ζηλόω</ref></etym>
+ <sense level="0" n="0" id="n14453.0" opt="n"><trans opt="n"><i>emulation, imitation</i></trans>, <usg opt="n">Thuc.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszhlwth/s" orig_id="n14454" key="zhlwth/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zhlwth/s">ζηλωτής</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζηλωτής, οῦ,</note>
+ <sense level="2" n="I" id="n14454.0" opt="n"><trans opt="n"><i>an emulator, zealous admirer</i> or <i>follower</i></trans>, <usg opt="n">Plat.</usg>, etc.</sense>
+ <sense level="2" n="II" id="n14454.1" opt="n"><trans opt="n"><i>a zealot</i></trans>, used to translate <foreign lang="greek">Κανανίτης</foreign> or <foreign lang="greek">Καναναῖος</foreign> (from the Hebr. <trans opt="n"><i>qana, to glow, be zealous)</i></trans>, <usg opt="n">NTest.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszhlwtiko/s" orig_id="n14455" key="zhlwtiko/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zhlwtiko/s">ζηλωτικός</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζηλωτικός, ή, όν</note>
+ <sense level="0" n="0" id="n14455.0" opt="n"><trans opt="n"><i>emulous</i></trans>, <usg opt="n">Arist.</usg></sense>
+ <etym opt="n">from <ref type="cross" target="crosszhlwto/s" lang="greek">ζηλωτός</ref></etym>
+ </div1>
+
+ 
+ 
+<div1 id="crosszhlwto/s" orig_id="n14456" key="zhlwto/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zhlwto/s">ζηλωτός</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζηλωτός, ή, όν</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crosszhlo/w" lang="greek">ζηλόω</ref></xr></etym>
+ <sense level="3" n="1" id="n14456.0" opt="n"><trans opt="n"><i>to be emulated, worthy of imitation</i></trans>, <usg opt="n">Plat.</usg>, <usg opt="n">Dem.</usg></sense>
+ <sense level="3" n="2" id="n14456.1" opt="n"><trans opt="n"><i>to be deemed happy, to be envied</i></trans>, <usg opt="n">Theogn.</usg>, <usg opt="n">Aesch.</usg>, etc.</sense>
+ <sense level="3" n="3" id="n14456.2" opt="n">of conditions, <trans opt="n"><i>enviable, blessed</i></trans>, <usg opt="n">Eur.</usg>, <usg opt="n">Ar.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszhmi/a" orig_id="n14457" key="zhmi/a">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zhmi/a">ζημία</head>
+ <sense level="2" n="I" id="n14457.0" opt="n"><trans opt="n"><i>loss, damage</i></trans>, Lat. <foreign lang="la">damnum</foreign>, opp. to <foreign lang="greek">κέρδος</foreign>, <usg opt="n">Plat.</usg>, etc.; <foreign lang="greek">ζημίαν λαβεῖν</foreign> to sustain <trans opt="n"><i>loss</i></trans>, <usg opt="n">Dem.</usg></sense>
+ <sense level="2" n="II" id="n14457.1" opt="n"><trans opt="n"><i>a penalty</i></trans> in money, <trans opt="n"><i>a fine, mulct</i></trans>, <foreign lang="greek">ζημίην ἀποτίνειν</foreign> <usg opt="n">Hdt.</usg>; <foreign lang="greek">ὀφείλειν</foreign> <usg opt="n">Hdt.</usg>; <foreign lang="greek">καταβάλλειν</foreign> <usg opt="n">Dem.</usg>; <foreign lang="greek">ζημία ἐπίκειται στατήρ</foreign> <trans opt="n"><i>a fine</i></trans> of a stater is imposed, <usg opt="n">Thuc.</usg></sense>
+ <sense level="3" n="2" id="n14457.2" opt="n">generally <trans opt="n"><i>a penalty</i></trans>, <foreign lang="greek">ζ. ἐπιτιθέναι τινί</foreign> <usg opt="n">Hdt.</usg>; <foreign lang="greek">ζ. πρόσκειταί τινι</foreign> <usg opt="n">Xen.</usg>; <foreign lang="greek">θάνατον ζημίαν ἐπιτίθεσθαι, προτιθέναι, τάττειν</foreign> to make death <trans opt="n"><i>the penalty</i></trans>, <usg opt="n">Thuc.</usg>, etc.</sense>
+ <sense level="2" n="III" id="n14457.3" opt="n"><foreign lang="greek">φανερὰ ζαμία</foreign> a mere <trans opt="n"><i>good-for-nothing</i></trans>, a dead <trans opt="n"><i>loss</i></trans>, <usg opt="n">Ar.</usg></sense>
+ <etym opt="n">deriv. uncertain</etym>
+ </div1>
+
+ 
+ 
+<div1 id="crosszhmio/w" orig_id="n14458" key="zhmio/w">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zhmio/w">ζημιόω</head>
+ <etym opt="n">from <ref type="cross" target="crosszhmi/a" lang="greek">ζημία</ref></etym>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζημιόω,</note>
+ <sense level="2" n="I" id="n14458.0" opt="n"><trans opt="n"><i>to cause loss</i> or <i>do damage to</i></trans> any one, <foreign lang="greek">τινά</foreign> <usg opt="n">Plat.</usg>, etc.:—Pass., <foreign lang="greek">μεγάλα ζημιώσεται</foreign> <trans opt="n"><i>will suffer</i></trans> great <trans opt="n"><i>losses</i></trans>, <usg opt="n">Thuc.</usg></sense>
+ <sense level="2" n="II" id="n14458.1" opt="n"><trans opt="n"><i>to fine, amerce, mulct in</i></trans> a sum of money, c. dat. rei, <foreign lang="greek">ζ. τινὰ χιλίῃσι δραχμῇσι</foreign> <usg opt="n">Hdt.</usg>; <foreign lang="greek">χρήμασιν</foreign> <usg opt="n">Thuc.</usg>:— Pass. <trans opt="n"><i>to be fined</i> or <i>amerced in</i></trans> a thing, c. dat., <usg opt="n">Plat.</usg>; c. acc., <foreign lang="greek">τὴν ψυχὴν ζημιώσεαι</foreign> <trans opt="n"><i>wilt lose</i></trans> thy life, <usg opt="n">Hdt.</usg></sense>
+ <sense level="3" n="2" id="n14458.2" opt="n">generally <trans opt="n"><i>to punish</i></trans>, <usg opt="n">Hdt.</usg>, <usg opt="n">Thuc.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszhmiw/dhs" orig_id="n14459" key="zhmiw/dhs">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zhmiw/dhs">ζημιώδης</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζημι-ώδης, ες</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossei)=dos" lang="greek">εἶδος</ref></xr></etym>
+ <sense level="0" n="0" id="n14459.0" opt="n"><trans opt="n"><i>causing loss, ruinous</i></trans>, <usg opt="n">Xen.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszhmi/wma" orig_id="n14460" key="zhmi/wma">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zhmi/wma">ζημίωμα</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζημίωμα, ατος, τό,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crosszhmio/w" lang="greek">ζημιόω</ref></xr></etym>
+ <sense level="0" n="0" id="n14460.0" opt="n"><trans opt="n"><i>a penalty, fine</i></trans>, <usg opt="n">Luc.</usg>; <foreign lang="greek">τῆς ἀταξίας</foreign> <trans opt="n"><i>for</i></trans> their disorder, <usg opt="n">Xen.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="cross*zhno/frwn" orig_id="n14461" key="*zhno/frwn">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="*zhno/frwn">Ζηνόφρων</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">Ζηνό-φρων, ονος,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="cross*zh/n " lang="greek">Ζήν</ref>, <ref type="cross" target="crossfrh/n" lang="greek">φρήν</ref></xr></etym>
+ <sense level="0" n="0" id="n14461.0" opt="n"><trans opt="n"><i>knowing the mind of Zeus</i></trans>, of Apollo, <usg opt="n">Anth.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszh=ta" orig_id="n14462" key="zh=ta">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zh=ta">ζῆτα</head>
+ <sense level="0" n="0" id="n14462.0" opt="n"><foreign lang="greek">Ζ, ζ, ζῆτα</foreign>, <foreign lang="greek">τό</foreign>, indecl., sixth letter of Gk. Alphabet: as numeral <foreign lang="greek">ζ  ἑπτά</foreign> and <foreign lang="greek">ἕβδομος</foreign> (the obsol. <foreign lang="greek">σ</foreign>, i. e. <foreign lang="greek">ϝ</foreign>, <trans opt="n"><i>vau</i></trans>, the digamma, being retained to represent <foreign lang="greek">ἕξ, ἕκτος) </foreign>, but <foreign lang="greek">ζ </foreign> 7000. <foreign lang="greek">Ζ ζ</foreign> is composed of <foreign lang="greek">ς</foreign> and <foreign lang="greek">δ</foreign>, so that in Aeolic it becomes <foreign lang="greek">σδ</foreign>, as <foreign lang="greek">Σδεύς κωμάσδω ψιθυρίσδω</foreign> for <foreign lang="greek">Ζεύς κωμάζω ψιθυρίζω</foreign> reversely, in Attic, <foreign lang="greek">σδ</foreign> becomes <foreign lang="greek">ζ, Ἀθήναζε θύραζε</foreign> for <foreign lang="greek">Ἀθήνασδε θύρασδε.</foreign> But <foreign lang="greek">ς</foreign> often disappears in Aeolic, where <foreign lang="greek">ζά  δια</foreign>, see <foreign lang="greek">ζά, ζα-</foreign>so in Aeolic and Doric, as we have <foreign lang="greek">Δεύς Δάν</foreign> for <foreign lang="greek">Ζεύς Ζάν, δορκάς  ζορκάς</foreign>:—so also <foreign lang="greek">ἀρίζηλος</foreign> for <foreign lang="greek">ἀρίδηλος; ἀλαπαδνός</foreign> from <ref type="cross" target="crossa)lapa/zw " lang="greek">ἀλαπάζω</ref>, <ref type="cross" target="crosspaidno/s" lang="greek">παιδνός</ref> from <ref type="cross" target="crosspai/zw" lang="greek">παίζω</ref>:—Doric, in the middle of words, it becomes <foreign lang="greek">δδ</foreign>, as <foreign lang="greek">θερίδδω</foreign> for <foreign lang="greek">-ίζω, μάδδα</foreign> for <foreign lang="greek">μᾶζα.</foreign> Zeta, being a double conson., made a short vowel at the end of the foregoing syllable long by position. But Homer used the vowel short before two prop. names, which could not otherwise come into the Hexam., viz. <foreign lang="greek">ἄστυ Ζελείης, ὑλήεσσα Ζάκυνθος.</foreign></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszhteu/w" orig_id="n14463" key="zhteu/w">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zhteu/w">ζητεύω</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζητεύω,</note>
+ <etym opt="n">poet. for <foreign lang="greek">ζητέω</foreign>, <usg opt="n">Hes.</usg>, <usg opt="n">Theocr.</usg></etym>
+ </div1>
+
+ 
+ 
+<div1 id="crosszhte/w" orig_id="n14464" key="zhte/w">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zhte/w">ζητέω</head>
+ <sense level="2" n="I" id="n14464.0" opt="n"><trans opt="n"><i>to seek, seek for</i></trans>, <usg opt="n">Il.</usg>, <usg opt="n">Aesch.</usg>, etc.; <foreign lang="greek">μὴ ζητῶν</foreign> without <trans opt="n"><i>seeking</i></trans>, <usg opt="n">Xen.</usg>; <foreign lang="greek">τὸ ζητούμενον ἁλωτόν</foreign> <trans opt="n"><i>what is sought for</i></trans> may be found, <usg opt="n">Soph.</usg></sense>
+ <sense level="3" n="2" id="n14464.1" opt="n"><trans opt="n"><i>to enquire for</i></trans>, <usg opt="n">Xen.</usg>: <trans opt="n"><i>to ask about</i></trans> a thing, <usg opt="n">Xen.</usg></sense>
+ <sense level="3" n="3" id="n14464.2" opt="n"><trans opt="n"><i>to search after, search out</i></trans>, <usg opt="n">Soph.</usg>, <usg opt="n">Thuc.</usg></sense>
+ <sense level="3" n="4" id="n14464.3" opt="n"><trans opt="n"><i>to search</i> or <i>inquire into, investigate</i></trans>, <usg opt="n">Plat.</usg>, etc.; <foreign lang="greek">ζ. τὰ θεῖα</foreign> <usg opt="n">Xen.</usg>, etc.</sense>
+ <sense level="3" n="5" id="n14464.4" opt="n"><trans opt="n"><i>to require, demand</i></trans>, <foreign lang="greek">παρὰ τοῦ στρατηγοῦ λόγον ζητοῦντες</foreign> <usg opt="n">Dem.</usg></sense>
+ <sense level="2" n="II" id="n14464.5" opt="n"><trans opt="n"><i>to seek after, desire</i></trans>, <foreign lang="greek">ἀμήχανα</foreign> <usg opt="n">Eur.</usg></sense>
+ <sense level="3" n="2" id="n14464.6" opt="n">c. inf. <trans opt="n"><i>to seek to</i></trans> do, <usg opt="n">Hdt.</usg>, <usg opt="n">Aesch.</usg>, etc.</sense>
+ <sense level="2" n="III" id="n14464.7" opt="n"><trans opt="n"><i>to have to seek, feel the want of</i></trans>, Lat. <foreign lang="la">desidero</foreign>, <usg opt="n">Hdt.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszh/thma" orig_id="n14465" key="zh/thma">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zh/thma">ζήτημα</head>
+ <etym opt="n">From <ref type="cross" target="crosszhte/w" lang="greek">ζητέω</ref></etym>
+ <sense level="2" n="I" id="n14465.0" opt="n"><trans opt="n"><i>that which is sought</i></trans>, <foreign lang="greek">οὐ ῥᾴδιον ζ.</foreign> <trans opt="n"><i>a thing</i></trans> not easy <trans opt="n"><i>to find</i></trans>, <usg opt="n">Eur.</usg></sense>
+ <sense level="2" n="II" id="n14465.1" opt="n"><trans opt="n"><i>an inquiry, question</i></trans>, <usg opt="n">Soph.</usg>, <usg opt="n">Plat.</usg>, etc.</sense>
+ <sense level="3" n="2" id="n14465.2" opt="n"><trans opt="n"><i>a search</i></trans>, <foreign lang="greek">μητρός</foreign> <trans opt="n"><i>after</i></trans> her, <usg opt="n">Eur.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszhth/simos" orig_id="n14466" key="zhth/simos">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zhth/simos">ζητήσιμος</head>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crosszhte/w" lang="greek">ζητέω</ref></xr></etym>
+ <sense level="0" n="0" id="n14466.0" opt="n"><trans opt="n"><i>to be searched</i></trans>, <foreign lang="greek">τὰ ζ.</foreign> <trans opt="n"><i>places to be beaten</i></trans> for game, <usg opt="n">Xen.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszh/thsis" orig_id="n14467" key="zh/thsis">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zh/thsis">ζήτησις</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζήτησις, εως</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crosszhte/w" lang="greek">ζητέω</ref></xr></etym>
+ <sense level="3" n="1" id="n14467.0" opt="n"><trans opt="n"><i>a seeking, seeking for, search for</i></trans> a thing, c. gen., <usg opt="n">Hdt.</usg>, <usg opt="n">Soph.</usg>, etc.</sense>
+ <sense level="3" n="2" id="n14467.1" opt="n"><trans opt="n"><i>a searching, search</i></trans>, <foreign lang="greek">ποιέεσθαι ζήτησιν τῶν νεῶν</foreign> <trans opt="n"><i>to search</i></trans> the ships, <usg opt="n">Hdt.</usg></sense>
+ <sense level="3" n="3" id="n14467.2" opt="n"><trans opt="n"><i>inquiry, investigation</i></trans>, <usg opt="n">Plat.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszhthte/os" orig_id="n14468" key="zhthte/os">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zhthte/os">ζητητέος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζητητέος, α, ον</note>
+ <etym opt="n">verb. adj. of <foreign lang="greek">ζητέω</foreign>,</etym>
+ <sense level="2" n="I" id="n14468.0" opt="n"><trans opt="n"><i>to be sought</i></trans>, <usg opt="n">Soph.</usg></sense>
+ <sense level="2" n="II" id="n14468.1" opt="n"><foreign lang="greek">ζητητέον</foreign> one <trans opt="n"><i>must seek</i></trans>, <usg opt="n">Ar.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszhthth/s" orig_id="n14469" key="zhthth/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zhthth/s">ζητητής</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζητητής, οῦ,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crosszhte/w" lang="greek">ζητέω</ref></xr></etym>
+ <sense level="2" n="I" id="n14469.0" opt="n"><trans opt="n"><i>a seeker, inquirer</i></trans>, <usg opt="n">Plat.</usg></sense>
+ <sense level="2" n="II" id="n14469.1" opt="n">in pl. <trans opt="n"><i>commissioners to inquire into state-offences</i></trans>, <usg opt="n">Dem.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszhthtiko/s" orig_id="n14470" key="zhthtiko/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zhthtiko/s">ζητητικός</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζητητικός, ή, όν</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crosszhte/w" lang="greek">ζητέω</ref></xr></etym>
+ <sense level="0" n="0" id="n14470.0" opt="n"><trans opt="n"><i>disposed to search</i> or <i>inquire, searching, inquiring</i></trans>, <usg opt="n">Plat.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszhthto/s" orig_id="n14471" key="zhthto/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zhthto/s">ζητητός</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζητητός, ή, όν</note>
+ <etym opt="n">verb. adj. of <foreign lang="greek">ζητέω</foreign>,</etym>
+ <sense level="0" n="0" id="n14471.0" opt="n"><trans opt="n"><i>sought for</i></trans>, <usg opt="n">Soph.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossziza/nion" orig_id="n14472" key="ziza/nion">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="ziza/nion">ζιζάνιον</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζιζάνιον, ου, τό,</note>
+ <sense level="0" n="0" id="n14472.0" opt="n">a weed that grows in wheat, prob. Lat. <foreign lang="la">lolium, darnel</foreign>, in pl., <usg opt="n">NTest.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszoo/s" orig_id="n14473" key="zoo/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zoo/s">ζοός</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζοός, ή, όν</note>
+ <etym opt="n">poet. for <foreign lang="greek">ζωός</foreign>, <usg opt="n">Theocr.</usg></etym>
+ </div1>
+
+ 
+ 
+<div1 id="crosszofero/s" orig_id="n14474" key="zofero/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zofero/s">ζοφερός</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζοφερός, ά, όν</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crosszo/fos" lang="greek">ζόφος</ref></xr></etym>
+ <sense level="0" n="0" id="n14474.0" opt="n"><trans opt="n"><i>dusky, gloomy</i></trans>, <usg opt="n">Hes.</usg>, <usg opt="n">Luc.</usg>:— metaph., <foreign lang="greek">ζ. φροντίδες</foreign> <usg opt="n">Anth.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszo/fios" orig_id="n14475" key="zo/fios">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zo/fios">ζόφιος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζόφιος, ον</note>
+ <etym opt="n">= <ref type="cross" target="crosszofero/s" lang="greek">ζοφερός</ref>, <usg opt="n">Anth.</usg></etym>
+ </div1>
+
+ 
+ 
+<div1 id="crosszo/fos" orig_id="n14476" key="zo/fos">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zo/fos">ζόφος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">.ζόφος, ὁ,</note>
+ <sense level="2" n="I" id="n14476.0" opt="n"><trans opt="n"><i>the gloom of the world below, nether darkness</i></trans>, <usg opt="n">Hom.</usg>, <usg opt="n">Aesch.</usg>:—generally, <trans opt="n"><i>gloom, darkness</i></trans>, <usg opt="n">Hes.</usg>, <usg opt="n">Pind.</usg></sense>
+ <sense level="2" n="II" id="n14476.1" opt="n"><trans opt="n"><i>the dark quarter</i></trans>, i. e. <trans opt="n"><i>the west</i></trans>, opposed to <foreign lang="greek">ἠώς</foreign>, <usg opt="n">Hom.</usg>: cf. <foreign lang="greek">Ζέφυρος.</foreign></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszofo/w" orig_id="n14477" key="zofo/w">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zofo/w">ζοφόω</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζοφόω,</note>
+ <sense level="0" n="0" id="n14477.0" opt="n"><trans opt="n"><i>to darken</i></trans>:—Pass. <trans opt="n"><i>to be</i> or <i>become dark</i></trans>, <usg opt="n">Anth.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszu/gastron" orig_id="n14478" key="zu/gastron">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zu/gastron">ζύγαστρον</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζύγαστρον (ῠ), ου, τό,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crosszeu/gnumi" lang="greek">ζεύγνυμι</ref></xr></etym>
+ <sense level="0" n="0" id="n14478.0" opt="n"><trans opt="n"><i>a chest</i> or <i>box</i></trans> (of board <trans opt="n"><i>strongly fastened together)</i></trans>, <usg opt="n">Soph.</usg>, <usg opt="n">Xen.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszughfo/ros" orig_id="n14479" key="zughfo/ros">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zughfo/ros">ζυγηφόρος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζῠγη-φόρος, ον</note>
+ <etym opt="n">poet. for <foreign lang="greek">ζυγοφόρος</foreign>, <usg opt="n">Eur.</usg></etym>
+ </div1>
+
+ 
+ 
+<div1 id="crosszu/gios" orig_id="n14480" key="zu/gios">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zu/gios">ζύγιος</head>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crosszu^go/n" lang="greek">ζῠγόν</ref></xr></etym>
+ <sense level="0" n="0" id="n14480.0" opt="n"><trans opt="n"><i>of</i> or <i>for the yoke</i></trans>, <foreign lang="greek">ζ. ἵππος</foreign> <trans opt="n"><i>a draught-horse, wheeler</i></trans>, <usg opt="n">Ar.</usg>:—c. gen., <foreign lang="greek">θηρῶν ζυγίους ζεύξασα σατίνας</foreign> having yoked cars to <trans opt="n"><i>teams</i></trans> of beasts, <usg opt="n">Eur.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszugo/desmon" orig_id="n14481" key="zugo/desmon">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zugo/desmon">ζυγόδεσμον</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζῠγό-δεσμον, ου, τό,</note>
+ <sense level="0" n="0" id="n14481.0" opt="n"><trans opt="n"><i>a yoke-band</i></trans>, i. e. a band for fastening the yoke to the pole, <usg opt="n">Il.</usg>, <usg opt="n">Plut.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszugomaxe/w" orig_id="n14482" key="zugomaxe/w">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zugomaxe/w">ζυγομαχέω</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζῠγο-μᾰχέω,</note>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified"> fut. <foreign lang="greek">-ήσω</foreign></note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossma/xomai" lang="greek">μάχομαι</ref></xr></etym>
+ <sense level="0" n="0" id="n14482.0" opt="n"><trans opt="n"><i>to struggle with oneʼs yoke-fellow</i></trans>, generally, <trans opt="n"><i>to struggle</i></trans>, <usg opt="n">Dem.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszugo/n" orig_id="n14483" key="zugo/n">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zugo/n">ζυγόν</head>
+ <etym opt="n">cf. <foreign lang="greek">ζεύγνυμι</foreign></etym>
+ <sense level="0" n="0" id="n14483.0" opt="n"><trans opt="n"><i>anything which joins two</i></trans> bodies; and so,</sense>
+ <sense level="2" n="I" id="n14483.1" opt="n"><trans opt="n"><i>the yoke</i> or <i>cross-bar</i></trans> tied by the <foreign lang="greek">ζυγόδεσμον</foreign> to the end of the pole, and having <foreign lang="greek">ζεῦγλαι</foreign> (collars or loops) at each end, by which two horses, mules or oxen drew the plough or carriage, <usg opt="n">Hom.</usg>, etc.:—metaph., <foreign lang="greek">τὸ δούλιον ζ.</foreign> <trans opt="n"><i>the yoke</i></trans> of slavery, <usg opt="n">Hdt.</usg>; <foreign lang="greek">δουλείας, ἀνάγκης ζ.</foreign> <usg opt="n">Soph.</usg>, <usg opt="n">Eur.</usg>; <foreign lang="greek">ἐπιτιθέναι τινὶ ζυγὰ τοῦ μὴ . .</foreign> , so as to prevent . . , <usg opt="n">Xen.</usg></sense>
+ <sense level="3" n="2" id="n14483.2" opt="n"><trans opt="n"><i>a pair</i></trans>, <usg opt="n">Eur.</usg>; <foreign lang="greek">κατὰ ζυγά</foreign> in <trans opt="n"><i>pairs</i></trans>, <usg opt="n">Theocr.</usg></sense>
+ <sense level="2" n="II" id="n14483.3" opt="n"><trans opt="n"><i>the cross-bar joining</i></trans> the horns of the <foreign lang="greek">φόρμιγξ</foreign>, along which the strings were fastened, <usg opt="n">Il.</usg></sense>
+ <sense level="2" n="III" id="n14483.4" opt="n">in pl. <trans opt="n"><i>the thwarts joining</i></trans> the opposite sides of a ship or boat, <trans opt="n"><i>the benches</i></trans>, Lat. <foreign lang="la">transtra</foreign>, <usg opt="n">Od.</usg>, <usg opt="n">Hdt.</usg>; in sg., <usg opt="n">Soph.</usg>:—metaph., <foreign lang="greek">τὸ πόλεος ζ.</foreign> <usg opt="n">Eur.</usg></sense>
+ <sense level="3" n="2" id="n14483.5" opt="n"><trans opt="n"><i>the middle of the three banks</i></trans> in a trireme; metaph., <foreign lang="greek">οἱ ἐπὶ ζυγῷ δορός</foreign> <trans opt="n"><i>those on the upper bench</i></trans>, <usg opt="n">Aesch.</usg></sense>
+ <sense level="2" n="IV" id="n14483.6" opt="n"><trans opt="n"><i>the beam of the balance</i></trans>, <usg opt="n">Dem.</usg>: — <trans opt="n"><i>the balance</i></trans> itself, <usg opt="n">Plat.</usg></sense>
+ <sense level="2" n="V" id="n14483.7" opt="n"><foreign lang="greek">καρχασίου ζ.</foreign> the <trans opt="n"><i>yard-arm</i></trans> at the masthead, <usg opt="n">Pind.</usg></sense>
+ <sense level="2" n="VI" id="n14483.8" opt="n"><trans opt="n"><i>a rank</i> or <i>line</i></trans> of soldiers, opp. to <trans opt="n"><i>a file</i></trans>, <usg opt="n">Thuc.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszugostate/w" orig_id="n14484" key="zugostate/w">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zugostate/w">ζυγοστατέω</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζῠγοστᾰτέω,</note>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified"> fut. <foreign lang="greek">-ήσω</foreign></note>
+ <sense level="0" n="0" id="n14484.0" opt="n"><trans opt="n"><i>to weigh by the balance</i></trans>, <usg opt="n">Luc.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszugosta/ths" orig_id="n14485" key="zugosta/ths">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zugosta/ths">ζυγοστάτης</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζῠγο-στάτης (ᾰ), ου,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossi(/sthmi" lang="greek">ἵστημι</ref></xr></etym>
+ <sense level="0" n="0" id="n14485.0" opt="n"><trans opt="n"><i>a public officer, who looked to the weights.</i></trans></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszugofo/ros" orig_id="n14486" key="zugofo/ros">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zugofo/ros">ζυγοφόρος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζῠγο-φόρος, ον</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossfe/rw" lang="greek">φέρω</ref></xr></etym>
+ <sense level="0" n="0" id="n14486.0" opt="n"><trans opt="n"><i>bearing the yoke</i></trans>, <usg opt="n">Eur.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszugo/w" orig_id="n14487" key="zugo/w">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zugo/w">ζυγόω</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζῠγόω,</note>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified"> fut. <foreign lang="greek">-ώσω</foreign></note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crosszugo/n" lang="greek">ζυγόν</ref></xr></etym>
+ <sense level="0" n="0" id="n14487.0" opt="n"><trans opt="n"><i>to yoke together</i></trans>, <foreign lang="greek">ζ. κιθάραν</foreign> <trans opt="n"><i>to put the cross-bar to</i></trans> the lyre, <usg opt="n">Luc.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszugwqri/zw" orig_id="n14488" key="zugwqri/zw">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zugwqri/zw">ζυγωθρίζω</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζῠγωθρίζω,</note>
+ <etym opt="n"><foreign lang="greek">ζυγόν</foreign> IV</etym>
+ <sense level="0" n="0" id="n14488.0" opt="n"><trans opt="n"><i>to weigh, examine</i></trans>, <usg opt="n">Ar.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszugwto/s" orig_id="n14489" key="zugwto/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zugwto/s">ζυγωτός</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζῠγωτός, ή, όν</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crosszugo/w" lang="greek">ζυγόω</ref></xr></etym>
+ <sense level="0" n="0" id="n14489.0" opt="n"><trans opt="n"><i>yoked</i></trans>, <usg opt="n">Soph.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszu/mh" orig_id="n14490" key="zu/mh">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zu/mh">ζύμη</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζύ_μη, ἡ,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossze/w" lang="greek">ζέω</ref></xr></etym>
+ <sense level="0" n="0" id="n14490.0" opt="n"><trans opt="n"><i>leaven</i></trans>:—metaph. of <trans opt="n"><i>corruption, falsehood</i></trans>, <usg opt="n">NTest.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszumi/ths" orig_id="n14491" key="zumi/ths">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zumi/ths">ζυμίτης</head>
+ <etym opt="n">from <ref type="cross" target="crosszu/_mh" lang="greek">ζύ_μη</ref></etym>
+ <sense level="0" n="0" id="n14491.0" opt="n"><trans opt="n"><i>leavened</i></trans>, <usg opt="n">Xen.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszumo/w" orig_id="n14492" key="zumo/w">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zumo/w">ζυμόω</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζῡμόω,</note>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified"> fut. <foreign lang="greek">-ώσω</foreign></note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crosszu/mh" lang="greek">ζύμη</ref></xr></etym>
+ <sense level="0" n="0" id="n14492.0" opt="n"><trans opt="n"><i>to leaven</i></trans>, <usg opt="n">NTest.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszwa/gria" orig_id="n14493" key="zwa/gria">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zwa/gria">ζωάγρια</head>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crosszwo/s " lang="greek">ζωός</ref>, <ref type="cross" target="crossa)greu/w" lang="greek">ἀγρεύω</ref></xr></etym>
+ <sense level="0" n="0" id="n14493.0" opt="n"><trans opt="n"><i>reward for life saved</i></trans>, <usg opt="n">Od.</usg>, <usg opt="n">Hdt.</usg>; also, like <foreign lang="greek">θρεπτήρια</foreign>, <trans opt="n"><i>a reward for nursing and rearing one</i></trans>, <usg opt="n">Il.</usg>: c. gen. rei, <foreign lang="greek">ζωάγρια μόχθων, νούσων</foreign> <usg opt="n">Anth.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszwa/grios" orig_id="n14494" key="zwa/grios">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zwa/grios">ζωάγριος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζω-άγριος, α, ον</note>
+ <sense level="0" n="0" id="n14494.0" opt="n"><trans opt="n"><i>for saving life</i></trans>, <usg opt="n">Babr.</usg>: v. <ref type="cross" target="crosszw-a/gria" lang="greek">ζω-άγρια</ref>.</sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszwgrafe/w" orig_id="n14495" key="zwgrafe/w">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zwgrafe/w">ζωγραφέω</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζωγρᾰφέω,</note>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified"> fut. <foreign lang="greek">-ήσω</foreign></note>
+ <sense level="0" n="0" id="n14495.0" opt="n"><trans opt="n"><i>to paint from life, to paint</i></trans>, <usg opt="n">Plat.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszwgrafi/a" orig_id="n14496" key="zwgrafi/a">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zwgrafi/a">ζωγραφία</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζωγρᾰφία, ἡ,</note>
+ <etym opt="n">from <ref type="cross" target="crosszwgra/fos" lang="greek">ζωγράφος</ref></etym>
+ <sense level="0" n="0" id="n14496.0" opt="n"><trans opt="n"><i>the art of painting</i></trans>, <usg opt="n">Plat.</usg>, <usg opt="n">Xen.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszwgrafiko/s" orig_id="n14497" key="zwgrafiko/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zwgrafiko/s">ζωγραφικός</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζωγρᾰφικός, ή, όν</note>
+ <sense level="0" n="0" id="n14497.0" opt="n"><trans opt="n"><i>skilled in painting</i></trans>, <usg opt="n">Plat.</usg>, <usg opt="n">Xen.</usg></sense>
+ <etym opt="n">from <ref type="cross" target="crosszwgra/fos" lang="greek">ζωγράφος</ref></etym>
+ </div1>
+
+ 
+ 
+<div1 id="crosszwgra/fos" orig_id="n14498" key="zwgra/fos">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zwgra/fos">ζωγράφος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζω-γράφος, ὁ,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crosszwo/s " lang="greek">ζωός</ref>, <ref type="cross" target="crossgra/fw" lang="greek">γράφω</ref></xr></etym>
+ <sense level="0" n="0" id="n14498.0" opt="n"><trans opt="n"><i>one who paints from life</i> or <i>from nature, a painter</i></trans>, <usg opt="n">Hdt.</usg>, <usg opt="n">Plat.</usg>, etc.</sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszwgre/w" orig_id="n14499" key="zwgre/w">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zwgre/w">ζωγρέω</head>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crosszwo/s " lang="greek">ζωός</ref>, <ref type="cross" target="crossa)greu/w" lang="greek">ἀγρεύω</ref></xr></etym>
+ <sense level="2" n="I" id="n14499.0" opt="n"><trans opt="n"><i>to take alive, take captive</i></trans> instead of killing, <usg opt="n">Il.</usg>, <usg opt="n">Hdt.</usg>, etc.:—Pass., <usg opt="n">Hdt.</usg></sense>
+ <sense level="2" n="II" id="n14499.1" opt="n"> (<foreign lang="greek">ζωή, ἀγείρω</foreign>) <trans opt="n"><i>to restore to life, revive</i></trans>, <usg opt="n">Il.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszwgri/a" orig_id="n14500" key="zwgri/a">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zwgri/a">ζωγρία</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζωγρία, ἡ,</note>
+ <sense level="0" n="0" id="n14500.0" opt="n"><trans opt="n"><i>a taking alive</i></trans>, <foreign lang="greek">ζωγρίῃ λαμβάνειν</foreign> or <foreign lang="greek">αἱρέειν  ζωγρεῖν</foreign>, <usg opt="n">Hdt.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszw/|dion" orig_id="n14501" key="zw/|dion">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zw/|dion">ζῴδιον</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζῴδιον, ου, τό,</note>
+ <sense level="2" n="I" id="n14501.0" opt="n">Dim. of <foreign lang="greek">ζῷον</foreign> II, <trans opt="n"><i>a small figure</i></trans>, <usg opt="n">Hdt.</usg></sense>
+ <sense level="2" n="II" id="n14501.1" opt="n">in pl. <trans opt="n"><i>the signs of the Zodiac</i></trans>, <usg opt="n">Arist.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszwh/" orig_id="n14502" key="zwh/">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zwh/">ζωή</head>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossza/w" lang="greek">ζάω</ref></xr></etym>
+ <sense level="3" n="1" id="n14502.0" opt="n"><trans opt="n"><i>a living</i></trans>, i. e. oneʼs <trans opt="n"><i>means of life, substance</i></trans>, <usg opt="n">Od.</usg>; <foreign lang="greek">τὴν ζόην ποιεῖσθαι ἀπό</foreign> or <foreign lang="greek">ἔκ τινος</foreign> to get oneʼs <trans opt="n"><i>living</i></trans> by . . , <usg opt="n">Hdt.</usg>, etc.</sense>
+ <sense level="3" n="2" id="n14502.1" opt="n"><trans opt="n"><i>life, existence</i></trans>, <usg opt="n">Tyrtae.</usg>, <usg opt="n">Trag.</usg>, etc.</sense>
+ <sense level="3" n="3" id="n14502.2" opt="n"><trans opt="n"><i>a way of life</i></trans>, <usg opt="n">Hdt.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszwqa/lmios" orig_id="n14503" key="zwqa/lmios">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zwqa/lmios">ζωθάλμιος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζω-θάλμιος, ον</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crosszwh/ " lang="greek">ζωή</ref>, <ref type="cross" target="crossqa/llw" lang="greek">θάλλω</ref></xr></etym>
+ <sense level="0" n="0" id="n14503.0" opt="n"><trans opt="n"><i>giving the bloom and freshness of life</i></trans>, <usg opt="n">Pind.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszw=ma" orig_id="n14504" key="zw=ma">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zw=ma">ζῶμα</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζῶμα, ατος, τό,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crosszw/nnumi" lang="greek">ζώννυμι</ref></xr></etym>
+ <sense level="2" n="I" id="n14504.0" opt="n"><trans opt="n"><i>that which is girded, a girded frock</i> or <i>doublet</i></trans>, <usg opt="n">Od.</usg></sense>
+ <sense level="3" n="2" id="n14504.1" opt="n">in <usg opt="n">Il.</usg> <trans opt="n"><i>the lower</i></trans> part of the <foreign lang="greek">θώρηξ</foreign>, round which the <foreign lang="greek">ζωστήρ</foreign> passed, <usg opt="n">Il.</usg></sense>
+ <sense level="3" n="3" id="n14504.2" opt="n"><trans opt="n"><i>the drawers</i></trans> worn by athletes, in Prose <foreign lang="greek">διάζωμα</foreign>, <usg opt="n">Il.</usg></sense>
+ <sense level="2" n="II" id="n14504.3" opt="n">= <ref type="cross" target="crosszw/nh" lang="greek">ζώνη</ref>, <trans opt="n"><i>a womanʼs girdle</i></trans>, <usg opt="n">Soph.</usg>, <usg opt="n">Anth.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszw/meuma" orig_id="n14505" key="zw/meuma">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zw/meuma">ζώμευμα</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζώμευμα, ατος, τό,</note>
+ <sense level="0" n="0" id="n14505.0" opt="n"><trans opt="n"><i>soup</i></trans>, <foreign lang="greek">ζωμεύματα</foreign> put by way of joke for <foreign lang="greek">ὑποζώματα νεώς</foreign>, <usg opt="n">Ar.</usg></sense>
+ <etym opt="n">from <ref type="cross" target="crosszwmeu/w" lang="greek">ζωμεύω</ref></etym>
+ </div1>
+
+ 
+ 
+<div1 id="crosszwmeu/w" orig_id="n14506" key="zwmeu/w">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zwmeu/w">ζωμεύω</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζωμεύω,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crosszwmo/s" lang="greek">ζωμός</ref></xr></etym>
+ <sense level="0" n="0" id="n14506.0" opt="n"><trans opt="n"><i>to boil into soup</i></trans>, <usg opt="n">Ar.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszwmh/rusis" orig_id="n14507" key="zwmh/rusis">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zwmh/rusis">ζωμήρυσις</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζωμ-ήρῠσις, εως</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crosszwmo/s " lang="greek">ζωμός</ref>, <ref type="cross" target="crossa)ru/w" lang="greek">ἀρύω</ref></xr></etym>
+ <sense level="0" n="0" id="n14507.0" opt="n"><trans opt="n"><i>a soup-ladle</i></trans>, <usg opt="n">Anth.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszwmi/dion" orig_id="n14508" key="zwmi/dion">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zwmi/dion">ζωμίδιον</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζωμίδιον, ου, τό,</note>
+ <sense level="0" n="0" id="n14508.0" opt="n">Dim. of <foreign lang="greek">ζωμός</foreign>, <trans opt="n"><i>a little sauce</i></trans>, <usg opt="n">Ar.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszwmo/s" orig_id="n14509" key="zwmo/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zwmo/s">ζωμός</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">.ζωμός, ὁ,</note>
+ <sense level="0" n="0" id="n14509.0" opt="n">Lat. <foreign lang="la">jus, sauce</foreign> to eat with meat, fish, etc., <usg opt="n">Ar.</usg>; <foreign lang="greek">ὁ μέλας ζ.</foreign> the black <trans opt="n"><i>broth</i></trans> of Spartans, <usg opt="n">Plut.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszw/nh" orig_id="n14510" key="zw/nh">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zw/nh">ζώνη</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζώνη, ἡ,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crosszw/nnumi" lang="greek">ζώννυμι</ref></xr></etym>
+ <sense level="0" n="0" id="n14510.0" opt="n"><trans opt="n"><i>a belt, girdle</i></trans>: </sense>
+ <sense level="2" n="I" id="n14510.1" opt="n">properly <trans opt="n"><i>the lower girdle worn by women above the hips</i></trans>, (the <trans opt="n"><i>upper-girdle</i></trans>, the <foreign lang="greek">στρόφιον</foreign>, being worn <trans opt="n"><i>under the breasts)</i></trans>, <usg opt="n">Hom.</usg></sense>
+ <sense level="3" n="2" id="n14510.2" opt="n">Phrases, <foreign lang="greek">λῦσε δὲ παρθενίην ζώνην</foreign> unloosed her maiden <trans opt="n"><i>girdle</i></trans>, of the bridegroom, <usg opt="n">Od.</usg>; Mid. of the bride, <usg opt="n">Anth.</usg>:—of men on a march, <foreign lang="greek">ζ. λύεσθαι</foreign> to slacken oneʼs <trans opt="n"><i>belt</i></trans>, i. e. <trans opt="n"><i>rest oneself</i></trans>, <usg opt="n">Hdt.</usg>:— of pregnant women, <foreign lang="greek">φέρειν ὑπὸ ζώνης, τρέφειν ἐντὸς ζώνης</foreign> <usg opt="n">Aesch.</usg>, <usg opt="n">Eur.</usg>:— <foreign lang="greek">εἰς ζώνην δεδόσθαι</foreign> to be given <trans opt="n"><i>for girdle-money</i></trans> (as we should say, <trans opt="n"><i>pin-money)</i></trans>, of Oriental queens who had cities given them, <usg opt="n">Xen.</usg></sense>
+ <sense level="2" n="II" id="n14510.3" opt="n"><trans opt="n"><i>the manʼs belt</i></trans> (in <usg opt="n">Hom.</usg> commonly <foreign lang="greek">ζωστήρ) </foreign>, <usg opt="n">Il.</usg>, <usg opt="n">Xen.</usg>, etc.</sense>
+ <sense level="3" n="2" id="n14510.4" opt="n"><trans opt="n"><i>the part round which the girdle past, the waist, loin</i></trans>, <usg opt="n">Il.</usg></sense>
+ 
+ </div1>
+
+ 
+ 
+<div1 id="crosszw/nnumi" orig_id="n14511" key="zw/nnumi">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zw/nnumi">ζώννυμι</head>
+ <sense level="2" n="I" id="n14511.0" opt="n"><trans opt="n"><i>to gird</i></trans>, esp. <trans opt="n"><i>to gird round the loins</i></trans> for a pugilistic conflict, <usg opt="n">Od.</usg>, <usg opt="n">Hes.</usg>; <foreign lang="greek">ζ. γαῖαν</foreign>, of Ocean, <usg opt="n">Anth.</usg></sense>
+ <sense level="2" n="II" id="n14511.1" opt="n">Mid. <foreign lang="greek">ζώννῦμαι</foreign>, <trans opt="n"><i>to gird oneself, gird up oneʼs loins</i></trans>, of wrestlers and pugilists, who in early times wore a linen cloth (<foreign lang="greek">ζῶμα, διάζωμα</foreign>) round their loins.</sense>
+ <sense level="3" n="2" id="n14511.2" opt="n">generally, <trans opt="n"><i>to gird up oneʼs loins, prepare for battle</i></trans>, <usg opt="n">Il.</usg>; also c. acc., <foreign lang="greek">ζωννύσκετο μίτρην</foreign> <trans opt="n"><i>girded on his</i></trans> belt, <usg opt="n">Il.</usg>; <foreign lang="greek">χαλκὸν ζ.</foreign> <trans opt="n"><i>to gird on oneʼs</i></trans> sword, <usg opt="n">Il.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszw|oglu/fos" orig_id="n14512" key="zw|oglu/fos">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zw|oglu/fos">ζῳογλύφος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζῳο-γλύφος (ῠ), ὁ,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossglu/fw" lang="greek">γλύφω</ref></xr></etym>
+ <sense level="0" n="0" id="n14512.0" opt="n"><trans opt="n"><i>a sculptor</i></trans>, <usg opt="n">Anth.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszw|ogone/w" orig_id="n14513" key="zw|ogone/w">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zw|ogone/w">ζωογονέω</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">, ζῳογονέω,</note>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified"> fut. <foreign lang="greek">-ήσω</foreign></note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crosszwo/s" lang="greek">ζωός</ref></xr></etym>
+ <sense level="2" n="I" id="n14513.0" opt="n"><trans opt="n"><i>to produce alive</i></trans>, <usg opt="n">Luc.</usg></sense>
+ <sense level="2" n="II" id="n14513.1" opt="n"><trans opt="n"><i>to preserve alive</i></trans>, <usg opt="n">NTest.</usg></sense>
+ <etym opt="n">from <ref type="cross" target="crosszw|ogo/nos1" lang="greek">ζωογόνοs</ref></etym>
+ </div1>
+
+ 
+ 
+<div1 id="crosszw|ogo/nos1" orig_id="n14514" key="zw|ogo/nos1">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zw|ogo/nos1">ζωογόνος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζωο-γόνος, ον</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crosszw=|on " lang="greek">ζῷον</ref>, <ref type="cross" target="cross*gei/nw" lang="greek">*γείνω</ref></xr></etym>
+ <sense level="0" n="0" id="n14514.0" opt="n"><trans opt="n"><i>producing animals, generative</i></trans>, name of Apollo, <usg opt="n">Anth.</usg></sense> <sense level="0" n="2" id="n14515.0" opt="n"><trans opt="n"><i>life-bringing</i></trans>, <usg opt="n">Anth.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszwogra/fos" orig_id="n14516" key="zwogra/fos">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zwogra/fos">ζωογράφος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζωο-γράφος, ον</note>
+ <etym opt="n">poet. for <foreign lang="greek">ζωγράφος.</foreign></etym>
+ </div1>
+
+ 
+ 
+<div1 id="crosszwoqete/w" orig_id="n14517" key="zwoqete/w">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zwoqete/w">ζωοθετέω</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζωο-θετέω,</note>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified"> fut. <foreign lang="greek">-ήσω</foreign></note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossti/qhmi" lang="greek">τίθημι</ref></xr></etym>
+ <sense level="0" n="0" id="n14517.0" opt="n"><trans opt="n"><i>to make alive</i></trans>, <usg opt="n">Anth.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszw|o/morfos" orig_id="n14518" key="zw|o/morfos">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zw|o/morfos">ζωόμορφος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">, ζῳό-μορφος, ον</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossmo/rfh" lang="greek">μόρφη</ref></xr></etym>
+ <sense level="0" n="0" id="n14518.0" opt="n"><trans opt="n"><i>in the shape of an animal</i></trans>, <usg opt="n">Plut.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszw=|on" orig_id="n14519" key="zw=|on">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zw=|on">ζῷον</head>
+ <etym opt="n">as if contr. from <ref type="cross" target="crosszw/i+on" lang="greek">ζώϊον</ref></etym>
+ <sense level="2" n="I" id="n14519.0" opt="n"><trans opt="n"><i>a living being, animal</i></trans>, <usg opt="n">Hdt.</usg>, <usg opt="n">Ar.</usg>, etc.</sense>
+ <sense level="2" n="II" id="n14519.1" opt="n">in painting and sculpture, <trans opt="n"><i>a figure, image</i></trans>, not necessarily of animals, <usg opt="n">Hdt.</usg>; mostly in pl., <foreign lang="greek">ζῷα ἐς τὴν ἐσθῆτα ἐγγράφειν</foreign> <usg opt="n">Hdt.</usg>, <usg opt="n">Plat.</usg>, etc.; <foreign lang="greek">ζῷα γράφεσθαι,  ζωγραφεῖν</foreign>, with a second acc. of the thing painted, <foreign lang="greek">ζῷα γράψασθαι τὴν ζεῦξιν τοῦ Βοσπόρου</foreign> <trans opt="n"><i>to have</i></trans> the passage of the Bosporus <trans opt="n"><i>painted</i></trans>, <usg opt="n">Hdt.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszw|opoie/w1" orig_id="n14520" key="zw|opoie/w1">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zw|opoie/w1">ζωοποιέω</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζῳο-ποιέω,</note>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified"> fut. <foreign lang="greek">-ήσω</foreign></note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crosszw=|on" lang="greek">ζῷον</ref></xr></etym>
+ <sense level="0" n="0" id="n14520.0" opt="n"><trans opt="n"><i>to produce animals</i></trans>, <usg opt="n">Arist.</usg>, <usg opt="n">Luc.</usg></sense>
+ <sense level="0" n="2" id="n14521.0" opt="n"><trans opt="n"><i>to make alive</i></trans>, <usg opt="n">NTest.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszwo/sofos" orig_id="n14522" key="zwo/sofos">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zwo/sofos">ζωόσοφος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζωό-σοφος, ον</note>
+ <sense level="0" n="0" id="n14522.0" opt="n"><trans opt="n"><i>wise unto life</i></trans>, <usg opt="n">Anth.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszwo/s" orig_id="n14523" key="zwo/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zwo/s">ζωός</head>
+ <sense level="0" n="0" id="n14523.0" opt="n"><trans opt="n"><i>alive, living</i></trans>, Homer, <usg opt="n">Hdt.</usg>, etc.; <foreign lang="greek">ζωὸν ἑλεῖν τινά</foreign> to take prisoner, <usg opt="n">Il.</usg>; <foreign lang="greek">ζωὸν λαβεῖν</foreign> <usg opt="n">Xen.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszw|oto/kos" orig_id="n14524" key="zw|oto/kos">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zw|oto/kos">ζωοτόκος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζωο-τόκος, ον</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossti/ktw" lang="greek">τίκτω</ref></xr></etym>
+ <sense level="0" n="0" id="n14524.0" opt="n"><trans opt="n"><i>producing its young alive, viviparous</i></trans>, <usg opt="n">Theocr.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszw|otu/pos" orig_id="n14525" key="zw|otu/pos">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zw|otu/pos">ζῳοτύπος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζῳο-τύπος (ῠ), ον</note>
+ <sense level="0" n="0" id="n14525.0" opt="n"><trans opt="n"><i>describing to the life</i></trans>, <usg opt="n">Anth.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszwofo/ros" orig_id="n14526" key="zwofo/ros">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zwofo/ros">ζωοφόρος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζωο-φόρος, ον</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crosszwh/ " lang="greek">ζωή</ref>, <ref type="cross" target="crossfe/rw" lang="greek">φέρω</ref></xr></etym>
+ <sense level="0" n="0" id="n14526.0" opt="n"><trans opt="n"><i>life-giving</i></trans>, <usg opt="n">Anth.</usg></sense> <sense level="0" n="2" id="n14527.0" opt="n"> ζῳοφόρος, 
+<trans opt="n"><i>bearing animals</i></trans>: <foreign lang="greek">ὁ ζ.</foreign> (sc. <foreign lang="greek">κύκλος) </foreign>, <trans opt="n"><i>the zodiac</i></trans>, <usg opt="n">Anth.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszwpone/w" orig_id="n14528" key="zwpone/w">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zwpone/w">ζωπονέω</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζω-πονέω,</note>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified"> fut. <foreign lang="greek">-ήσω</foreign></note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crosszw/s" lang="greek">ζώς</ref></xr></etym>
+ <sense level="0" n="0" id="n14528.0" opt="n"><trans opt="n"><i>to represent alive</i></trans>, <usg opt="n">Anth.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszwpure/w" orig_id="n14529" key="zwpure/w">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zwpure/w">ζωπυρέω</head>
+ <sense level="0" n="0" id="n14529.0" opt="n"><trans opt="n"><i>to kindle into flame, light up</i></trans>: metaph., <foreign lang="greek">ζ. τάρβος</foreign> <usg opt="n">Aesch.</usg>; <foreign lang="greek">νείκη</foreign> <usg opt="n">Eur.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszw/puron" orig_id="n14530" key="zw/puron">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zw/puron">ζώπυρον</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζώ-πῠρον, ου, τό,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crosspu=r" lang="greek">πῦρ</ref></xr></etym>
+ <sense level="0" n="0" id="n14530.0" opt="n"><trans opt="n"><i>a spark, ember</i></trans>, <usg opt="n">Plat.</usg>, etc.</sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszwropote/w" orig_id="n14531" key="zwropote/w">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zwropote/w">ζωροποτέω</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζωροποτέω,</note>
+ <sense level="0" n="0" id="n14531.0" opt="n"><trans opt="n"><i>to drink sheer wine</i></trans>, <usg opt="n">Anth.</usg></sense>
+ <etym opt="n">from <ref type="cross" target="crosszwropo/ths" lang="greek">ζωροπότης</ref></etym>
+ </div1>
+
+ 
+ 
+<div1 id="crosszwropo/ths" orig_id="n14532" key="zwropo/ths">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zwropo/ths">ζωροπότης</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζωρο-πότης, ου,</note>
+ <sense level="0" n="0" id="n14532.0" opt="n"><trans opt="n"><i>drinking sheer wine, drunken</i></trans>, <usg opt="n">Anth.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszwro/s" orig_id="n14533" key="zwro/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zwro/s">ζωρός</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζωρός, όν</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossza/w" lang="greek">ζάω</ref></xr></etym>
+ <sense level="0" n="0" id="n14533.0" opt="n"><trans opt="n"><i>pure, sheer</i></trans>, properly of wine without water, <usg opt="n">Anth.</usg>; absol., <foreign lang="greek">ζωρός</foreign> (sc. <foreign lang="greek">οἶνος) </foreign> <usg opt="n">Anth.</usg>:—comp. in <usg opt="n">Hom.</usg>, <foreign lang="greek">ζωρότερον δὲ κέραιε</foreign> mix the wine <trans opt="n"><i>more pure</i></trans>, i. e. add less water, <usg opt="n">Il.</usg> As the Greeks mixed their wine with water, the phrase <foreign lang="greek">ζωρότερον πίνειν</foreign> came to mean not only, as in <usg opt="n">Hdt.</usg>, <trans opt="n"><i>to drink purer wine than common</i></trans>, but, generally, <trans opt="n"><i>to drink hard, be a drunkard</i></trans>, like <foreign lang="greek">ἀκρατοποτεῖν</foreign>, <usg opt="n">Theophr.</usg>, <usg opt="n">Luc.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszw/s" orig_id="n14534" key="zw/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zw/s">ζώς</head>
+ <etym opt="n">= <ref type="cross" target="crosszwo/s" lang="greek">ζωός</ref>, <usg opt="n">Il.</usg>, <usg opt="n">Hdt.</usg></etym>
+ </div1>
+
+ 
+ 
+<div1 id="crosszwsth/r" orig_id="n14535" key="zwsth/r">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zwsth/r">ζωστήρ</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζωστήρ, ῆρος,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crosszw/nnumi" lang="greek">ζώννυμι</ref></xr></etym>
+ <sense level="3" n="1" id="n14535.0" opt="n"><trans opt="n"><i>a girdle</i></trans>, in <usg opt="n">Il.</usg> always <trans opt="n"><i>a warriorʼs belt</i> or <i>baldric</i></trans>, which passed round the loins and secured the bottom of the <foreign lang="greek">θώραξ</foreign>:—in <usg opt="n">Od.</usg>, <trans opt="n"><i>the belt</i></trans> with which the swineherd girds up his frock.</sense>
+ <sense level="3" n="2" id="n14535.1" opt="n">later, = <ref type="cross" target="crosszw/nh" lang="greek">ζώνη</ref>, <trans opt="n"><i>a womanʼs girdle.</i></trans> </sense>
+ <sense level="3" n="3" id="n14535.2" opt="n">metaph. of the encircling sea, <usg opt="n">Anth.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszwsto/s" orig_id="n14536" key="zwsto/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zwsto/s">ζωστός</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζωστός, ή, όν</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crosszw/nnumi" lang="greek">ζώννυμι</ref></xr></etym>
+ <sense level="0" n="0" id="n14536.0" opt="n"><trans opt="n"><i>girded</i></trans>, <usg opt="n">Plut.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszw=stron" orig_id="n14537" key="zw=stron">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zw=stron">ζῶστρον</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζῶστρον, ου, τό,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crosszw/nnumi" lang="greek">ζώννυμι</ref></xr></etym>
+ <sense level="0" n="0" id="n14537.0" opt="n"><trans opt="n"><i>a belt, girdle</i></trans>, <usg opt="n">Od.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszwtiko/s" orig_id="n14538" key="zwtiko/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zwtiko/s">ζωτικός</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζωτικός, ή, όν</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossza/w" lang="greek">ζάω</ref></xr></etym>
+ <sense level="3" n="1" id="n14538.0" opt="n"><trans opt="n"><i>full of life, lively</i></trans>, Lat. <foreign lang="la">vivax</foreign>, <usg opt="n">Plat.</usg>:—adv., <foreign lang="greek">ζωτικῶς ἔχειν</foreign> to be <trans opt="n"><i>fond of life</i></trans>, <usg opt="n">Plut.</usg></sense>
+ <sense level="3" n="2" id="n14538.1" opt="n">of works of Art, <trans opt="n"><i>true to life</i></trans>, <foreign lang="greek">τὸ ζωτικὸν φαίνεσθαι πῶς ἐνεργάζῃ τοῖς ἀνδριᾶσιν;</foreign> how do you produce <trans opt="n"><i>that look of life</i></trans> in your statues? <usg opt="n">Xen.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosszw/futos" orig_id="n14539" key="zw/futos">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="zw/futos">ζώφυτος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ζώ-φῠτος, ον</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossfu/w" lang="greek">φύω</ref></xr></etym>
+ <sense level="0" n="0" id="n14539.0" opt="n"><trans opt="n"><i>giving life to plants, fertilising, generative</i></trans>, <usg opt="n">Aesch.</usg>, <usg opt="n">Plut.</usg></sense>
+ </div1>
+
+ 
+ </div0>
+</div0>
+</text>
+</tei.2>

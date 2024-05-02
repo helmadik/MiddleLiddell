@@ -1,0 +1,1369 @@
+<tei.2>
+
+ <teiHeader status="new" type="text">
+  <fileDesc>
+  <titleStmt>
+ 	<title>An Intermediate Greek-English Lexicon</title>
+ 	<title type="sub">Machine readable text</title>
+ 	<author>Henry George Liddell</author>
+ 	<author>Robert Scott</author>
+  <sponsor>Perseus Project, Tufts University</sponsor>
+ 		<principal>Gregory Crane</principal>
+ 		<respStmt>
+ 		<resp>Prepared under the supervision of</resp>
+ 		<name>Lisa Cerrato</name>
+ 		<name>William Merrill</name>
+ 		<name>Elli Mylonas</name>
+ 		<name>David Smith</name>
+ 		</respStmt>
+  <funder n="org:AnnCPB">The Annenberg CPB/Project</funder>
+  </titleStmt>
+ 	<publicationStmt>
+ 		<publisher>Trustees of Tufts University</publisher>
+ 		<pubPlace>Medford, MA</pubPlace>
+ 		<authority>Perseus Project</authority>
+ 		</publicationStmt>
+  <sourceDesc default="NO">
+ 	<biblStruct default="NO">
+ 	 <monogr>
+ 	 <author>Liddell and Scott</author>
+ 	 <title>An Intermediate Greek-English Lexicon</title>
+ 	 <imprint>
+ 	  <pubPlace>Oxford</pubPlace>
+ 	  <publisher>Clarendon Press</publisher>
+ 	  <date>1889</date>
+ 	 </imprint>
+ 	 </monogr>
+ 	 <idno type="ISBN">0199102066</idno>
+ 	</biblStruct>
+  </sourceDesc>
+  </fileDesc>
+ 
+  <encodingDesc>
+  <refsDecl doctype="TEI.2">
+ 	<state n="chunk" unit="entry" />
+  </refsDecl>
+  <refsDecl doctype="TEI.2">
+ 	<state unit="alphabetic letter" />
+ 	<state n="chunk" unit="entry" />
+  </refsDecl>
+  </encodingDesc>
+  
+  <profileDesc>
+  <langUsage default="NO">
+ 	<language id="en">English
+ 	</language><language id="greek">Greek
+ 	</language><language id="la">Latin
+ 	</language><language id="fr">French
+  </language></langUsage>
+  </profileDesc>
+  
+  <revisionDesc>
+  <change><date>28 Jan 1998</date>
+ 	<respStmt><name>DAS</name><resp>ed.</resp></respStmt>
+ 	<item>
+ $Log: ml.xml,v $
+ Revision 1.4 2004/12/14 19:42:20 packel
+ added entry/sense ids; fixed bad empty tags
+ 
+ Revision 1.3 2004/12/03 20:11:37 packel
+ corrected some duplicate keys caused by fixing the compound verbs
+ 
+ Revision 1.2 2004/12/02 23:29:11 packel
+ added key attributes to compound verb entries
+ 
+ Revision 1.1 2004/11/22 17:07:40 packel
+ converted to P4/XML
+ 	
+ Revision 1.20 2004/10/18 18:17:47 packel
+ added div0s; changed orth ʼa)da/mas,ʼ to a)da/mas
+ 
+ Revision 1.19 2004/10/07 14:18:11 packel
+ removed *s in entry keys
+ 
+ Revision 1.18 2004/10/05 21:34:13 packel
+ Aligned dictionary entries with the LSJ.
+ 
+ Revision 1.17 2004/09/08 15:49:42 packel
+ Changed doctype to TEI P4
+ 
+ Revision 1.16 2004/09/01 15:44:25 packel
+ Fixed thirty-odd words that had multiple entries but no number afterward to
+ differentiate the entries (e.g., si=gma, si=gma is now si=gma1, si=gma2).
+ 
+ Revision 1.15 2004/06/15 19:31:34 lcerrato
+ changed nothwithstanding to notwithstanding
+ 
+ Revision 1.14 2003/02/04 21:21:51 lcerrato
+ fixed typo kuma entry swoln to swollen
+ 
+ Revision 1.13 2001/12/05 15:15:58 gcrane
+ shifted the lemma for "pa/nth" to be "pa/nth|"
+ 
+ Revision 1.12 2001/04/20 21:58:57 dasmith
+ Added funder.
+ 
+ Revision 1.11 2001/04/05 18:26:02 lcerrato
+ added trans tags to noeo^ entry where missing
+ 
+ Revision 1.10 2000/10/06 23:20:04 dasmith
+ Tagged inflectional info as Greek.
+ 
+ Revision 1.9 2000/10/06 21:44:13 dasmith
+ Added author and ISBN to head.
+ Use new DTD subset.
+ Explicitly tag lemmata and cross references as Greek.
+ 
+ Revision 1.8 2000/03/04 20:25:11 dasmith
+ Standardized language IDs.
+ Added key attribute to entry.
+ 
+ Revision 1.7 1998/08/24 19:15:31 jrydberg
+ finished trans tags and added new prep. defs.
+ 
+ Revision 1.6 1998/08/20 17:12:45 jrydberg
+ Included greek words within trans tags where appropriate
+ 
+ Revision 1.5 1998/08/19 20:50:08 jrydberg
+ Replaced all "(trans) or (/trans)" with " or "
+ 
+ Revision 1.4 1998/08/19 18:23:58 jrydberg
+ Corrected trans tagging for short defs. through a)mfote/rwqen.
+ 
+ Revision 1.3 1998/08/17 20:24:43 jrydberg
+ *** empty log message ***
+ 
+ Revision 1.2 1998/08/17 19:38:25 jrydberg
+ Updated entry for *)agamemno/neos
+ 
+ Revision 1.1 1998/08/14 15:38:33 textgod
+ Added to repository.
+ 
+ </item>
+ </change>
+ </revisionDesc>
+ </teiHeader>
+<text>
+<div0 type="alphabetic letter" n="*c" org="uniform" sample="complete"><div0 type="alphabetic letter" n="*c" org="uniform" sample="complete">
+ <head lang="greek">Ξ</head>
+ 
+<div1 id="crosscai/nw" orig_id="n22474" key="cai/nw">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="cai/nw">ξαίνω</head>
+ <sense level="2" n="I" id="n22474.0" opt="n"><trans opt="n"><i>to comb</i> or <i>card</i></trans> wool, so as to make it fit for spinning, <usg opt="n">Od.</usg>, etc.</sense>
+ <sense level="3" n="2" id="n22474.1" opt="n">of cloth, <trans opt="n"><i>to full</i> or <i>dress</i></trans> it, <usg opt="n">Ar.</usg></sense>
+ <sense level="2" n="II" id="n22474.2" opt="n">metaph. <trans opt="n"><i>to dress, thrash, beat</i></trans>, <foreign lang="greek">ῥάβδοις ἔξαινον τὰ σώματα</foreign> <usg opt="n">Plut.</usg>:—Pass., <foreign lang="greek">ξανθέν</foreign> <trans opt="n"><i>mangled</i></trans>, <usg opt="n">Anth.</usg>;—c. acc. cogn., <foreign lang="greek">ξαίνειν κατὰ τοῦ νώτου πολλὰς</foreign> (sc. <foreign lang="greek">πληγάς</foreign>) <usg opt="n">Dem.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosscanqi/zw" orig_id="n22475" key="canqi/zw">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="canqi/zw">ξανθίζω</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">Ξανθίζω,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crosscanqo/s" lang="greek">ξανθός</ref></xr></etym>
+ <sense level="0" n="0" id="n22475.0" opt="n"><trans opt="n"><i>to make yellow</i> or <i>brown</i></trans>, by roasting or frying, <usg opt="n">Ar.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="cross*canqi/hs" orig_id="n22476" key="*canqi/hs">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="*canqi/hs">Ξανθίας</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">Ξανθίας, ου, ὁ,</note>
+ <sense level="0" n="0" id="n22476.0" opt="n"><trans opt="n"><i>Xanthias</i></trans>, name of a slave in Comedy, <usg opt="n">Ar.</usg>;—no doubt he had yellow hair; cf. <foreign lang="greek">πυρρίας.</foreign></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosscanqo/qric" orig_id="n22477" key="canqo/qric">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="canqo/qric">ξανθόθριξ</head>
+ <sense level="0" n="0" id="n22477.0" opt="n"><trans opt="n"><i>yellow-haired</i></trans>, <usg opt="n">Solon.</usg>, <usg opt="n">Theocr.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosscanqoka/rhnos" orig_id="n22478" key="canqoka/rhnos">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="canqoka/rhnos">ξανθοκάρηνος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξᾰνθο-κάρηνος, ον,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crosska/rhnon" lang="greek">κάρηνον</ref></xr></etym>
+ <sense level="0" n="0" id="n22478.0" opt="n"><trans opt="n"><i>with yellow head</i></trans>, <usg opt="n">Anth.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosscanqoko/mhs" orig_id="n22479" key="canqoko/mhs">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="canqoko/mhs">ξανθοκόμης</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξανθο-κόμης, ου, ὁ,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossko/mh" lang="greek">κόμη</ref></xr></etym>
+ <etym opt="n">= <ref type="cross" target="crosscanqo/qric" lang="greek">ξανθόθριξ</ref>, <usg opt="n">Pind.</usg>, <usg opt="n">Theocr.</usg></etym>
+ </div1>
+
+ 
+ 
+<div1 id="crosscanqo/s" orig_id="n22480" key="canqo/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="canqo/s">ξανθός</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">.ξανθός, ή, όν</note>
+ <sense level="2" n="I" id="n22480.0" opt="n"><trans opt="n"><i>yellow</i></trans>, of various shades; of <trans opt="n"><i>golden hair</i></trans>, <usg opt="n">Hom.</usg>; so, <foreign lang="greek">ξανθαὶ ἵπποι</foreign> <trans opt="n"><i>bay</i> or <i>chestnut</i></trans> mares, <usg opt="n">Il.</usg></sense>
+ <sense level="2" n="II" id="n22480.1" opt="n"><foreign lang="greek">Ξάνθος</foreign> paroxyt., as prop. n.</sense>
+ <sense level="3" n="1" id="n22480.2" opt="n">a stream of the Troad, so called by gods, by men Scamander, <usg opt="n">Il.</usg></sense>
+ <sense level="3" n="2" id="n22480.3" opt="n">a horse of Achilles, <trans opt="n"><i>bayard</i></trans>, the other being <foreign lang="greek">Βαλίος</foreign>, <trans opt="n"><i>dapple</i></trans>, <usg opt="n">Il.</usg> </sense>
+ </div1>
+
+ 
+ 
+<div1 id="cross*canqo/ths" orig_id="n22481" key="*canqo/ths">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="*canqo/ths">ξανθότης</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξανθότης, ητος, ἡ,</note>
+ <sense level="0" n="0" id="n22481.0" opt="n"><trans opt="n"><i>yellowness</i></trans>, esp. of hair, <usg opt="n">Strab.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosscanqotrixe/w" orig_id="n22482" key="canqotrixe/w">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="canqotrixe/w">ξανθοτριχέω</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξανθοτρῐχέω,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crosscanqo/qric" lang="greek">ξανθόθριξ</ref></xr></etym>
+ <sense level="0" n="0" id="n22482.0" opt="n"><trans opt="n"><i>to have yellow hair</i></trans>, <usg opt="n">Strab.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosscanqofuh/s" orig_id="n22483" key="canqofuh/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="canqofuh/s">ξανθοφυής</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξανθο-φυής, ές</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossfuh/" lang="greek">φυή</ref></xr></etym>
+ <sense level="0" n="0" id="n22483.0" opt="n"><trans opt="n"><i>yellow by nature</i></trans>, <foreign lang="greek">ἕλικες</foreign> <usg opt="n">Anth.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosscanqoxi/twn" orig_id="n22484" key="canqoxi/twn">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="canqoxi/twn">ξανθοχίτων</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξανθο-χίτων, ωνος, ὁ, ἡ,</note>
+ <sense level="0" n="0" id="n22484.0" opt="n"><trans opt="n"><i>with yellow coat</i></trans>, <usg opt="n">Anth.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosscanqo/xrous" orig_id="n22485" key="canqo/xrous">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="canqo/xrous">ξανθόχροος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξανθό-χροος, ον,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossxro/a" lang="greek">χρόα</ref></xr></etym>
+ <sense level="0" n="0" id="n22485.0" opt="n"><trans opt="n"><i>with yellow skin</i></trans>, <usg opt="n">Mosch.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossceinh/ion" orig_id="n22486" key="ceinh/ion">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="ceinh/ion">ξεινήϊον</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξεινήιον, ου, τό,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crosscei=nos" lang="greek">ξεῖνος</ref></xr></etym>
+ <etym opt="n">Ionic for <foreign lang="greek">ξενεῖον</foreign> which is not used</etym>
+ <sense level="0" n="0" id="n22486.0" opt="n"><trans opt="n"><i>a hostʼs gift</i></trans>, given to a departing guest, <usg opt="n">Hom.</usg>; <foreign lang="greek">δῶρα ξεινήια</foreign> <usg opt="n">Od.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosscenage/ths" orig_id="n22487" key="cenage/ths">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="cenage/ths">ξεναγέτης</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξεν-ᾱγέτης, ου, ὁ,</note>
+ <sense level="0" n="0" id="n22487.0" opt="n"><trans opt="n"><i>one who takes charge of guests</i></trans>, <usg opt="n">Pind.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosscenage/w" orig_id="n22488" key="cenage/w">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="cenage/w">ξεναγέω</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξενᾱγέω,</note>
+ <sense level="2" n="I" id="n22488.0" opt="n"><trans opt="n"><i>to be a</i> <foreign lang="greek">ξεναγός</foreign></trans>, <usg opt="n">Xen.</usg>, <usg opt="n">Dem.</usg></sense>
+ <sense level="2" n="II" id="n22488.1" opt="n"><trans opt="n"><i>to guide strangers, shew them the sights</i></trans>, <usg opt="n">Luc.</usg>: Pass., impers., <foreign lang="greek">ἄριστά σοι ξενάγηται</foreign> your <trans opt="n"><i>work as a guide has been done</i></trans> excellently, <usg opt="n">Plat.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosscenago/s" orig_id="n22489" key="cenago/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="cenago/s">ξεναγός</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξεν-ᾱγός, οῦ, ὁ,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossh(ge/omai" lang="greek">ἡγέομαι</ref></xr></etym>
+ <sense level="2" n="I" id="n22489.0" opt="n"><trans opt="n"><i>a commander of auxiliary</i> or <i>mercenary troops</i></trans> <foreign lang="greek"> (ξένοι) </foreign>, <usg opt="n">Thuc.</usg>, <usg opt="n">Xen.</usg>, etc. (The form is Doric; but like many military terms, it was adopted in Attic)</sense>
+ <sense level="2" n="II" id="n22489.1" opt="n"><trans opt="n"><i>a strangerʼs guide</i></trans>, <usg opt="n">Plut.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosscenapa/ths" orig_id="n22490" key="cenapa/ths">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="cenapa/ths">ξεναπάτης</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξεν-ᾰπάτης, ου, ὁ,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossa)pata/w" lang="greek">ἀπατάω</ref></xr></etym>
+ <sense level="0" n="0" id="n22490.0" opt="n"><trans opt="n"><i>one who cheats strangers</i></trans>, or <trans opt="n"><i>who cheats his host</i></trans>, <usg opt="n">Eur.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosscenarkh/s" orig_id="n22491" key="cenarkh/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="cenarkh/s">ξεναρκής</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξεν-αρκής, ές</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossa)rke/w" lang="greek">ἀρκέω</ref></xr></etym>
+ <sense level="0" n="0" id="n22491.0" opt="n"><trans opt="n"><i>aiding strangers</i></trans>, <usg opt="n">Pind.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosscenhlasi/a" orig_id="n22492" key="cenhlasi/a">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="cenhlasi/a">ξενηλασία</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξενηλᾰσία, ἡ,</note>
+ <sense level="0" n="0" id="n22492.0" opt="n">at Sparta, <trans opt="n"><i>expulsion of foreigners, an alien act</i></trans>, <usg opt="n">Thuc.</usg>, <usg opt="n">Plat.</usg>, etc.</sense>
+ <etym opt="n">from <ref type="cross" target="crosscenhla^te/w" lang="greek">ξενηλᾰτέω</ref></etym>
+ </div1>
+
+ 
+ 
+<div1 id="crosscenhlate/w" orig_id="n22493" key="cenhlate/w">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="cenhlate/w">ξενηλατέω</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξεν-ηλᾰτέω,</note>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified"> fut. <foreign lang="greek">-ήσω</foreign></note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crosse)lau/nw" lang="greek">ἐλαύνω</ref></xr></etym>
+ <sense level="0" n="0" id="n22493.0" opt="n"><trans opt="n"><i>to banish foreigners</i></trans>, <usg opt="n">Ar.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossce/nh" orig_id="n22494" key="ce/nh">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="ce/nh">ξένη</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξένη, ἡ,</note>
+ <etym opt="n">fem. of <foreign lang="greek">ξένος</foreign></etym>
+ <sense level="3" n="1" id="n22494.0" opt="n"><trans opt="n"><i>a female guest: a foreign woman</i></trans>, <usg opt="n">Aesch.</usg>, etc.</sense>
+ <sense level="3" n="2" id="n22494.1" opt="n">(sub. <foreign lang="greek">γῆ) </foreign>, <trans opt="n"><i>a foreign country</i></trans>, <usg opt="n">Soph.</usg>, <usg opt="n">Xen.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossceni/a" orig_id="n22495" key="ceni/a">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="ceni/a">ξενία</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξενία, ἡ,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossce/nos" lang="greek">ξένος</ref></xr></etym>
+ <sense level="3" n="1" id="n22495.0" opt="n"><trans opt="n"><i>the rights of a guest, hospitality, friendly entertainment</i> or <i>reception</i></trans>, Lat. <foreign lang="la">hospitium</foreign>, <usg opt="n">Od.</usg>, <usg opt="n">Hdt.</usg>, etc.</sense>
+ <sense level="3" n="2" id="n22495.1" opt="n"><trans opt="n"><i>a friendly relation between</i></trans> two foreigners, or between an individual and a foreign state (cf. <foreign lang="greek">πρόξενος) , ξεινίην τινὶ συντίθεσθαι </foreign>, Lat. <foreign lang="la">hospitium facere cum aliquo</foreign>, <usg opt="n">Hdt.</usg>; <foreign lang="greek">κατὰ τὴν ξ.</foreign> because of their <trans opt="n"><i>friendly relations</i></trans>, <usg opt="n">Thuc.</usg>; <foreign lang="greek">πρὸς ξενίας τᾶς σᾶς</foreign> by <trans opt="n"><i>thy friendship with</i></trans> us, <usg opt="n">Soph.</usg></sense>
+ <sense level="3" n="3" id="n22495.2" opt="n"><trans opt="n"><i>the state</i> or <i>disabilities of an alien</i></trans>, <foreign lang="greek">ξενίας φεύγειν</foreign> (sc. <foreign lang="greek">γραφήν) </foreign> to be indicted <trans opt="n"><i>as an alien</i></trans>, <usg opt="n">Ar.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossceni/zw" orig_id="n22496" key="ceni/zw">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="ceni/zw">ξενίζω</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξενίζω,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossce/nos" lang="greek">ξένος</ref></xr></etym>
+ <sense level="2" n="I" id="n22496.0" opt="n"><trans opt="n"><i>to receive</i> or <i>entertain strangers, to receive as a guest</i></trans>, Lat. <foreign lang="la">hospitio excipere</foreign>, <usg opt="n">Hom.</usg>, <usg opt="n">Hdt.</usg>, etc.; <foreign lang="greek">ξ. τινὰ πολλοῖς ἀγαθοῖς</foreign> <trans opt="n"><i>to present with</i></trans> hospitable gifts, <usg opt="n">Xen.</usg>:—metaph., <foreign lang="greek">ὃν Ἄρης οὐκ ἐξένισεν</foreign>, i. e. who fell not in battle, <usg opt="n">Soph.</usg>:—Pass. <trans opt="n"><i>to be entertained as a guest</i></trans>, <usg opt="n">Hdt.</usg>, Attic</sense>
+ <sense level="2" n="II" id="n22496.1" opt="n"><trans opt="n"><i>to astonish by some strange sight</i></trans>, <usg opt="n">Polyb.</usg>:—Pass. <trans opt="n"><i>to be astonished</i></trans>, <usg opt="n">Polyb.</usg></sense>
+ <sense level="2" n="III" id="n22496.2" opt="n">intr. <trans opt="n"><i>to be a stranger, speak with a foreign accent</i></trans>, <usg opt="n">Luc.</usg>: <trans opt="n"><i>to be strange</i> or <i>unusual</i></trans>, <usg opt="n">Luc.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossceniko/s" orig_id="n22497" key="ceniko/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="ceniko/s">ξενικός</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξενικός, ή, όν</note>
+ <sense level="2" n="I" id="n22497.0" opt="n"><trans opt="n"><i>of</i> or <i>for a stranger, of foreign kind</i></trans>, opp. to <foreign lang="greek">ἀστικός</foreign>, <usg opt="n">Eur.</usg>; <foreign lang="greek">ξενικά</foreign> <trans opt="n"><i>the taxes paid by aliens</i></trans> at Athens, <usg opt="n">Dem.</usg>;— <foreign lang="greek">τὸ ξ.</foreign> <trans opt="n"><i>the class of aliens</i></trans>, <usg opt="n">Arist.</usg>; <foreign lang="greek">τὸ ξ.</foreign> (sc. <foreign lang="greek">δικαστήριον) </foreign> the court <trans opt="n"><i>in which aliens sued</i> or <i>were sued</i></trans>, <usg opt="n">Arist.</usg></sense>
+ <sense level="3" n="2" id="n22497.1" opt="n">of soldiers, <trans opt="n"><i>hired for service, mercenary</i></trans>, <usg opt="n">Hdt.</usg>, <usg opt="n">Xen.</usg> <foreign lang="greek">τὸ ξενικόν  οἱ ξένοι</foreign>, <trans opt="n"><i>a body of mercenaries</i></trans>, <usg opt="n">Ar.</usg>, <usg opt="n">Thuc.</usg>, etc.</sense>
+ <sense level="3" n="3" id="n22497.2" opt="n">= <ref type="cross" target="crossce/nios" lang="greek">ξένιος</ref>, <trans opt="n"><i>hospitable, friendly</i></trans>, <usg opt="n">Aeschin.</usg>:— <foreign lang="greek">ἡ ξενική</foreign> <trans opt="n"><i>friendly relation</i></trans>, as between host and guest, <usg opt="n">Arist.</usg></sense>
+ <sense level="2" n="II" id="n22497.3" opt="n"><trans opt="n"><i>foreign, alien</i></trans>, <usg opt="n">Hdt.</usg>; <foreign lang="greek">ξ. ὀνόματα</foreign> <trans opt="n"><i>foreign</i></trans> names, <usg opt="n">Plat.</usg>; of style, <trans opt="n"><i>foreign</i></trans>, I. e. <trans opt="n"><i>abounding in unusual words</i></trans>, <usg opt="n">Arist.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossce/nios" orig_id="n22498" key="ce/nios">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="ce/nios">ξένιος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξένιος, α, ον</note>
+ <sense level="2" n="I" id="n22498.0" opt="n"><trans opt="n"><i>belonging to a friend and guest, hospitable</i></trans>, <foreign lang="greek">Ζεὺς ξένιος</foreign> as <trans opt="n"><i>protector of the rights of hospitality</i></trans>, <usg opt="n">Il.</usg>, <usg opt="n">Aesch.</usg>:— <foreign lang="greek">τράπεζα ξ.</foreign> <trans opt="n"><i>the guestsʼ</i></trans> table, <usg opt="n">Od.</usg>; <foreign lang="greek">ξένιός τινι</foreign> <trans opt="n"><i>bound</i></trans> to him <trans opt="n"><i>by ties of hospitality</i></trans>, <usg opt="n">Hdt.</usg></sense>
+ <sense level="3" n="2" id="n22498.1" opt="n"><foreign lang="greek">ξείνια</foreign>, Attic <foreign lang="greek">ξένια, ων, τά</foreign>, <trans opt="n"><i>friendly gifts, meat and drink</i></trans>, given to the guest by his host, <usg opt="n">Hom.</usg>; <foreign lang="greek">ξένια παρέσχε δαῖτα</foreign> <trans opt="n"><i>as a friendly gift</i></trans>, <usg opt="n">Aesch.</usg>; <foreign lang="greek">βοῦν ξένια ἔπεμψεν</foreign> <usg opt="n">Xen.</usg>; <foreign lang="greek">ἐπὶ ξένια καλεῖν</foreign> to invite any one <trans opt="n"><i>to eat with you</i></trans>, <usg opt="n">Hdt.</usg>, etc.; metaph., <foreign lang="greek">θάνατος ξένιά σοι γενήσεται</foreign> <usg opt="n">Eur.</usg></sense>
+ <sense level="2" n="II" id="n22498.2" opt="n"><trans opt="n"><i>foreign</i></trans>, <usg opt="n">Pind.</usg>, Attic</sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossce/nisis" orig_id="n22499" key="ce/nisis">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="ce/nisis">ξένισις</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξένῐσις, ιος, ἡ,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossceni/zw" lang="greek">ξενίζω</ref></xr></etym>
+ <sense level="0" n="0" id="n22499.0" opt="n"><trans opt="n"><i>the entertainment of guests</i></trans>, <usg opt="n">Thuc.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosscenismo/s" orig_id="n22500" key="cenismo/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="cenismo/s">ξενισμός</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξενισμός, οῦ, ὁ,</note>
+ <etym opt="n">= <ref type="cross" target="crossce/nisis" lang="greek">ξένισις</ref>, <usg opt="n">Plat.</usg></etym>
+ </div1>
+
+ 
+ 
+<div1 id="crosscenitei/a" orig_id="n22501" key="cenitei/a">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="cenitei/a">ξενιτεία</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξενῑτεία, ἡ,</note>
+ <sense level="0" n="0" id="n22501.0" opt="n"><trans opt="n"><i>a living abroad</i></trans>, <usg opt="n">Luc.</usg></sense>
+ <etym opt="n">from <ref type="cross" target="crossceni_teu/w" lang="greek">ξενῑτεύω</ref></etym>
+ </div1>
+
+ 
+ 
+<div1 id="crossceniteu/w" orig_id="n22502" key="ceniteu/w">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="ceniteu/w">ξενιτεύω</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξενῑτεύω,</note>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified"> fut. <foreign lang="greek">-σω</foreign></note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossce/nos" lang="greek">ξένος</ref></xr></etym>
+ <sense level="2" n="I" id="n22502.0" opt="n"><trans opt="n"><i>to live abroad</i></trans>, <usg opt="n">Luc.</usg></sense>
+ <sense level="2" n="II" id="n22502.1" opt="n">Dep. <foreign lang="greek">ξενιτεύομαι</foreign>, <trans opt="n"><i>to be in foreign service</i></trans>, <usg opt="n">Isocr.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosscenodai/kths" orig_id="n22503" key="cenodai/kths">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="cenodai/kths">ξενοδαίκτης</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξενο-δαΐκτης, ου, ὁ,</note>
+ <sense level="0" n="0" id="n22503.0" opt="n"><trans opt="n"><i>one who murders guests</i></trans>, <usg opt="n">Eur.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosscenodai/ths" orig_id="n22504" key="cenodai/ths">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="cenodai/ths">ξενοδαίτης</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξενο-δαίτης, ου,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossdai/s" lang="greek">δαίς</ref></xr></etym>
+ <sense level="0" n="0" id="n22504.0" opt="n"><trans opt="n"><i>one that devours guests</i> or <i>strangers</i></trans>, of the Cyclops, <usg opt="n">Eur.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosscenodoke/w" orig_id="n22505" key="cenodoke/w">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="cenodoke/w">ξενοδοκέω</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξενοδοκέω,</note>
+ <sense level="0" n="0" id="n22505.0" opt="n">Ionic <foreign lang="greek">ξεινο-</foreign>, <trans opt="n"><i>to entertain guests</i> or <i>strangers</i></trans>, <usg opt="n">Hdt.</usg>, <usg opt="n">Eur.</usg>, etc.:—in late Gr. <foreign lang="greek">ξενοδοχέω</foreign>, <usg opt="n">NTest.</usg></sense>
+ <etym opt="n">from <ref type="cross" target="crosscenodo/kos" lang="greek">ξενοδόκος</ref></etym>
+ </div1>
+
+ 
+ 
+<div1 id="crosscenodo/kos" orig_id="n22506" key="cenodo/kos">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="cenodo/kos">ξενοδόκος</head>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossde/xomai" lang="greek">δέχομαι</ref></xr></etym>
+ <sense level="0" n="0" id="n22506.0" opt="n"><trans opt="n"><i>one who receives strangers, a host</i></trans>, <usg opt="n">Od.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosscenodoxi/a" orig_id="n22507" key="cenodoxi/a">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="cenodoxi/a">ξενοδοχία</head>
+ <etym opt="n">from <ref type="cross" target="crosscenodo/kos" lang="greek">ξενοδόκος</ref></etym>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξενοδοχία, ἡ,</note>
+ <sense level="0" n="0" id="n22507.0" opt="n"><trans opt="n"><i>entertainment of a stranger</i></trans>, <usg opt="n">Xen.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosscenodw/ths" orig_id="n22508" key="cenodw/ths">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="cenodw/ths">ξενοδώτης</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξενο-δώτης, ου, ὁ,</note>
+ <sense level="0" n="0" id="n22508.0" opt="n"><trans opt="n"><i>a host</i></trans>, epith. of Bacchus, <usg opt="n">Anth.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossceno/eis" orig_id="n22509" key="ceno/eis">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="ceno/eis">ξενόεις</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξενόεις, εσσα, εν</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossce/nos" lang="greek">ξένος</ref></xr></etym>
+ <sense level="0" n="0" id="n22509.0" opt="n"><trans opt="n"><i>full of strangers</i></trans>, <usg opt="n">Eur.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosscenoqute/w" orig_id="n22510" key="cenoqute/w">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="cenoqute/w">ξενοθυτέω</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξενο-θῠτέω,</note>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified"> fut. <foreign lang="greek">-ήσω</foreign></note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossqu/w" lang="greek">θύω</ref></xr></etym>
+ <sense level="0" n="0" id="n22510.0" opt="n"><trans opt="n"><i>to sacrifice strangers</i></trans>, <usg opt="n">Strab.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosscenoktone/w" orig_id="n22511" key="cenoktone/w">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="cenoktone/w">ξενοκτονέω</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξενοκτονέω,</note>
+ <sense level="2" n="I" id="n22511.0" opt="n"><trans opt="n"><i>to slay guests</i> or <i>strangers</i></trans>, <usg opt="n">Hdt.</usg>, <usg opt="n">Eur.</usg></sense>
+ <sense level="2" n="II" id="n22511.1" opt="n"><trans opt="n"><i>to slay oneʼs host</i></trans>, <usg opt="n">Eur.</usg></sense>
+ <etym opt="n">from <ref type="cross" target="crosscenokto/nos" lang="greek">ξενοκτόνος</ref></etym>
+ </div1>
+
+ 
+ 
+<div1 id="crosscenokto/nos" orig_id="n22512" key="cenokto/nos">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="cenokto/nos">ξενοκτόνος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξενο-κτόνος, ον,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossktei/nw" lang="greek">κτείνω</ref></xr></etym>
+ <sense level="0" n="0" id="n22512.0" opt="n"><trans opt="n"><i>slaying guests</i> or <i>strangers</i></trans>, <usg opt="n">Eur.</usg>, <usg opt="n">Aeschin.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosscenologe/w" orig_id="n22513" key="cenologe/w">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="cenologe/w">ξενολογέω</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξενολογέω,</note>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified"> fut. <foreign lang="greek">-ήσω</foreign></note>
+ <sense level="0" n="0" id="n22513.0" opt="n"><trans opt="n"><i>to enlist strangers, levy mercenaries</i></trans>, <usg opt="n">Dem.</usg>, etc.</sense>
+ <etym opt="n">from <ref type="cross" target="crosscenolo/gos" lang="greek">ξενολόγος</ref></etym>
+ </div1>
+
+ 
+ 
+<div1 id="crosscenolo/gos" orig_id="n22514" key="cenolo/gos">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="cenolo/gos">ξενολόγος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξενο-λόγος, ον,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossle/gw" lang="greek">λέγω</ref></xr></etym>
+ <sense level="0" n="0" id="n22514.0" opt="n"><trans opt="n"><i>levying mercenaries</i></trans>, <usg opt="n">Polyb.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosscenopaqe/w" orig_id="n22515" key="cenopaqe/w">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="cenopaqe/w">ξενοπαθέω</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξενο-πᾰθέω,</note>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified"> fut. <foreign lang="greek">-ήσω</foreign></note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crosspa/qos" lang="greek">πάθος</ref></xr></etym>
+ <sense level="0" n="0" id="n22515.0" opt="n"><trans opt="n"><i>to have a strange feeling, feel strange</i> or <i>shy</i></trans>, <usg opt="n">Plut.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossce/nos1" orig_id="n22516" key="ce/nos1">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="ce/nos1">ξένος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">.ξένος, ὁ,</note>
+ <sense level="2" n="I" id="n22516.0" opt="n"><trans opt="n"><i>a guest-friend</i></trans>, I. e. any citizen of a foreign state, with whom one has a treaty of hospitality for self and heirs, confirmed by mutual presents <foreign lang="greek"> (ξένια) </foreign> and an appeal to <foreign lang="greek">Ζεὺς ξένιος</foreign>, <usg opt="n">Hom.</usg></sense>
+ <sense level="3" n="2" id="n22516.1" opt="n">of one of the parties bound by ties of hospitality, i. e. either <trans opt="n"><i>the guest</i></trans>, or = <ref type="cross" target="crossceinodo/kos" lang="greek">ξεινοδόκος</ref>, <trans opt="n"><i>the host</i></trans>, <usg opt="n">Hom.</usg>, <usg opt="n">Hdt.</usg>, etc.</sense>
+ <sense level="3" n="3" id="n22516.2" opt="n">any one entitled to hospitality, <trans opt="n"><i>a stranger, refugee</i></trans>, <usg opt="n">Od.</usg></sense>
+ <sense level="3" n="4" id="n22516.3" opt="n"><trans opt="n"><i>any stranger</i> or <i>foreigner</i></trans>, <usg opt="n">Hes.</usg>, Attic:—the term was politely used of any one whose name was unknown, and the address <foreign lang="greek">ὦ ξένε</foreign> came to mean little more than <trans opt="n"><i>friend</i></trans>, <usg opt="n">Soph.</usg></sense>
+ <sense level="2" n="II" id="n22516.4" opt="n"><trans opt="n"><i>a foreign soldier, hireling, mercenary</i></trans>, <usg opt="n">Thuc.</usg>, <usg opt="n">Xen.</usg></sense>
+ <head extent="full" lang="greek" opt="n" orth_orig="ce/nos2">ξένος</head>
+ <sense level="2" n="I" id="n22517.0" opt="n"><trans opt="n"><i>foreign</i></trans>, <usg opt="n">Soph.</usg>, <usg opt="n">Eur.</usg>, etc.</sense>
+ <sense level="2" n="II" id="n22517.1" opt="n">c. gen. rei, <trans opt="n"><i>strange to</i></trans> a thing, <trans opt="n"><i>ignorant of</i></trans> it, <usg opt="n">Soph.</usg>:—adv., <foreign lang="greek">ξένως ἔχω τῆς λέξεως</foreign> I am <trans opt="n"><i>a stranger to</i></trans> the language, <usg opt="n">Plat.</usg></sense>
+ <sense level="2" n="III" id="n22517.2" opt="n"><trans opt="n"><i>alien, strange, unusual</i></trans>, <usg opt="n">Aesch.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossceno/stasis" orig_id="n22518" key="ceno/stasis">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="ceno/stasis">ξενόστασις</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξενό-στᾰσις, ιος, ἡ,</note>
+ <sense level="0" n="0" id="n22518.0" opt="n"><trans opt="n"><i>a lodging for guests</i> or <i>strangers</i></trans>, <usg opt="n">Soph.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosscenosu/nh" orig_id="n22519" key="cenosu/nh">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="cenosu/nh">ξενοσύνη</head>
+ <sense level="0" n="0" id="n22519.0" opt="n"><trans opt="n"><i>hospitality</i></trans>, <usg opt="n">Od.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossceno/timos" orig_id="n22520" key="ceno/timos">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="ceno/timos">ξενότιμος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξενό-τῑμος, ον,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crosstimh/" lang="greek">τιμή</ref></xr></etym>
+ <sense level="0" n="0" id="n22520.0" opt="n"><trans opt="n"><i>honouring strangers</i></trans>, <usg opt="n">Aesch.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosscenotrofe/w" orig_id="n22521" key="cenotrofe/w">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="cenotrofe/w">ξενοτροφέω</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξενοτροφέω,</note>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified"> fut. <foreign lang="greek">-ήσω</foreign></note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crosstre/fw" lang="greek">τρέφω</ref></xr></etym>
+ <sense level="0" n="0" id="n22521.0" opt="n"><trans opt="n"><i>to entertain strangers, to maintain mercenary troops</i></trans>, <usg opt="n">Thuc.</usg>, <usg opt="n">Dem.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosscenofone/w" orig_id="n22522" key="cenofone/w">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="cenofone/w">ξενοφονέω</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξενοφονέω,</note>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified"> fut. <foreign lang="greek">-ήσω</foreign></note>
+ <sense level="0" n="0" id="n22522.0" opt="n"><trans opt="n"><i>to murder strangers</i></trans>, <usg opt="n">Eur.</usg></sense>
+ <etym opt="n">from <ref type="cross" target="crosscenofo/nos" lang="greek">ξενοφόνος</ref></etym>
+ </div1>
+
+ 
+ 
+<div1 id="crosscenofo/nos" orig_id="n22523" key="cenofo/nos">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="cenofo/nos">ξενοφόνος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξενο-φόνος, ον,</note>
+ <etym opt="n">*<foreign lang="greek">φένω</foreign></etym>
+ <sense level="0" n="0" id="n22523.0" opt="n"><trans opt="n"><i>murdering strangers</i></trans>, <usg opt="n">Eur.</usg></sense>
+ 
+ </div1>
+
+ 
+ 
+<div1 id="crossceno/w" orig_id="n22524" key="ceno/w">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="ceno/w">ξενόω</head>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossce/nos" lang="greek">ξένος</ref></xr></etym>
+ <sense level="2" n="I" id="n22524.0" opt="n"><trans opt="n"><i>to make oneʼs friend and guest</i></trans>, <usg opt="n">Aesch.</usg></sense>
+ <sense level="2" n="II" id="n22524.1" opt="n">mostly in Pass., with fut. mid. <foreign lang="greek">ξενώσομαι</foreign>: perf. <foreign lang="greek">ἐξένωμαι</foreign>: aor1 <foreign lang="greek">ἐξενώθην</foreign>:</sense>
+ <sense level="3" n="1" id="n22524.2" opt="n"><trans opt="n"><i>to enter into a treaty of hospitality with</i></trans> one, Lat. <foreign lang="la">hospitio jungi</foreign>, c. dat., <usg opt="n">Hdt.</usg>, <usg opt="n">Xen.</usg>; absol., <usg opt="n">Xen.</usg></sense>
+ <sense level="3" n="2" id="n22524.3" opt="n"><trans opt="n"><i>to take up</i></trans> his <trans opt="n"><i>abode with</i></trans> one <trans opt="n"><i>as a guest, to be entertained</i></trans>, <usg opt="n">Trag.</usg></sense>
+ <sense level="3" n="3" id="n22524.4" opt="n"><trans opt="n"><i>to be in foreign parts, to be abroad</i></trans>, <usg opt="n">Soph.</usg>, <usg opt="n">Eur.</usg>: <trans opt="n"><i>to go into banishment</i></trans>, <usg opt="n">Eur.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosscenw/n" orig_id="n22525" key="cenw/n">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="cenw/n">ξενών</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξενών, ῶνος, ὁ,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossce/nos" lang="greek">ξένος</ref></xr></etym>
+ <sense level="0" n="0" id="n22525.0" opt="n"><trans opt="n"><i>a guest-chamber</i></trans>, <usg opt="n">Eur.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossce/nwsis" orig_id="n22526" key="ce/nwsis">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="ce/nwsis">ξένωσις</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξένωσις, ιος, ἡ,</note>
+ <etym opt="n"><foreign lang="greek">ξενόω</foreign> II. 3</etym>
+ <sense level="0" n="0" id="n22526.0" opt="n"><trans opt="n"><i>a being abroad</i></trans>, <usg opt="n">Eur.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosscero/s" orig_id="n22527" key="cero/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="cero/s">ξερόν</head>
+ <sense level="0" n="0" id="n22527.0" opt="n"><trans opt="n"><i>dry land</i></trans>, <foreign lang="greek">ποτὶ ξερόν</foreign> <trans opt="n"><i>to the dry land</i></trans>, <usg opt="n">Od.</usg>, <usg opt="n">Anth.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossce/sma" orig_id="n22528" key="ce/sma">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="ce/sma">ξέσμα</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξέσμα, ατος, τό,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossce/w" lang="greek">ξέω</ref></xr></etym>
+ <etym opt="n">= <ref type="cross" target="crossco/anon" lang="greek">ξόανον</ref>, <usg opt="n">Anth.</usg></etym>
+ </div1>
+
+ 
+ 
+<div1 id="crossce/sths" orig_id="n22529" key="ce/sths">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="ce/sths">ξέστης</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξέστης, ου, ὁ,</note>
+ <sense level="0" n="0" id="n22529.0" opt="n">= Lat. <foreign lang="la">sextarius</foreign>, nearly a <trans opt="n"><i>pint</i></trans>, <usg opt="n">NTest.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosscesto/s" orig_id="n22530" key="cesto/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="cesto/s">ξεστός</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξεστός, ή, όν</note>
+ <sense level="0" n="0" id="n22530.0" opt="n"><trans opt="n"><i>smoothed, polished, wrought</i></trans>, <usg opt="n">Hom.</usg>, <usg opt="n">Hdt.</usg>, Attic; <foreign lang="greek">ξ. αἴθουσαι</foreign> halls <trans opt="n"><i>of polished stone</i></trans>, <usg opt="n">Il.</usg></sense>
+ <etym opt="n">from <ref type="cross" target="crossce/w" lang="greek">ξέω</ref></etym>
+ </div1>
+
+ 
+ 
+<div1 id="crossce/w" orig_id="n22531" key="ce/w">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="ce/w">ξέω</head>
+ <sense level="0" n="0" id="n22531.0" opt="n"><trans opt="n"><i>to smooth</i> or <i>polish by scraping, planing, filing</i></trans>, of a carpenter, <usg opt="n">Od.</usg>, etc.</sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosschrai/nw" orig_id="n22532" key="chrai/nw">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="chrai/nw">ξηραίνω</head>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crosschro/s" lang="greek">ξηρός</ref></xr></etym>
+ <sense level="3" n="1" id="n22532.0" opt="n"><trans opt="n"><i>to parch up, dry up</i></trans>, <usg opt="n">Eur.</usg>, <usg opt="n">Xen.</usg>:—Pass. <trans opt="n"><i>to become</i> or <i>be dry, parched</i></trans>, <usg opt="n">Il.</usg>, etc.</sense>
+ <sense level="3" n="2" id="n22532.1" opt="n"><trans opt="n"><i>to lay dry</i></trans>, Lat. <foreign lang="la">siccare</foreign>, <usg opt="n">Thuc.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosschraloife/w" orig_id="n22533" key="chraloife/w">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="chraloife/w">ξηραλοιφέω</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξηρ-ᾰλοιφέω,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossa)lei/fw" lang="greek">ἀλείφω</ref></xr></etym>
+ <sense level="0" n="0" id="n22533.0" opt="n">properly <trans opt="n"><i>to rub dry with oil</i></trans>, without the use of the bath, Lex ap. <usg opt="n">Plut.</usg>, <usg opt="n">Aeschin.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosschrampe/linos" orig_id="n22534" key="chrampe/linos">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="chrampe/linos">ξηραμπέλινος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξηρ-αμπέλῐνος, η, ον</note>
+ <sense level="0" n="0" id="n22534.0" opt="n"><trans opt="n"><i>of the colour of withered vine-leaves, bright red</i></trans>, <usg opt="n">Juven.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosschra/" orig_id="n22535" key="chra/">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="chra/">ξηρά</head>
+ <sense level="0" n="0" id="n22535.0" opt="n">( sc. <foreign lang="greek">γῆ) </foreign> <trans opt="n"><i>dry land</i></trans>, v. <ref type="cross" target="crosschro/s" lang="greek">ξηρός</ref> III.</sense>
+ 
+ </div1>
+
+ 
+ 
+<div1 id="crosschro/s" orig_id="n22536" key="chro/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="chro/s">ξηρός</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">.ξηρός, ά, όν</note>
+ <sense level="2" n="I" id="n22536.0" opt="n"><trans opt="n"><i>dry</i></trans>, Lat. <foreign lang="la">siccus</foreign>, opp. to <foreign lang="greek">ὑγρός</foreign>, <usg opt="n">Hdt.</usg>, <usg opt="n">Ar.</usg>; <foreign lang="greek">ξηροῖς ὄμμασι</foreign>, <usg opt="n">Hor.</usg>ʼs <trans opt="n"><i>siccis oculis</i></trans>, <usg opt="n">Aesch.</usg></sense>
+ <sense level="3" n="2" id="n22536.1" opt="n">of bodily condition, <trans opt="n"><i>withered, lean, haggard</i></trans>, <foreign lang="greek">δέμας</foreign> <usg opt="n">Eur.</usg>, <usg opt="n">Theocr.</usg></sense>
+ <sense level="2" n="II" id="n22536.2" opt="n">like Lat. <foreign lang="la">siccus, fasting, austere, harsh</foreign>, <usg opt="n">Eur.</usg>, <usg opt="n">Ar.</usg>; <foreign lang="greek">ἐν ξηροῖσιν ἐκτρέφειν</foreign> <usg opt="n">Eur.</usg></sense>
+ <sense level="2" n="III" id="n22536.3" opt="n">as Subst., <foreign lang="greek">ἡ ξηρά</foreign> (sc. <foreign lang="greek">γῆ) </foreign>, <trans opt="n"><i>dry land</i></trans>, <usg opt="n">Xen.</usg>; so, <foreign lang="greek">τὸ ξηρόν</foreign> <usg opt="n">Hdt.</usg>; <foreign lang="greek">ναῦς ἐπὶ τοῦ ξηροῦ ποιεῖν</foreign> to leave the ships <trans opt="n"><i>aground</i></trans>, <usg opt="n">Thuc.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosschro/ths" orig_id="n22537" key="chro/ths">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="chro/ths">ξηρότης</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξηρότης, ητος, ἡ,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crosschro/s" lang="greek">ξηρός</ref></xr></etym>
+ <sense level="0" n="0" id="n22537.0" opt="n"><trans opt="n"><i>dryness</i></trans>, <usg opt="n">Plat.</usg>, <usg opt="n">Xen.</usg>: <foreign lang="greek">ἡ ξ. τῶν νεῶν</foreign> the <trans opt="n"><i>dryness</i></trans>, i. e. <trans opt="n"><i>soundness</i></trans>, of their timbers, <usg opt="n">Thuc.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosschrofage/w" orig_id="n22538" key="chrofage/w">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="chrofage/w">ξηροφαγέω</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξηρο-φᾰγέω,</note>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified"> fut. <foreign lang="greek">-ήσω</foreign></note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossfagei=n" lang="greek">φαγεῖν</ref></xr></etym>
+ <sense level="0" n="0" id="n22538.0" opt="n"><trans opt="n"><i>to eat dry food</i></trans>, <usg opt="n">Anth.</usg>, etc.</sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossci=" orig_id="n22539" key="ci=">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="ci=">ξῖ</head>
+ <sense level="0" n="0" id="n22539.0" opt="n"><foreign lang="greek">Ξ, ξ, ξῖ, τό</foreign>, indecl., fourteenth letter of the Gk. alphabet: as numeral <foreign lang="greek">ξ </foreign> 60, but <foreign lang="greek">ξ </foreign> 60, 000: introduced in the archonship of Euclides, 403 B. C.—It is a double consonant, compounded of <foreign lang="greek">γς, κς</foreign>, or <foreign lang="greek">χς.</foreign> Changes</sense>
+ <sense level="3" n="1" id="n22539.1" opt="n"><foreign lang="greek">ξ</foreign> in Aeolic and Attic appears as an aspirated form of <foreign lang="greek">κ</foreign>, cf. <foreign lang="greek">ξυνός</foreign> with <foreign lang="greek">κοινός, ξύν</foreign> with <trans opt="n"><i>cum;—</i></trans> or of <foreign lang="greek">ς</foreign>, cf. <foreign lang="greek">ξύν</foreign> with <foreign lang="greek">σύν, ξέστης</foreign> with Lat. <foreign lang="la">sextarius;</foreign> and so in Doric fut. of Verbs in <foreign lang="greek">-ζω, κομίξω κλᾳξῶ παιξῶ</foreign> for <foreign lang="greek">κομίσω κλῄσω παίσω.</foreign> </sense>
+ <sense level="3" n="2" id="n22539.2" opt="n">interchanged with <foreign lang="greek">σς</foreign>, Ionic <foreign lang="greek">διξός, τριξός</foreign> for <foreign lang="greek">δισσός, τρισσός.</foreign></sense>
+ 
+ </div1>
+
+ 
+ 
+<div1 id="crosscifh/rhs" orig_id="n22540" key="cifh/rhs">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="cifh/rhs">ξιφήρης</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξῐφ-ήρης, ες</note>
+ <etym opt="n">*<foreign lang="greek">ἄρω</foreign></etym>
+ <sense level="0" n="0" id="n22540.0" opt="n"><trans opt="n"><i>sword in hand</i></trans>, <usg opt="n">Eur.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosscifhfo/ros" orig_id="n22541" key="cifhfo/ros">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="cifhfo/ros">ξιφηφόρος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξῐφη-φόρος, ον,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossfe/rw" lang="greek">φέρω</ref></xr></etym>
+ <sense level="0" n="0" id="n22541.0" opt="n"><trans opt="n"><i>sword in hand</i></trans>, <usg opt="n">Aesch.</usg>, <usg opt="n">Eur.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosscifi/dion" orig_id="n22542" key="cifi/dion">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="cifi/dion">ξιφίδιον</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξῐφίδιον, ου, τό,</note>
+ <etym opt="n">Dim. of <foreign lang="greek">ξίφος</foreign></etym>
+ <sense level="0" n="0" id="n22542.0" opt="n"><trans opt="n"><i>a dagger</i></trans>, <usg opt="n">Thuc.</usg>, etc.</sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosscifisth/r" orig_id="n22543" key="cifisth/r">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="cifisth/r">ξιφιστήρ</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξῐφιστήρ, ῆρος, ὁ,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossci/fos" lang="greek">ξίφος</ref></xr></etym>
+ <sense level="0" n="0" id="n22543.0" opt="n"><trans opt="n"><i>a sword-belt</i></trans>, <usg opt="n">Plut.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosscifodh/lhtos" orig_id="n22544" key="cifodh/lhtos">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="cifodh/lhtos">ξιφοδήλητος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξῐφο-δήλητος, ον,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossdhle/omai" lang="greek">δηλέομαι</ref></xr></etym>
+ <sense level="0" n="0" id="n22544.0" opt="n"><trans opt="n"><i>slain by the sword</i></trans>, <foreign lang="greek">ξ. θάνατος</foreign> death <trans opt="n"><i>by the sword</i></trans>, <usg opt="n">Aesch.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosscifokto/nos" orig_id="n22545" key="cifokto/nos">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="cifokto/nos">ξιφοκτόνος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξῐφο-κτόνος, ον,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossktei/nw" lang="greek">κτείνω</ref></xr></etym>
+ <sense level="0" n="0" id="n22545.0" opt="n"><trans opt="n"><i>slaying with the sword</i></trans>, <usg opt="n">Soph.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossci/fos" orig_id="n22546" key="ci/fos">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="ci/fos">ξίφος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">.ξίφος (ῐ), Aeolic <foreign lang="greek">σκίφος, εος</foreign>,</note>
+ <sense level="0" n="0" id="n22546.0" opt="n"><trans opt="n"><i>a sword</i></trans>, <usg opt="n">Hom.</usg>; distinguished from <ref type="cross" target="crossma/xaira" lang="greek">μάχαιρα</ref>, q. v.</sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosscifoulki/a" orig_id="n22547" key="cifoulki/a">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="cifoulki/a">ξιφουλκία</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξῐφουλκία, ἡ,</note>
+ <sense level="0" n="0" id="n22547.0" opt="n"><trans opt="n"><i>the drawing of a sword</i></trans>, <usg opt="n">Plut.</usg></sense>
+ <etym opt="n">from <ref type="cross" target="crossci^foulko/s" lang="greek">ξῐφουλκός</ref></etym>
+ </div1>
+
+ 
+ 
+<div1 id="crosscifoulko/s" orig_id="n22548" key="cifoulko/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="cifoulko/s">ξιφουλκός</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξῐφ-ουλκός, όν</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crosse(/lkw" lang="greek">ἕλκω</ref></xr></etym>
+ <sense level="0" n="0" id="n22548.0" opt="n"><trans opt="n"><i>drawing a sword</i></trans>, <usg opt="n">Aesch.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosscifourgo/s" orig_id="n22549" key="cifourgo/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="cifourgo/s">ξιφουργός</head>
+ <etym opt="n">*<foreign lang="greek">ἔργω</foreign></etym>
+ <sense level="0" n="0" id="n22549.0" opt="n"><trans opt="n"><i>a sword-cutler</i></trans>, <usg opt="n">Ar.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossco/anon" orig_id="n22550" key="co/anon">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="co/anon">ξόανον</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξόᾰνον, ου, τό,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossce/w" lang="greek">ξέω</ref></xr></etym>
+ <sense level="0" n="0" id="n22550.0" opt="n"><trans opt="n"><i>an image carved</i></trans> of wood, <usg opt="n">Xen.</usg>: generally, <trans opt="n"><i>an image, statue</i></trans>, <usg opt="n">Eur.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosscoanourgi/a" orig_id="n22551" key="coanourgi/a">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="coanourgi/a">ξοανουργία</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξοᾰν-ουργία, ἡ,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="cross*e)/rgw" lang="greek">ἔργω</ref></xr></etym>
+ <sense level="0" n="0" id="n22551.0" opt="n"><trans opt="n"><i>a carving of images</i></trans>, <usg opt="n">Luc.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosscoi/s" orig_id="n22552" key="coi/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="coi/s">ξοΐς</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξοΐς, ίδος, ἡ,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossce/w" lang="greek">ξέω</ref></xr></etym>
+ <sense level="0" n="0" id="n22552.0" opt="n"><trans opt="n"><i>a sculptorʼs chisel</i></trans>, anth.</sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosscouqo/pteros" orig_id="n22553" key="couqo/pteros">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="couqo/pteros">ξουθόπτερος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξουθό-πτερος, ον,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossptero/n" lang="greek">πτερόν</ref></xr></etym>
+ <sense level="0" n="0" id="n22553.0" opt="n"><trans opt="n"><i>with tawny wings</i></trans>, <usg opt="n">Eur.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosscouqo/s" orig_id="n22554" key="couqo/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="couqo/s">ξουθός</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">.ξουθός, ή, όν</note>
+ <sense level="2" n="I" id="n22554.0" opt="n">of a colour, between <foreign lang="greek">ξανθός</foreign> and <foreign lang="greek">πυρρός</foreign>, <trans opt="n"><i>yellowish, brown-yellow, tawny</i></trans>, epith. of the bee, <usg opt="n">Eur.</usg>; of the nightingale, <usg opt="n">Aesch.</usg>, <usg opt="n">Eur.</usg>, etc.</sense>
+ <sense level="2" n="II" id="n22554.1" opt="n">later of sound, <trans opt="n"><i>shrill, thrilling</i></trans>, <usg opt="n">Babr.</usg>, <usg opt="n">Anth.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosscuh/lh" orig_id="n22555" key="cuh/lh">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="cuh/lh">ξυήλη</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξυήλη, ἡ,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crosscu/w" lang="greek">ξύω</ref></xr></etym>
+ <sense level="2" n="I" id="n22555.0" opt="n"><trans opt="n"><i>a tool for scraping wood, a plane</i> or <i>rasp</i></trans>, <usg opt="n">Xen.</usg></sense>
+ <sense level="2" n="II" id="n22555.1" opt="n"><trans opt="n"><i>a sickle-shaped dagger</i></trans>, <usg opt="n">Xen.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossculhge/w" orig_id="n22556" key="culhge/w">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="culhge/w">ξυληγέω</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξῠληγέω,</note>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified"> fut. <foreign lang="greek">-ήσω</foreign></note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossa)/gw" lang="greek">ἄγω</ref></xr></etym>
+ <sense level="0" n="0" id="n22556.0" opt="n"><trans opt="n"><i>to carry wood</i></trans>, <usg opt="n">Dem.</usg></sense>
+ <etym opt="n">from <ref type="cross" target="crosscu^lhgo/s" lang="greek">ξῠληγός</ref></etym>
+ </div1>
+
+ 
+ 
+<div1 id="crossculhgo/s" orig_id="n22557" key="culhgo/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="culhgo/s">ξυληγός</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξῠλ-ηγός, όν</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossa)/gw" lang="greek">ἄγω</ref></xr></etym>
+ <sense level="0" n="0" id="n22557.0" opt="n"><trans opt="n"><i>carrying wood.</i></trans></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossculh/fion" orig_id="n22558" key="culh/fion">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="culh/fion">ξυλήφιον</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξῠλήφιον, ου, τό,</note>
+ <etym opt="n">Dim. of <foreign lang="greek">ξύλον</foreign></etym>
+ <sense level="0" n="0" id="n22558.0" opt="n"><trans opt="n"><i>a piece of wood, a stick</i></trans>, <usg opt="n">Polyb.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossculi/zomai" orig_id="n22559" key="culi/zomai">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="culi/zomai">ξυλίζομαι</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξῠλίζομαι,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crosscu/lon" lang="greek">ξύλον</ref></xr></etym>
+ <sense level="0" n="0" id="n22559.0" opt="n">Mid. <trans opt="n"><i>to gather wood</i></trans>, <usg opt="n">Xen.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosscu/linos" orig_id="n22560" key="cu/linos">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="cu/linos">ξύλινος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξύλῐνος (ῠ), η, ον</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crosscu/lon" lang="greek">ξύλον</ref></xr></etym>
+ <sense level="3" n="1" id="n22560.0" opt="n"><trans opt="n"><i>of wood, wooden</i></trans>, <usg opt="n">Hdt.</usg>, Attic</sense>
+ <sense level="3" n="2" id="n22560.1" opt="n">metaph. <trans opt="n"><i>wooden</i></trans>, <foreign lang="greek">νοῦς</foreign> <usg opt="n">Anth.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossculokope/w" orig_id="n22561" key="culokope/w">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="culokope/w">ξυλοκοπέω</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξῠλοκοπέω,</note>
+ <sense level="0" n="0" id="n22561.0" opt="n"><trans opt="n"><i>to beat with a stick, cudgel</i></trans>, <usg opt="n">Polyb.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossculokopi/a" orig_id="n22562" key="culokopi/a">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="culokopi/a">ξυλοκοπία</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξῠλοκοπία, ἡ,</note>
+ <sense level="0" n="0" id="n22562.0" opt="n"><trans opt="n"><i>a cudgelling</i></trans>, Lat. <foreign lang="la">fustuarium</foreign>, <usg opt="n">Polyb.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossculoko/pos" orig_id="n22563" key="culoko/pos">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="culoko/pos">ξυλοκόπος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξῠλοκόπος, ον,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossko/ptw" lang="greek">κόπτω</ref></xr></etym>
+ <sense level="0" n="0" id="n22563.0" opt="n"><trans opt="n"><i>hewing</i> or <i>felling wood</i></trans>, <usg opt="n">Xen.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosscu/lon" orig_id="n22564" key="cu/lon">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="cu/lon">ξύλον</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξύλον (ῠ), ου, τό,</note>
+ <etym opt="n">perh. from <ref type="cross" target="crosscu/w" lang="greek">ξύω</ref></etym>
+ <sense level="2" n="I" id="n22564.0" opt="n"><trans opt="n"><i>wood</i></trans> cut and ready for use, <trans opt="n"><i>firewood, timber</i></trans>, <usg opt="n">Hom.</usg>; <foreign lang="greek">ξύλα νήια</foreign> ship- <trans opt="n"><i>timber</i></trans>, <usg opt="n">Hes.</usg>; <foreign lang="greek">ξ. ναυπηγήσιμα</foreign> <usg opt="n">Thuc.</usg></sense>
+ <sense level="2" n="II" id="n22564.1" opt="n">in sg. <trans opt="n"><i>a piece of wood, a post</i></trans>, <usg opt="n">Hom.</usg>: <trans opt="n"><i>a perch</i></trans>, <usg opt="n">Ar.</usg>: <trans opt="n"><i>a stick, cudgel, club</i></trans>, <usg opt="n">Hdt.</usg>, <usg opt="n">Ar.</usg></sense>
+ <sense level="3" n="2" id="n22564.2" opt="n"><trans opt="n"><i>a collar of wood</i></trans>, put on the neck of the prisoner, <usg opt="n">Ar.</usg>:—also <trans opt="n"><i>stocks</i></trans>, for the feet, <usg opt="n">Hdt.</usg>, <usg opt="n">Ar.</usg>; cf. <foreign lang="greek">πεντεσύριγγος.</foreign> </sense>
+ <sense level="3" n="3" id="n22564.3" opt="n"><trans opt="n"><i>a plank</i> or <i>beam</i></trans> to which malefactors were bound, <trans opt="n"><i>the Cross</i></trans>, <usg opt="n">NTest.</usg></sense>
+ <sense level="3" n="4" id="n22564.4" opt="n"><trans opt="n"><i>a money-changerʼs table</i></trans>, <usg opt="n">Dem.</usg></sense>
+ <sense level="3" n="5" id="n22564.5" opt="n"><foreign lang="greek">πρῶτον ξύλον</foreign> <trans opt="n"><i>the front bench</i></trans> of the Athenian theatre, <usg opt="n">Ar.</usg></sense>
+ <sense level="2" n="III*" id="n22564.6" opt="n">of live wood, <trans opt="n"><i>a tree</i></trans>, <usg opt="n">Xen.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossculopagh/s" orig_id="n22565" key="culopagh/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="culopagh/s">ξυλοπαγής</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξῠλο-πᾰγής, ές</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossph/gnumi" lang="greek">πήγνυμι</ref></xr></etym>
+ <sense level="0" n="0" id="n22565.0" opt="n"><trans opt="n"><i>built of wood</i></trans>, <usg opt="n">Strab.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossculourge/w" orig_id="n22566" key="culourge/w">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="culourge/w">ξυλουργέω</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξῠλ-ουργέω,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="cross*e)/rgw" lang="greek">*ἔργω</ref></xr></etym>
+ <sense level="0" n="0" id="n22566.0" opt="n"><trans opt="n"><i>to work wood</i></trans>, <usg opt="n">Hdt.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossculourgi/a" orig_id="n22567" key="culourgi/a">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="culourgi/a">ξυλουργία</head>
+ <etym opt="n">from <ref type="cross" target="crosscu^lourge/w" lang="greek">ξῠλουργέω</ref></etym>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξῠλουργία, ἡ,</note>
+ <sense level="0" n="0" id="n22567.0" opt="n"><trans opt="n"><i>a working of wood, carpentry</i></trans>, <usg opt="n">Aesch.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossculofa/gos" orig_id="n22568" key="culofa/gos">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="culofa/gos">ξυλοφάγος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξῠλο-φάγος, ον,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossfa^gei=n" lang="greek">φᾰγεῖν</ref></xr></etym>
+ <sense level="0" n="0" id="n22568.0" opt="n"><trans opt="n"><i>eating wood</i></trans>, <usg opt="n">Strab.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossculofore/w" orig_id="n22569" key="culofore/w">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="culofore/w">ξυλοφορέω</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξῠλοφορέω,</note>
+ <sense level="0" n="0" id="n22569.0" opt="n"><trans opt="n"><i>to carry a stick</i></trans>, as the Cynics did, <usg opt="n">Luc.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossculofo/ros" orig_id="n22570" key="culofo/ros">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="culofo/ros">ξυλοφόρος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξῠλο-φόρος, ον,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossfe/rw" lang="greek">φέρω</ref></xr></etym>
+ <sense level="0" n="0" id="n22570.0" opt="n"><trans opt="n"><i>carrying wood.</i></trans></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossculoxi/zomai" orig_id="n22571" key="culoxi/zomai">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="culoxi/zomai">ξυλοχίζομαι</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξῠλοχίζομαι,</note>
+ <etym opt="n">Doric <foreign lang="greek">ίσδομαι,  ξυλίζομαι</foreign>, <usg opt="n">Theocr.</usg></etym>
+ </div1>
+
+ 
+ 
+<div1 id="crosscu/loxos" orig_id="n22572" key="cu/loxos">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="cu/loxos">ξύλοχος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξύλ-οχος (ῠ), ἡ,</note>
+ <etym opt="n">perh. from <ref type="cross" target="crosscu/lon " lang="greek">ξύλον</ref>, <ref type="cross" target="crosse)/xw" lang="greek">ἔχω</ref></etym>
+ <sense level="0" n="0" id="n22572.0" opt="n"><trans opt="n"><i>a thicket, copse</i></trans>, <usg opt="n">Il.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossculo/w" orig_id="n22573" key="culo/w">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="culo/w">ξυλόω</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξῠλόω,</note>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified"> fut. <foreign lang="greek">-ώσω</foreign></note>
+ <sense level="0" n="0" id="n22573.0" opt="n"><trans opt="n"><i>to make of wood.</i></trans> </sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosscu/lwsis" orig_id="n22574" key="cu/lwsis">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="cu/lwsis">ξύλωσις</head>
+ <etym opt="n">from <ref type="cross" target="crosscu^lo/w" lang="greek">ξῠλόω</ref></etym>
+ <sense level="0" n="0" id="n22574.0" opt="n"><trans opt="n"><i>the woodwork of a house, frame-work</i></trans>, <usg opt="n">Thuc.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosscuneei/kosi" orig_id="n22575" key="cuneei/kosi">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="cuneei/kosi">ξυνεείκοσι</head>
+ <sense level="0" n="0" id="n22575.0" opt="n">Epic for <foreign lang="greek">συν-είκοσι</foreign>, <trans opt="n"><i>twenty together</i></trans>, <usg opt="n">Od.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosscunh/ios" orig_id="n22576" key="cunh/ios">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="cunh/ios">ξυνήϊος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξῡνήιος, α, ον</note>
+ <etym opt="n">Epic and Ionic for <foreign lang="greek">ξύνειος</foreign>, which does not occur</etym>
+ <sense level="0" n="0" id="n22576.0" opt="n"><foreign lang="greek">ξυνήια</foreign> <trans opt="n"><i>common property, common stock</i></trans>, <usg opt="n">Il.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosscunh/wn" orig_id="n22577" key="cunh/wn">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="cunh/wn">ξυνήων</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξῡνήων, ονος, ὁ,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crosscuno/s" lang="greek">ξυνός</ref></xr></etym>
+ <sense level="0" n="0" id="n22577.0" opt="n"><trans opt="n"><i>a joint-owner, partner in</i></trans> a thing, c. gen., <usg opt="n">Hes.</usg>; <foreign lang="greek">ξυνάονες ἑλκέων</foreign>, I. e. <trans opt="n"><i>afflicted</i></trans> by sores, <usg opt="n">Pind.</usg>:—absol., <foreign lang="greek">ξυνάν</foreign> <trans opt="n"><i>a friend</i></trans>, <usg opt="n">Pind.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosscunodoth/r" orig_id="n22578" key="cunodoth/r">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="cunodoth/r">ξυνοδοτήρ</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξῡνο-δοτήρ, ῆρος, ὁ,</note>
+ <sense level="0" n="0" id="n22578.0" opt="n"><trans opt="n"><i>the free, bounteous giver</i></trans>, <usg opt="n">Anth.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosscuno/s" orig_id="n22579" key="cuno/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="cuno/s">ξυνός</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξῡνός, ή, όν</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crosscu/n" lang="greek">ξύν</ref></xr></etym>
+ <sense level="0" n="0" id="n22579.0" opt="n">older form of <foreign lang="greek">κοινός</foreign>, <trans opt="n"><i>common, public, general, concerning</i> or <i>belonging to all in common</i></trans>, <usg opt="n">Il.</usg>; <foreign lang="greek">γαῖα ξυνὴ πάντων</foreign> earth <trans opt="n"><i>the common property</i></trans> of all, <usg opt="n">Il.</usg>; <foreign lang="greek">ξ. Ἐνυάλιος</foreign>, i. e. war <trans opt="n"><i>hath an even hand, is uncertain</i></trans>, <usg opt="n">Il.</usg>; <foreign lang="greek">ξ. πᾶσι ἀγαθόν</foreign> <usg opt="n">Hdt.</usg>; <foreign lang="greek">ξυνὰ λέγειν</foreign> to speak <trans opt="n"><i>for the common good</i></trans>, <usg opt="n">Aesch.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosscuno/frwn" orig_id="n22580" key="cuno/frwn">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="cuno/frwn">ξυνόφρων</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξῡνό-φρων, ονος, ὁ, ἡ,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossfrh/n" lang="greek">φρήν</ref></xr></etym>
+ <sense level="0" n="0" id="n22580.0" opt="n"><trans opt="n"><i>friendly-minded</i></trans>, <usg opt="n">Anth.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosscunoxarh/s" orig_id="n22581" key="cunoxarh/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="cunoxarh/s">ξυνοχαρής</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξῡνο-χᾰρής, ές</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossxai/rw" lang="greek">χαίρω</ref></xr></etym>
+ <sense level="0" n="0" id="n22581.0" opt="n"><trans opt="n"><i>rejoicing in common</i></trans>, <usg opt="n">Anth.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosscunwri/s" orig_id="n22582" key="cunwri/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="cunwri/s">ξυνωρίς</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξῠνωρίς, ίδος, ἡ,</note>
+ <etym opt="n">v. <ref type="cross" target="crosssunwri/s" lang="greek">συνωρίς</ref>.</etym>
+ </div1>
+
+ 
+ 
+<div1 id="crosscure/w" orig_id="n22583" key="cure/w">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="cure/w">ξυρέω</head>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crosscuro/n" lang="greek">ξυρόν</ref></xr></etym>
+ <sense level="0" n="0" id="n22583.0" opt="n"><trans opt="n"><i>to shave</i></trans>, <usg opt="n">Hdt.</usg>: proverb. of great danger or sharp pain, <foreign lang="greek">ξυρεῖ ἐν χρῶι</foreign> <trans opt="n"><i>it shaves</i></trans> close, touches the quick, <usg opt="n">Soph.</usg>:—Mid. and Pass. <trans opt="n"><i>to shave oneself</i> or <i>have oneself shaved</i></trans>, <usg opt="n">Hdt.</usg>; <foreign lang="greek">ξυρεῦνται πᾶν τὸ σῶμα</foreign> they <trans opt="n"><i>have their</i></trans> whole body <trans opt="n"><i>shaved</i></trans>, <usg opt="n">Hdt.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosscurh/khs" orig_id="n22584" key="curh/khs">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="curh/khs">ξυρήκης</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξῠρ-ήκης, ες</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossa)kh" lang="greek">ἀκη</ref></xr></etym>
+ <sense level="2" n="I" id="n22584.0" opt="n"><trans opt="n"><i>keen as a rasor</i></trans>, <usg opt="n">Xen.</usg></sense>
+ <sense level="2" n="II" id="n22584.1" opt="n">pass. <trans opt="n"><i>close-shaven</i></trans>, <usg opt="n">Eur.</usg>; <foreign lang="greek">κουρᾷ ξυρήκει</foreign> with <trans opt="n"><i>close</i></trans> tonsure, <usg opt="n">Eur.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosscuro/n1" orig_id="n22585" key="curo/n1">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="curo/n">ξυρόν</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξῠρόν, οῦ,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crosscu/w" lang="greek">ξύω</ref></xr></etym>
+ <sense level="0" n="0" id="n22585.0" opt="n"><trans opt="n"><i>a rasor</i></trans>, <usg opt="n">Hom.</usg>, etc.:—proverb, <foreign lang="greek">ἐπὶ ξυροῦ ἵσταται ἀκμῆς ὄλεθρος ἠὲ βιῶναι</foreign> death or life is balanced on a <trans opt="n"><i>rasorʼs</i></trans> edge, <usg opt="n">Il.</usg>; <foreign lang="greek">ἐπὶ ξυροῦ τῆς ἀκμῆς ἔχεται ἡμῖν τὰ πράγματα</foreign> <usg opt="n">Hdt.</usg>; <foreign lang="greek">βεβὼς ἐπὶ ξυρῷ τύχης</foreign> <usg opt="n">Soph.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosscusmh/" orig_id="n22586" key="cusmh/">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="cusmh/">ξυσμή</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξυσμή, ἡ,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crosscu/w" lang="greek">ξύω</ref></xr></etym>
+ <sense level="0" n="0" id="n22586.0" opt="n">in pl., <trans opt="n"><i>scrapings</i></trans>, <usg opt="n">Anth.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosscusth/r" orig_id="n22587" key="custh/r">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="custh/r">ξυστήρ</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξυστήρ, ῆρος, ὁ,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crosscu/w" lang="greek">ξύω</ref></xr></etym>
+ <sense level="0" n="0" id="n22587.0" opt="n"><trans opt="n"><i>a graving tool</i></trans>, Lat. <foreign lang="la">scalprum</foreign>, <usg opt="n">Anth.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosscusti/s" orig_id="n22588" key="custi/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="custi/s">ξυστίς</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξυστίς, Attic <foreign lang="greek">ξύστις, ίδος, ἡ</foreign>,</note>
+ 
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crosscu/w" lang="greek">ξύω</ref></xr></etym>
+ <sense level="0" n="0" id="n22588.0" opt="n"><trans opt="n"><i>a xystis, a robe of fine material, a robe of state</i></trans>, <usg opt="n">Ar.</usg>, <usg opt="n">Plat.</usg>, etc.</sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosscustobo/los" orig_id="n22589" key="custobo/los">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="custobo/los">ξυστοβόλος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξυστο-βόλος, ον,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossba/llw" lang="greek">βάλλω</ref></xr></etym>
+ <sense level="0" n="0" id="n22589.0" opt="n"><trans opt="n"><i>spear-darting</i></trans>, <usg opt="n">Anth.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosscusto/n" orig_id="n22590" key="custo/n">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="custo/n">ξυστόν</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξυστόν, οῦ,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crosscu/w" lang="greek">ξύω</ref></xr></etym>
+ <sense level="3" n="1" id="n22590.0" opt="n"><trans opt="n"><i>the polished shaft</i></trans> of a spear, <usg opt="n">Il.</usg>, <usg opt="n">Hdt.</usg></sense>
+ <sense level="3" n="2" id="n22590.1" opt="n">generally, <trans opt="n"><i>a spear, lance</i></trans>, <usg opt="n">Il.</usg>, <usg opt="n">Eur.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosscusto/s1" orig_id="n22591" key="custo/s1">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="custo/s1">ξυστός</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξυστός, όν</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crosscu/w" lang="greek">ξύω</ref></xr></etym>
+ <sense level="0" n="0" id="n22591.0" opt="n"><trans opt="n"><i>scraped, polished</i></trans>, <usg opt="n">Hdt.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosscusto/s2" orig_id="n22592" key="custo/s2">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="custo/s2">ξυστός2</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξυστός, οῦ, ὁ,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crosscu/w" lang="greek">ξύω</ref></xr></etym>
+ <sense level="0" n="0" id="n22592.0" opt="n"><trans opt="n"><i>a covered colonnade</i></trans> on the S. side of the gymnasium, where athletes exercised in winter, <usg opt="n">Xen.</usg>, etc.: so called from its smooth and polished floor.</sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosscustofo/ros" orig_id="n22593" key="custofo/ros">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="custofo/ros">ξυστοφόρος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ξυστο-φόρος, ον,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossfe/rw" lang="greek">φέρω</ref></xr></etym>
+ <sense level="0" n="0" id="n22593.0" opt="n"><trans opt="n"><i>carrying a spear</i></trans>, <usg opt="n">Xen.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crosscu/w" orig_id="n22594" key="cu/w">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="cu/w">ξύω</head>
+ <etym opt="n">akin to <foreign lang="greek">ξέω</foreign></etym>
+ <sense level="2" n="I" id="n22594.0" opt="n"><trans opt="n"><i>to scrape, plane, smooth</i> or <i>polish</i></trans>, <usg opt="n">Od.</usg>: metaph., <foreign lang="greek">ξῦσαι ἀπὸ γῆρας</foreign> to <trans opt="n"><i>scrape off, get rid of</i></trans> old age, <usg opt="n">Hhymn.</usg>:— Mid., <foreign lang="greek">παλτὸν ξύσασθαι</foreign> <trans opt="n"><i>to shape oneself</i></trans> a javelin-shaft, <usg opt="n">Xen.</usg></sense>
+ <sense level="2" n="II" id="n22594.1" opt="n"><trans opt="n"><i>to make smooth, work delicately</i></trans>, <usg opt="n">Il.</usg></sense>
+ </div1>
+
+ 
+ </div0>
+</div0>
+</text>
+</tei.2>

@@ -1,0 +1,2954 @@
+<tei.2>
+
+ <teiHeader status="new" type="text">
+  <fileDesc>
+  <titleStmt>
+ 	<title>An Intermediate Greek-English Lexicon</title>
+ 	<title type="sub">Machine readable text</title>
+ 	<author>Henry George Liddell</author>
+ 	<author>Robert Scott</author>
+  <sponsor>Perseus Project, Tufts University</sponsor>
+ 		<principal>Gregory Crane</principal>
+ 		<respStmt>
+ 		<resp>Prepared under the supervision of</resp>
+ 		<name>Lisa Cerrato</name>
+ 		<name>William Merrill</name>
+ 		<name>Elli Mylonas</name>
+ 		<name>David Smith</name>
+ 		</respStmt>
+  <funder n="org:AnnCPB">The Annenberg CPB/Project</funder>
+  </titleStmt>
+ 	<publicationStmt>
+ 		<publisher>Trustees of Tufts University</publisher>
+ 		<pubPlace>Medford, MA</pubPlace>
+ 		<authority>Perseus Project</authority>
+ 		</publicationStmt>
+  <sourceDesc default="NO">
+ 	<biblStruct default="NO">
+ 	 <monogr>
+ 	 <author>Liddell and Scott</author>
+ 	 <title>An Intermediate Greek-English Lexicon</title>
+ 	 <imprint>
+ 	  <pubPlace>Oxford</pubPlace>
+ 	  <publisher>Clarendon Press</publisher>
+ 	  <date>1889</date>
+ 	 </imprint>
+ 	 </monogr>
+ 	 <idno type="ISBN">0199102066</idno>
+ 	</biblStruct>
+  </sourceDesc>
+  </fileDesc>
+ 
+  <encodingDesc>
+  <refsDecl doctype="TEI.2">
+ 	<state n="chunk" unit="entry" />
+  </refsDecl>
+  <refsDecl doctype="TEI.2">
+ 	<state unit="alphabetic letter" />
+ 	<state n="chunk" unit="entry" />
+  </refsDecl>
+  </encodingDesc>
+  
+  <profileDesc>
+  <langUsage default="NO">
+ 	<language id="en">English
+ 	</language><language id="greek">Greek
+ 	</language><language id="la">Latin
+ 	</language><language id="fr">French
+  </language></langUsage>
+  </profileDesc>
+  
+  <revisionDesc>
+  <change><date>28 Jan 1998</date>
+ 	<respStmt><name>DAS</name><resp>ed.</resp></respStmt>
+ 	<item>
+ $Log: ml.xml,v $
+ Revision 1.4 2004/12/14 19:42:20 packel
+ added entry/sense ids; fixed bad empty tags
+ 
+ Revision 1.3 2004/12/03 20:11:37 packel
+ corrected some duplicate keys caused by fixing the compound verbs
+ 
+ Revision 1.2 2004/12/02 23:29:11 packel
+ added key attributes to compound verb entries
+ 
+ Revision 1.1 2004/11/22 17:07:40 packel
+ converted to P4/XML
+ 	
+ Revision 1.20 2004/10/18 18:17:47 packel
+ added div0s; changed orth ʼa)da/mas,ʼ to a)da/mas
+ 
+ Revision 1.19 2004/10/07 14:18:11 packel
+ removed *s in entry keys
+ 
+ Revision 1.18 2004/10/05 21:34:13 packel
+ Aligned dictionary entries with the LSJ.
+ 
+ Revision 1.17 2004/09/08 15:49:42 packel
+ Changed doctype to TEI P4
+ 
+ Revision 1.16 2004/09/01 15:44:25 packel
+ Fixed thirty-odd words that had multiple entries but no number afterward to
+ differentiate the entries (e.g., si=gma, si=gma is now si=gma1, si=gma2).
+ 
+ Revision 1.15 2004/06/15 19:31:34 lcerrato
+ changed nothwithstanding to notwithstanding
+ 
+ Revision 1.14 2003/02/04 21:21:51 lcerrato
+ fixed typo kuma entry swoln to swollen
+ 
+ Revision 1.13 2001/12/05 15:15:58 gcrane
+ shifted the lemma for "pa/nth" to be "pa/nth|"
+ 
+ Revision 1.12 2001/04/20 21:58:57 dasmith
+ Added funder.
+ 
+ Revision 1.11 2001/04/05 18:26:02 lcerrato
+ added trans tags to noeo^ entry where missing
+ 
+ Revision 1.10 2000/10/06 23:20:04 dasmith
+ Tagged inflectional info as Greek.
+ 
+ Revision 1.9 2000/10/06 21:44:13 dasmith
+ Added author and ISBN to head.
+ Use new DTD subset.
+ Explicitly tag lemmata and cross references as Greek.
+ 
+ Revision 1.8 2000/03/04 20:25:11 dasmith
+ Standardized language IDs.
+ Added key attribute to entry.
+ 
+ Revision 1.7 1998/08/24 19:15:31 jrydberg
+ finished trans tags and added new prep. defs.
+ 
+ Revision 1.6 1998/08/20 17:12:45 jrydberg
+ Included greek words within trans tags where appropriate
+ 
+ Revision 1.5 1998/08/19 20:50:08 jrydberg
+ Replaced all "(trans) or (/trans)" with " or "
+ 
+ Revision 1.4 1998/08/19 18:23:58 jrydberg
+ Corrected trans tagging for short defs. through a)mfote/rwqen.
+ 
+ Revision 1.3 1998/08/17 20:24:43 jrydberg
+ *** empty log message ***
+ 
+ Revision 1.2 1998/08/17 19:38:25 jrydberg
+ Updated entry for *)agamemno/neos
+ 
+ Revision 1.1 1998/08/14 15:38:33 textgod
+ Added to repository.
+ 
+ </item>
+ </change>
+ </revisionDesc>
+ </teiHeader>
+<text>
+<div0 type="alphabetic letter" n="*r" org="uniform" sample="complete"><div0 type="alphabetic letter" n="*r" org="uniform" sample="complete">
+ <head lang="greek">Ρ</head>
+ 
+<div1 id="crossr(abbi/" orig_id="n28972" key="r(abbi/">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(abbi/">ῥαββί</head>
+ <sense level="0" n="0" id="n28972.0" opt="n"><trans opt="n"><i>o my master</i></trans>, Hebr. words in <usg opt="n">NTest.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(abdi/on" orig_id="n28973" key="r(abdi/on">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(abdi/on">ῥαβδίον</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥαβδίον, ου, τό,</note>
+ <etym opt="n">Dim. of <foreign lang="greek">ῥάβδος</foreign></etym>
+ <sense level="0" n="0" id="n28973.0" opt="n"><trans opt="n"><i>a little rod, a wand</i></trans>, <usg opt="n">Babr.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(abdomaxi/a" orig_id="n28974" key="r(abdomaxi/a">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(abdomaxi/a">ῥαβδομαχία</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥαβδο-μᾰχία, ἡ,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossma/xomai" lang="greek">μάχομαι</ref></xr></etym>
+ <sense level="0" n="0" id="n28974.0" opt="n"><trans opt="n"><i>a fighting with a staff</i> or <i>foil</i></trans>, <usg opt="n">Plut.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(abdonome/w" orig_id="n28975" key="r(abdonome/w">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(abdonome/w">ῥαβδονομέω</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥαβδονομέω,</note>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified"> fut. <foreign lang="greek">-ήσω</foreign></note>
+ <sense level="0" n="0" id="n28975.0" opt="n"><trans opt="n"><i>to sit as umpire</i></trans>, <usg opt="n">Soph.</usg></sense>
+ <etym opt="n">from <ref type="cross" target="crossr(abdono/mos" lang="greek">ῥαβδονόμος</ref></etym>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(abdono/mos" orig_id="n28976" key="r(abdono/mos">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(abdono/mos">ῥαβδονόμος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥαβδο-νόμος, ον,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossne/mw" lang="greek">νέμω</ref></xr></etym>
+ <sense level="0" n="0" id="n28976.0" opt="n"><trans opt="n"><i>holding a rod</i> or <i>wand;</i></trans> hence, like <foreign lang="greek">ῥαβδοῦχος</foreign>, of the Rom. <trans opt="n"><i>lictors</i></trans>, <usg opt="n">Plut.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(a/bdos" orig_id="n28977" key="r(a/bdos">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(a/bdos">ῥάβδος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">.ῥάβδος, ἡ,</note>
+ <sense level="2" n="I" id="n28977.0" opt="n"><trans opt="n"><i>a rod, wand, stick, switch</i></trans>, Lat. <foreign lang="la">virga</foreign>, <usg opt="n">Hom.</usg>, <usg opt="n">Xen.</usg></sense>
+ <sense level="3" n="2" id="n28977.1" opt="n"><trans opt="n"><i>a magic wand</i></trans>, as that of Circe or Hermes, <usg opt="n">Hom.</usg></sense>
+ <sense level="3" n="3" id="n28977.2" opt="n"><trans opt="n"><i>a fishing-rod</i></trans>, <usg opt="n">Od.</usg>:—also <trans opt="n"><i>a limed twig</i></trans>, for catching birds, <usg opt="n">Ar.</usg></sense>
+ <sense level="3" n="4" id="n28977.3" opt="n"><trans opt="n"><i>a spear-staff</i> or <i>shaft</i></trans>, <usg opt="n">Xen.</usg></sense>
+ <sense level="3" n="5" id="n28977.4" opt="n"><trans opt="n"><i>a staff of office</i></trans>, like the earlier <foreign lang="greek">σκῆπτρον</foreign>, <usg opt="n">Pind.</usg></sense>
+ <sense level="3" n="6" id="n28977.5" opt="n"><trans opt="n"><i>the wand borne by the</i> <foreign lang="greek">ῥαψῳδός·</foreign></trans> hence, <foreign lang="greek">κατὰ ῥάβδον ἐπέων</foreign> according to <trans opt="n"><i>the measure</i></trans> of his (Homerʼs) verses, <usg opt="n">Pind.</usg></sense>
+ <sense level="3" n="7" id="n28977.6" opt="n"><trans opt="n"><i>a rod for chastisement</i></trans>, <usg opt="n">Plat.</usg>; <foreign lang="greek">αἱ ῥάβδοι</foreign> the <trans opt="n"><i>fasces</i></trans> of the Roman lictors, <usg opt="n">Plut.</usg></sense>
+ <sense level="2" n="II" id="n28977.7" opt="n"><trans opt="n"><i>a stripe</i> or <i>strip</i></trans>, <usg opt="n">Il.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(abdouxe/w" orig_id="n28978" key="r(abdouxe/w">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(abdouxe/w">ῥαβδουχέω</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥαβδουχέω,</note>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified"> fut. <foreign lang="greek">-ήσω</foreign></note>
+ <etym opt="n">from <ref type="cross" target="crossr(abdou=xos" lang="greek">ῥαβδοῦχος</ref></etym>
+ <sense level="0" n="0" id="n28978.0" opt="n"><trans opt="n"><i>to carry a rod</i> or <i>wand</i></trans>, as a badge of office:—Pass., at Rome, <trans opt="n"><i>to have the fasces borne before one</i></trans>, <usg opt="n">Plut.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(abdouxi/a" orig_id="n28979" key="r(abdouxi/a">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(abdouxi/a">ῥαβδουχία</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥαβδουχία, ἡ,</note>
+ <sense level="0" n="0" id="n28979.0" opt="n">at Rome, <trans opt="n"><i>the fasces</i></trans>, <usg opt="n">Plut.</usg></sense>
+ <etym opt="n">from <ref type="cross" target="crossr(abdou=xos" lang="greek">ῥαβδοῦχος</ref></etym>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(abdou=xos" orig_id="n28980" key="r(abdou=xos">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(abdou=xos">ῥαβδοῦχος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥαβδ-οῦχος, ὁ,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crosse)/xw" lang="greek">ἔχω</ref></xr></etym>
+ <sense level="0" n="0" id="n28980.0" opt="n"><trans opt="n"><i>one who carries a rod</i> or <i>staff of office</i></trans>: </sense>
+ <sense level="3" n="1" id="n28980.1" opt="n"><trans opt="n"><i>a judge, umpire at a contest</i></trans>, <usg opt="n">Plat.</usg></sense>
+ <sense level="3" n="2" id="n28980.2" opt="n"><trans opt="n"><i>a magistrateʼs attendant, a beadle</i></trans>, <usg opt="n">Ar.</usg>:—so, at Rome, <trans opt="n"><i>of the lictors who carried the fasces</i></trans>, <usg opt="n">Polyb.</usg>, etc.</sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(abdofore/w" orig_id="n28981" key="r(abdofore/w">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(abdofore/w">ῥαβδοφορέω</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥαβδοφορέω,</note>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified"> fut. <foreign lang="greek">-ήσω</foreign></note>
+ <sense level="0" n="0" id="n28981.0" opt="n"><trans opt="n"><i>to carry a wand</i> or <i>stick</i></trans>, <usg opt="n">Strab.</usg></sense>
+ <etym opt="n">from <ref type="cross" target="crossr(abdofo/ros" lang="greek">ῥαβδοφόρος</ref></etym>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(abdofo/ros" orig_id="n28982" key="r(abdofo/ros">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(abdofo/ros">ῥαβδοφόρος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥαβδο-φόρος, ον,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossfe/rw" lang="greek">φέρω</ref></xr></etym>
+ <etym opt="n">= <ref type="cross" target="crossr(abdou=xos" lang="greek">ῥαβδοῦχος</ref> 2, <usg opt="n">Polyb.</usg></etym>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(a/bdwsis" orig_id="n28983" key="r(a/bdwsis">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(a/bdwsis">ῥάβδωσις</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥάβδωσις, εως,</note>
+ <etym opt="n">as if from <ref type="cross" target="crossr(abdo/w" lang="greek">ῥαβδόω</ref></etym>
+ <sense level="0" n="0" id="n28983.0" opt="n"><trans opt="n"><i>the fluting</i></trans> of columns, <usg opt="n">Arist.</usg></sense>
+ <etym opt="n">cf. <foreign lang="greek">ῥαβδωτός</foreign></etym>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(abdwto/s" orig_id="n28984" key="r(abdwto/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(abdwto/s">ῥαβδωτός</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥαβδωτός, ή, όν</note>
+ <etym opt="n">as if from <ref type="cross" target="crossr(abdo/w" lang="greek">ῥαβδόω</ref></etym>
+ <etym opt="n">cf. <foreign lang="greek">ῥάβδος</foreign> II</etym>
+ <sense level="0" n="0" id="n28984.0" opt="n"><trans opt="n"><i>striped</i></trans>, <usg opt="n">Xen.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(aga/s" orig_id="n28985" key="r(aga/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(aga/s">ῥαγάς</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥᾰγάς, άδος,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossr(agh=nai" lang="greek">ῥαγῆναι</ref></xr></etym>
+ <sense level="0" n="0" id="n28985.0" opt="n"><trans opt="n"><i>a rent, chink</i></trans>, <usg opt="n">Anth.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(agdai=os" orig_id="n28986" key="r(agdai=os">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(agdai=os">ῥαγδαῖος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥαγδαῖος, α, ον</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossr(a/gdhn" lang="greek">ῥάγδην</ref></xr></etym>
+ <sense level="0" n="0" id="n28986.0" opt="n"><trans opt="n"><i>tearing, furious</i></trans>, <usg opt="n">Plut.</usg>, <usg opt="n">Luc.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(agi/zw" orig_id="n28987" key="r(agi/zw">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(agi/zw">ῥαγίζω</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥᾱγίζω,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossr(a/c" lang="greek">ῥάξ</ref></xr></etym>
+ <sense level="0" n="0" id="n28987.0" opt="n"><trans opt="n"><i>to gather grapes</i></trans>, <usg opt="n">Theocr.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(agolo/gos" orig_id="n28988" key="r(agolo/gos">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(agolo/gos">ῥαγολόγος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥᾱγο-λόγος, ον,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossr(a/c " lang="greek">ῥάξ</ref>, <ref type="cross" target="crossle/gw" lang="greek">λέγω</ref></xr></etym>
+ <sense level="0" n="0" id="n28988.0" opt="n"><trans opt="n"><i>gathering berries</i></trans>, <usg opt="n">Anth.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(adina/kh" orig_id="n28989" key="r(adina/kh">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(adina/kh">ῥαδινάκη</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥαδινάκη, ἡ,</note>
+ <sense level="0" n="0" id="n28989.0" opt="n">the Persian name for <trans opt="n"><i>a black strong smelling petroleum</i></trans>, <usg opt="n">Hdt.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(adino/s" orig_id="n28990" key="r(adino/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(adino/s">ῥαδινός</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">.ῥᾰδῐνός, ή, όν</note>
+ <sense level="3" n="1" id="n28990.0" opt="n"><trans opt="n"><i>slender, taper</i></trans>, <usg opt="n">Il.</usg>, <usg opt="n">Theogn.</usg>, etc.</sense>
+ <sense level="3" n="2" id="n28990.1" opt="n">of the limbs or body, <trans opt="n"><i>taper, slim</i></trans>, <usg opt="n">Hes.</usg>, <usg opt="n">Theogn.</usg></sense>
+ <sense level="3" n="3" id="n28990.2" opt="n">generally, <trans opt="n"><i>tender</i> or <i>mobile</i></trans>, <foreign lang="greek">ὄσσε</foreign> <usg opt="n">Aesch.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(a/|dios" orig_id="n28991" key="r(a/|dios">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(a/|dios">ῥᾴδιος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥᾴδιος, α, ον</note>
+ <sense level="2" n="I" id="n28991.0" opt="n"><trans opt="n"><i>easy, ready, easy to make</i> or <i>do</i></trans>, opp. to <foreign lang="greek">χαλεπός</foreign>, <usg opt="n">Hom.</usg>, etc.; <foreign lang="greek">ῥηίδιόν τοι ἔπος</foreign> a word <trans opt="n"><i>easy</i></trans> for thee <trans opt="n"><i>to understand</i></trans>, <usg opt="n">Od.</usg>:—c. inf., <foreign lang="greek">τάφρος ῥηιδίη περῆσαι</foreign> <trans opt="n"><i>easy</i></trans> to pass over, <usg opt="n">Il.</usg>; <foreign lang="greek">ῥηίτεροι πολεμίζειν</foreign> <trans opt="n"><i>easier</i></trans> to fight with, <usg opt="n">Il.</usg></sense>
+ <sense level="3" n="2" id="n28991.1" opt="n"><foreign lang="greek">ῥᾴδιόν ἐστι</foreign> it is <trans opt="n"><i>easy</i></trans> to do a thing, c. inf., <usg opt="n">Pind.</usg>, <usg opt="n">Thuc.</usg>; c. acc. et inf., <foreign lang="greek">τύραννον εὐσεβεῖν οὐ ῥᾴδιον</foreign> <usg opt="n">Soph.</usg>; also, <foreign lang="greek">ῥᾷστοί εἰσιν ἀμύνεσθαι  ῥᾴδιόν ἐστιν αὐτοὺς ἀμύνεσθαι</foreign>, <usg opt="n">Thuc.</usg></sense>
+ <sense level="4" n="b" id="n28991.2" opt="n">also, <foreign lang="greek">ῥᾴδιόν ἐστι</foreign> it is <trans opt="n"><i>a light matter, you think little</i></trans> of doing, <foreign lang="greek">παρʼ ὑμῖν ῥ. ξενοκτονεῖν</foreign> <usg opt="n">Eur.</usg></sense>
+ <sense level="2" n="II" id="n28991.3" opt="n">of persons, <trans opt="n"><i>easy, complaisant</i></trans>, Lat. <foreign lang="la">facilis, commodus</foreign>, <usg opt="n">Dem.</usg>:—in bad sense, <trans opt="n"><i>reckless</i></trans>, <usg opt="n">Luc.</usg></sense>
+ <sense level="1" n="B" id="n28991.4" opt="n">adv. <ref type="cross" target="crossr(a|di/ws" lang="greek">ῥᾳδίως</ref>, Epic and Ionic <foreign lang="greek">ῥηιδίως</foreign>, <trans opt="n"><i>easily, lightly, readily, willingly</i></trans>, <usg opt="n">Hom.</usg>, etc.; <foreign lang="greek">ῥᾳδίως φέρειν</foreign> to bear <trans opt="n"><i>lightly</i></trans>, make <trans opt="n"><i>light</i></trans> of a thing, <usg opt="n">Eur.</usg>, etc.</sense>
+ <sense level="3" n="2" id="n28991.5" opt="n">in bad sense, <trans opt="n"><i>lightly, recklessly, rashly</i></trans>, <usg opt="n">Thuc.</usg>; <foreign lang="greek">ῥᾳδίως οὕτω</foreign> <trans opt="n"><i>in</i></trans> this <trans opt="n"><i>easy, thoughtless way</i></trans>, <usg opt="n">Plat.</usg></sense>
+ <sense level="2" n="II" id="n28991.6" opt="n">comp., <foreign lang="greek">ῥᾷον φέρειν</foreign> <usg opt="n">Thuc.</usg></sense>
+ <sense level="2" n="III" id="n28991.7" opt="n">Sup. <foreign lang="greek">ῥᾷστα</foreign>, <trans opt="n"><i>esp. in phrases</i></trans>, <foreign lang="greek">ῥᾷστα φέρειν</foreign> <usg opt="n">Soph.</usg>; <foreign lang="greek">ὡς ῥᾷστα φέρειν</foreign> <usg opt="n">Aesch.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(a|diourge/w" orig_id="n28992" key="r(a|diourge/w">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(a|diourge/w">ῥᾳδιουργέω</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥᾳδιουργέω,</note>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified"> fut. <foreign lang="greek">-ήσω</foreign></note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossr(adiourgo/s" lang="greek">ῥαδιουργός</ref></xr></etym>
+ <sense level="2" n="I" id="n28992.0" opt="n"><trans opt="n"><i>to do things with ease</i> or <i>off-hand</i></trans>, <usg opt="n">Luc.</usg></sense>
+ <sense level="2" n="II" id="n28992.1" opt="n"><trans opt="n"><i>to live an easy, lazy life, take things easily</i></trans>, <usg opt="n">Xen.</usg></sense>
+ <sense level="3" n="2" id="n28992.2" opt="n"><trans opt="n"><i>to act thoughtlessly</i> or <i>recklessly, to do wrong, misbehave</i></trans>, <usg opt="n">Xen.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(a|diou/rghma" orig_id="n28993" key="r(a|diou/rghma">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(a|diou/rghma">ῥᾳδιούργημα</head>
+ <etym opt="n">from <ref type="cross" target="crossr(a|diourge/w" lang="greek">ῥᾳδιουργέω</ref></etym>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥᾳδιούργημα, ατος, τό,</note>
+ <sense level="0" n="0" id="n28993.0" opt="n"><trans opt="n"><i>a reckless act, crime</i></trans>, <usg opt="n">Plut.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(a|diourgi/a" orig_id="n28994" key="r(a|diourgi/a">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(a|diourgi/a">ῥᾳδιουργία</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥᾳδιουργία, ἡ,</note>
+ <sense level="2" n="I" id="n28994.0" opt="n"><trans opt="n"><i>ease in doing, facility</i></trans>, <usg opt="n">Xen.</usg></sense>
+ <sense level="2" n="II" id="n28994.1" opt="n"><trans opt="n"><i>easiness, laziness, sloth</i></trans>, <usg opt="n">Xen.</usg></sense>
+ <sense level="3" n="2" id="n28994.2" opt="n"><trans opt="n"><i>recklessness, want of principle, wickedness, lewdness</i></trans>, <usg opt="n">Xen.</usg>: <trans opt="n"><i>fraud</i></trans>, <usg opt="n">Plut.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(a|diourgo/s" orig_id="n28995" key="r(a|diourgo/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(a|diourgo/s">ῥᾳδιουργός</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥᾳδι-ουργός, όν</note>
+ <etym opt="n">*<foreign lang="greek">ἔργω</foreign></etym>
+ <sense level="3" n="1" id="n28995.0" opt="n">properly, <trans opt="n"><i>doing things easily;</i></trans> in bad sense, <trans opt="n"><i>unscrupulous, reckless</i></trans>, <usg opt="n">Arist.</usg></sense>
+ <sense level="3" n="2" id="n28995.1" opt="n">of things, <trans opt="n"><i>impure</i></trans>, <usg opt="n">Xen.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(aqa/migc" orig_id="n28996" key="r(aqa/migc">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(aqa/migc">ῥαθάμιγξ</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥᾰθάμιγξ (θᾰ), ιγγος,</note>
+ <sense level="2" n="I" id="n28996.0" opt="n"><trans opt="n"><i>a drop</i></trans>, <usg opt="n">Il.</usg>, <usg opt="n">Hes.</usg></sense>
+ <sense level="2" n="II" id="n28996.1" opt="n">of solids, <trans opt="n"><i>a grain, bit</i></trans>, <usg opt="n">Il.</usg></sense>
+ <etym opt="n">deriv. uncertain</etym>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(aqapugi/zw" orig_id="n28997" key="r(aqapugi/zw">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(aqapugi/zw">ῥαθαπυγίζω</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥᾰθᾰ-πῡγίζω,</note>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified"> fut. <foreign lang="greek">-σω</foreign></note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossr(a/ssw " lang="greek">ῥάσσω</ref>, <ref type="cross" target="crosspugh/" lang="greek">πυγή</ref></xr></etym>
+ <sense level="0" n="0" id="n28997.0" opt="n"><trans opt="n"><i>to give one a slap on the buttocks</i></trans>, <usg opt="n">Ar.</usg></sense>
+ 
+ </div1>
+
+ 
+ 
+<div1 id="crossr(a|qume/w" orig_id="n28998" key="r(a|qume/w">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(a|qume/w">ῥαθυμέω</head>
+ <sense level="0" n="0" id="n28998.0" opt="n"><trans opt="n"><i>to leave off work, to be remiss</i></trans>, <usg opt="n">Xen.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(a|qumi/a" orig_id="n28999" key="r(a|qumi/a">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(a|qumi/a">ῥαθυμία</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥᾳθῡμία, ἡ,</note>
+ <sense level="2" n="I" id="n28999.0" opt="n"><trans opt="n"><i>easiness of temper, a taking things easily</i></trans>, <usg opt="n">Thuc.</usg></sense>
+ <sense level="3" n="2" id="n28999.1" opt="n"><trans opt="n"><i>recreation, relaxation, amusement</i></trans>, <usg opt="n">Eur.</usg></sense>
+ <sense level="2" n="II" id="n28999.2" opt="n">in bad sense, <trans opt="n"><i>indifference, sluggishness, laziness</i></trans>, <usg opt="n">Xen.</usg>, etc.; <foreign lang="greek">ῥ. κτήσασθαι</foreign> <trans opt="n"><i>to get</i></trans> <trans opt="n"><i>a name for laziness</i></trans>, <usg opt="n">Eur.</usg></sense>
+ <sense level="3" n="2" id="n28999.3" opt="n"><trans opt="n"><i>heedlessness, rashness</i></trans>, <usg opt="n">Plat.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(a/|qumos" orig_id="n29000" key="r(a/|qumos">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(a/|qumos">ῥάθυμος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥᾴ-θῡμος, ον,</note>
+ <sense level="2" n="I" id="n29000.0" opt="n"><trans opt="n"><i>taking things easy, indifferent, lazy, sluggish</i></trans>, Lat. <foreign lang="la">socors</foreign>, <usg opt="n">Soph.</usg>, etc.</sense>
+ <sense level="2" n="II" id="n29000.1" opt="n">of things, <trans opt="n"><i>easy</i></trans>, Lat. <foreign lang="la">securus</foreign>, <usg opt="n">Isocr.</usg>, <usg opt="n">Plat.</usg>:—adv. <ref type="cross" target="cross-mws" lang="greek">-μως</ref>, <usg opt="n">Plat.</usg></sense>
+ <sense level="3" n="2" id="n29000.2" opt="n">adv. also, like <foreign lang="greek">ῥᾳδίως</foreign>, <trans opt="n"><i>lightly, with equanimity</i></trans>, <usg opt="n">Plat.</usg>; comp. <foreign lang="greek">-ότερον</foreign>, <usg opt="n">Isocr.</usg>; <foreign lang="greek">-οτέρως</foreign>, <usg opt="n">Arist.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(aibo/kranos" orig_id="n29001" key="r(aibo/kranos">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(aibo/kranos">ῥαιβόκρανος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥαιβό-κρᾱνος, ον,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crosskra/nion" lang="greek">κράνιον</ref></xr></etym>
+ <sense level="0" n="0" id="n29001.0" opt="n"><trans opt="n"><i>with crooked head</i></trans>, <usg opt="n">Anth.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(aiboskelh/s" orig_id="n29002" key="r(aiboskelh/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(aiboskelh/s">ῥαιβοσκελής</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥαιβο-σκελής, ές</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossske/los" lang="greek">σκέλος</ref></xr></etym>
+ <sense level="0" n="0" id="n29002.0" opt="n"><trans opt="n"><i>crook-legged</i></trans>, <usg opt="n">Anth.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(aibo/s" orig_id="n29003" key="r(aibo/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(aibo/s">ῥαιβός</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">.ῥαιβός, ή, όν</note>
+ <sense level="0" n="0" id="n29003.0" opt="n"><trans opt="n"><i>crooked, bent</i></trans>, <usg opt="n">Arist.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(ai/zw" orig_id="n29004" key="r(ai/zw">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(ai/zw">ῥαΐζω</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥᾱΐζω,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossr(a/|dios" lang="greek">ῥᾴδιος</ref></xr></etym>
+ <sense level="0" n="0" id="n29004.0" opt="n"><trans opt="n"><i>to grow easier, find relief, recover from illness</i></trans>, <usg opt="n">Plat.</usg>, <usg opt="n">Dem.</usg>:— <trans opt="n"><i>to take oneʼs rest</i></trans>, <usg opt="n">Xen.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(ai/nw" orig_id="n29005" key="r(ai/nw">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(ai/nw">ῥαίνω</head>
+ <sense level="2" n="I" id="n29005.0" opt="n"><trans opt="n"><i>to sprinkle, besprinkle</i></trans>, <foreign lang="greek">ῥάσσατε</foreign> (sc. <foreign lang="greek">δῶμα ὕδατι</foreign>) <usg opt="n">Od.</usg>; <foreign lang="greek">αἵματι βωμόν</foreign> <usg opt="n">Eur.</usg>:—Pass., <foreign lang="greek">πύργοι αἵματι ἐρράδατʼ</foreign> <usg opt="n">Il.</usg>; <foreign lang="greek">αἵματι δʼ ἐρράδαται τοῖχοι</foreign> <usg opt="n">Od.</usg>:—of dust, <foreign lang="greek">ἵπποι ῥαίνοντο κονίηι</foreign> <usg opt="n">Il.</usg></sense>
+ <sense level="3" n="2" id="n29005.1" opt="n">metaph., <foreign lang="greek">ῥ. τινὰ ὕμνωι</foreign> <usg opt="n">Pind.</usg></sense>
+ <sense level="2" n="II" id="n29005.2" opt="n"><trans opt="n"><i>to sprinkle</i></trans>, with acc. of the thing sprinkled, <foreign lang="greek">ῥαίνειν ἐς τὰ βλέφαρα</foreign> <trans opt="n"><i>to sprinkle</i></trans> (vinegar) in their eyes, <usg opt="n">Ar.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(aisth/r" orig_id="n29006" key="r(aisth/r">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(aisth/r">ῥαιστήρ</head>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossr(ai/w" lang="greek">ῥαίω</ref></xr></etym>
+ <sense level="0" n="0" id="n29006.0" opt="n"><trans opt="n"><i>a hammer</i></trans>, <usg opt="n">Il.</usg>, <usg opt="n">Aesch.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(ai/w" orig_id="n29007" key="r(ai/w">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(ai/w">ῥαίω</head>
+ <sense level="2" n="I" id="n29007.0" opt="n"><trans opt="n"><i>to break, shiver, shatter, wreck</i></trans>, <usg opt="n">Od.</usg>;— Pass., <foreign lang="greek">ῥαιόμενος</foreign> <trans opt="n"><i>one shipwrecked</i></trans>, <usg opt="n">Od.</usg>; <foreign lang="greek">φάσγανον ἐρραίσθη</foreign> <trans opt="n"><i>was shivered</i></trans>, <usg opt="n">Il</usg>.</sense>
+ <sense level="2" n="II" id="n29007.1" opt="n"><trans opt="n"><i>to crush, destroy</i></trans>, in Pass., <usg opt="n">Aesch.</usg>, <usg opt="n">Soph.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(aka/" orig_id="n29008" key="r(aka/">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(aka/">ῥακά</head>
+ <sense level="0" n="0" id="n29008.0" opt="n">Hebr. word expressive of utter contempt, <usg opt="n">NTest.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(a/kion" orig_id="n29009" key="r(a/kion">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(a/kion">ῥάκιον</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥάκιον (ᾰ), ου, τό,</note>
+ <etym opt="n">Dim. of <foreign lang="greek">ῥάκος</foreign></etym>
+ <sense level="0" n="0" id="n29009.0" opt="n"><trans opt="n"><i>a rag</i></trans>, in pl. <trans opt="n"><i>rags</i></trans>, <usg opt="n">Ar.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(akiosurrapta/dhs" orig_id="n29010" key="r(akiosurrapta/dhs">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(akiosurrapta/dhs">ῥακιοσυρραπτάδης</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥᾰκιο-συρραπτάδης, ου, ὁ,</note>
+ <sense level="0" n="0" id="n29010.0" opt="n"><trans opt="n"><i>a rag-stitcher</i></trans>, <usg opt="n">Ar.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(ako/dutos" orig_id="n29011" key="r(ako/dutos">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(ako/dutos">ῥακόδυτος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥακό-δυτος, ον,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossdu/w" lang="greek">δύω</ref></xr></etym>
+ <sense level="0" n="0" id="n29011.0" opt="n"><trans opt="n"><i>ragged</i></trans>, <usg opt="n">Eur.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(ako/eis" orig_id="n29012" key="r(ako/eis">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(ako/eis">ῥακόεις</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥᾰκόεις, εσσα, εν</note>
+ <sense level="2" n="I" id="n29012.0" opt="n"><trans opt="n"><i>ragged, torn, tattered</i></trans>, <usg opt="n">Anth.</usg></sense>
+ <sense level="2" n="II" id="n29012.1" opt="n"><trans opt="n"><i>wrinkled</i></trans>, <usg opt="n">Anth.</usg></sense>
+ <etym opt="n">from <ref type="cross" target="crossr(a/^kos" lang="greek">ῥάκος (ᾰ)</ref></etym>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(a/kos" orig_id="n29013" key="r(a/kos">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(a/kos">ῥάκος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">.ῥάκος (ᾰ), ος, εος, τό,</note>
+ <sense level="2" n="I" id="n29013.0" opt="n"><trans opt="n"><i>a ragged garment, a rag</i></trans>, <usg opt="n">Od.</usg>, <usg opt="n">Ar.</usg>: in pl. <foreign lang="greek">ῥάκεα</foreign>, Attic <foreign lang="greek">ῥάκη</foreign>, <trans opt="n"><i>rags, tatters</i></trans>, <usg opt="n">Od.</usg>, <usg opt="n">Hdt.</usg>, etc.</sense>
+ <sense level="3" n="2" id="n29013.1" opt="n">generally, <trans opt="n"><i>a strip of cloth</i></trans>, <usg opt="n">Hdt.</usg>: <trans opt="n"><i>a strip</i></trans> of flesh, <usg opt="n">Aesch.</usg></sense>
+ <sense level="2" n="II" id="n29013.2" opt="n">in pl. <trans opt="n"><i>rents in the face, wrinkles</i></trans>, <usg opt="n">Ar.</usg></sense>
+ <sense level="2" n="III" id="n29013.3" opt="n">metaph. <trans opt="n"><i>a rag, remnant</i></trans>, Anon. ap. <usg opt="n">Arist.</usg>; of an old seaman, <foreign lang="greek">ἁλίοιο βίου ῥάκος</foreign> <usg opt="n">Anth.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(ako/w" orig_id="n29014" key="r(ako/w">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(ako/w">ῥακόω</head>
+ <etym opt="n">from <ref type="cross" target="crossr(a/^kos" lang="greek">ῥάκος (ᾰ)</ref></etym>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥᾰκόω,</note>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified"> fut. <foreign lang="greek">-ώσω</foreign></note>
+ <sense level="0" n="0" id="n29014.0" opt="n"><trans opt="n"><i>to tear in strips</i></trans>, <usg opt="n">Plut.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(a/kwma" orig_id="n29015" key="r(a/kwma">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(a/kwma">ῥάκωμα</head>
+ <etym opt="n">from <ref type="cross" target="crossr(a^ko/w" lang="greek">ῥᾰκόω</ref></etym>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥάκωμα, ατος, τό,</note>
+ <sense level="0" n="0" id="n29015.0" opt="n">in pl., = <ref type="cross" target="crossr(a/kh" lang="greek">ῥάκη</ref>, <trans opt="n"><i>rags</i></trans>, <usg opt="n">Ar.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(a/mfos" orig_id="n29016" key="r(a/mfos">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(a/mfos">ῥάμφος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">.ῥάμφος, ος, εος, τό,</note>
+ <sense level="0" n="0" id="n29016.0" opt="n"><trans opt="n"><i>a beak, bill, neb</i></trans>, <usg opt="n">Ar.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(ani/s" orig_id="n29017" key="r(ani/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(ani/s">ῥανίς</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥᾰνίς, ίδος, ἡ,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossr(ai/nw" lang="greek">ῥαίνω</ref></xr></etym>
+ <sense level="0" n="0" id="n29017.0" opt="n"><trans opt="n"><i>a drop</i></trans>, <usg opt="n">Eur.</usg>; <trans opt="n"><i>a rain-drop</i></trans>, <usg opt="n">Ar.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(anth/rios" orig_id="n29018" key="r(anth/rios">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(anth/rios">ῥαντήριος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥαντήριος, α, ον</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossr(ai/nw" lang="greek">ῥαίνω</ref></xr></etym>
+ <sense level="0" n="0" id="n29018.0" opt="n"><trans opt="n"><i>of</i> or <i>for sprinkling</i></trans>:—in <usg opt="n">Aesch.</usg>, it seems to be <trans opt="n"><i>bedabbled, reeking.</i></trans></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(anti/zw" orig_id="n29019" key="r(anti/zw">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(anti/zw">ῥαντίζω</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥαντίζω,</note>
+ <sense level="2" n="I" id="n29019.0" opt="n">= <ref type="cross" target="crossr(ai/nw" lang="greek">ῥαίνω</ref>, <usg opt="n">NTest.</usg></sense>
+ <sense level="2" n="II" id="n29019.1" opt="n">of the effect, <trans opt="n"><i>to purify</i></trans>, <usg opt="n">NTest.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(antismo/s" orig_id="n29020" key="r(antismo/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(antismo/s">ῥαντισμός</head>
+ <etym opt="n">from <ref type="cross" target="crossr(anti/zw" lang="greek">ῥαντίζω</ref></etym>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥαντισμός, οῦ, ὁ,</note>
+ <sense level="0" n="0" id="n29020.0" opt="n"><trans opt="n"><i>a sprinkling</i></trans>, <usg opt="n">NTest.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(a/c" orig_id="n29021" key="r(a/c">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(a/c">ῥάξ</head>
+ <sense level="0" n="0" id="n29021.0" opt="n"><trans opt="n"><i>a grape</i></trans>, Lat. <foreign lang="la">racemus</foreign>, <usg opt="n">Plat.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(api/zw" orig_id="n29022" key="r(api/zw">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(api/zw">ῥαπίζω</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥᾰπίζω,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossr(api/s" lang="greek">ῥαπίς</ref></xr></etym>
+ <sense level="2" n="I" id="n29022.0" opt="n"><trans opt="n"><i>to strike with a stick, to cudgel, flog, bastinado</i></trans>, <usg opt="n">Hdt.</usg>, <usg opt="n">Dem.</usg></sense>
+ <sense level="2" n="II" id="n29022.1" opt="n"><trans opt="n"><i>to slap in the face</i></trans>, <usg opt="n">NTest.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(a/pisma" orig_id="n29023" key="r(a/pisma">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(a/pisma">ῥάπισμα</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥάπισμα, ατος, τό,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossr(api/zw" lang="greek">ῥαπίζω</ref></xr></etym>
+ <sense level="0" n="0" id="n29023.0" opt="n"><trans opt="n"><i>a stroke, a slap on the face</i></trans>, <usg opt="n">Luc.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(api/s" orig_id="n29024" key="r(api/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(api/s">ῥαπίς</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥᾰπίς, ίδος, ἡ,</note>
+ <etym opt="n">= <ref type="cross" target="crossr(a/bdos" lang="greek">ῥάβδος</ref>.</etym>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(apto/s" orig_id="n29025" key="r(apto/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(apto/s">ῥαπτός</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥαπτός, ή, όν</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossr(a/ptw" lang="greek">ῥάπτω</ref></xr></etym>
+ <sense level="2" n="I" id="n29025.0" opt="n"><trans opt="n"><i>stitched, patched</i></trans>, <usg opt="n">Od.</usg></sense>
+ <sense level="3" n="2" id="n29025.1" opt="n">metaph. <trans opt="n"><i>strung together, continuous</i></trans>, of verses, <usg opt="n">Pind.</usg></sense>
+ <sense level="2" n="II" id="n29025.2" opt="n"><trans opt="n"><i>worked with the needle</i></trans>: <foreign lang="greek">ῥαπτόν, οῦ</foreign>, <trans opt="n"><i>an embroidered carpet</i></trans>, <usg opt="n">Xen.</usg>; <foreign lang="greek">ῥαπτὴ σφαῖρα</foreign> <trans opt="n"><i>a stitched</i></trans> ball, of divers colours, <usg opt="n">Anth.</usg></sense>
+ 
+ </div1>
+
+ 
+ 
+<div1 id="crossr(a/ptw" orig_id="n29026" key="r(a/ptw">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(a/ptw">ῥάπτω</head>
+ <sense level="2" n="I" id="n29026.0" opt="n"><trans opt="n"><i>to sew</i> or <i>stitch together, stich</i></trans>, <usg opt="n">Il.</usg>, <usg opt="n">Ar.</usg>:— Mid., <foreign lang="greek">ῥάπτεσθαι ὀχετὸν δερμάτων</foreign> <trans opt="n"><i>to make oneself</i></trans> a pipe of leather, <usg opt="n">Hdt.</usg>; <foreign lang="greek">ῥαψάμενος τουτί</foreign> (sc. <foreign lang="greek">τὸ προσκεφάλαιον</foreign>) <trans opt="n"><i>having got</i></trans> it <trans opt="n"><i>stitched</i></trans>, <usg opt="n">Ar.</usg>; but also, <trans opt="n"><i>to sew on</i> or <i>to one</i></trans>, <usg opt="n">Ar.</usg>:—Pass., <foreign lang="greek">ἐρράφθαι τὸ χεῖλος</foreign> <trans opt="n"><i>to have</i></trans> oneʼs lip <trans opt="n"><i>sewed up</i></trans>, <usg opt="n">Dem.</usg></sense>
+ <sense level="2" n="II" id="n29026.1" opt="n">metaph. <trans opt="n"><i>to devise, contrive, plot</i></trans>, <usg opt="n">Hom.</usg>, etc.; proverb., <foreign lang="greek">τὸ ὑπόδημα ἔρραψας μὲν σύ, ὑπεδήσατο δὲ Ἀρισταγόρης</foreign> you <trans opt="n"><i>made the shoe</i></trans>, but Aristagoras put it on, <usg opt="n">Hdt.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(a" orig_id="n29027" key="r(a">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(a">ῥα</head>
+ <etym opt="n">Epic for <foreign lang="greek">ἄρα</foreign></etym>
+ <sense level="0" n="0" id="n29027.0" opt="n">enclit. Particle, <usg opt="n">Hom.</usg>, and in lyric passages of <usg opt="n">Trag.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="cross*)ra/rion" orig_id="n29028" key="*)ra/rion">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="*)ra/rion">Ράριον</head>
+ <etym opt="n">from <ref type="cross" target="cross*)ra=ros" lang="greek">Ρᾶρος</ref></etym>
+ <sense level="0" n="0" id="n29028.0" opt="n"><foreign lang="greek">τὸ Ράριον</foreign> (sc. <foreign lang="greek">πεδίον) </foreign> the field <trans opt="n"><i>of Rarus</i></trans>, sacred to Demeter, where tillage was first practised, <usg opt="n">Hhymn.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="cross*)ra=ros" orig_id="n29029" key="*)ra=ros">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="*)ra=ros">Ρᾶρος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">Ρᾶρος, ου,</note>
+ <sense level="0" n="0" id="n29029.0" opt="n"><trans opt="n"><i>Raros</i></trans>, father of Triptolemus.</sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(a|stwneu/w" orig_id="n29030" key="r(a|stwneu/w">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(a|stwneu/w">ῥᾳστωνεύω</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥᾳστωνεύω,</note>
+ <etym opt="n">= <ref type="cross" target="crossr(aqume/w" lang="greek">ῥαθυμέω</ref></etym>
+ <sense level="0" n="0" id="n29030.0" opt="n"><trans opt="n"><i>to be idle, listless</i></trans>, <usg opt="n">Xen.</usg></sense>
+ <etym opt="n">from <ref type="cross" target="crossr(a|stw/nh" lang="greek">ῥᾳστώνη</ref></etym>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(a|stw/nh" orig_id="n29031" key="r(a|stw/nh">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(a|stw/nh">ῥᾳστώνη</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥᾳστώνη, Ionic <foreign lang="greek">ῥῃστώνη, ἡ</foreign>,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossr(a=|stos" lang="greek">ῥᾷστος</ref></xr></etym>
+ <sense level="2" n="I" id="n29031.0" opt="n"><trans opt="n"><i>easiness</i> or <i>an easy way of doing</i></trans> anything, <usg opt="n">Plat.</usg>; <foreign lang="greek">ῥᾳστώνῃ</foreign> or <foreign lang="greek">μετὰ ῥᾳστώνης</foreign> <trans opt="n"><i>with ease, easily, lightly</i></trans>, <usg opt="n">Plat.</usg>; <foreign lang="greek">ῥᾳστώνην φυγῆς παρέχειν</foreign> to provide <trans opt="n"><i>an easy way</i></trans> of escape, <usg opt="n">Plut.</usg></sense>
+ <sense level="2" n="II" id="n29031.1" opt="n"><trans opt="n"><i>easiness of temper, good nature, kindness</i></trans>, Lat. <foreign lang="la">facilitas</foreign>, <foreign lang="greek">τινός</foreign> <trans opt="n"><i>to</i> or <i>towards</i></trans> a person, <usg opt="n">Hdt.</usg></sense>
+ <sense level="2" n="III" id="n29031.2" opt="n"><trans opt="n"><i>relief</i> or <i>recovery from</i></trans>, <foreign lang="greek">τῆς πόσεως</foreign> <trans opt="n"><i>from</i></trans> the effects of drinking, <usg opt="n">Plat.</usg>: absol. <trans opt="n"><i>rest leisure, ease</i></trans>, <usg opt="n">Plat.</usg>; <foreign lang="greek">διὰ ῥᾳστώνην</foreign> for the sake of <trans opt="n"><i>resting</i></trans>, <usg opt="n">Xen.</usg>: —also <trans opt="n"><i>luxurious ease, indolence, carelessness</i></trans>, <usg opt="n">Thuc.</usg>, <usg opt="n">Dem.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(afanido/w" orig_id="n29032" key="r(afanido/w">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(afanido/w">ῥαφανιδόω</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥᾰφᾰνῑδόω,</note>
+ <sense level="0" n="0" id="n29032.0" opt="n"><trans opt="n"><i>to thrust a radish up the fundament</i></trans>, a punishment of adulterers in Athens, <usg opt="n">Ar.</usg></sense>
+ <etym opt="n">from <ref type="cross" target="crossr(a^fa^ni/s" lang="greek">ῥᾰφᾰνίς</ref></etym>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(afani/s" orig_id="n29033" key="r(afani/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(afani/s">ῥαφανίς</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">.ῥᾰφᾰνίς, ῖδος,</note>
+ <sense level="0" n="0" id="n29033.0" opt="n"><trans opt="n"><i>the radish</i></trans>, Lat. <foreign lang="la">raphanus</foreign>, <usg opt="n">Ar.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(afeu/s" orig_id="n29034" key="r(afeu/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(afeu/s">ῥαφεύς</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥᾰφεύς, έως, ὁ,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossr(a/ptw" lang="greek">ῥάπτω</ref></xr></etym>
+ <sense level="0" n="0" id="n29034.0" opt="n"><trans opt="n"><i>a stitcher, patcher</i></trans>: metaph., <foreign lang="greek">ῥ. φόνου</foreign> <trans opt="n"><i>a planner</i></trans> of murder, <usg opt="n">Aesch.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(afh/" orig_id="n29035" key="r(afh/">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(afh/">ῥαφή</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥᾰφή, ἡ,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossr(a/ptw" lang="greek">ῥάπτω</ref></xr></etym>
+ <sense level="3" n="1" id="n29035.0" opt="n"><trans opt="n"><i>a seam</i></trans>, Lat. <foreign lang="la">sutura</foreign>, <usg opt="n">Od.</usg></sense>
+ <sense level="3" n="2" id="n29035.1" opt="n"><trans opt="n"><i>the suture</i></trans> of the skull, <usg opt="n">Hdt.</usg>; so, <foreign lang="greek">ῥαφαὶ ὀστέων</foreign> <usg opt="n">Eur.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(afi/s" orig_id="n29036" key="r(afi/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(afi/s">ῥαφίς</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥᾰφίς, Doric <foreign lang="greek">ῥαπίς, ίδος, ἡ</foreign>,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossr(a/ptw" lang="greek">ῥάπτω</ref></xr></etym>
+ <sense level="0" n="0" id="n29036.0" opt="n"><trans opt="n"><i>a needle</i></trans>, <usg opt="n">Anth.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(axi/a" orig_id="n29037" key="r(axi/a">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(axi/a">ῥαχία</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥᾱχία, Ionic <foreign lang="greek">ῥηχίη, ἡ</foreign>,</note>
+ <etym opt="n"><foreign lang="greek">ῥήγνυμι</foreign>, cf. <foreign lang="greek">ῥηγμίν</foreign></etym>
+ <sense level="2" n="I" id="n29037.0" opt="n"><trans opt="n"><i>the sea breaking on the shore</i></trans>, esp. <trans opt="n"><i>the flood-tide</i></trans>, opp. to <foreign lang="greek">ἄμπωτις</foreign>, <usg opt="n">Hdt.</usg></sense>
+ <sense level="2" n="II" id="n29037.1" opt="n"><trans opt="n"><i>a rocky shore</i> or <i>beach</i></trans>, <usg opt="n">Aesch.</usg>, <usg opt="n">Thuc.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(axi/zw" orig_id="n29038" key="r(axi/zw">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(axi/zw">ῥαχίζω</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥᾰχίζω,</note>
+ <sense level="0" n="0" id="n29038.0" opt="n"><trans opt="n"><i>to cut through the spine, to cleave in twain</i></trans>, <usg opt="n">Aesch.</usg>, <usg opt="n">Soph.</usg></sense>
+ <etym opt="n">from <ref type="cross" target="crossr(a/^xis" lang="greek">ῥάχις (ᾰ)</ref></etym>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(a/xis" orig_id="n29039" key="r(a/xis">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(a/xis">ῥάχις</head>
+ <sense level="2" n="I" id="n29039.0" opt="n"><trans opt="n"><i>the lower part of the back, the chine</i></trans>, <usg opt="n">Il.</usg>: then, <trans opt="n"><i>the spine</i> or <i>backbone</i></trans>, <foreign lang="greek">ὑπὸ ῥάχιν παγῆναι</foreign> to be impaled, <usg opt="n">Aesch.</usg></sense>
+ <sense level="2" n="II" id="n29039.1" opt="n"><trans opt="n"><i>anything ridged like the backbone, a mountain-ridge</i></trans>, <usg opt="n">Hdt.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(axiw/dhs" orig_id="n29040" key="r(axiw/dhs">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(axiw/dhs">ῥαχιώδης</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥᾱχι-ώδης, ες</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossr(axi/a " lang="greek">ῥαχία</ref>, <ref type="cross" target="crossei)=dos" lang="greek">εἶδος</ref></xr></etym>
+ <sense level="0" n="0" id="n29040.0" opt="n"><trans opt="n"><i>with surf</i></trans>, <usg opt="n">Strab.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(axo/s" orig_id="n29041" key="r(axo/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(axo/s">ῥαχός</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥᾱχός, Ionic <foreign lang="greek">ῥηχός, οῦ</foreign>,</note>
+ 
+ <sense level="0" n="0" id="n29041.0" opt="n"><trans opt="n"><i>a thorn-bush, briar</i></trans>, <usg opt="n">Xen.</usg>:— collectively, <trans opt="n"><i>a thorn-hedge, a wattled fence</i></trans>, <usg opt="n">Hdt.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(ayw|de/w" orig_id="n29042" key="r(ayw|de/w">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(ayw|de/w">ῥαψῳδέω</head>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossr(ayw|do/s" lang="greek">ῥαψῳδός</ref></xr></etym>
+ <sense level="3" n="1" id="n29042.0" opt="n"><trans opt="n"><i>to recite Epic poems</i></trans>, <usg opt="n">Plat.</usg></sense>
+ <sense level="3" n="2" id="n29042.1" opt="n">in contemptuous sense, <trans opt="n"><i>to repeat by heart</i> or <i>rote, to declaim</i></trans>, <usg opt="n">Dem.</usg>, <usg opt="n">Luc.</usg>; c. inf. <trans opt="n"><i>to keep saying</i></trans> that . . , <usg opt="n">Dem.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(ayw|di/a" orig_id="n29043" key="r(ayw|di/a">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(ayw|di/a">ῥαψῳδία</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥαψῳδία, ἡ,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossr(ayw|do/s" lang="greek">ῥαψῳδός</ref></xr></etym>
+ <sense level="2" n="I" id="n29043.0" opt="n"><trans opt="n"><i>recitation of Epic poetry</i></trans>, <usg opt="n">Plat.</usg></sense>
+ <sense level="3" n="2" id="n29043.1" opt="n"><trans opt="n"><i>Epic composition</i></trans>, opp. to lyric <foreign lang="greek"> (κιθαρῳδία) </foreign>, <usg opt="n">Plat.</usg></sense>
+ <sense level="2" n="II" id="n29043.2" opt="n"><trans opt="n"><i>a portion of an Epic poem fit for recitation at one time</i></trans>, e. g. <trans opt="n"><i>a book</i></trans> of the Iliad or Odyssey, <trans opt="n"><i>a lay, canto</i></trans>, <usg opt="n">Plut.</usg>, <usg opt="n">Luc.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(ayw|diko/s" orig_id="n29044" key="r(ayw|diko/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(ayw|diko/s">ῥαψῳδικός</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥαψῳδικός, ή, όν</note>
+ <sense level="0" n="0" id="n29044.0" opt="n"><trans opt="n"><i>of</i> or <i>for a rhapsodist</i></trans>: <foreign lang="greek">ἡ -κή</foreign> (with and without <foreign lang="greek">τέχνη) </foreign>, <trans opt="n"><i>the rhapsodistʼs art</i></trans>, <usg opt="n">Plat.</usg></sense>
+ <etym opt="n">from <ref type="cross" target="crossr(ayw|do/s" lang="greek">ῥαψῳδός</ref></etym>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(ayw|do/s" orig_id="n29045" key="r(ayw|do/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(ayw|do/s">ῥαψῳδός</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥαψ-ῳδός, οῦ, ὁ,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossr(a/ptw " lang="greek">ῥάπτω</ref>, <ref type="cross" target="crossw)|dh/" lang="greek">ᾠδή</ref></xr></etym>
+ <sense level="2" n="I" id="n29045.0" opt="n">properly <trans opt="n"><i>one who stitches</i> or <i>strings songs together;</i></trans> esp. <trans opt="n"><i>a person who recited Epic poems, a rhapsodist</i></trans>, applied to Homer, <usg opt="n">Plat.</usg>; but <foreign lang="greek">ῥαψῳδοί</foreign> commonly meant <trans opt="n"><i>a class of persons who got their living by reciting the poems of Homer</i></trans>, <usg opt="n">Hdt.</usg>, <usg opt="n">Plat.</usg>; v. <ref type="cross" target="crossr(ayw|di/a" lang="greek">ῥαψῳδία</ref> II.</sense>
+ <sense level="2" n="II" id="n29045.1" opt="n"><usg opt="n">Soph.</usg> calls the Sphinx <foreign lang="greek">ῥαψῳδὸς κύων</foreign>, because she proposed her riddle publicly, as the rhapsodists did their lays.</sense>
+ </div1>
+
+ 
+ 
+<div1 id="cross*(re/a" orig_id="n29046" key="*(re/a">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="*(re/a">Ῥέα</head>
+ <sense level="0" n="0" id="n29046.0" opt="n"><trans opt="n"><i>Rhea</i></trans>, daughter of Uranus and Gaia, wife of Cronus, mother of the gods, <usg opt="n">Hom.</usg>, etc.</sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(e/a" orig_id="n29047" key="r(e/a">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(e/a">ῥέα</head>
+ <etym opt="n">= <ref type="cross" target="crossr(ei=a" lang="greek">ῥεῖα</ref></etym>
+ <sense level="0" n="0" id="n29047.0" opt="n"><trans opt="n"><i>easily, lightly</i></trans>, <usg opt="n">Il.</usg></sense>
+ <etym n="note" opt="n">Sometimes used as one long syll.</etym>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(e/gkw" orig_id="n29048" key="r(e/gkw">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(e/gkw">ῥέγκω</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">.ῥέγκω,</note>
+ 
+ <sense level="0" n="0" id="n29048.0" opt="n"><trans opt="n"><i>to snore</i></trans>, Lat. <foreign lang="la">sterto</foreign>, <usg opt="n">Aesch.</usg>, <usg opt="n">Ar.</usg>; of horses, <trans opt="n"><i>to snort</i></trans>, <usg opt="n">Eur.</usg></sense>
+ <etym opt="n">Formed from the sound.</etym>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(e/zw1" orig_id="n29049" key="r(e/zw1">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(e/zw">ῥέζω</head>
+ <sense level="2" n="I" id="n29049.0" opt="n"><trans opt="n"><i>to do, act, deal</i></trans>, <usg opt="n">Od.</usg>:—absol., <usg opt="n">Hom.</usg>:—c. acc. rei, <trans opt="n"><i>to do, accomplish, make</i></trans>, <usg opt="n">Hom.</usg>, etc.: —Pass., <foreign lang="greek">μῆχος ῥεχθέντος κακοῦ</foreign> a remedy for mischief <trans opt="n"><i>once done</i></trans>, <usg opt="n">Il.</usg></sense>
+ <sense level="3" n="2" id="n29049.1" opt="n">c. dupl. acc. pers. et rei, <trans opt="n"><i>to do</i></trans> something <trans opt="n"><i>to</i></trans> one, <foreign lang="greek">κακὸν ῥέζειν τινά</foreign> <usg opt="n">Hom.</usg>; <foreign lang="greek">ἀγαθὰ ῥ. τινά</foreign> <usg opt="n">Hom.</usg>; also more rarely c. dat. pers., <foreign lang="greek">μηκέτι μοι κακὰ ῥέζετε</foreign> <trans opt="n"><i>do</i></trans> me no more mischiefs, <usg opt="n">Od.</usg>; <foreign lang="greek">ὅσα βροτοῖς ἔρεξας κακά</foreign> <usg opt="n">Eur.</usg></sense>
+ <sense level="3" n="3" id="n29049.2" opt="n">with strengthd. signf., <foreign lang="greek">εἴ τι ῥέξει</foreign> if it <trans opt="n"><i>shall avail</i></trans> aught, <trans opt="n"><i>be of</i></trans> any <trans opt="n"><i>service</i></trans>, <usg opt="n">Il.</usg></sense>
+ <sense level="2" n="II" id="n29049.3" opt="n">in spec. sense, <trans opt="n"><i>to perform</i></trans> sacrifices, <usg opt="n">Hom.</usg>, <usg opt="n">Soph.</usg>; absol. <trans opt="n"><i>to do sacrifice</i></trans>, Lat. <foreign lang="la">operari, facere</foreign>, <foreign lang="greek">ῥέζειν θεῶι</foreign> <usg opt="n">Hom.</usg>:—sometimes with the victim in acc., <foreign lang="greek">ῥέξω βοῦν ἦνιν</foreign> <trans opt="n"><i>will sacrifice</i></trans> it, <usg opt="n">Soph.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(e/qos" orig_id="n29050" key="r(e/qos">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(e/qos">ῥέθος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥέθος, ος, εος, τό,</note>
+ <sense level="2" n="I" id="n29050.0" opt="n"><trans opt="n"><i>a limb</i></trans>, in pl. <trans opt="n"><i>the limbs, body</i></trans>, <usg opt="n">Il.</usg></sense>
+ <sense level="2" n="II" id="n29050.1" opt="n">in sg. <trans opt="n"><i>the face, countenance</i></trans>, <usg opt="n">Soph.</usg>, <usg opt="n">Eur.</usg></sense>
+ 
+ </div1>
+
+ 
+ 
+<div1 id="crossr(ei=a" orig_id="n29051" key="r(ei=a">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(ei=a">ῥεῖα</head>
+ <etym opt="n">adverb of <foreign lang="greek">ῥᾴδιος</foreign></etym>
+ <sense level="0" n="0" id="n29051.0" opt="n"><trans opt="n"><i>easily, lightly</i></trans>, <usg opt="n">Hom.</usg>; <foreign lang="greek">θεοὶ ῥεῖα ζώοντες</foreign> the gods who live <trans opt="n"><i>at ease</i></trans>, Lat. <foreign lang="la">securum agentes aevom</foreign>, <usg opt="n">Hom.</usg>; strengthd. <foreign lang="greek">ῥεῖα μάλʼ</foreign> <usg opt="n">Il.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(ei=qron" orig_id="n29052" key="r(ei=qron">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(ei=qron">ῥεῖθρον</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥεῖθρον, ου, τό,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossr(e/w" lang="greek">ῥέω</ref></xr></etym>
+ <sense level="2" n="I" id="n29052.0" opt="n"><trans opt="n"><i>that which flows, a river, stream</i></trans>, mostly in pl., <foreign lang="greek">ποταμοῖο ῥέεθρα</foreign> <usg opt="n">Il.</usg>; <foreign lang="greek">Στυγὸς ὕδατος αἰπὰ ῥ.</foreign> <usg opt="n">Il.</usg>; <trans opt="n"><i>streams</i></trans> of blood, <usg opt="n">Aesch.</usg>:—sg., <usg opt="n">Hdt.</usg>, <usg opt="n">Aesch.</usg></sense>
+ <sense level="2" n="II" id="n29052.1" opt="n"><trans opt="n"><i>the bed</i> or <i>channel of a river</i></trans>, <usg opt="n">Il.</usg>, <usg opt="n">Hdt.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(ekth/r" orig_id="n29053" key="r(ekth/r">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(ekth/r">ῥεκτήρ</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥεκτήρ, ῆρος, ὁ,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossr(e/zw" lang="greek">ῥέζω</ref></xr></etym>
+ <sense level="0" n="0" id="n29053.0" opt="n"><trans opt="n"><i>a worker, doer</i></trans>, <usg opt="n">Hes.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(e/kths" orig_id="n29054" key="r(e/kths">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(e/kths">ῥέκτης</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥέκτης, ου, ὁ,</note>
+ <etym opt="n">= <ref type="cross" target="crossr(ekth/r" lang="greek">ῥεκτήρ</ref></etym>
+ <sense level="0" n="0" id="n29054.0" opt="n"><trans opt="n"><i>active</i></trans>, <usg opt="n">Plut.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(e/mbomai" orig_id="n29055" key="r(e/mbomai">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(e/mbomai">ῥέμβω</head>
+ <sense level="0" n="0" id="n29055.0" opt="n">Mid. <trans opt="n"><i>to roam, rove, roll about</i></trans>, <usg opt="n">Plut.</usg>: metaph. <trans opt="n"><i>to be unsteady, act at random</i></trans>, <usg opt="n">Plut.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(embw/dhs" orig_id="n29056" key="r(embw/dhs">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(embw/dhs">ῥεμβώδης</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥεμβ-ώδης, ες</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossei)=dos" lang="greek">εἶδος</ref></xr></etym>
+ <sense level="0" n="0" id="n29056.0" opt="n"><trans opt="n"><i>roving, rolling</i></trans>, <usg opt="n">Plut.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(e/os" orig_id="n29057" key="r(e/os">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(e/os">ῥέος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">έος, εος, τό,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossr(e/w" lang="greek">ῥέω</ref></xr></etym>
+ <etym opt="n">= <ref type="cross" target="crossr(eu=ma" lang="greek">ῥεῦμα</ref></etym>
+ <sense level="0" n="0" id="n29057.0" opt="n"><trans opt="n"><i>a stream</i></trans>, <usg opt="n">Aesch.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(e/pw" orig_id="n29058" key="r(e/pw">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(e/pw">ῥέπω</head>
+ <sense level="3" n="1" id="n29058.0" opt="n">properly of the descending scale, <trans opt="n"><i>to incline downwards, to sink, fall</i></trans>, Lat. <foreign lang="la">vergere, inclinare</foreign>, <usg opt="n">Il.</usg>, <usg opt="n">Ar.</usg>:—of things, <trans opt="n"><i>to incline one way or the other, to be always shifting</i></trans>, <usg opt="n">Pind.</usg>; <foreign lang="greek">ὕπνος ἐπὶ βλεφάροις ῥέπων</foreign> sleep <trans opt="n"><i>falling upon</i></trans> the eyes, <usg opt="n">Pind.</usg></sense>
+ <sense level="3" n="2" id="n29058.1" opt="n">of one of two contending parties, <trans opt="n"><i>to preponderate, prevail</i></trans>, <usg opt="n">Hdt.</usg>, <usg opt="n">Plat.</usg></sense>
+ <sense level="3" n="3" id="n29058.2" opt="n">of persons, <foreign lang="greek">εὖ ῥέπει θεός</foreign> <trans opt="n"><i>is</i></trans> favourably <trans opt="n"><i>inclined</i></trans>, <usg opt="n">Aesch.</usg>; <foreign lang="greek">ῥέπειν ἐπί τι</foreign> <trans opt="n"><i>to incline</i></trans> towards a thing, <usg opt="n">Dem.</usg>; <foreign lang="greek">εἴς</foreign> or <foreign lang="greek">πρός τι</foreign> <usg opt="n">Plat.</usg>, <usg opt="n">Arist.</usg>; <foreign lang="greek">εἴς τινα</foreign> <usg opt="n">Luc.</usg></sense>
+ <sense level="3" n="4" id="n29058.3" opt="n">of duties, <foreign lang="greek">ῥ. εἴς τινα</foreign> <trans opt="n"><i>to fall</i> or <i>devolve upon one</i></trans>, <usg opt="n">Aesch.</usg>, <usg opt="n">Soph.</usg></sense>
+ <sense level="3" n="5" id="n29058.4" opt="n">of events, <trans opt="n"><i>to fall, happen</i></trans> in a certain way, <usg opt="n">Soph.</usg>; ῥ. <foreign lang="greek">εἴς τι</foreign> <trans opt="n"><i>to turn</i> or <i>come to</i></trans> something, <usg opt="n">Aesch.</usg>, <usg opt="n">Ar.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(eu=ma" orig_id="n29059" key="r(eu=ma">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(eu=ma">ῥεῦμα</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥεῦμα, ατος, τό,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossr(e/w" lang="greek">ῥέω</ref></xr></etym>
+ <sense level="2" n="I" id="n29059.0" opt="n"><trans opt="n"><i>that which flows, a flow, stream, current</i></trans>, <usg opt="n">Aesch.</usg>, <usg opt="n">Soph.</usg>, etc.</sense>
+ <sense level="3" n="2" id="n29059.1" opt="n"><trans opt="n"><i>the stream</i></trans> of a river, mostly in pl., <usg opt="n">Hdt.</usg>, <usg opt="n">Eur.</usg>; <trans opt="n"><i>a stream of lava</i></trans>, <usg opt="n">Thuc.</usg>: metaph. <trans opt="n"><i>a stream</i> or <i>flood of men</i></trans>, <usg opt="n">Trag.</usg>, <usg opt="n">Soph.</usg></sense>
+ <sense level="3" n="3" id="n29059.2" opt="n"><trans opt="n"><i>a flood</i></trans>, <usg opt="n">Thuc.</usg></sense>
+ <sense level="2" n="II" id="n29059.3" opt="n"><trans opt="n"><i>a discharge</i></trans> from the body, <trans opt="n"><i>a flux, rheum</i></trans>, <usg opt="n">Luc.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(eumati/zomai" orig_id="n29060" key="r(eumati/zomai">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(eumati/zomai">ῥευματίζομαι</head>
+ <etym opt="n">from <ref type="cross" target="crossr(eu=ma" lang="greek">ῥεῦμα</ref></etym>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥευμᾰτίζομαι,</note>
+ <sense level="0" n="0" id="n29060.0" opt="n">Pass. <trans opt="n"><i>to flow as a current</i></trans>, <usg opt="n">Strab.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(euma/tion" orig_id="n29061" key="r(euma/tion">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(euma/tion">ῥευμάτιον</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥευμάτιον, ου, τό,</note>
+ <etym opt="n">Dim. of <foreign lang="greek">ῥεῦμα</foreign></etym>
+ <sense level="0" n="0" id="n29061.0" opt="n"><trans opt="n"><i>a rivulet</i></trans>, <usg opt="n">Plut.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(eustiko/s" orig_id="n29062" key="r(eustiko/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(eustiko/s">ῥευστικός</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥευστικός, ή, όν</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossr(e/w" lang="greek">ῥέω</ref></xr></etym>
+ <sense level="0" n="0" id="n29062.0" opt="n"><trans opt="n"><i>flowing, liquid</i></trans>, <usg opt="n">Plut.</usg></sense>
+ 
+ </div1>
+
+ 
+ 
+<div1 id="crossr(e/w" orig_id="n29063" key="r(e/w">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(e/w">ῥέω</head>
+ <sense level="2" n="I" id="n29063.0" opt="n"><trans opt="n"><i>to flow, run, stream, gush</i></trans>, <usg opt="n">Hom.</usg>, etc.:—with dat. of that which flows, <foreign lang="greek">πηγὴ ῥέει ὕδατι</foreign> the fountain <trans opt="n"><i>runs with</i></trans> water, <usg opt="n">Il.</usg>; <foreign lang="greek">ῥέεν αἵματι γαῖα</foreign> <usg opt="n">Il.</usg>; <foreign lang="greek">ῥεῖ γάλακτι πέδον</foreign> <usg opt="n">Eur.</usg>; of a river, <foreign lang="greek">μέγας ῥεῖ</foreign> <trans opt="n"><i>runs</i></trans> with full stream, <usg opt="n">Hdt.</usg>; so, <foreign lang="greek">πολὺς ῥεῖ</foreign>, metaph. of men, <usg opt="n">Aesch.</usg>; of a river, also, <foreign lang="greek">ῥ. ἀπὸ χιόνος</foreign> <trans opt="n"><i>to derive its stream</i></trans> from melted snow, <usg opt="n">Hdt.</usg>:—proverb., <foreign lang="greek">ἄνω ῥέειν</foreign> <trans opt="n"><i>to flow</i></trans> backwards, of impossibilities, <usg opt="n">Eur.</usg></sense>
+ <sense level="3" n="2" id="n29063.1" opt="n">metaph. of things, <foreign lang="greek">ἐκ χειρῶν βέλεα ῥέον</foreign> from their hands <trans opt="n"><i>rained</i></trans> darts, <usg opt="n">Il.</usg>; of a <trans opt="n"><i>flow</i></trans> of words, <foreign lang="greek">ἀπὸ γλώσσης μέλιτος γλυκίων ῥέεν αὐδή</foreign> <usg opt="n">Il.</usg>; absol., of the tongue, <trans opt="n"><i>to run glibly</i></trans>, <usg opt="n">Aesch.</usg> (cf. <usg opt="n">Hor.</usg>, <trans opt="n"><i>salso multoque fluenti)</i></trans>: of words or sentiments, <trans opt="n"><i>to be current</i></trans>, <usg opt="n">Soph.</usg></sense>
+ <sense level="3" n="3" id="n29063.2" opt="n"><trans opt="n"><i>to fall, drop off</i></trans>, e. g. of hair, <usg opt="n">Od.</usg>, <usg opt="n">Theocr.</usg>: then, generally, <trans opt="n"><i>to flow</i> or <i>melt away, perish</i></trans>, <usg opt="n">Soph.</usg>, <usg opt="n">Plat.</usg></sense>
+ <sense level="3" n="4" id="n29063.3" opt="n">of persons, <foreign lang="greek">ῥ. ἐπί</foreign> or <foreign lang="greek">εἴς τι</foreign> <trans opt="n"><i>to be inclined, given</i></trans> to a thing, <usg opt="n">Isocr.</usg>, <usg opt="n">Plat.</usg></sense>
+ <sense level="2" n="II" id="n29063.4" opt="n">very rarely trans. <trans opt="n"><i>to let flow, pour</i></trans>, <foreign lang="greek">ἔρρει χοάς</foreign> <usg opt="n">Eur.</usg></sense>
+ <sense level="3" n="2" id="n29063.5" opt="n">c. acc. cogn., <foreign lang="greek">ῥείτω γάλα, μέλι</foreign> <trans opt="n"><i>let</i></trans> the land <trans opt="n"><i>run</i></trans> milk, honey, <usg opt="n">Theocr.</usg>; <foreign lang="greek">οἶνον ῥέων</foreign> <usg opt="n">Luc.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(h=gma" orig_id="n29064" key="r(h=gma">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(h=gma">ῥῆγμα</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥῆγμα, ατος, τό,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossr(h/gnumi" lang="greek">ῥήγνυμι</ref></xr></etym>
+ <sense level="0" n="0" id="n29064.0" opt="n"><trans opt="n"><i>a breakage, fracture</i></trans>, <usg opt="n">Dem.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(hgmi/n" orig_id="n29065" key="r(hgmi/n">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(hgmi/n">ῥηγμίν</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥηγμίν, or <foreign lang="greek">-μίς, ῖνος, ὁ</foreign>,</note>
+ 
+ <sense level="0" n="0" id="n29065.0" opt="n"><trans opt="n"><i>the sea breaking on the beach, the line of breakers, surf</i></trans>, <usg opt="n">Hom.</usg>; <foreign lang="greek">ἐπὶ</foreign> or <foreign lang="greek">παρὰ ῥηγμῖνι θαλάσσης</foreign> by <trans opt="n"><i>the edge</i></trans> of the sea, <usg opt="n">Hom.</usg></sense>
+ 
+ </div1>
+
+ 
+ 
+<div1 id="crossr(h/gnumi" orig_id="n29066" key="r(h/gnumi">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(h/gnumi">ῥήγνυμι</head>
+ <sense level="2" n="I" id="n29066.0" opt="n"><trans opt="n"><i>to break, break asunder</i> or <i>in pieces, rend, shiver, shatter</i></trans>, <usg opt="n">Hom.</usg>, etc.:—<trans opt="n"><i>to rend</i></trans> garments, in sign of grief, <usg opt="n">Aesch.</usg>:—Mid. <trans opt="n"><i>to break for oneself, get broken</i></trans>, <usg opt="n">Il.</usg></sense>
+ <sense level="3" n="2" id="n29066.1" opt="n"><trans opt="n"><i>to break</i></trans> a line of battle or body of men, <usg opt="n">Il.</usg>, <usg opt="n">Hdt.</usg>; in Mid., <foreign lang="greek">ῥήξασθαι φάλαγγας, στίχας</foreign> <trans opt="n"><i>to break oneself a way through</i></trans> the lines, <usg opt="n">Il.</usg>; absol., <foreign lang="greek">ῥήξασθαι</foreign> <trans opt="n"><i>to break</i> or <i>force oneʼs</i></trans> way, <usg opt="n">Il.</usg></sense>
+ <sense level="3" n="3" id="n29066.2" opt="n"><trans opt="n"><i>to let break loose, let loose</i></trans>, <usg opt="n">Il.</usg></sense>
+ <sense level="3" n="4" id="n29066.3" opt="n"><foreign lang="greek">ῥῆξαι φωνήν</foreign> <trans opt="n"><i>to let loose</i></trans> the voice, of children and persons who have been dumb <trans opt="n"><i>breaking into speech</i></trans>, <usg opt="n">Hdt.</usg>: then <trans opt="n"><i>to speak freely, speak out</i></trans> (like <trans opt="n"><i>rumpere vocem</i></trans>, <usg opt="n">Virgil</usg>), <usg opt="n">Hdt.</usg>, <usg opt="n">Ar.</usg>, etc.</sense>
+ <sense level="3" n="5" id="n29066.4" opt="n"><foreign lang="greek">δακρύων ῥήξασα νάματα</foreign> <trans opt="n"><i>having let loose</i></trans> floods of tears, <usg opt="n">Soph.</usg>; so, <foreign lang="greek">ῥ. κλαυθμόν</foreign> <usg opt="n">Plut.</usg></sense>
+ <sense level="2" n="II" id="n29066.5" opt="n">absol. in the form <foreign lang="greek">ῥήσσω</foreign>, <trans opt="n"><i>to beat the ground, dance</i></trans>, <usg opt="n">Il.</usg></sense>
+ <sense level="2" n="III" id="n29066.6" opt="n">later, as a term of fighters, <trans opt="n"><i>to fell, knock down</i></trans>, <usg opt="n">Dem.</usg></sense>
+ <sense level="1" n="B" id="n29066.7" opt="n">Pass., mostly used in aor2 <foreign lang="greek">ἐρράγην α</foreign>, <trans opt="n"><i>to break, burst</i></trans>, of waves, <usg opt="n">Il.</usg>; of clouds, <usg opt="n">Ar.</usg></sense>
+ <sense level="3" n="2" id="n29066.8" opt="n"><trans opt="n"><i>to break asunder, be rent</i></trans>, of the earth in an earthquake, <usg opt="n">Plat.</usg>; of garments, <usg opt="n">Xen.</usg></sense>
+ <sense level="3" n="3" id="n29066.9" opt="n"><trans opt="n"><i>to burst forth</i></trans>, like lightning, <usg opt="n">Ar.</usg></sense>
+ <sense level="3" n="4" id="n29066.10" opt="n">of ships, <trans opt="n"><i>to be wrecked</i></trans>, <usg opt="n">Dem.</usg>: metaph. of hopes, <usg opt="n">Aesch.</usg></sense>
+ <sense level="1" n="C" id="n29066.11" opt="n">intr., like Pass., <trans opt="n"><i>to break forth</i></trans>, of a river, <trans opt="n"><i>to break its bounds</i></trans>, <usg opt="n">Hdt.</usg>:—metaph. of sudden misfortunes, bursts of passion, <usg opt="n">Soph.</usg></sense>
+ <sense level="2" n="II" id="n29066.12" opt="n">in this intr. sense the perf. <foreign lang="greek">ἔρρωγα</foreign> is commonly used of tears, <usg opt="n">Soph.</usg>; metaph., <foreign lang="greek">κακῶν πέλαγος ἔρρωγεν</foreign> <usg opt="n">Aesch.</usg>, etc.</sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(h=gos" orig_id="n29067" key="r(h=gos">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(h=gos">ῥῆγος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">.ῥῆγος, ος, εος, τό,</note>
+ <sense level="0" n="0" id="n29067.0" opt="n"><trans opt="n"><i>a rug, blanket</i></trans>, used as <trans opt="n"><i>the covering of a bed</i> or <i>seat</i></trans>, <usg opt="n">Hom.</usg>; or as <trans opt="n"><i>a garment</i></trans>, <usg opt="n">Od.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(hkto/s" orig_id="n29068" key="r(hkto/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(hkto/s">ῥηκτός</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥηκτός, ή, όν</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossr(h/gnumi" lang="greek">ῥήγνυμι</ref></xr></etym>
+ <sense level="0" n="0" id="n29068.0" opt="n"><trans opt="n"><i>that can be broken</i> or <i>rent, penetrable</i></trans>, <usg opt="n">Il.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(h=ma" orig_id="n29069" key="r(h=ma">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(h=ma">ῥῆμα</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥῆμα, ατος, τό,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossr(e/w " lang="greek">ῥέω</ref>, <ref type="cross" target="crosse)rw=" lang="greek">ἐρῶ</ref></xr></etym>
+ <sense level="2" n="I" id="n29069.0" opt="n"><trans opt="n"><i>that which is said</i> or <i>spoken, a word, saying</i></trans>, <usg opt="n">Theogn.</usg>, <usg opt="n">Hdt.</usg>, etc.; <foreign lang="greek">κατὰ ῥῆμα</foreign> <trans opt="n"><i>word for word</i></trans>, <usg opt="n">Aeschin.</usg></sense>
+ <sense level="3" n="2" id="n29069.1" opt="n"><trans opt="n"><i>a phrase</i></trans>, opp. to <foreign lang="greek">ὄνομα</foreign> (a single word), <usg opt="n">Plat.</usg></sense>
+ <sense level="3" n="3" id="n29069.2" opt="n"><trans opt="n"><i>the subject of speech, a thing</i></trans>, <usg opt="n">NTest.</usg></sense>
+ <sense level="2" n="II" id="n29069.3" opt="n">in Gramm., <trans opt="n"><i>a verb</i></trans>, opp. to <foreign lang="greek">ὄνομα</foreign> (a noun), <foreign lang="greek">ῥήματα καὶ ὀνόματα</foreign> <usg opt="n">Plat.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(hma/tion" orig_id="n29070" key="r(hma/tion">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(hma/tion">ῥημάτιον</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥημάτιον, ου, τό,</note>
+ <etym opt="n">Dim. of <foreign lang="greek">ῥῆμα</foreign></etym>
+ <sense level="0" n="0" id="n29070.0" opt="n"><trans opt="n"><i>a pet phrase, phrasicle</i></trans>, <usg opt="n">Ar.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(hnoforeu/s" orig_id="n29071" key="r(hnoforeu/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(hnoforeu/s">ῥηνοφορεύς</head>
+ <etym opt="n">from <ref type="cross" target="crossr(h/n" lang="greek">ῥήν</ref></etym>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥηνο-φορεύς, έως, ὁ,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossfe/rw" lang="greek">φέρω</ref></xr></etym>
+ <sense level="0" n="0" id="n29071.0" opt="n"><trans opt="n"><i>clad in sheepskin</i></trans>, <usg opt="n">Anth.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(h/n" orig_id="n29072" key="r(h/n">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(h/n">ῥήν</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥήν, ῥηνός,</note>
+ <etym opt="n">late word = *<foreign lang="greek">ἄρς, ἀρνός.</foreign> </etym>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(hchnori/a" orig_id="n29073" key="r(hchnori/a">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(hchnori/a">ῥηξηνορία</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥηξηνορία, ἡ,</note>
+ <sense level="0" n="0" id="n29073.0" opt="n"><trans opt="n"><i>might to break through armed ranks</i></trans> <usg opt="n">Od.</usg></sense>
+ <etym opt="n">from <ref type="cross" target="crossr(hch/nwr" lang="greek">ῥηξήνωρ</ref></etym>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(hch/nwr" orig_id="n29074" key="r(hch/nwr">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(hch/nwr">ῥηξήνωρ</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥηξ-ήνωρ, ορος, ὁ,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossr(h/gnumi " lang="greek">ῥήγνυμι</ref>, <ref type="cross" target="crossa)nh/r" lang="greek">ἀνήρ</ref></xr></etym>
+ <sense level="0" n="0" id="n29074.0" opt="n"><trans opt="n"><i>breaking through armed ranks</i></trans>, <usg opt="n">Hom.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(hcike/leuqos" orig_id="n29075" key="r(hcike/leuqos">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(hcike/leuqos">ῥηξικέλευθος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥηξῐ-κέλευθος, ον,</note>
+ <sense level="0" n="0" id="n29075.0" opt="n"><trans opt="n"><i>opening a path</i></trans>, of Apollo, <usg opt="n">Anth.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(hci/nous" orig_id="n29076" key="r(hci/nous">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(hci/nous">ῥηξίνοος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥηξί-νους, ουν,</note>
+ <sense level="0" n="0" id="n29076.0" opt="n"><trans opt="n"><i>breaking the spirit</i></trans>, of Bacchus, <usg opt="n">Anth.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(h=cis" orig_id="n29077" key="r(h=cis">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(h=cis">ῥῆξις</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥῆξις, εως,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossr(h/gnumai" lang="greek">ῥήγνυμαι</ref></xr></etym>
+ <sense level="0" n="0" id="n29077.0" opt="n"><trans opt="n"><i>a breaking, bursting</i></trans>, <foreign lang="greek">ῥήξεις</foreign> <trans opt="n"><i>broken flames</i></trans>, a bad omen, <usg opt="n">Eur.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(h=sis" orig_id="n29078" key="r(h=sis">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(h=sis">ῥῆσις</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥῆσις, εως,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="cross*r(e/w " lang="greek">Ρέω</ref>, <ref type="cross" target="crosse)rw=" lang="greek">ἐρῶ</ref></xr></etym>
+ <sense level="2" n="I" id="n29078.0" opt="n"><trans opt="n"><i>a saying, speaking, speech</i></trans>, <usg opt="n">Od.</usg>, <usg opt="n">Hdt.</usg>, etc.; <foreign lang="greek">ἡ ἀπὸ Σκυθῶν ῥῆσις</foreign> the Scythian <trans opt="n"><i>phrase</i></trans>, <usg opt="n">Hdt.</usg></sense>
+ <sense level="3" n="2" id="n29078.1" opt="n"><trans opt="n"><i>a resolution, declaration</i></trans>, <usg opt="n">Hdt.</usg></sense>
+ <sense level="2" n="II" id="n29078.2" opt="n"><trans opt="n"><i>a tale, legend</i></trans>, <usg opt="n">Pind.</usg></sense>
+ <sense level="2" n="III" id="n29078.3" opt="n"><trans opt="n"><i>a phrase</i> or <i>passage, a speech in a play</i></trans>, <usg opt="n">Ar.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(hte/os" orig_id="n29079" key="r(hte/os">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(hte/os">ῥητέος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥητέος, ον,</note>
+ <etym opt="n">verb. adj.</etym>
+ <sense level="0" n="0" id="n29079.0" opt="n"><trans opt="n"><i>one must mention</i></trans>, <usg opt="n">Plat.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(hth/r" orig_id="n29080" key="r(hth/r">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(hth/r">ῥητήρ</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥητήρ, ῆρος, ὁ,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="cross*r(e/w " lang="greek">*ῥέω</ref>, <ref type="cross" target="crosse)rw=" lang="greek">ἐρῶ</ref></xr></etym>
+ <sense level="0" n="0" id="n29080.0" opt="n"><trans opt="n"><i>a speaker</i></trans>, <usg opt="n">Il.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(htorei/a" orig_id="n29081" key="r(htorei/a">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(htorei/a">ῥητορεία</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥητορεία, ἡ,</note>
+ <sense level="2" n="I" id="n29081.0" opt="n"><trans opt="n"><i>skill in public speaking, eloquence, oratory, rhetoric</i></trans>, <usg opt="n">Plat.</usg></sense>
+ <sense level="2" n="II" id="n29081.1" opt="n"><trans opt="n"><i>a piece of oratory, set speech</i></trans>, <usg opt="n">Isocr.</usg></sense>
+ <etym opt="n">from <ref type="cross" target="crossr(htoreu/w" lang="greek">ῥητορεύω</ref></etym>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(htoreu/w" orig_id="n29082" key="r(htoreu/w">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(htoreu/w">ῥητορεύω</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥητορεύω,</note>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified"> fut. <foreign lang="greek">-σω</foreign></note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossr(h/twr" lang="greek">ῥήτωρ</ref></xr></etym>
+ <sense level="2" n="I" id="n29082.0" opt="n"><trans opt="n"><i>to speak in public, to use</i> or <i>practise oratory</i></trans>, <usg opt="n">Plat.</usg>:—Pass., of the speech, <trans opt="n"><i>to be spoken</i></trans>, <usg opt="n">Isocr.</usg></sense>
+ <sense level="2" n="II" id="n29082.1" opt="n"><trans opt="n"><i>to teach oratory</i></trans>, <usg opt="n">Strab.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(htoriko/s" orig_id="n29083" key="r(htoriko/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(htoriko/s">ῥητορικός</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥητορικός, ή, όν</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossr(h/twr" lang="greek">ῥήτωρ</ref></xr></etym>
+ <sense level="3" n="1" id="n29083.0" opt="n"><trans opt="n"><i>oratorical, rhetorical</i></trans>, <foreign lang="greek">ἡ ῥητορική</foreign> (sc. <foreign lang="greek">τέχνη) </foreign> <trans opt="n"><i>rhetoric, the art of speaking</i></trans>, <usg opt="n">Plat.</usg>; <foreign lang="greek">ῥητορικὴ δειλία</foreign> <trans opt="n"><i>an oratorʼs</i></trans> timidity, <usg opt="n">Aeschin.</usg>:— adv. <ref type="cross" target="cross-kw=s" lang="greek">-κῶς</ref>, <usg opt="n">Plat.</usg></sense>
+ <sense level="3" n="2" id="n29083.1" opt="n">of persons, <trans opt="n"><i>skilled in speaking, fit to be an orator</i></trans>, <usg opt="n">Plat.</usg>, etc.</sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(hto/s" orig_id="n29084" key="r(hto/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(hto/s">ῥητός</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥητός, ή, όν</note>
+ <etym opt="n">verb. adj. of *<foreign lang="greek">ῥέω, ἐρῶ</foreign></etym>
+ <sense level="2" n="I" id="n29084.0" opt="n"><trans opt="n"><i>stated, specified</i></trans>, <usg opt="n">Il.</usg>; <foreign lang="greek">ἐς χρόνον ῥητόν</foreign> at a <trans opt="n"><i>set</i> or <i>stated</i></trans> time, <usg opt="n">Hdt.</usg>; <foreign lang="greek">ἡμέραι ῥ.</foreign> <usg opt="n">Thuc.</usg>; <foreign lang="greek">ἐπὶ ῥητοῖς γέρασι</foreign> with <trans opt="n"><i>fixed</i></trans> prerogatives, <usg opt="n">Thuc.</usg>; <foreign lang="greek">ῥ. ἀργύριον</foreign> a <trans opt="n"><i>stated</i></trans> sum, <usg opt="n">Thuc.</usg>; <foreign lang="greek">ἐπὶ ῥητοῖς</foreign> <trans opt="n"><i>on stated terms, on certain conditions</i></trans>, <usg opt="n">Hdt.</usg>, <usg opt="n">Eur.</usg>:—adv. <ref type="cross" target="crossr(htw=s" lang="greek">ῥητῶς</ref>, <trans opt="n"><i>expressly, distinctly</i></trans>, <usg opt="n">NTest.</usg></sense>
+ <sense level="3" n="2" id="n29084.1" opt="n"><trans opt="n"><i>spoken of, known, famous</i></trans>, <usg opt="n">Hes.</usg></sense>
+ <sense level="2" n="II" id="n29084.2" opt="n"><trans opt="n"><i>that may be spoken</i> or <i>told</i></trans>, <usg opt="n">Aesch.</usg>, <usg opt="n">Soph.</usg>; <foreign lang="greek">ῥητὸν ἄρρητόν τʼ ἔπος</foreign>, Lat. <foreign lang="la">fas nefasque</foreign>, <usg opt="n">Soph.</usg></sense>
+ <sense level="2" n="III" id="n29084.3" opt="n">in Mathem., <foreign lang="greek">ῥητά</foreign> are <trans opt="n"><i>rational quantities</i></trans>, opp. to surds <foreign lang="greek"> (ἄλογα) </foreign>, <usg opt="n">Plat.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(h/tra" orig_id="n29085" key="r(h/tra">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(h/tra">ῥήτρα</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥήτρα, ἡ,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="cross*r(e/w " lang="greek">*ῥέω</ref>, <ref type="cross" target="crosse)rw=" lang="greek">ἐρῶ</ref></xr></etym>
+ <sense level="2" n="I" id="n29085.0" opt="n"><trans opt="n"><i>a verbal agreement, bargain, covenant</i></trans>, <usg opt="n">Od.</usg>; <foreign lang="greek">παρὰ τὴν ῥήτραν</foreign> <usg opt="n">Xen.</usg></sense>
+ <sense level="2" n="II" id="n29085.1" opt="n"><trans opt="n"><i>the unwritten laws</i></trans> of Lycurgus were called <foreign lang="greek">ῥῆτραι</foreign>, Lex ap. <usg opt="n">Plut.</usg>: generally, <trans opt="n"><i>a decree, ordinance</i></trans>, <usg opt="n">Tyrtae.</usg>, <usg opt="n">Xen.</usg></sense>
+ <sense level="2" n="III" id="n29085.2" opt="n"><trans opt="n"><i>speech, a word</i></trans>, <usg opt="n">Luc.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(h/twr" orig_id="n29086" key="r(h/twr">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(h/twr">ῥήτωρ</head>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crosse)re/w " lang="greek">ἐρέω</ref>, <ref type="cross" target="crosse)rw=" lang="greek">ἐρῶ</ref></xr></etym>
+ <sense level="0" n="0" id="n29086.0" opt="n"><trans opt="n"><i>a public speaker, pleader</i></trans>, Lat. <foreign lang="la">orator</foreign>, <usg opt="n">Eur.</usg>, etc.</sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(igedano/s" orig_id="n29087" key="r(igedano/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(igedano/s">ῥιγεδανός</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥῑγεδᾰνός, ή, όν</note>
+ <sense level="0" n="0" id="n29087.0" opt="n"><trans opt="n"><i>making one shudder with cold, chilling</i></trans>: metaph., <foreign lang="greek">ῥιγεδανὴ Ἑλένη</foreign> Helen <trans opt="n"><i>at whose name one shudders, horrible</i></trans>, <usg opt="n">Il.</usg></sense>
+ <etym opt="n">from <ref type="cross" target="crossr(ige/w" lang="greek">ῥιγέω</ref></etym>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(ige/w" orig_id="n29088" key="r(ige/w">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(ige/w">ῥιγέω</head>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossr(i=gos" lang="greek">ῥῖγος</ref></xr></etym>
+ <etym n="note" opt="n">note <foreign lang="greek">ἐρρίγοντι</foreign> for <foreign lang="greek">ἐρριγότι.</foreign></etym>
+ <sense level="2" n="I" id="n29088.0" opt="n"><trans opt="n"><i>to shiver</i> or <i>shudder with cold</i></trans>: metaph. <trans opt="n"><i>to shudder</i></trans> with fear or horror, <usg opt="n">Il.</usg>, <usg opt="n">Soph.</usg>:—c. inf. <trans opt="n"><i>to shudder to do, shrink from doing</i></trans>, <usg opt="n">Il.</usg>; also, <foreign lang="greek">ῥ. μὴ . .</foreign> , <usg opt="n">Od.</usg></sense>
+ <sense level="3" n="2" id="n29088.1" opt="n"><trans opt="n"><i>to cool</i> or <i>slacken in zeal</i></trans>, <usg opt="n">Pind.</usg></sense>
+ <sense level="3" n="3" id="n29088.2" opt="n"><trans opt="n"><i>to bristle with arms</i></trans>, <usg opt="n">Theocr.</usg></sense>
+ <sense level="2" n="II" id="n29088.3" opt="n">trans. <trans opt="n"><i>to shudder at</i></trans> anything, <usg opt="n">Il.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(ighlo/s" orig_id="n29089" key="r(ighlo/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(ighlo/s">ῥιγηλός</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥῑγηλός, ή, όν</note>
+ <sense level="0" n="0" id="n29089.0" opt="n"><trans opt="n"><i>making to shiver, chilling</i></trans>, <usg opt="n">Hes.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(i/gion" orig_id="n29090" key="r(i/gion">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(i/gion">ῥίγιον</head>
+ <etym opt="n">neut. comp. adj. formed from <ref type="cross" target="crossr(i=gos" lang="greek">ῥῖγος</ref></etym>
+ <sense level="0" n="0" id="n29090.0" opt="n"><trans opt="n"><i>more frosty, colder</i></trans>, <usg opt="n">Od.</usg>:—metaph. <trans opt="n"><i>more horrible</i></trans>, <usg opt="n">Hom.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(i/gistos" orig_id="n29091" key="r(i/gistos">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(i/gistos">ῥίγιστος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥίγιστος, η, ον</note>
+ <etym opt="n">Sup. adj. formed from <ref type="cross" target="crossr(i=gos" lang="greek">ῥῖγος</ref> (as <foreign lang="greek">κύδιστος</foreign> from <ref type="cross" target="crossku=dos) " lang="greek">κῦδος</ref>) </etym>
+ <sense level="0" n="0" id="n29091.0" opt="n"><trans opt="n"><i>coldest: most horrible</i></trans>, <usg opt="n">Il.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(igoma/xhs" orig_id="n29092" key="r(igoma/xhs">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(igoma/xhs">ῥιγομάχης</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥῑγο-μάχης, or <foreign lang="greek">-χος, ου</foreign>,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossma/xomai" lang="greek">μάχομαι</ref></xr></etym>
+ <sense level="0" n="0" id="n29092.0" opt="n"><trans opt="n"><i>fighting with cold</i></trans>, <usg opt="n">Anth.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(i=gos" orig_id="n29093" key="r(i=gos">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(i=gos">ῥῖγος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">.ῥῖγος, ος, εος, τό,</note>
+ <sense level="0" n="0" id="n29093.0" opt="n"><trans opt="n"><i>frost, cold</i></trans>, Lat. <foreign lang="la">frigus</foreign>, <usg opt="n">Od.</usg>, etc.</sense>
+ 
+ </div1>
+
+ 
+ 
+<div1 id="crossr(igo/w" orig_id="n29094" key="r(igo/w">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(igo/w">ῥιγόω</head>
+ <etym opt="n">this word, like <foreign lang="greek">ἱδρόω</foreign>, has an irreg. contr. into <foreign lang="greek">ω, ωι</foreign>, for <foreign lang="greek">ου, οι</foreign>,</etym>
+ <sense level="0" n="0" id="n29094.0" opt="n"><trans opt="n"><i>to be cold, shiver from cold</i></trans>, <usg opt="n">Od.</usg>, <usg opt="n">Hdt.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(i/za" orig_id="n29095" key="r(i/za">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(i/za">ῥίζα</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">.ῥίζα, ης, ἡ,</note>
+ <sense level="2" n="I" id="n29095.0" opt="n"><trans opt="n"><i>a root</i></trans>, <usg opt="n">Od.</usg>, Attic: in pl. <trans opt="n"><i>the roots</i></trans>, <usg opt="n">Hom.</usg></sense>
+ <sense level="3" n="2" id="n29095.1" opt="n">metaph. <trans opt="n"><i>the roots of the eye</i></trans>, <usg opt="n">Od.</usg>; <trans opt="n"><i>the roots</i> or <i>foundations</i></trans> of the earth, <usg opt="n">Hes.</usg>, <usg opt="n">Aesch.</usg>, etc.</sense>
+ <sense level="3" n="3" id="n29095.2" opt="n"><foreign lang="greek">ἐκ ῥιζῶν</foreign>, Lat. <foreign lang="la">radicitus</foreign>, <usg opt="n">Plut.</usg></sense>
+ <sense level="2" n="II" id="n29095.3" opt="n"><trans opt="n"><i>anything that grows like a root</i></trans> from one stem, whence Pindar calls Libya the <foreign lang="greek">τρίτη ῥίζα χθονός</foreign>, considering the earth as divided into three continents.</sense>
+ <sense level="2" n="III" id="n29095.4" opt="n">metaph. the <trans opt="n"><i>root</i> or <i>stock</i></trans> from which a family springs, Lat. <foreign lang="la">stirps</foreign>, <usg opt="n">Pind.</usg>, <usg opt="n">Aesch.</usg>, etc.; and so <trans opt="n"><i>a race, family</i></trans>, <usg opt="n">Aesch.</usg>, <usg opt="n">Eur.</usg>, etc.</sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(izi/on" orig_id="n29096" key="r(izi/on">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(izi/on">ῥιζίον</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥιζίον, ου, τό,</note>
+ <etym opt="n">Dim. of <foreign lang="greek">ῥίζα</foreign></etym>
+ <sense level="0" n="0" id="n29096.0" opt="n"><trans opt="n"><i>a little root</i></trans>, <usg opt="n">Ar.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(izobole/w" orig_id="n29097" key="r(izobole/w">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(izobole/w">ῥιζοβολέω</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥιζοβολέω,</note>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified"> fut. <foreign lang="greek">-ήσω</foreign></note>
+ <sense level="0" n="0" id="n29097.0" opt="n"><trans opt="n"><i>to strike root</i></trans>, <usg opt="n">Anth.</usg></sense>
+ <etym opt="n">from <ref type="cross" target="crossr(izobo/los" lang="greek">ῥιζοβόλος</ref></etym>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(izobo/los" orig_id="n29098" key="r(izobo/los">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(izobo/los">ῥιζοβόλος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥιζο-βόλος, ον,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossba/llw" lang="greek">βάλλω</ref></xr></etym>
+ <sense level="0" n="0" id="n29098.0" opt="n"><trans opt="n"><i>striking root.</i></trans></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(izo/qen" orig_id="n29099" key="r(izo/qen">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(izo/qen">ῥιζόθεν</head>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossr(i/za" lang="greek">ῥίζα</ref></xr></etym>
+ <sense level="0" n="0" id="n29099.0" opt="n"><trans opt="n"><i>by, from the roots</i></trans>, <usg opt="n">Luc.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(izoto/mos" orig_id="n29100" key="r(izoto/mos">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(izoto/mos">ῥιζοτόμος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥιζο-τόμος, ὁ,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crosste/mnw" lang="greek">τέμνω</ref></xr></etym>
+ <sense level="0" n="0" id="n29100.0" opt="n"><trans opt="n"><i>one who cuts roots</i></trans>, <usg opt="n">Luc.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(izofage/w" orig_id="n29101" key="r(izofage/w">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(izofage/w">ῥιζοφαγέω</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥιζοφᾰγέω,</note>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified"> fut. <foreign lang="greek">-ήσω</foreign></note>
+ <sense level="0" n="0" id="n29101.0" opt="n"><trans opt="n"><i>to eat roots</i></trans>, <usg opt="n">Strab.</usg>; <foreign lang="greek">ῥ. τὰ σπέρματα</foreign> <trans opt="n"><i>to destroy</i></trans> them <trans opt="n"><i>by nibbling the roots</i></trans>, <usg opt="n">Strab.</usg></sense>
+ <etym opt="n">from <ref type="cross" target="crossr(izofa/^gos" lang="greek">ῥιζοφάγος (ᾰ)</ref></etym>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(izofa/gos" orig_id="n29102" key="r(izofa/gos">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(izofa/gos">ῥιζοφάγος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥιζο-φάγος (ᾰ), ον,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossfagei=n" lang="greek">φαγεῖν</ref></xr></etym>
+ <sense level="0" n="0" id="n29102.0" opt="n"><trans opt="n"><i>eating roots</i></trans>, <usg opt="n">Arist.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(izo/w" orig_id="n29103" key="r(izo/w">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(izo/w">ῥιζόω</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥιζόω,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossr(i/za" lang="greek">ῥίζα</ref></xr></etym>
+ <sense level="2" n="I" id="n29103.0" opt="n"><trans opt="n"><i>to make to strike root</i></trans>: metaph. <trans opt="n"><i>to root in the ground, plant</i></trans>, <usg opt="n">Od.</usg>; <foreign lang="greek">ἐρρίζωσε τὴν τυραννίδα</foreign> <usg opt="n">Hdt.</usg>: —Pass. <trans opt="n"><i>to take root, strike root</i></trans>, <usg opt="n">Xen.</usg>: metaph. <trans opt="n"><i>to be rooted, firmly fixed</i></trans>, <usg opt="n">Soph.</usg>, <usg opt="n">NTest.</usg></sense>
+ <sense level="2" n="II" id="n29103.1" opt="n">Pass. also of land, <trans opt="n"><i>to be planted with trees</i></trans>, <usg opt="n">Od.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(i/zwma" orig_id="n29104" key="r(i/zwma">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(i/zwma">ῥίζωμα</head>
+ <etym opt="n">from <ref type="cross" target="crossr(izo/w" lang="greek">ῥιζόω</ref></etym>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥίζωμα, ατος, τό,</note>
+ <sense level="0" n="0" id="n29104.0" opt="n"><trans opt="n"><i>a root</i></trans>: metaph. <trans opt="n"><i>a stem, race</i></trans> <usg opt="n">Aesch.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(izwru/xos" orig_id="n29105" key="r(izwru/xos">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(izwru/xos">ῥιζωρύχος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥιζ-ωρύχος, ον,</note>
+ <sense level="0" n="0" id="n29105.0" opt="n"><trans opt="n"><i>root-grubbing</i></trans>, of grammarians, <usg opt="n">Anth.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(i/zwsis" orig_id="n29106" key="r(i/zwsis">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(i/zwsis">ῥίζωσις</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥίζωσις, εως,</note>
+ <sense level="0" n="0" id="n29106.0" opt="n"><trans opt="n"><i>a taking root, beginning life</i></trans>, <usg opt="n">Plut.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(ikno/s" orig_id="n29107" key="r(ikno/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(ikno/s">ῥικνός</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">.ῥικνός, ή, όν</note>
+ <sense level="0" n="0" id="n29107.0" opt="n"><trans opt="n"><i>shrivelled with cold</i></trans>: generally, <trans opt="n"><i>shrivelled, crooked</i></trans>, <usg opt="n">Hhymn.</usg>, <usg opt="n">Anth.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(i/mfa" orig_id="n29108" key="r(i/mfa">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(i/mfa">ῥίμφα</head>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossr(i/ptw" lang="greek">ῥίπτω</ref></xr></etym>
+ <sense level="0" n="0" id="n29108.0" opt="n">adv. <trans opt="n"><i>lightly, swiftly, fleetly</i></trans>, <usg opt="n">Il.</usg>, <usg opt="n">Aesch.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(imfa/rmatos" orig_id="n29109" key="r(imfa/rmatos">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(imfa/rmatos">ῥιμφάρματος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥιμφ-άρμᾰτος, ον,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossa(/rma" lang="greek">ἅρμα</ref></xr></etym>
+ <sense level="0" n="0" id="n29109.0" opt="n"><trans opt="n"><i>of a swift chariot</i></trans>, <usg opt="n">Pind.</usg>; <foreign lang="greek">ῥ. ἁμίλλαις</foreign> with the <trans opt="n"><i>swift</i></trans> racing <trans opt="n"><i>of chariots</i></trans>, <usg opt="n">Soph.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(ina/w2" orig_id="n29110" key="r(ina/w2">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(ina/w">ῥινάω</head>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossr(i/nh" lang="greek">ῥίνη</ref></xr></etym>
+ <sense level="0" n="0" id="n29110.0" opt="n"><trans opt="n"><i>to file</i></trans>, <usg opt="n">Anth.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(inegkataphcige/neios" orig_id="n29111" key="r(inegkataphcige/neios">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(inegkataphcige/neios">ῥινεγκαταπηξιγένειος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥῑν-εγκᾰτᾰπηξῐ-γένειος, ον,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossr(i/s " lang="greek">ῥίς</ref>, <ref type="cross" target="crosse)gkataph/gnumi" lang="greek">ἐγκαταπήγνυμι</ref></xr></etym>
+ <sense level="0" n="0" id="n29111.0" opt="n"><trans opt="n"><i>with a nose reaching to the chin</i></trans>, <usg opt="n">Anth.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(inhlate/w" orig_id="n29112" key="r(inhlate/w">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(inhlate/w">ῥινηλατέω</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥῑνηλᾰτέω,</note>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified"> fut. <foreign lang="greek">-ήσω</foreign></note>
+ <sense level="0" n="0" id="n29112.0" opt="n"><trans opt="n"><i>to track by scent</i></trans>, <usg opt="n">Aesch.</usg></sense>
+ <etym opt="n">from <ref type="cross" target="crossr(i_nhla/ths" lang="greek">ῥῑνηλάτης</ref></etym>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(inhla/ths" orig_id="n29113" key="r(inhla/ths">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(inhla/ths">ῥινηλάτης</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥῑν-ηλάτης, ου, ὁ,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crosse)lau/nw" lang="greek">ἐλαύνω</ref></xr></etym>
+ <sense level="0" n="0" id="n29113.0" opt="n"><trans opt="n"><i>one who tracks by scent</i></trans>, of hounds.</sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(i/nh" orig_id="n29114" key="r(i/nh">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(i/nh">ῥίνη</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">.ῥί_νη, ἡ,</note>
+ <sense level="0" n="0" id="n29114.0" opt="n"><trans opt="n"><i>a file</i> or <i>rasp</i></trans>, <usg opt="n">Xen.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(ino/bolos" orig_id="n29115" key="r(ino/bolos">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(ino/bolos">ῥινόβολος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥῑνό-βολος, ον,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossba/llw" lang="greek">βάλλω</ref></xr></etym>
+ <sense level="0" n="0" id="n29115.0" opt="n"><trans opt="n"><i>emitted through the nose</i></trans>, of a snorting sound, <usg opt="n">Anth.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(ino/kerws" orig_id="n29116" key="r(ino/kerws">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(ino/kerws">ῥινόκερως</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥῑνό-κερως, ωτος, ὁ,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossr(i/s " lang="greek">ῥίς</ref>, <ref type="cross" target="crosske/ras" lang="greek">κέρας</ref></xr></etym>
+ <sense level="0" n="0" id="n29116.0" opt="n"><trans opt="n"><i>the rhinoceros</i> or <i>nosehorn</i></trans>, <usg opt="n">Strab.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(ino/n" orig_id="n29117" key="r(ino/n">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(ino/n">ῥινόν</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥῑνόν, οῦ,</note>
+ <etym opt="n">= <ref type="cross" target="crossr(ino/s" lang="greek">ῥινός</ref> II. 1</etym>
+ <sense level="3" n="1" id="n29117.0" opt="n"><trans opt="n"><i>a hide</i></trans>, <usg opt="n">Il.</usg></sense>
+ <sense level="3" n="2" id="n29117.1" opt="n">= <ref type="cross" target="crossr(ino/s" lang="greek">ῥινός</ref> II. 2, <trans opt="n"><i>a shield</i></trans>, <usg opt="n">Od.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(ino/simos" orig_id="n29118" key="r(ino/simos">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(ino/simos">ῥινόσιμος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥῑνό-σῑμος, ον,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossr(i/s" lang="greek">ῥίς</ref></xr></etym>
+ <sense level="0" n="0" id="n29118.0" opt="n"><trans opt="n"><i>snub-nosed</i></trans>, <usg opt="n">Luc.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(ino/s" orig_id="n29119" key="r(ino/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(ino/s">ῥινός</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥῑνός, οῦ,</note>
+ <sense level="2" n="I" id="n29119.0" opt="n"><trans opt="n"><i>the skin</i></trans> of a man, <usg opt="n">Hom.</usg></sense>
+ <sense level="2" n="II" id="n29119.1" opt="n"><trans opt="n"><i>the hide</i></trans> of a beast, esp. <trans opt="n"><i>an ox-hide</i></trans>, <usg opt="n">Hom.</usg></sense>
+ <sense level="3" n="2" id="n29119.2" opt="n"><trans opt="n"><i>an ox-hide shield</i></trans>, <usg opt="n">Hom.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(inoto/ros" orig_id="n29120" key="r(inoto/ros">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(inoto/ros">ῥινοτόρος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥῑνο-τόρος, ον,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crosstei/rw" lang="greek">τείρω</ref></xr></etym>
+ <sense level="0" n="0" id="n29120.0" opt="n"><trans opt="n"><i>shield-piercing</i></trans>, <usg opt="n">Il.</usg>, <usg opt="n">Hes.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(inou=xos" orig_id="n29121" key="r(inou=xos">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(inou=xos">ῥινοῦχος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥιν-οῦχος, ὁ,</note>
+ <etym opt="n"><foreign lang="greek">ῥίς</foreign> II</etym>
+ <sense level="0" n="0" id="n29121.0" opt="n"><trans opt="n"><i>a sewer</i></trans>, Lat. <foreign lang="la">cloaca</foreign>, <usg opt="n">Strab.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(i/on" orig_id="n29122" key="r(i/on">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(i/on">ῥίον</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">.ῥίον, ου, τό,</note>
+ <sense level="3" n="1" id="n29122.0" opt="n"><trans opt="n"><i>any jutting part</i></trans> of a mountain,</sense>
+ <sense level="3" n="1" id="n29122.1" opt="n"><trans opt="n"><i>the peak</i></trans>, <usg opt="n">Hom.</usg></sense>
+ <sense level="3" n="2" id="n29122.2" opt="n"><trans opt="n"><i>a headland, foreland</i></trans>, <usg opt="n">Od.</usg>, <usg opt="n">Thuc.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(iph/" orig_id="n29123" key="r(iph/">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(iph/">ῥιπή</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥῑπή, ἡ,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossr(i/ptw" lang="greek">ῥίπτω</ref></xr></etym>
+ <sense level="3" n="1" id="n29123.0" opt="n"><trans opt="n"><i>the swing</i> or <i>force with which anything is thrown</i></trans>, Lat. <foreign lang="la">impetus</foreign>, <foreign lang="greek">αἰγανέης ῥιπή</foreign> <trans opt="n"><i>the flight</i></trans> of a javelin, <usg opt="n">Il.</usg>; <foreign lang="greek">ῥιπὴ Βορέαο</foreign> <trans opt="n"><i>the sweep</i> or <i>rush</i></trans> of the N. wind, <usg opt="n">Il.</usg>; <foreign lang="greek">ῥιπὴ Διόθεν</foreign>, of a storm, <usg opt="n">Aesch.</usg>; <foreign lang="greek">ἐννυχιᾶν ἀπὸ ῥιπᾶν</foreign> prob. means from <trans opt="n"><i>the quarter of</i></trans> the night <trans opt="n"><i>storms</i></trans>, i.e. from <trans opt="n"><i>the North</i></trans>, <usg opt="n">Soph.</usg>; <foreign lang="greek">ῥ. πυρός</foreign> <trans opt="n"><i>the rush</i></trans> of fire, <usg opt="n">Il.</usg></sense>
+ <sense level="3" n="2" id="n29123.1" opt="n"><foreign lang="greek">ῥ. πτερύγων</foreign> <trans opt="n"><i>a flapping</i></trans> of wings, <usg opt="n">Aesch.</usg>; of <trans opt="n"><i>the buzz</i></trans> of a gnatʼs wing, <usg opt="n">Aesch.</usg>; of <trans opt="n"><i>quivering light</i></trans>, <foreign lang="greek">ῥιπαὶ ἄστρων</foreign> <usg opt="n">Soph.</usg>; of any <trans opt="n"><i>rapid movement</i></trans>, <foreign lang="greek">ῥ. ποδῶν</foreign> <usg opt="n">Eur.</usg>; <foreign lang="greek">ἐν ῥιπῇ ὀφθαλμοῦ</foreign> in <trans opt="n"><i>the twinkling</i></trans> of an eye, <usg opt="n">NTest.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(ipi/zw" orig_id="n29124" key="r(ipi/zw">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(ipi/zw">ῥιπίζω</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥῑπίζω,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossr(ipi/s" lang="greek">ῥιπίς</ref></xr></etym>
+ <sense level="0" n="0" id="n29124.0" opt="n"><trans opt="n"><i>to fan</i></trans> the flame, Lat. <foreign lang="la">conflare</foreign>, <usg opt="n">Ar.</usg>:—Pass. <trans opt="n"><i>to be blown about</i></trans>, <usg opt="n">NTest.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(ipi/s" orig_id="n29125" key="r(ipi/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(ipi/s">ῥιπίς</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥῑπίς, ίδος, ἡ,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossr(i/y" lang="greek">ῥίψ</ref></xr></etym>
+ <sense level="2" n="I" id="n29125.0" opt="n"><trans opt="n"><i>a fan for raising the fire</i></trans>, <usg opt="n">Ar.</usg></sense>
+ <sense level="2" n="II" id="n29125.1" opt="n"><trans opt="n"><i>a ladyʼs fan</i></trans>, <usg opt="n">Anth.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(ipta/zw" orig_id="n29126" key="r(ipta/zw">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(ipta/zw">ῥιπτάζω</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥιπτάζω,</note>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified"> fut. <foreign lang="greek">-άσω</foreign></note>
+ <etym opt="n">Frequentative of <foreign lang="greek">ῥίπτω</foreign></etym>
+ <sense level="0" n="0" id="n29126.0" opt="n"><trans opt="n"><i>to throw to and fro, toss about</i></trans>, Lat. <foreign lang="la">jactare</foreign>, <usg opt="n">Il.</usg>; <foreign lang="greek">ὀφρύσι ῥιπτάζειν</foreign> <trans opt="n"><i>to move</i></trans> the eyebrows <trans opt="n"><i>up and down</i></trans>, <usg opt="n">Hhymn.</usg>:—Pass. <trans opt="n"><i>to be tossed about</i></trans>, <usg opt="n">Plut.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(ipto/s" orig_id="n29127" key="r(ipto/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(ipto/s">ῥιπτός</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥιπτός, ή, όν</note>
+ <etym opt="n">verb. adj. of <foreign lang="greek">ῥίπτω</foreign></etym>
+ <sense level="0" n="0" id="n29127.0" opt="n"><trans opt="n"><i>thrown</i></trans>, <foreign lang="greek">ῥ.μόρος</foreign> death <trans opt="n"><i>by being thrown down</i></trans> (a precipice), <usg opt="n">Soph.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(i/ptw" orig_id="n29128" key="r(i/ptw">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(i/ptw">ῥίπτω</head>
+ <sense level="2" n="I" id="n29128.0" opt="n"><trans opt="n"><i>to throw, cast, hurl</i></trans>, <usg opt="n">Hom.</usg>, etc.; <foreign lang="greek">ῥ. χθονί</foreign> <trans opt="n"><i>to throw</i></trans> on the ground, <usg opt="n">Soph.</usg>:— <trans opt="n"><i>to cast</i></trans> a net, Pass., <foreign lang="greek">ἔρριπται ὁ βόλος</foreign> the cast <trans opt="n"><i>has been made</i></trans>, Orac. ap. <usg opt="n">Hdt.</usg>:— <trans opt="n"><i>to throw</i> or <i>toss about</i></trans>, <foreign lang="greek">πλοκάμους</foreign> <usg opt="n">Eur.</usg></sense>
+ <sense level="2" n="II" id="n29128.1" opt="n"><trans opt="n"><i>to cast out</i></trans> of house or land, <usg opt="n">Soph.</usg>:— Pass., <foreign lang="greek">μὴ ῥιφθῶ κυσίν</foreign> <usg opt="n">Soph.</usg></sense>
+ <sense level="2" n="III" id="n29128.2" opt="n"><trans opt="n"><i>to throw off</i> or <i>away</i></trans>, of arms, clothes, <usg opt="n">Eur.</usg>, etc.</sense>
+ <sense level="2" n="IV" id="n29128.3" opt="n"><foreign lang="greek">ῥ. λόγους</foreign> <trans opt="n"><i>to cast</i></trans> them <trans opt="n"><i>forth, hurl</i></trans> them, <usg opt="n">Aesch.</usg>, <usg opt="n">Eur.</usg>:—but also, <trans opt="n"><i>to throw</i></trans> them away, <trans opt="n"><i>waste</i></trans> them, <usg opt="n">Aesch.</usg>, <usg opt="n">Eur.</usg>: Pass., <foreign lang="greek">οἴχεται ταῦτʼ ἐρριμμένα</foreign> <usg opt="n">Soph.</usg></sense>
+ <sense level="2" n="V" id="n29128.4" opt="n"><trans opt="n"><i>to cast</i></trans> lots or dice, <usg opt="n">Eur.</usg>, <usg opt="n">Plat.</usg></sense>
+ <sense level="2" n="VI" id="n29128.5" opt="n"><foreign lang="greek">ῥ. ἑαυτόν</foreign> <trans opt="n"><i>to throw</i> or <i>cast oneself down</i></trans>, <usg opt="n">Xen.</usg>;—then absol. <trans opt="n"><i>to fling oneself</i></trans>, <foreign lang="greek">ἐς πόντον</foreign> <usg opt="n">Theogn.</usg>; <foreign lang="greek">ἐς τάφρον</foreign> <usg opt="n">Eur.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(i/s" orig_id="n29129" key="r(i/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(i/s">ῥίς</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">.ῥίς, ίδος, ἡ,</note>
+ <sense level="2" n="I" id="n29129.0" opt="n"><trans opt="n"><i>the nose</i></trans>, Lat. <foreign lang="la">nasus</foreign>, <usg opt="n">Hom.</usg>, <usg opt="n">Hdt.</usg>, etc.</sense>
+ <sense level="3" n="2" id="n29129.1" opt="n">in pl. <trans opt="n"><i>the nostrils, nose</i></trans>, Lat. <foreign lang="la">nares</foreign>, <usg opt="n">Il.</usg>, etc.</sense>
+ <sense level="2" n="II" id="n29129.2" opt="n"><trans opt="n"><i>a pipe</i> or <i>conduit.</i></trans></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(i/yaspis" orig_id="n29130" key="r(i/yaspis">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(i/yaspis">ῥίψασπις</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥίψ-ασπις, ιδος, ὁ, ἡ,</note>
+ <sense level="0" n="0" id="n29130.0" opt="n"><trans opt="n"><i>throwing away his shield in battle, a recreant</i></trans>, <usg opt="n">Ar.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(i=yis" orig_id="n29131" key="r(i=yis">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(i=yis">ῥῖψις</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥῖψις, εως,</note>
+ <sense level="2" n="I" id="n29131.0" opt="n"><trans opt="n"><i>a throwing, casting, hurling</i></trans>, <usg opt="n">Plat.</usg></sense>
+ <sense level="3" n="2" id="n29131.1" opt="n"><trans opt="n"><i>a casting about</i></trans> of the eyes, <usg opt="n">Plut.</usg></sense>
+ <sense level="2" n="II" id="n29131.2" opt="n"><trans opt="n"><i>a being thrown</i> or <i>hurled</i></trans>, <usg opt="n">Plat.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(iyoki/ndunos" orig_id="n29132" key="r(iyoki/ndunos">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(iyoki/ndunos">ῥιψοκίνδυνος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥιψο-κίνδῡνος, ον,</note>
+ <sense level="0" n="0" id="n29132.0" opt="n"><trans opt="n"><i>running needless risks, fool-hardy, reckless</i></trans>, <usg opt="n">Xen.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(i/yoplos" orig_id="n29133" key="r(i/yoplos">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(i/yoplos">ῥίψοπλος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥίψ-οπλος, ον,</note>
+ <sense level="0" n="0" id="n29133.0" opt="n"><trans opt="n"><i>throwing away oneʼs arms</i></trans>, <usg opt="n">Aesch.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(i/y" orig_id="n29134" key="r(i/y">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(i/y">ῥίψ</head>
+ <sense level="0" n="0" id="n29134.0" opt="n"><trans opt="n"><i>plaited work, wicker-work, a mat</i></trans>, Lat. <foreign lang="la">crates</foreign>, <usg opt="n">Od.</usg>, etc.</sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(o/a" orig_id="n29135" key="r(o/a">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(o/a">ῥόα</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥόᾱ, ἡ,</note>
+ <sense level="2" n="I" id="n29135.0" opt="n">Ionic and Epic <foreign lang="greek">ῥοιή</foreign>, <trans opt="n"><i>a pomegranate-tree</i></trans>, <usg opt="n">Od.</usg></sense>
+ <sense level="2" n="II" id="n29135.1" opt="n">the fruit, <trans opt="n"><i>a pomegranate</i></trans>, <usg opt="n">Hhymn.</usg>, <usg opt="n">Ar.</usg></sense>
+ <sense level="3" n="2" id="n29135.2" opt="n"><trans opt="n"><i>a knob shaped like a pomegranate</i></trans>, <usg opt="n">Hdt.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(oda/nh" orig_id="n29136" key="r(oda/nh">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(oda/nh">ῥοδάνη</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥοδάνη (ᾰ), ἡ,</note>
+ <sense level="0" n="0" id="n29136.0" opt="n"><trans opt="n"><i>the woof</i> or <i>weft</i></trans>, <usg opt="n">Batr.</usg></sense>
+ <etym opt="n">from <ref type="cross" target="crossr(oda^no/s" lang="greek">ῥοδᾰνός</ref></etym>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(odano/s" orig_id="n29137" key="r(odano/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(odano/s">ῥοδανός</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥοδᾰνός, ή, όν</note>
+ <sense level="0" n="0" id="n29137.0" opt="n"><trans opt="n"><i>waving, flickering</i></trans>, <usg opt="n">Il.</usg></sense>
+ <etym opt="n">deriv. uncertain</etym>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(o/deos" orig_id="n29138" key="r(o/deos">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(o/deos">ῥόδεος</head>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossr(o/don" lang="greek">ῥόδον</ref></xr></etym>
+ <sense level="2" n="I" id="n29138.0" opt="n"><trans opt="n"><i>of roses</i></trans>, <usg opt="n">Eur.</usg></sense>
+ <sense level="2" n="II" id="n29138.1" opt="n"><trans opt="n"><i>like a rose, rosy</i></trans>, <usg opt="n">Anth.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(odh=" orig_id="n29139" key="r(odh=">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(odh=">ῥοδῆ</head>
+ <sense level="0" n="0" id="n29139.0" opt="n"><trans opt="n"><i>a rose-tree, rose-bush</i></trans>, <usg opt="n">Archil.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="cross*(rodiako/s" orig_id="n29140" key="*(rodiako/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="*(rodiako/s">Ῥοδιακός</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">Ῥοδιακός, ή, όν</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="cross*(ro/dos" lang="greek">Ῥόδος</ref></xr></etym>
+ <sense level="0" n="0" id="n29140.0" opt="n"><trans opt="n"><i>Rhodian, of Rhodes</i></trans>, <usg opt="n">Strab.</usg>: —also <foreign lang="greek">Ῥόδιος, η, ον</foreign>, <usg opt="n">Il.</usg>, <usg opt="n">Xen.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(ododa/ktulos" orig_id="n29141" key="r(ododa/ktulos">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(ododa/ktulos">ῥοδοδάκτυλος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥοδο-δάκτῠλος, ον,</note>
+ <sense level="0" n="0" id="n29141.0" opt="n"><trans opt="n"><i>rosy-fingered</i></trans>, of Aurora, <usg opt="n">Hom.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(odoeidh/s" orig_id="n29142" key="r(odoeidh/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(odoeidh/s">ῥοδοειδής</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥοδο-ειδής, ές</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossei)=dos" lang="greek">εἶδος</ref></xr></etym>
+ <sense level="0" n="0" id="n29142.0" opt="n"><trans opt="n"><i>rose-like, rosy</i></trans>, <usg opt="n">Anth.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(odo/eis" orig_id="n29143" key="r(odo/eis">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(odo/eis">ῥοδόεις</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥοδόεις, εσσα, εν</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossr(o/don" lang="greek">ῥόδον</ref></xr></etym>
+ <sense level="2" n="I" id="n29143.0" opt="n"><trans opt="n"><i>of roses</i></trans>, <usg opt="n">Il.</usg>, <usg opt="n">Eur.</usg></sense>
+ <sense level="2" n="II" id="n29143.1" opt="n"><trans opt="n"><i>rose-coloured</i></trans>, <usg opt="n">Anth.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(odo/mhlon" orig_id="n29144" key="r(odo/mhlon">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(odo/mhlon">ῥοδόμηλον</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥοδό-μηλον, Doric <foreign lang="greek">ῥοδό-μᾱλον, ου, τό</foreign>,</note>
+ <sense level="0" n="0" id="n29144.0" opt="n"><trans opt="n"><i>a rose-apple</i></trans>: metaph. of <trans opt="n"><i>a rosy cheek</i></trans>, <usg opt="n">Theocr.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(o/don" orig_id="n29145" key="r(o/don">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(o/don">ῥόδον</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">.ῥόδον, ου, τό,</note>
+ <sense level="0" n="0" id="n29145.0" opt="n"><trans opt="n"><i>the rose</i></trans>, Lat. <foreign lang="la">rosa</foreign>, <usg opt="n">Hhymn.</usg>, <usg opt="n">Theogn.</usg>, etc.; Aeolic <foreign lang="greek">βρόδον</foreign>, <usg opt="n">Sapph.</usg>:—metaph., <foreign lang="greek">ῥόδα μʼ εἴρηκας</foreign> youʼve spoken <trans opt="n"><i>roses</i></trans> of me, have said <trans opt="n"><i>all things sweet and lovely</i></trans>, <usg opt="n">Ar.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(odo/phxus" orig_id="n29146" key="r(odo/phxus">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(odo/phxus">ῥοδόπηχυς</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥοδό-πηχυς, Doric <foreign lang="greek">ῥοδό-πᾱχυς, υ</foreign>,</note>
+ <sense level="0" n="0" id="n29146.0" opt="n"><trans opt="n"><i>rosy-armed</i></trans>, <usg opt="n">Hhymn.</usg>, <usg opt="n">Hes.</usg>, etc.</sense>
+ </div1>
+
+ 
+ 
+<div1 id="cross*(ro/dos" orig_id="n29147" key="*(ro/dos">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="*(ro/dos">Ῥόδος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">Ῥόδος, ου,</note>
+ <sense level="0" n="0" id="n29147.0" opt="n">the isle of <trans opt="n"><i>Rhodes</i></trans>, <usg opt="n">Il.</usg>, etc.</sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(odo/xrws" orig_id="n29148" key="r(odo/xrws">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(odo/xrws">ῥοδόχρως</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥοδό-χρως, ωτος, ὁ, ἡ,</note>
+ <etym opt="n">= <ref type="cross" target="crossr(odo/phxus" lang="greek">ῥοδόπηχυς</ref>, <usg opt="n">Theocr.</usg></etym>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(odwnia/" orig_id="n29149" key="r(odwnia/">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(odwnia/">ῥοδωνιά</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥοδωνιά, ἡ,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossr(o/don" lang="greek">ῥόδον</ref></xr></etym>
+ <sense level="0" n="0" id="n29149.0" opt="n"><trans opt="n"><i>a rose-bed, garden of roses</i></trans>, Lat. <foreign lang="la">rosarium</foreign>, <usg opt="n">Dem.</usg>, etc.</sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(oh/" orig_id="n29150" key="r(oh/">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(oh/">ῥοή</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥοή, ἡ,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossr(e/w" lang="greek">ῥέω</ref></xr></etym>
+ <sense level="0" n="0" id="n29150.0" opt="n"><trans opt="n"><i>a river, stream, flood</i></trans>, <usg opt="n">Hom.</usg>, etc.; mostly in pl., <foreign lang="greek">ἐπʼ Ὠκεανοῖο ῥοάων</foreign> <usg opt="n">Il.</usg>; <foreign lang="greek">ἀμπέλου ῥοαί</foreign> <trans opt="n"><i>the juice</i></trans> of the grape, <usg opt="n">Eur.</usg>:—metaph. <trans opt="n"><i>the stream</i></trans> of song or poesy, <usg opt="n">Pind.</usg>; also, <foreign lang="greek">ῥοαί</foreign> <trans opt="n"><i>the tide of affairs</i></trans>, <usg opt="n">Pind.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(oqe/w" orig_id="n29151" key="r(oqe/w">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(oqe/w">ῥοθέω</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥοθέω,</note>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified"> fut. <foreign lang="greek">-ήσω</foreign></note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossr(o/qos" lang="greek">ῥόθος</ref></xr></etym>
+ <sense level="0" n="0" id="n29151.0" opt="n"><trans opt="n"><i>to make a rushing noise, to dash</i></trans>, of waves or the stroke of oars: hence, of any confused noise, <foreign lang="greek">ταῦτα ἐρρόθουν ἐμοί</foreign> such <trans opt="n"><i>clamours they raised</i></trans> against me, <usg opt="n">Soph.</usg>; <foreign lang="greek">λόγοι ἐρρόθουν</foreign> <trans opt="n"><i>there was a noise of</i></trans> words, <usg opt="n">Soph.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(oqia/zw" orig_id="n29152" key="r(oqia/zw">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(oqia/zw">ῥοθιάζω</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥοθιάζω,</note>
+ <etym opt="n">strengthd. form of <foreign lang="greek">ῥοθέω</foreign></etym>
+ <sense level="0" n="0" id="n29152.0" opt="n">of pigs, <trans opt="n"><i>to make a guttling noise</i></trans>, <usg opt="n">Ar.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(oqia/s" orig_id="n29153" key="r(oqia/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(oqia/s">ῥοθιάς</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥοθιάς, άδος,</note>
+ <sense level="0" n="0" id="n29153.0" opt="n"><trans opt="n"><i>dashing</i></trans>, <usg opt="n">Aesch.</usg></sense>
+ <etym opt="n">poet. fem. of <foreign lang="greek">ῥόθιος</foreign></etym>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(o/qios" orig_id="n29154" key="r(o/qios">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(o/qios">ῥόθιος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥόθιος, ον,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossr(o/qos" lang="greek">ῥόθος</ref></xr></etym>
+ <sense level="2" n="I" id="n29154.0" opt="n"><trans opt="n"><i>rushing, roaring, dashing</i></trans>, of waves, <usg opt="n">Od.</usg>; of oars, <usg opt="n">Eur.</usg></sense>
+ <sense level="2" n="II" id="n29154.1" opt="n">as Subst. <foreign lang="greek">ῥόθια, τά</foreign>, <trans opt="n"><i>waves dashing on the beach, breakers, waves</i></trans>, <usg opt="n">Soph.</usg>, etc.;—collectively in sg. <trans opt="n"><i>the surf, surge</i></trans>, <usg opt="n">Aesch.</usg>, <usg opt="n">Eur.</usg></sense>
+ <sense level="3" n="2" id="n29154.2" opt="n"><trans opt="n"><i>a shout</i></trans> of applause, <usg opt="n">Ar.</usg>; generally, <trans opt="n"><i>a tumult, riot</i></trans>, <usg opt="n">Eur.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(o/qos" orig_id="n29155" key="r(o/qos">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(o/qos">ῥόθος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">.ῥόθος, ὁ,</note>
+ <sense level="3" n="1" id="n29155.0" opt="n"><trans opt="n"><i>a rushing noise, dash of waves</i> or <i>of oars</i></trans>, <foreign lang="greek">ἐξ ἑνὸς ῥόθου</foreign> with one <trans opt="n"><i>stroke</i></trans>, i. e. all at once, <usg opt="n">Aesch.</usg></sense>
+ <sense level="3" n="2" id="n29155.1" opt="n">of any confused, inarticulate sound, <foreign lang="greek">Περσίδος γλώσσης ῥ.</foreign> <trans opt="n"><i>the noise</i></trans> of the Persian (i. e. barbarian) tongue, <usg opt="n">Aesch.</usg></sense>
+ <etym opt="n">Formed from the sound.</etym>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(oia/" orig_id="n29156" key="r(oia/">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(oia/">ῥοιά</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥοιά, ἡ,</note>
+ <etym opt="n">later Attic for <foreign lang="greek">ῥοά</foreign></etym>
+ <sense level="0" n="0" id="n29156.0" opt="n"><trans opt="n"><i>mulberry.</i></trans></sense>
+ 
+ </div1>
+
+ 
+ 
+<div1 id="crossr(oibde/w" orig_id="n29157" key="r(oibde/w">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(oibde/w">ῥοιβδέω</head>
+ <sense level="2" n="I" id="n29157.0" opt="n"><trans opt="n"><i>to swallow with a noise, suck down</i></trans>, of Charybdis, <usg opt="n">Od.</usg>; cf. <foreign lang="greek">ἀναρροιβδέω.</foreign></sense>
+ <sense level="2" n="II" id="n29157.1" opt="n">like <foreign lang="greek">ῥοιζέω</foreign>, <trans opt="n"><i>to move with a rustling sound, make to rustle</i></trans>, <usg opt="n">Aesch.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(oi/bdhsis" orig_id="n29158" key="r(oi/bdhsis">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(oi/bdhsis">ῥοίβδησις</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥοίβδησις, εως,</note>
+ <sense level="0" n="0" id="n29158.0" opt="n"><trans opt="n"><i>a whistling, piping</i></trans>, <usg opt="n">Eur.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(oi=bdos" orig_id="n29159" key="r(oi=bdos">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(oi=bdos">ῥοῖβδος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">.ῥοῖβδος, ὁ,</note>
+ <sense level="0" n="0" id="n29159.0" opt="n"><trans opt="n"><i>any rushing noise</i></trans>, <foreign lang="greek">πτερῶν ῥ.</foreign> <trans opt="n"><i>the whirring</i></trans> of wings, <usg opt="n">Soph.</usg>; <foreign lang="greek">ἀνέμου ῥ.</foreign> <trans opt="n"><i>whistling</i></trans> of the wind, <usg opt="n">Ar.</usg></sense>
+ <etym opt="n">Formed from the sound.</etym>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(oize/w" orig_id="n29160" key="r(oize/w">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(oize/w">ῥοιζέω</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥοιζέω,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossr(oi=zos" lang="greek">ῥοῖζος</ref></xr></etym>
+ <sense level="0" n="0" id="n29160.0" opt="n"><trans opt="n"><i>to whistle</i></trans>, Lat. <foreign lang="la">stridere</foreign>, <usg opt="n">Il.</usg>; of a snake, <trans opt="n"><i>to hiss</i></trans>, <usg opt="n">Hes.</usg>:—Pass. <trans opt="n"><i>to rush through</i></trans> the <trans opt="n"><i>air</i></trans>, <foreign lang="greek">ἐρροίζητο</foreign> (3rd sg. plup.) <usg opt="n">Anth.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(oi/zhma" orig_id="n29161" key="r(oi/zhma">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(oi/zhma">ῥοίζημα</head>
+ <etym opt="n">from <ref type="cross" target="crossr(oize/w" lang="greek">ῥοιζέω</ref></etym>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥοίζημα, ατος, τό,</note>
+ <sense level="0" n="0" id="n29161.0" opt="n"><trans opt="n"><i>a rushing, whirring noise</i> or <i>motion</i></trans>, as of birds, <usg opt="n">Ar.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(oi=zos" orig_id="n29162" key="r(oi=zos">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(oi=zos">ῥοῖζος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">.ῥοῖζος, ὁ, Ionic <foreign lang="greek">ἡ</foreign>,</note>
+ <sense level="2" n="I" id="n29162.0" opt="n"><trans opt="n"><i>the whistling</i> or <i>whizzing</i></trans> of an arrow, <usg opt="n">Il.</usg>:—any <trans opt="n"><i>whistling</i> or <i>piping sound</i></trans>, as of a shepherd, <usg opt="n">Od.</usg></sense>
+ <sense level="2" n="II" id="n29162.1" opt="n"><trans opt="n"><i>rushing motion, a rush, swing</i></trans>, <usg opt="n">Plut.</usg></sense>
+ <etym opt="n">Formed from the sound.</etym>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(oiko/s" orig_id="n29163" key="r(oiko/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(oiko/s">ῥοικός</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">.ῥοικός, ή, όν</note>
+ <sense level="0" n="0" id="n29163.0" opt="n"><trans opt="n"><i>crooked</i></trans>, <usg opt="n">Theocr.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(ombhto/s" orig_id="n29164" key="r(ombhto/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(ombhto/s">ῥομβητός</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥομβητός, ή, όν</note>
+ <sense level="0" n="0" id="n29164.0" opt="n"><trans opt="n"><i>spun round like a top</i></trans>, <usg opt="n">Anth.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(omboeidh/s" orig_id="n29165" key="r(omboeidh/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(omboeidh/s">ῥομβοειδής</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥομβο-ειδής, ές</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossei)=dos" lang="greek">εἶδος</ref></xr></etym>
+ <sense level="0" n="0" id="n29165.0" opt="n"><trans opt="n"><i>rhomboidal</i></trans>, <usg opt="n">Strab.</usg>; <foreign lang="greek">ῥ. σχῆμα</foreign> <trans opt="n"><i>a rhomboid</i></trans>, a four-sided figure with the <trans opt="n"><i>opposite</i></trans> sides and angles equal.</sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(o/mbos" orig_id="n29166" key="r(o/mbos">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(o/mbos">ῥόμβος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥόμβος, or <foreign lang="greek">ῥύμβος, ὁ</foreign>,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossr(e/mbw" lang="greek">ῥέμβω</ref></xr></etym>
+ <sense level="2" n="I" id="n29166.0" opt="n"><trans opt="n"><i>a spinning-top</i> or <i>wheel</i></trans>, Lat. <foreign lang="la">turbo</foreign>, <usg opt="n">Eur.</usg>, <usg opt="n">Anth.</usg></sense>
+ <sense level="3" n="2" id="n29166.1" opt="n"><trans opt="n"><i>a magic wheel</i></trans>, used by sorcerers to aid their spells, <usg opt="n">Theocr.</usg>, <usg opt="n">Hor.</usg></sense>
+ <sense level="2" n="II" id="n29166.2" opt="n"><trans opt="n"><i>a spinning, whirling motion</i></trans>, of a top or wheel, <foreign lang="greek">ἱέντα ῥόμβον ἀκόντων</foreign> shooting forth <trans opt="n"><i>whirling</i></trans> darts, <usg opt="n">Pind.</usg>; <foreign lang="greek">ῥ. αἰετοῦ</foreign> the eagleʼs <trans opt="n"><i>swoop</i></trans>, <usg opt="n">Pind.</usg></sense>
+ <sense level="2" n="III" id="n29166.3" opt="n"><trans opt="n"><i>a rhomb, lozenge</i></trans>, i. e. a four-sided figure with <trans opt="n"><i>all</i></trans> the sides, but only the <trans opt="n"><i>opposite</i></trans> angles, equal, <usg opt="n">Euclid.</usg></sense>
+ <sense level="3" n="2" id="n29166.4" opt="n">a fish, <trans opt="n"><i>the turbot, brill.</i></trans></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(ombwto/s" orig_id="n29167" key="r(ombwto/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(ombwto/s">ῥομβωτός</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥομβωτός, ή, όν</note>
+ <etym opt="n">verb. adj.</etym>
+ <etym opt="n"><foreign lang="greek">ῥόμβος</foreign> III</etym>
+ <sense level="0" n="0" id="n29167.0" opt="n"><trans opt="n"><i>lozenge-shaped</i></trans>, <usg opt="n">Anth.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(omfai/a" orig_id="n29168" key="r(omfai/a">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(omfai/a">ῥομφαία</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥομφαία, ἡ,</note>
+ <sense level="0" n="0" id="n29168.0" opt="n"><trans opt="n"><i>a large sword, scymitar</i></trans>, used by the Thracians, <usg opt="n">Plut.</usg>, <usg opt="n">NTest.</usg></sense>
+ <etym opt="n">Foreign word.</etym>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(o/os" orig_id="n29169" key="r(o/os">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(o/os">ῥόος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥόος, ου,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossr(e/w" lang="greek">ῥέω</ref></xr></etym>
+ <sense level="0" n="0" id="n29169.0" opt="n"><trans opt="n"><i>a stream, flow, current</i></trans>, <usg opt="n">Hom.</usg>, etc.; <foreign lang="greek">ποταμοὺς ἔτρεψε νέεσθαι κὰρ ῥόον</foreign> to flow in <trans opt="n"><i>their own bed</i></trans>, <usg opt="n">Il.</usg>; <foreign lang="greek">κατὰ ῥόον</foreign> down <trans opt="n"><i>stream</i></trans>, <usg opt="n">Od.</usg>, <usg opt="n">Hdt.</usg>, etc.; <foreign lang="greek">πρὸς ῥόον</foreign> against <trans opt="n"><i>stream</i></trans>, <usg opt="n">Il.</usg>:— <trans opt="n"><i>a current</i></trans> at sea, <usg opt="n">Thuc.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(o/palon" orig_id="n29170" key="r(o/palon">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(o/palon">ῥόπαλον</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥόπᾰλον, ου, τό,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossr(e/pw" lang="greek">ῥέπω</ref></xr></etym>
+ <sense level="2" n="I" id="n29170.0" opt="n"><trans opt="n"><i>a club, cudgel</i></trans>, thicker at the buttend; used to cudgel an ass, <usg opt="n">Il.</usg>; to walk with, <usg opt="n">Od.</usg>, etc.:— <trans opt="n"><i>a war-club</i> or <i>mace</i></trans>, shod with metal, <usg opt="n">Od.</usg>, <usg opt="n">Hdt.</usg></sense>
+ <sense level="2" n="II" id="n29170.1" opt="n">= <ref type="cross" target="crossr(o/ptron" lang="greek">ῥόπτρον</ref> III, <usg opt="n">Xen.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(oph/" orig_id="n29171" key="r(oph/">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(oph/">ῥοπή</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥοπή, ἡ,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossr(e/pw" lang="greek">ῥέπω</ref></xr></etym>
+ <sense level="2" n="I" id="n29171.0" opt="n"><trans opt="n"><i>inclination downwards, the sinking of the scale</i></trans>, <usg opt="n">Aesch.</usg>; <foreign lang="greek">διαφέρειν τὴν ῥ.</foreign> to disturb <trans opt="n"><i>the balance</i></trans>, <usg opt="n">Plut.</usg></sense>
+ <sense level="3" n="2" id="n29171.1" opt="n">metaph. <trans opt="n"><i>the turn of the scale, the critical moment</i></trans>, Lat. <foreign lang="la">momentum</foreign>, <foreign lang="greek">ἔχεται ῥοπᾶς</foreign> (sc. <foreign lang="greek">ἡ πόλις) </foreign> is at <trans opt="n"><i>a crisis</i></trans> of her fortunes, Alcae. ap. <usg opt="n">Ar.</usg>; <foreign lang="greek">ῥ. Δίκας</foreign> <trans opt="n"><i>the balance</i> or <i>critical turn</i></trans> of Justice, <usg opt="n">Aesch.</usg>; <foreign lang="greek">σμικρὰ παλαιὰ σώματʼ εὐνάζει ῥοπή</foreign> a slight <trans opt="n"><i>turn of the scale</i></trans> lays aged bodies to rest, <usg opt="n">Soph.</usg>; <foreign lang="greek">ἐπὶ σμικρᾶς ῥοπῆς</foreign> dependent on a slight <trans opt="n"><i>turn of the scale</i></trans>, of one dying, <usg opt="n">Eur.</usg>; <foreign lang="greek">ἐπὶ ῥοπῆς μιᾶς ὄντες</foreign> depending on a single <trans opt="n"><i>turn of the scale</i></trans>, <usg opt="n">Thuc.</usg>; <foreign lang="greek">ῥ. βίου</foreign> <trans opt="n"><i>the turning point</i></trans> of life, i. e. death, <usg opt="n">Soph.</usg></sense>
+ <sense level="2" n="II" id="n29171.2" opt="n">metaph. <trans opt="n"><i>influence</i></trans>, <usg opt="n">Dem.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(o/ptron" orig_id="n29172" key="r(o/ptron">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(o/ptron">ῥόπτρον</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥόπτρον, ου, τό,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossr(e/pw" lang="greek">ῥέπω</ref></xr></etym>
+ <sense level="2" n="I" id="n29172.0" opt="n"><trans opt="n"><i>the wood in a mouse-trap</i></trans> which springs up when touched, <usg opt="n">Archil.</usg>; metaph., <foreign lang="greek">δίκης ῥόπτρον</foreign> <usg opt="n">Eur.</usg></sense>
+ <sense level="2" n="II" id="n29172.1" opt="n"><trans opt="n"><i>a tambourine</i> or <i>kettledrum</i></trans>, <usg opt="n">Luc.</usg>, <usg opt="n">Anth.</usg></sense>
+ <sense level="2" n="III" id="n29172.2" opt="n"><trans opt="n"><i>the knocker on a housedoor</i></trans>, <usg opt="n">Eur.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(ou/sios" orig_id="n29173" key="r(ou/sios">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(ou/sios">ῥούσιος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥούσιος, ον,</note>
+ <sense level="0" n="0" id="n29173.0" opt="n"><trans opt="n"><i>reddish</i></trans>, Lat. <foreign lang="la">russus</foreign>, <usg opt="n">Anth.</usg></sense>
+ 
+ </div1>
+
+ 
+ 
+<div1 id="crossr(ofe/w" orig_id="n29174" key="r(ofe/w">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(ofe/w">ῥοφέω</head>
+ <sense level="3" n="1" id="n29174.0" opt="n"><trans opt="n"><i>to sup greedily up, gulp down</i></trans>, <usg opt="n">Aesch.</usg>, <usg opt="n">Ar.</usg></sense>
+ <sense level="3" n="2" id="n29174.1" opt="n"><trans opt="n"><i>to drain dry, empty</i></trans>, <usg opt="n">Ar.</usg>; so, <foreign lang="greek">ῥ. ἀρτηρίας</foreign>, of the poison on the robe of Hercules, <usg opt="n">Soph.</usg> </sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(ofhtiko/s" orig_id="n29175" key="r(ofhtiko/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(ofhtiko/s">ῥοφητικός</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥοφητικός, ή, όν</note>
+ <etym opt="n">from <ref type="cross" target="crossr(ofe/w" lang="greek">ῥοφέω</ref></etym>
+ <sense level="0" n="0" id="n29175.0" opt="n"><trans opt="n"><i>drawing in, absorbing</i></trans>, <usg opt="n">Strab.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(ofhto/s" orig_id="n29176" key="r(ofhto/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(ofhto/s">ῥοφητός</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥοφητός, ή, όν</note>
+ <etym opt="n">from <ref type="cross" target="crossr(ofe/w" lang="greek">ῥοφέω</ref></etym>
+ <sense level="0" n="0" id="n29176.0" opt="n"><trans opt="n"><i>that can be</i> or <i>is supped up</i></trans>, <usg opt="n">Strab.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(oxqe/w" orig_id="n29177" key="r(oxqe/w">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(oxqe/w">ῥοχθέω</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥοχθέω,</note>
+ <sense level="0" n="0" id="n29177.0" opt="n"><trans opt="n"><i>to dash with a roaring sound</i></trans>, of the sea, <usg opt="n">Od.</usg></sense>
+ <etym opt="n">from <ref type="cross" target="crossr(o/xqos" lang="greek">ῥόχθος</ref></etym>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(o/xqos" orig_id="n29178" key="r(o/xqos">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(o/xqos">ῥόχθος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">.ῥόχθος, ὁ,</note>
+ <sense level="0" n="0" id="n29178.0" opt="n"><trans opt="n"><i>a roaring</i></trans> of the sea.</sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(ow/dhs1" orig_id="n29179" key="r(ow/dhs1">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(ow/dhs">ῥοώδης</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥο-ώδης, ες</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossei)=dos" lang="greek">εἶδος</ref></xr></etym>
+ <sense level="0" n="0" id="n29179.0" opt="n"><trans opt="n"><i>with a strong stream</i></trans>, of a sea <trans opt="n"><i>in which there are strong currents</i></trans>, <usg opt="n">Thuc.</usg>: of rocks, <trans opt="n"><i>exposed to such seas</i></trans>, <usg opt="n">Strab.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(u/ac" orig_id="n29180" key="r(u/ac">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(u/ac">ῥύαξ</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥύαξ, ᾱκος,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossr(e/w" lang="greek">ῥέω</ref></xr></etym>
+ <sense level="0" n="0" id="n29180.0" opt="n"><trans opt="n"><i>a rushing stream, a torrent</i></trans>, <usg opt="n">Thuc.</usg>; <foreign lang="greek">ὁ ῥ. τοῦ πυρός</foreign>, of <trans opt="n"><i>a stream of lava</i></trans>, <usg opt="n">Thuc.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(ugxi/on" orig_id="n29181" key="r(ugxi/on">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(ugxi/on">ῥυγχίον</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥυγχίον, ου, τό,</note>
+ <etym opt="n">Dim. of <foreign lang="greek">ῥύγχος</foreign>, <usg opt="n">Ar.</usg></etym>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(u/gxos" orig_id="n29182" key="r(u/gxos">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(u/gxos">ῥύγχος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥύγχος, ος, εος, τό,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossr(u/zw" lang="greek">ῥύζω</ref></xr></etym>
+ <sense level="0" n="0" id="n29182.0" opt="n"><trans opt="n"><i>a snout, muzzle</i></trans>, of swine, Stesich.; of dogs, <usg opt="n">Theocr.</usg>: of birds, <trans opt="n"><i>a beak, neb</i></trans>, <usg opt="n">Ar.</usg></sense>
+ 
+ </div1>
+
+ 
+ 
+<div1 id="crossr(u/dhn" orig_id="n29183" key="r(u/dhn">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(u/dhn">ῥύδην</head>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossr(e/w" lang="greek">ῥέω</ref></xr></etym>
+ <sense level="0" n="0" id="n29183.0" opt="n"><trans opt="n"><i>flowingly, abundantly</i></trans>, <usg opt="n">Plut.</usg></sense>
+ 
+ </div1>
+
+ 
+ 
+<div1 id="crossr(udo/n" orig_id="n29184" key="r(udo/n">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(udo/n">ῥυδόν</head>
+ <etym opt="n">= <ref type="cross" target="crossr(u/^dhn" lang="greek">ῥύδην (ῠ)</ref></etym>
+ <sense level="0" n="0" id="n29184.0" opt="n"><trans opt="n"><i>abundantly</i></trans>, <usg opt="n">Od.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(u/zw" orig_id="n29185" key="r(u/zw">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(u/zw">ῥύζω</head>
+ 
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">.ῥύζω,</note>
+ <sense level="0" n="0" id="n29185.0" opt="n"><trans opt="n"><i>to growl, snarl</i></trans>, <foreign lang="greek">ῥύζει ἐπίκλαυτον νόμον</foreign> <trans opt="n"><i>snarls</i></trans> its melancholy ditty, <usg opt="n">Ar.</usg></sense>
+ <etym opt="n">Formed from the sound.</etym>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(uqmi/zw" orig_id="n29186" key="r(uqmi/zw">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(uqmi/zw">ῥυθμίζω</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥυθμίζω,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossr(uqmo/s" lang="greek">ῥυθμός</ref></xr></etym>
+ <sense level="0" n="0" id="n29186.0" opt="n"><trans opt="n"><i>to bring into measure</i> or <i>proportion</i></trans>: generally, <trans opt="n"><i>to order, to educate, train</i></trans>, <usg opt="n">Xen.</usg>, etc.:—metaph., <foreign lang="greek">ῥ. λύπην ὅπου</foreign> <trans opt="n"><i>to define</i></trans> the place of grief, <usg opt="n">Soph.</usg>:—Mid., <foreign lang="greek">ῥ. πλόκαμον</foreign> <trans opt="n"><i>to arrange oneʼs</i></trans> hair, <usg opt="n">Eur.</usg>:—Pass., <foreign lang="greek">νηλεῶς ὧδʼ ἐρρύθμισμαι</foreign> thus ruthlessly <trans opt="n"><i>am I brought to order</i></trans>, <usg opt="n">Aesch.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(uqmo/s" orig_id="n29187" key="r(uqmo/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(uqmo/s">ῥυθμός</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥυθμός, Ionic <foreign lang="greek">ῥυσμός, οῦ, ὁ</foreign>,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossr(e/w" lang="greek">ῥέω</ref></xr></etym>
+ <sense level="2" n="I" id="n29187.0" opt="n"><trans opt="n"><i>measured motion, time, rhythm</i></trans>, Lat. <foreign lang="la">numerus</foreign>, <usg opt="n">Ar.</usg>, <usg opt="n">Plat.</usg>, etc.: <foreign lang="greek">—ἐν ῥυθμῷ</foreign> in <trans opt="n"><i>time</i></trans>, <usg opt="n">Virgil</usg>ʼs <trans opt="n"><i>in numerum</i></trans>, <usg opt="n">Xen.</usg>; <foreign lang="greek">μετὰ ῥυθμοῦ</foreign> <usg opt="n">Thuc.</usg>; <foreign lang="greek">θάττονα ῥυθμὸν ἐπάγειν</foreign> to play in quicker <trans opt="n"><i>time</i></trans>, <usg opt="n">Xen.</usg></sense>
+ <sense level="2" n="II" id="n29187.1" opt="n"><trans opt="n"><i>proportion</i></trans> or symmetry of parts, <usg opt="n">Plat.</usg></sense>
+ <sense level="2" n="III" id="n29187.2" opt="n">generally, <trans opt="n"><i>arrangement, order</i></trans>, <usg opt="n">Eur.</usg></sense>
+ <sense level="2" n="IV" id="n29187.3" opt="n"><trans opt="n"><i>the state</i> or <i>condition of the soul, temper, disposition</i></trans>, <usg opt="n">Theogn.</usg>, etc.</sense>
+ <sense level="2" n="V" id="n29187.4" opt="n"><trans opt="n"><i>the form</i> or <i>shape</i></trans> of a thing, <usg opt="n">Hdt.</usg>; of a breastplate, <usg opt="n">Xen.</usg></sense>
+ <sense level="2" n="VI" id="n29187.5" opt="n"><trans opt="n"><i>the wise, manner</i> or <i>fashion</i></trans> of a thing, <usg opt="n">Eur.</usg>; <foreign lang="greek">τίς ῥ. φόνου;</foreign> what <trans opt="n"><i>kind</i></trans> of slaughter? <usg opt="n">Eur.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(uka/nh" orig_id="n29188" key="r(uka/nh">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(uka/nh">ῥυκάνη</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥῠκάνη (ᾰ), ἡ,</note>
+ <sense level="0" n="0" id="n29188.0" opt="n"><trans opt="n"><i>a plane</i></trans>, <usg opt="n">Anth.</usg></sense>
+ <etym opt="n">deriv. uncertain</etym>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(u=ma2" orig_id="n29189" key="r(u=ma2">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(u=ma">ῥῦμα</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥῦμα, ατος, τό,</note>
+ <etym opt="n">*<foreign lang="greek">ῥύω  ἐρύω</foreign></etym>
+ <sense level="2" n="I" id="n29189.0" opt="n"><trans opt="n"><i>that which is drawn</i></trans>:</sense>
+ <sense level="3" n="1" id="n29189.1" opt="n"><foreign lang="greek">τόξου ῥῦμα</foreign>, i. e. the Persian <trans opt="n"><i>archers</i></trans>, opp. to <foreign lang="greek">λόγχης ἰσχύς</foreign>, i. e. the Greek spearmen, <usg opt="n">Aesch.</usg>; <foreign lang="greek">ἐκ τόξου ῥύματος</foreign> from the distance of a bow- <trans opt="n"><i>shot</i></trans>, <usg opt="n">Xen.</usg></sense>
+ <sense level="3" n="2" id="n29189.2" opt="n"><trans opt="n"><i>a towing-line</i></trans>, <usg opt="n">Polyb.</usg></sense>
+ <sense level="2" n="II" id="n29189.3" opt="n"><foreign lang="greek"> (ῥύομαι) </foreign> <trans opt="n"><i>a defence, protection</i></trans>, <usg opt="n">Eur.</usg>; <foreign lang="greek">πύργου ῥ.</foreign> a tower <trans opt="n"><i>of defence</i></trans>, <usg opt="n">Soph.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(u/mh" orig_id="n29190" key="r(u/mh">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(u/mh">ῥύμη</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥύμη, ἡ,</note>
+ <etym opt="n">*<foreign lang="greek">ῥύω  ἐρύω</foreign></etym>
+ <sense level="3" n="1" id="n29190.0" opt="n"><trans opt="n"><i>the force, swing, rush</i></trans> of a body in motion, Lat. <foreign lang="la">impetus</foreign>, <foreign lang="greek">ῥύμῃ</foreign> with <trans opt="n"><i>a swing</i></trans>, <usg opt="n">Thuc.</usg>; <foreign lang="greek">πτερύγων ῥύμη</foreign> <trans opt="n"><i>the rush</i></trans> of wings, <usg opt="n">Ar.</usg>; <foreign lang="greek">ἡ ῥ. τῶν ἵππων</foreign> <usg opt="n">Xen.</usg>:—metaph., <foreign lang="greek">εὐτυχεῖ ῥύμῃ θεοῦ</foreign> <usg opt="n">Eur.</usg>; <foreign lang="greek">ἡ ῥ. τῆς ὀργῆς</foreign> <trans opt="n"><i>the vehemence of</i></trans> passion, <usg opt="n">Dem.</usg></sense>
+ <sense level="3" n="2" id="n29190.1" opt="n">absol. <trans opt="n"><i>a rush, charge</i></trans>, of soldiers, <usg opt="n">Thuc.</usg>, <usg opt="n">Xen.</usg></sense>
+ <sense level="2" n="II*" id="n29190.2" opt="n"><trans opt="n"><i>a street</i></trans>, Lat. <foreign lang="la">vicus</foreign>, <usg opt="n">Polyb.</usg>, <usg opt="n">NTest.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(u/mma" orig_id="n29191" key="r(u/mma">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(u/mma">ῥύμμα</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥύμμα, ατος, τό,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossr(u/ptw" lang="greek">ῥύπτω</ref></xr></etym>
+ <sense level="0" n="0" id="n29191.0" opt="n"><trans opt="n"><i>anything for washing, soap</i></trans>, <usg opt="n">Plat.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(umo/s" orig_id="n29192" key="r(umo/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(umo/s">ῥυμός</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥῡμός, οῦ, ὁ,</note>
+ <etym opt="n">*<foreign lang="greek">ῥύω  ἐρύω</foreign></etym>
+ <sense level="0" n="0" id="n29192.0" opt="n"><trans opt="n"><i>the pole of a carriage</i></trans>, <usg opt="n">Il.</usg>, <usg opt="n">Hdt.</usg>; <foreign lang="greek">ἐν πρώτῳ ῥυμῷ</foreign> at the end <trans opt="n"><i>of the pole</i></trans>, <usg opt="n">Il.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(umoulke/w" orig_id="n29193" key="r(umoulke/w">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(umoulke/w">ῥυμουλκέω</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥῡμ-ουλκέω,</note>
+ <etym opt="n"><foreign lang="greek">ῥῦμα</foreign> I. 2, <foreign lang="greek">ἕλκω</foreign></etym>
+ <sense level="0" n="0" id="n29193.0" opt="n"><trans opt="n"><i>to tow</i></trans>, <usg opt="n">Polyb.</usg>, etc.</sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(u/omai" orig_id="n29194" key="r(u/omai">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(u/omai">ῥύομαι</head>
+ <sense level="2" n="I" id="n29194.0" opt="n"><trans opt="n"><i>to draw to oneself</i></trans>, i. e. <trans opt="n"><i>draw out of danger, to rescue, save, deliver</i></trans>, <usg opt="n">Hom.</usg>, <usg opt="n">Hes.</usg>, etc.; <foreign lang="greek">ῥ. τινα ὑπὲκ θανάτου, ὑπὲκ κακοῦ</foreign> <trans opt="n"><i>to save</i></trans> from . . , <usg opt="n">Hom.</usg>;—so c. gen., <foreign lang="greek">ῥ. τινα τοῦ μὴ κατακαυθῆναι</foreign> <usg opt="n">Hdt.</usg>; or c. inf. alone, <foreign lang="greek">ῥ. τινα θανεῖν</foreign> or <foreign lang="greek">μὴ κατθανεῖν</foreign> <usg opt="n">Eur.</usg>: also, <trans opt="n"><i>to save from an illness, cure</i></trans>, <usg opt="n">Hdt.</usg>: <trans opt="n"><i>to set free, redeem</i></trans>, <usg opt="n">Il.</usg>; <foreign lang="greek">ἐκ δουλοσύνης</foreign> <usg opt="n">Hdt.</usg></sense>
+ <sense level="2" n="II" id="n29194.1" opt="n">generally, <trans opt="n"><i>to shield, guard, protect</i></trans>, of guardian gods, chiefs, etc., <usg opt="n">Il.</usg> etc.:—of defensive armour, <usg opt="n">Il.</usg></sense>
+ <sense level="3" n="2" id="n29194.2" opt="n"><usg opt="n">Soph.</usg> has <foreign lang="greek">ῥῦσαι</foreign> in a double sense, <foreign lang="greek">ῥῦσαι σεαυτὸν . . , ῥῦσαι δὲ μίασμα τοῦ τεθνηκότος</foreign> <trans opt="n"><i>deliver</i></trans> thyself,—and <trans opt="n"><i>deliver</i></trans> us <trans opt="n"><i>from</i></trans> the pollution; so, <foreign lang="greek">ῥ. τὰς αἰτίας</foreign> <trans opt="n"><i>to remove</i></trans> the charges, <usg opt="n">Thuc.</usg></sense>
+ <sense level="2" n="III" id="n29194.3" opt="n"><trans opt="n"><i>to draw back, to hold back, check</i></trans>, <usg opt="n">Od.</usg>, <usg opt="n">Pind.</usg></sense>
+ <sense level="2" n="IV" id="n29194.4" opt="n"><trans opt="n"><i>to keep off</i></trans>, <usg opt="n">Pind.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(upai/nw" orig_id="n29195" key="r(upai/nw">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(upai/nw">ῥυπαίνω</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥῠπαίνω,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossr(u/pos" lang="greek">ῥύπος</ref></xr></etym>
+ <sense level="0" n="0" id="n29195.0" opt="n"><trans opt="n"><i>to defile, disfigure, disparage</i></trans>, <usg opt="n">Arist.</usg>:—Pass. <trans opt="n"><i>to be</i> or <i>become foul</i></trans>, <usg opt="n">Xen.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(upari/a" orig_id="n29196" key="r(upari/a">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(upari/a">ῥυπαρία</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥῠπᾰρία, ἡ,</note>
+ <sense level="0" n="0" id="n29196.0" opt="n"><trans opt="n"><i>dirt, filth: sordidness</i></trans>, <usg opt="n">Critias</usg>, <usg opt="n">Plut.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(uparo/s" orig_id="n29197" key="r(uparo/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(uparo/s">ῥυπαρός</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥῠπᾰρός, ά, όν</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossr(u/sios" lang="greek">ῥύσιος</ref></xr></etym>
+ <sense level="0" n="0" id="n29197.0" opt="n"><trans opt="n"><i>foul, filthy, dirty</i></trans>:—metaph. <trans opt="n"><i>dirty, sordid</i></trans>, <usg opt="n">Arist.</usg>:—adv. <ref type="cross" target="cross-rw=s" lang="greek">-ρῶς</ref>, <usg opt="n">Anth.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(upa/w" orig_id="n29198" key="r(upa/w">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(upa/w">ῥυπάω</head>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossr(u/pos" lang="greek">ῥύπος</ref></xr></etym>
+ <sense level="0" n="0" id="n29198.0" opt="n"><trans opt="n"><i>to be foul, filthy, dirty</i></trans>, <usg opt="n">Od.</usg>; imperf. <foreign lang="greek">ἐρρύπων</foreign>, <usg opt="n">Ar.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(upo/eis" orig_id="n29199" key="r(upo/eis">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(upo/eis">ῥυπόεις</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥῠπόεις, εσσα, εν</note>
+ <etym opt="n">= <ref type="cross" target="crossr(uparo/s" lang="greek">ῥυπαρός</ref>, <usg opt="n">Anth.</usg></etym>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(upo/omai" orig_id="n29200" key="r(upo/omai">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(upo/omai">ῥυπόω</head>
+ <sense level="0" n="0" id="n29200.0" opt="n">Pass. <trans opt="n"><i>to be foul</i></trans>, perf. part. <foreign lang="greek">ῥερυπωμένος</foreign>, Epic for <foreign lang="greek">ἐρρυπωμένοι</foreign>, <trans opt="n"><i>fouled, soiled</i></trans>, <usg opt="n">Od.</usg></sense>
+ <etym opt="n">from <ref type="cross" target="crossr(u/^pos" lang="greek">ῥύπος (ῠ)</ref></etym>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(u/pos" orig_id="n29201" key="r(u/pos">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(u/pos">ῥύπος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">.ῥύπος (ῠ), ὁ,</note>
+ <sense level="0" n="0" id="n29201.0" opt="n"><trans opt="n"><i>dirt, filth, dirtiness, uncleanness</i></trans>, heterocl. pl. <foreign lang="greek">ῥύπα</foreign>, <usg opt="n">Od.</usg>; in sg., <usg opt="n">Plat.</usg>, etc.</sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(uppapai/" orig_id="n29202" key="r(uppapai/">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(uppapai/">ῥυππαπαί</head>
+ <sense level="0" n="0" id="n29202.0" opt="n">a cry of the Athenian rowers, like <foreign lang="greek">ὠόπ</foreign>, <trans opt="n"><i>yoho!</i></trans> <usg opt="n">Ar.</usg>; hence, <foreign lang="greek">τὸ ῥυππαπαί</foreign> <trans opt="n"><i>oneʼs messmates</i></trans>, <usg opt="n">Ar.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(u/ptw" orig_id="n29203" key="r(u/ptw">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(u/ptw">ῥύπτω</head>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossr(u/pos" lang="greek">ῥύπος</ref></xr></etym>
+ <sense level="0" n="0" id="n29203.0" opt="n"><trans opt="n"><i>to remove dirt from</i></trans> garments, <trans opt="n"><i>to wash</i></trans>, <usg opt="n">Arist.</usg>:—Pass. <trans opt="n"><i>to wash oneself</i></trans>, <foreign lang="greek">ἐξ ὅτου ἐγὼ ῥύπτομαι</foreign> ever since <trans opt="n"><i>I began to wash</i></trans>, i. e. from childhood, <usg opt="n">Ar.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(usai/nomai" orig_id="n29204" key="r(usai/nomai">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(usai/nomai">ῥυσαίνομαι</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥῡσαίνομαι,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossr(uso/s" lang="greek">ῥυσός</ref></xr></etym>
+ <sense level="0" n="0" id="n29204.0" opt="n">Pass. <trans opt="n"><i>to be wrinkled</i></trans>, <usg opt="n">Anth.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(usia/zw" orig_id="n29205" key="r(usia/zw">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(usia/zw">ῥυσιάζω</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥῡσῐάζω,</note>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified"> fut. <foreign lang="greek">-άσω</foreign></note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossr(u/sion" lang="greek">ῥύσιον</ref></xr></etym>
+ <sense level="0" n="0" id="n29205.0" opt="n"><trans opt="n"><i>to seize as a pledge, to drag away</i></trans>, <usg opt="n">Eur.</usg>:—Pass. <trans opt="n"><i>to be so dragged away</i></trans>, <usg opt="n">Eur.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(usi/bwmos" orig_id="n29206" key="r(usi/bwmos">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(usi/bwmos">ῥυσίβωμος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥῡσί-βωμος, ον,</note>
+ <sense level="0" n="0" id="n29206.0" opt="n"><trans opt="n"><i>defending altars</i></trans>, <usg opt="n">Aesch.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(usi/difros" orig_id="n29207" key="r(usi/difros">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(usi/difros">ῥυσίδιφρος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥῡσί-διφρος, ον,</note>
+ <sense level="0" n="0" id="n29207.0" opt="n"><trans opt="n"><i>preserving the chariot</i></trans>, <usg opt="n">Pind.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(u/sion" orig_id="n29208" key="r(u/sion">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(u/sion">ῥύσιον</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥύ_σιον, ου, τό,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossr(u/omai" lang="greek">ῥύομαι</ref></xr></etym>
+ <sense level="0" n="0" id="n29208.0" opt="n"><trans opt="n"><i>that which is dragged away</i></trans>: </sense>
+ <sense level="2" n="I" id="n29208.1" opt="n"><trans opt="n"><i>booty, prey</i></trans>, <foreign lang="greek">ῥύσια ἐλαύνεσθαι</foreign>, of cattle, <usg opt="n">Il.</usg>; <foreign lang="greek">τοῦ ῥυσίου θʼ ἥμαρτε</foreign>, i. e. Helen., <usg opt="n">Aesch.</usg></sense>
+ <sense level="2" n="II" id="n29208.2" opt="n"><trans opt="n"><i>that which is seized as a pledge, a pledge, surety</i></trans>, <foreign lang="greek">ῥύσια δοῦναι</foreign> <usg opt="n">Solon.</usg>; <foreign lang="greek">ῥύσιον τιθέναι</foreign> <usg opt="n">Soph.</usg></sense>
+ <sense level="2" n="III" id="n29208.3" opt="n"><trans opt="n"><i>that which is seized by way of reprisal</i></trans>, <foreign lang="greek">φόνον φόνου ῥύσιον τῖσαι</foreign> to suffer death <trans opt="n"><i>in reprisal</i></trans> for death, <usg opt="n">Soph.</usg></sense>
+ <sense level="2" n="IV" id="n29208.4" opt="n">in pl. <trans opt="n"><i>offerings for deliverance</i></trans>, <usg opt="n">Anth.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(u/sios" orig_id="n29209" key="r(u/sios">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(u/sios">ῥύσιος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥύσιος, ον,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossr(u/omai" lang="greek">ῥύομαι</ref></xr></etym>
+ <sense level="0" n="0" id="n29209.0" opt="n"><trans opt="n"><i>delivering, saving</i></trans>, <usg opt="n">Aesch.</usg>, <usg opt="n">Anth.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(usi/polis" orig_id="n29210" key="r(usi/polis">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(usi/polis">ῥυσίπολις</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥῡσί-πολις, εως,</note>
+ <sense level="0" n="0" id="n29210.0" opt="n"><trans opt="n"><i>saving the city</i></trans>, <usg opt="n">Aesch.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(usi/ponos" orig_id="n29211" key="r(usi/ponos">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(usi/ponos">ῥυσίπονος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥῡσί-πονος, ον,</note>
+ <sense level="0" n="0" id="n29211.0" opt="n"><trans opt="n"><i>setting free from trouble</i></trans>, <usg opt="n">Anth.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(u/sis" orig_id="n29212" key="r(u/sis">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(u/sis">ῥύσις</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥύσις (ῠ), εως,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossr(e/w" lang="greek">ῥέω</ref></xr></etym>
+ <sense level="2" n="I" id="n29212.0" opt="n"><trans opt="n"><i>a flowing, flow</i></trans>, <usg opt="n">Plat.</usg></sense>
+ <sense level="2" n="II" id="n29212.1" opt="n"><trans opt="n"><i>the course of a river, stream</i></trans>, <usg opt="n">Polyb.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(u/skomai" orig_id="n29213" key="r(u/skomai">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(u/skomai">ῥύσκομαι</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥύσκομαι,</note>
+ <etym opt="n">= <ref type="cross" target="crossr(u/omai: r(u/skeu" lang="greek">ῥύομαι· ῥύσκευ</ref>, Epic 2nd sg. imperf., <usg opt="n">Il.</usg></etym>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(uso/s" orig_id="n29214" key="r(uso/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(uso/s">ῥυσός</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥῡσός, ή, όν</note>
+ <etym opt="n">*<foreign lang="greek">ῥύω, ἐρύω</foreign></etym>
+ <sense level="0" n="0" id="n29214.0" opt="n"><trans opt="n"><i>drawn up, shrivelled, wrinkled</i></trans>, <usg opt="n">Il.</usg>, <usg opt="n">Eur.</usg>, etc.; <foreign lang="greek">ῥ. ἐπισκύνιον</foreign>, of a frown, <usg opt="n">Anth.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(uso/ths" orig_id="n29215" key="r(uso/ths">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(uso/ths">ῥυσότης</head>
+ <etym opt="n">from <ref type="cross" target="crossr(u_so/s" lang="greek">ῥῡσός</ref></etym>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥῡσότης, ητος, ἡ,</note>
+ <sense level="0" n="0" id="n29215.0" opt="n"><trans opt="n"><i>wrinkledness, wrinkles</i></trans>, <usg opt="n">Plut.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(usta/zw" orig_id="n29216" key="r(usta/zw">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(usta/zw">ῥυστάζω</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥυστάζω,</note>
+ <etym opt="n">Frequentat. of *<foreign lang="greek">ῥύω</foreign></etym>
+ <etym opt="n">= <ref type="cross" target="crosse)ru/w" lang="greek">ἐρύω</ref></etym>
+ <sense level="0" n="0" id="n29216.0" opt="n"><trans opt="n"><i>to drag about</i></trans>, <foreign lang="greek">πολλὰ ῥυστάζεσκεν</foreign> (3rd sg. Ionic imperf.) <foreign lang="greek">περὶ σῆμα</foreign> <trans opt="n"><i>he dragged</i></trans> it many times round the grave of Patroclus, <usg opt="n">Il.</usg>; <foreign lang="greek">δμωὰς ῥυστάζειν κατὰ δώματα</foreign>, <usg opt="n">Od.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(ustaktu/s" orig_id="n29217" key="r(ustaktu/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(ustaktu/s">ῥυστακτύς</head>
+ <etym opt="n">from <ref type="cross" target="crossr(usta/zw" lang="greek">ῥυστάζω</ref></etym>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥυστακτύς, ύος, ἡ,</note>
+ <sense level="0" n="0" id="n29217.0" opt="n"><trans opt="n"><i>a dragging about, maltreatment</i></trans>, <usg opt="n">Od.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(utagwgeu/s" orig_id="n29218" key="r(utagwgeu/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(utagwgeu/s">ῥυταγωγεύς</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥῡτ-ᾰγωγεύς, έως, ὁ,</note>
+ <sense level="0" n="0" id="n29218.0" opt="n"><trans opt="n"><i>the rope of a horseʼs halter</i></trans>, <usg opt="n">Xen.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(uth/r2" orig_id="n29219" key="r(uth/r2">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(uth/r">ῥυτήρ</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥῡτήρ, ῆρος, ὁ,</note>
+ <etym opt="n">*<foreign lang="greek">ῥύω, ἐρύω</foreign></etym>
+ <sense level="2" n="I" id="n29219.0" opt="n"><trans opt="n"><i>one who draws</i> or <i>stretches</i></trans>, <foreign lang="greek">ῥ. βιοῦ, ὀϊστῶν</foreign> <trans opt="n"><i>drawer</i></trans> of the bow, of arrows, <usg opt="n">Od.</usg></sense>
+ <sense level="3" n="2" id="n29219.1" opt="n">like <foreign lang="greek">ἱμάς</foreign>, the strap <trans opt="n"><i>by which a horse draws, a trace</i></trans>, <usg opt="n">Il.</usg>:—also <trans opt="n"><i>a rein</i></trans>, <usg opt="n">Il.</usg>; <foreign lang="greek">ἀπὸ ῥυτῆρος</foreign> <trans opt="n"><i>with loose rein</i></trans>, Lat. <foreign lang="la">immissis habenis, at full galop</foreign>:—used as <trans opt="n"><i>a strap</i></trans> to flog with, <usg opt="n">Dem.</usg>, <usg opt="n">Aeschin.</usg></sense>
+ <sense level="2" n="II" id="n29219.2" opt="n"><foreign lang="greek"> (ῥύομαι) </foreign> <trans opt="n"><i>a saver, guard, defender</i></trans>, <usg opt="n">Od.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(utido/floios" orig_id="n29220" key="r(utido/floios">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(utido/floios">ῥυτιδόφλοιος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥῠτῐδό-φλοιος, ον,</note>
+ <sense level="0" n="0" id="n29220.0" opt="n"><trans opt="n"><i>with shrivelled rind</i></trans>, <foreign lang="greek">σῦκον</foreign> <usg opt="n">Anth.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(utido/w" orig_id="n29221" key="r(utido/w">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(utido/w">ῥυτιδόω</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥῠτῐδόω,</note>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified"> fut. <foreign lang="greek">-ώσω</foreign></note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossr(uti/s" lang="greek">ῥυτίς</ref></xr></etym>
+ <sense level="0" n="0" id="n29221.0" opt="n"><trans opt="n"><i>to make wrinkled</i></trans>:—Pass. <trans opt="n"><i>to be so</i></trans>, perf. part. <foreign lang="greek">ἐρρυτιδωμένος</foreign> <usg opt="n">Luc.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(uti/s" orig_id="n29222" key="r(uti/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(uti/s">ῥυτίς</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥῠτίς, ίδος, ἡ,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossr(u/w " lang="greek">ῥύω</ref>, <ref type="cross" target="crosse)ru/w" lang="greek">ἐρύω</ref></xr></etym>
+ <sense level="0" n="0" id="n29222.0" opt="n"><trans opt="n"><i>a fold</i> or <i>pucker</i></trans> in the face, <trans opt="n"><i>a wrinkle</i></trans>, Lat. <foreign lang="la">ruga</foreign>, <usg opt="n">Ar.</usg>, <usg opt="n">Plat.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(uto/n1" orig_id="n29223" key="r(uto/n1">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(uto/n">ῥυτόν</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥῠτόν, οῦ,</note>
+ <etym opt="n">*<foreign lang="greek">ῥύω, ἐρύω</foreign></etym>
+ <etym opt="n">= <ref type="cross" target="crossr(uth/r" lang="greek">ῥυτήρ</ref></etym>
+ <sense level="2" n="I" id="n29223.0" opt="n"><trans opt="n"><i>a rein</i></trans>, <usg opt="n">Hes.</usg></sense>
+ <sense level="2" n="II" id="n29223.1" opt="n"><foreign lang="greek"> (ῥέω) </foreign> <trans opt="n"><i>a drinking-cup</i></trans>, running to a point with a small hole, through which the wine ran, <usg opt="n">Dem.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(uto/s2" orig_id="n29224" key="r(uto/s2">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(uto/s">ῥυτός</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥῡτός, ή, όν</note>
+ <etym opt="n">*<foreign lang="greek">ῥύω, ἐρύω</foreign></etym>
+ <sense level="0" n="0" id="n29224.0" opt="n"><trans opt="n"><i>dragged along</i></trans>, <foreign lang="greek">ῥυτοὶ λάες</foreign> stones <trans opt="n"><i>dragged along</i></trans>, i. e. too large to carry, <usg opt="n">Od.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(uto/s3" orig_id="n29225" key="r(uto/s3">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(uto/s">ῥυτός</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥῠτός, ή, όν</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossr(e/w" lang="greek">ῥέω</ref></xr></etym>
+ <sense level="0" n="0" id="n29225.0" opt="n"><trans opt="n"><i>flowing, running, fluid, liquid</i></trans>, <usg opt="n">Trag.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(u/twr2" orig_id="n29226" key="r(u/twr2">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(u/twr">ῥύτωρ</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥύ_τωρ, ορος, ὁ,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossr(u/omai" lang="greek">ῥύομαι</ref></xr></etym>
+ <sense level="0" n="0" id="n29226.0" opt="n"><trans opt="n"><i>a saviour, deliverer</i></trans>, <usg opt="n">Aesch.</usg>, <usg opt="n">Anth.</usg>; <foreign lang="greek">τινός</foreign> from a thing, <usg opt="n">Anth.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(u/w" orig_id="n29227" key="r(u/w">
+<p />
+ *<head extent="full" lang="greek" opt="n" orth_orig="r(u/w*">ῥύω</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">,</note>
+ <sense level="0" n="0" id="n29227.0" opt="n">whence <foreign lang="greek">ἐρύω</foreign>, <trans opt="n"><i>to draw</i></trans></sense>
+ <etym opt="n">v. <ref type="cross" target="crossr(u/omai" lang="greek">ῥύομαι</ref>.</etym>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(wgale/os" orig_id="n29228" key="r(wgale/os">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(wgale/os">ῥωγαλέος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥωγᾰλέος, η, ον,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossr(w/c" lang="greek">ῥώξ</ref></xr></etym>
+ <sense level="0" n="0" id="n29228.0" opt="n"><trans opt="n"><i>broken, cleft, rent, torn</i></trans>, <usg opt="n">Hom.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(wga/s" orig_id="n29229" key="r(wga/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(wga/s">ῥωγάς</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥωγάς, άδος,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossr(w/c" lang="greek">ῥώξ</ref></xr></etym>
+ <etym opt="n">= <ref type="cross" target="crossr(wga^le/os" lang="greek">ῥωγᾰλέος</ref></etym>
+ <sense level="0" n="0" id="n29229.0" opt="n"><trans opt="n"><i>ragged</i></trans>, <usg opt="n">Babr.</usg>; <foreign lang="greek">ῥ. πέτρα</foreign> a <trans opt="n"><i>cloven</i></trans> rock, <usg opt="n">Theocr.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(w/qwn" orig_id="n29230" key="r(w/qwn">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(w/qwn">ῥώθων</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥώθων, ωνος, ὁ,</note>
+ <sense level="0" n="0" id="n29230.0" opt="n"><trans opt="n"><i>the nose</i></trans>: in pl. <trans opt="n"><i>the nostrils</i></trans>, <usg opt="n">Strab.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="cross*(rwmaiko/s" orig_id="n29231" key="*(rwmaiko/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="*(rwmaiko/s">Ῥωμαϊκός</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">Ῥωμαϊκός, ή, όν</note>
+ <sense level="0" n="0" id="n29231.0" opt="n"><trans opt="n"><i>Roman, a Roman</i></trans>, <usg opt="n">Polyb.</usg>, etc.; adv. <ref type="cross" target="cross-kw=s" lang="greek">-κῶς</ref>, <trans opt="n"><i>in Latin</i></trans>, <usg opt="n">Anth.</usg></sense>
+ 
+ </div1>
+
+ 
+ 
+<div1 id="cross*(rwmaisti/" orig_id="n29232" key="*(rwmaisti/">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="*(rwmaisti/">Ῥωμαϊστί</head>
+ <sense level="0" n="0" id="n29232.0" opt="n"><trans opt="n"><i>in Latin</i></trans>, <usg opt="n">Plut.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(wmale/os" orig_id="n29233" key="r(wmale/os">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(wmale/os">ῥωμαλέος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥωμᾰλέος, η, ον,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossr(w/mh" lang="greek">ῥώμη</ref></xr></etym>
+ <sense level="3" n="1" id="n29233.0" opt="n"><trans opt="n"><i>strong of body</i></trans>, <usg opt="n">Plat.</usg></sense>
+ <sense level="3" n="2" id="n29233.1" opt="n">of things, <trans opt="n"><i>mighty, strong</i></trans>, <usg opt="n">Hdt.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(w/mh" orig_id="n29234" key="r(w/mh">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(w/mh">ῥώμη</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥώμη, ἡ,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossr(w/omai" lang="greek">ῥώομαι</ref></xr></etym>
+ <sense level="2" n="I" id="n29234.0" opt="n"><trans opt="n"><i>bodily strength, strength, might</i></trans>, <usg opt="n">Hdt.</usg>, <usg opt="n">Trag.</usg>, etc.; <foreign lang="greek">οὐ μιᾷ ῥώμῃ</foreign> not single-handed, <usg opt="n">Soph.</usg></sense>
+ <sense level="2" n="II" id="n29234.1" opt="n"><trans opt="n"><i>a force</i></trans>, i. e. <trans opt="n"><i>army</i></trans>, <usg opt="n">Xen.</usg></sense>
+ 
+ </div1>
+
+ 
+ 
+<div1 id="crossr(w/nnumi" orig_id="n29235" key="r(w/nnumi">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(w/nnumi">ῥώννυμι</head>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossr(w/omai" lang="greek">ῥώομαι</ref></xr></etym>
+ <sense level="2" n="I" id="n29235.0" opt="n"><trans opt="n"><i>to strengthen, make strong and mighty</i></trans>, <usg opt="n">Plut.</usg></sense>
+ <sense level="2" n="II" id="n29235.1" opt="n">mostly in perf. pass. (with pres. sense) <foreign lang="greek">ἔρρωμαι</foreign>, and plup. <foreign lang="greek">ἐρρώμην</foreign> (as imperf.):— <trans opt="n"><i>to put forth strength, have strength</i> or <i>might</i></trans>, <usg opt="n">Eur.</usg>, <usg opt="n">Thuc.</usg>:—c. inf. <trans opt="n"><i>to have strength</i></trans> to do, <trans opt="n"><i>be eager</i></trans> to do, <usg opt="n">Thuc.</usg></sense>
+ <sense level="3" n="2" id="n29235.2" opt="n">often in imperat., <foreign lang="greek">ἔρρωσο</foreign>, <trans opt="n"><i>farewell</i></trans>, Lat. <foreign lang="la">vale</foreign>, <usg opt="n">Xen.</usg>; also, <foreign lang="greek">φράζειν τινὶ ἐρρῶσθαι</foreign>, Lat. <foreign lang="la">valere jubere</foreign>, <usg opt="n">Plat.</usg></sense>
+ <sense level="3" n="3" id="n29235.3" opt="n">part. <foreign lang="greek">ἐρρωμένος,  ῥωμαλέος</foreign>, v. sub voce.</sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(w/c1" orig_id="n29236" key="r(w/c1">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(w/c">ῥώξ</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥώξ, ῥωγός,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossr(h/gnumi" lang="greek">ῥήγνυμι</ref></xr></etym>
+ <sense level="0" n="0" id="n29236.0" opt="n"><trans opt="n"><i>a cleft</i></trans>: in <usg opt="n">Od.</usg>, <foreign lang="greek">ῥῶγες μεγάροιο</foreign> are <trans opt="n"><i>narrow passages leading to</i></trans> the hall.</sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(w/omai" orig_id="n29237" key="r(w/omai">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(w/omai">ῥώομαι</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">.ῥώομαι,</note>
+ 
+ <sense level="0" n="0" id="n29237.0" opt="n"><trans opt="n"><i>to move with speed</i> or <i>violence, to dart, rush, rush on</i></trans>, <usg opt="n">Hom.</usg>; <foreign lang="greek">ῥ. περὶ πυρήν</foreign> <usg opt="n">Od.</usg>; <foreign lang="greek">ἀμφʼ Ἀχελώιον ἐρρώσαντο</foreign> <trans opt="n"><i>danced</i></trans> about Achelous, <usg opt="n">Il.</usg>; <foreign lang="greek">χορὸν ἐρρώσαντο</foreign> <trans opt="n"><i>plied the lusty</i></trans> dance, <usg opt="n">Hhymn.</usg>; <foreign lang="greek">ὑπὸ ῥώοντο ἄνακτι</foreign> <trans opt="n"><i>lustily they moved</i></trans> under the kingʼs weight, <usg opt="n">Il.</usg>; so, <foreign lang="greek">γούνατα ἐρρώσαντο</foreign> <usg opt="n">Od.</usg>; also of the hair, <foreign lang="greek">ἐρρώοντο μετὰ πνοιῇς ἀνέμοιο</foreign> <trans opt="n"><i>it waved streaming</i></trans> in the wind, <usg opt="n">Il.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(w=" orig_id="n29238" key="r(w=">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(w=">ρ</head>
+ <sense level="2" n="I" id="n29238.0" opt="n"><foreign lang="greek">Ρ, ρ, ῥῶ, τό</foreign>, indecl., seventeenth letter of Gr. Alphabet, as numeral <foreign lang="greek">ρʹ</foreign> 100, but <foreign lang="greek">͵ρ</foreign> 100, 000. Dialectic and other changes:</sense>
+ <sense level="3" n="1" id="n29238.1" opt="n">Aeolic, at the end of words <foreign lang="greek">ς</foreign> passed into <foreign lang="greek">ρ</foreign>, as <foreign lang="greek">οὗτορ, ἵππορ</foreign> for <foreign lang="greek">οὗτος, ἵππος;</foreign> cf. Lat. <foreign lang="la">arbor arbos, honor honos.</foreign> </sense>
+ <sense level="3" n="2" id="n29238.2" opt="n">in Attic, <foreign lang="greek">ρρ</foreign> replaced the Ionic and old Attic <foreign lang="greek">ρς</foreign>, as <foreign lang="greek">ἄρρην, θάρρος</foreign> for <foreign lang="greek">ἄρσην, θάρσος.</foreign></sense>
+ <sense level="3" n="3" id="n29238.3" opt="n">in some words <foreign lang="greek">ρ</foreign> is transposed, as <foreign lang="greek">κάρτος</foreign> Epic for <foreign lang="greek">κράτος, ἀταρπός</foreign> for <foreign lang="greek">ἀτραπός, κραδίη</foreign> for <foreign lang="greek">καρδία</foreign>:—mostly in Poets.</sense>
+ <sense level="2" n="II" id="n29238.4" opt="n"><foreign lang="greek">ρ</foreign> at the beginning of a word was pronounced so as to make a short vowel at the end of the word before long by position, as, <foreign lang="greek">ψυχρὴ ὑπὸ ῥιπῆς</foreign> <usg opt="n">Il.</usg></sense>
+ <sense level="3" n="2" id="n29238.5" opt="n">by reason of this pronunc., <foreign lang="greek">ρ</foreign> was doubled after a prep. or <foreign lang="greek">α</foreign> privat., and after the augment, as <foreign lang="greek">ἀπορρίπτω, ἄρρωστος, ἔρριψα.</foreign> </sense>
+ <sense level="3" n="3" id="n29238.6" opt="n">if <foreign lang="greek">ρ</foreign> begins a word, it takes the rough breathing, except in Aeolic</sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(wph/ion" orig_id="n29239" key="r(wph/ion">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(wph/ion">ῥωπήϊον</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥωπήιον, ου, τό,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossr(w/y" lang="greek">ῥώψ</ref></xr></etym>
+ <etym n="note" opt="n">only in pl. <foreign lang="greek">ῥωπήια</foreign></etym>
+ <sense level="0" n="0" id="n29239.0" opt="n"><trans opt="n"><i>brushes, brushwood</i></trans>, <usg opt="n">Il.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(wpiko/s" orig_id="n29240" key="r(wpiko/s">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(wpiko/s">ῥωπικός</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥωπικός, ή, όν</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossr(w=pos" lang="greek">ῥῶπος</ref></xr></etym>
+ <sense level="0" n="0" id="n29240.0" opt="n"><trans opt="n"><i>of</i> or <i>for petty wares, trumpery, worthless</i></trans>, <usg opt="n">Plut.</usg>; <foreign lang="greek">ῥωπικὰ γράψασθαι</foreign> to paint <trans opt="n"><i>poorly, coarsely</i></trans>, <usg opt="n">Anth.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(w=pos" orig_id="n29241" key="r(w=pos">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(w=pos">ῥῶπος</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">.ῥῶπος, ὁ,</note>
+ <sense level="0" n="0" id="n29241.0" opt="n"><trans opt="n"><i>petty wares</i></trans>, <usg opt="n">Aesch.</usg>, <usg opt="n">Dem.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(wxmo/s1" orig_id="n29242" key="r(wxmo/s1">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(wxmo/s">ῥωχμός</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">ῥωχμός, οῦ, ὁ,</note>
+ <etym opt="n"><xr opt="n"><ref type="cross" target="crossr(w/c" lang="greek">ῥώξ</ref></xr></etym>
+ <sense level="0" n="0" id="n29242.0" opt="n"><trans opt="n"><i>a cleft</i></trans>, <foreign lang="greek">ῥωχμὸς γαίης</foreign> <trans opt="n"><i>a gutter</i></trans> scooped out by heavy rains, <usg opt="n">Il.</usg></sense>
+ </div1>
+
+ 
+ 
+<div1 id="crossr(w/y1" orig_id="n29243" key="r(w/y1">
+<p />
+ <head extent="full" lang="greek" opt="n" orth_orig="r(w/y">ῥώψ</head>
+ <note anchored="yes" type="alt" lang="greek" place="unspecified">.ῥώψ, ῥωπός,</note>
+ <sense level="0" n="0" id="n29243.0" opt="n"><trans opt="n"><i>a shrub, bush</i></trans>: only pl. <trans opt="n"><i>bushes, underwood, brushwood</i></trans>, <usg opt="n">Od.</usg> <usg opt="n">Od.</usg></sense>
+ </div1>
+
+ 
+ </div0>
+</div0>
+</text>
+</tei.2>
